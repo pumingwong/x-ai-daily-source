@@ -14,6 +14,7 @@ from urllib.request import Request, urlopen
 
 
 BASE_URL = "https://www.xfluxapi.com/api/v1"
+TWITTER_SNOWFLAKE_EPOCH_MS = 1_288_834_974_657
 ACCOUNTS = [
     "karpathy",
     "rasbt",
@@ -93,6 +94,29 @@ def parse_datetime(value: Any) -> datetime | None:
         return None
 
 
+def datetime_from_tweet_id(value: Any) -> datetime | None:
+    """Derive the real creation time encoded in an X/Twitter Snowflake ID."""
+    try:
+        tweet_id = int(str(value).strip())
+    except (TypeError, ValueError):
+        return None
+    if tweet_id <= 0:
+        return None
+
+    milliseconds = (tweet_id >> 22) + TWITTER_SNOWFLAKE_EPOCH_MS
+    try:
+        created_at = datetime.fromtimestamp(milliseconds / 1000, tz=timezone.utc)
+    except (OverflowError, OSError, ValueError):
+        return None
+
+    # Reject values that cannot plausibly be a tweet timestamp. The upper
+    # tolerance avoids discarding a valid ID because of minor clock skew.
+    twitter_epoch = datetime.fromtimestamp(TWITTER_SNOWFLAKE_EPOCH_MS / 1000, tz=timezone.utc)
+    if created_at < twitter_epoch or created_at > utc_now() + timedelta(days=1):
+        return None
+    return created_at
+
+
 def extract_items(payload: dict[str, Any]) -> list[dict[str, Any]]:
     data: Any = payload.get("data", payload)
     if isinstance(data, list):
@@ -136,10 +160,18 @@ def normalize_tweet(raw: dict[str, Any], expected_username: str) -> dict[str, An
         "timestamp",
         "legacy.created_at",
     )
-    created_at = parse_datetime(created_raw)
+    api_created_at = parse_datetime(created_raw)
+    snowflake_created_at = datetime_from_tweet_id(tweet_id)
+    created_at = snowflake_created_at or api_created_at
 
     if tweet_id is None or text is None or created_at is None:
         return None
+
+    timestamp_corrected = bool(
+        snowflake_created_at is not None
+        and api_created_at is not None
+        and abs((snowflake_created_at - api_created_at).total_seconds()) > 300
+    )
 
     username = first_value(
         raw,
@@ -181,6 +213,8 @@ def normalize_tweet(raw: dict[str, Any], expected_username: str) -> dict[str, An
         "username": username,
         "author_name": str(author_name or username),
         "created_at": iso_utc(created_at),
+        "created_at_source": "tweet_id_snowflake" if snowflake_created_at else "api",
+        "timestamp_corrected": timestamp_corrected,
         "text": text,
         "url": url,
         "is_reply": reply_target is not None,
@@ -321,6 +355,7 @@ def main() -> int:
     failed_accounts: list[dict[str, str]] = []
     warnings: list[str] = []
     account_results: list[dict[str, Any]] = []
+    corrected_timestamps_total = 0
 
     for index, username in enumerate(ACCOUNTS):
         print(f"[{index + 1}/{len(ACCOUNTS)}] 正在采集 @{username} ...", flush=True)
@@ -329,6 +364,8 @@ def main() -> int:
             normalized = [normalize_tweet(item, username) for item in raw_items]
             valid = [item for item in normalized if item is not None]
             skipped = len(raw_items) - len(valid)
+            corrected_timestamps = sum(bool(item["timestamp_corrected"]) for item in valid)
+            corrected_timestamps_total += corrected_timestamps
             recent = [
                 item
                 for item in valid
@@ -354,6 +391,7 @@ def main() -> int:
                     "username": username,
                     "returned_count": len(raw_items),
                     "recent_count": len(recent),
+                    "timestamp_corrected_count": corrected_timestamps,
                     "possibly_truncated": possibly_truncated,
                 }
             )
@@ -369,6 +407,12 @@ def main() -> int:
     if succeeded == 0:
         print("12 个账号全部采集失败；保留旧的 latest 文件，不覆盖。", file=sys.stderr)
         return 1
+
+    if corrected_timestamps_total:
+        warnings.append(
+            f"XFlux 有 {corrected_timestamps_total} 条记录的 created_at 与推文 ID 不一致；"
+            "已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+        )
 
     tweets = sorted(tweets_by_id.values(), key=lambda item: item["created_at"], reverse=True)
     report = {

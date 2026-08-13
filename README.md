@@ -60,7 +60,7 @@ git push -u origin main
 
 `Settings → Actions → General → Workflow permissions`
 
-选择 `Read and write permissions` 并保存，使任务能够提交每日数据。
+仓库默认权限可以保持 `Read repository contents and packages permissions`。工作流已经只为采集任务声明 `contents: write`，用于提交每日数据，不需要把所有 Actions 的默认权限整体放宽。
 
 ## 四、第一次手动测试
 
@@ -125,6 +125,7 @@ GitHub 任务设为北京时间 07:35，给 08:00 日报预留约 25 分钟。Gi
 ## 八、当前限制
 
 - XFlux 文档没有完整公布时间线返回字段和分页细节。本脚本兼容常见的 `data/tweets/items/results/posts` 结构；如果接口结构变化，会明确失败，不会悄悄输出错误内容。
+- 实测 XFlux 的 `created_at` 可能是接口抓取时间而非推文发布时间。脚本会优先从 X/Twitter Snowflake 推文 ID 还原真实发布时间，再执行 26 小时过滤；发生修正时会写入警告。
 - 每个账号默认读取最近 20 条。如果返回正好 20 条且最早一条仍处于 26 小时窗口内，输出会标记“可能存在遗漏”。
 - 该方案适合每日科研情报，不是秒级实时监控。
 - 不要将仓库改为私有后仍期待 ChatGPT 直接读取 Raw URL；私有地址需要额外身份认证。
