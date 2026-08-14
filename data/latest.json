@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-14T00:10:03.597396Z",
-  "window_start": "2026-08-12T22:10:03.597396Z",
+  "generated_at": "2026-08-14T23:50:50.413250Z",
+  "window_start": "2026-08-13T21:50:50.413250Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -19,16 +19,16 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 14,
+      "returned_count": 12,
       "recent_count": 0,
-      "timestamp_corrected_count": 14,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "AndrewYNg",
-      "returned_count": 19,
+      "returned_count": 18,
       "recent_count": 0,
-      "timestamp_corrected_count": 19,
+      "timestamp_corrected_count": 18,
       "possibly_truncated": false
     },
     {
@@ -41,22 +41,22 @@
     {
       "username": "demishassabis",
       "returned_count": 17,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 17,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 6,
-      "recent_count": 2,
-      "timestamp_corrected_count": 6,
+      "returned_count": 11,
+      "recent_count": 6,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
-      "recent_count": 3,
-      "timestamp_corrected_count": 14,
+      "returned_count": 4,
+      "recent_count": 0,
+      "timestamp_corrected_count": 4,
       "possibly_truncated": false
     },
     {
@@ -82,87 +82,33 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 4,
+      "returned_count": 5,
       "recent_count": 1,
-      "timestamp_corrected_count": 4,
+      "timestamp_corrected_count": 5,
       "possibly_truncated": false
     },
     {
       "username": "bcherny",
       "returned_count": 9,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 123 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 116 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 8,
+  "tweet_count": 7,
   "tweets": [
     {
-      "id": "2088014489233002496",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-08-13T21:27:02.323000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible.\n\nThe setup is straightforward: we have a Slack channel called proj-claude-maintains-apps. In it, Claude Tag runs a bunch of daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK:\n\n- Crash fuzzer: open the app in a simulator and tap around to find ways to crash it, then root cause and fix the crashes\n- Dup unifier: scans the codebase for similar-yet-slightly-divergent abstractions, and puts up PRs to unify them\n- Dead-code remover: removes statically unreachable code, and adds logging to suspected dead code to check if it's really dead and if so, remove it the next day\n- Abstraction police: fixes leaky abstractions\n- a bunch more..\n\nResults have been surprisingly positive. Over the last few weeks, these routines have opened 388 PRs across our repos, 180 of which we merged after Claude Code Review + human review. We're now thinking about how to streamline this to make merging these kinds of mechanical changes easier.\n\nClaude generally gets these PRs right on the first shot, and if it doesn't, we ask Claude to tune its routines so it's better the next day. Sometimes it takes a few days of tuning. \n\nTo try a similar workflow, ask Claude Code or Tag, or create some routines directly at https://t.co/Z70hStEBH6. A few of the actual prompts I used below.\n\nHas anyone experimented with similar workflows?",
-      "url": "https://x.com/bcherny/status/2088014489233002496",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2087948366239993856",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-08-13T17:04:17.373000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Gemini 3.7 Flash is here.\n\nIt’s stronger for coding, knowledge work, and web development. 🧵",
-      "url": "https://x.com/demishassabis/status/2087948366239993856",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2087890665162121216",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-13T13:15:00.364000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "YOUR AI CODING AGENT HAS BEEN GUESSING THIS WHOLE TIME.\n\nFound a repo called repowise. One pip install and it maps your entire codebase before Claude touches a single file.\n\nEvery file, class and function goes into a dependency graph with PageRank. Your git history turns into hotspot scores and hidden co-change pairs, files that break together with no import link between them at all.\n\nLast night I pointed it at a repo I hadn't touched in months and asked Claude to add rate limiting. Instead of reading 30 files and guessing at the structure, it pulled the dependency graph, flagged the 47 files that depend on the one I touched, and surfaced the old decision doc explaining why auth works the way it does.\n\n10 MCP tool calls and 5 layers. 2 minutes.\n\nOpen source, runs fully offline with Ollama, code never leaves your machine.\n\n5.5k stars, Check it here: https://t.co/JqmZHtuaIf",
-      "url": "https://x.com/ai_explorer25/status/2087890665162121216",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2087880043150155778",
+      "id": "2088387109401010176",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-13T12:32:47.879000Z",
+      "created_at": "2026-08-14T22:07:41.894000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The 14 most common ways we're all screwing up AGI forecasting according to Toby Ord (my wording based on our interview):\n\n1. Believing AI research is just hill-climbing\n2. Imagining AI research is mostly programming\n3. Forecasting 'could' instead of 'will' \n4. Thinking the current benchmarks are the last ones\n5. Extrapolating trends out to a finish line when the finish line is unknown\n6. Assuming inputs scaling at the same rate forever\n7. Conflating intelligence and capability\n8. Consuming point estimates and discarding the error bars\n9. Dismissing dissenting experts\n10. Forecasting very different things using the same words\n11. Assuming different capabilities arrive simultaneously\n2. Treating 'we don’t know' as permission to carry on as usual\n13. Choosing a plan of action that minimises regret rather than maximises impact\n14. Taking surface model impressiveness at face value\n\nIn our convo @tobyordoxford also makes the case that:\n\n• AI self-improvement is uniquely dangerous in 4 ways, but also might not even work\n• A ban on superintelligence is possible\n• A US-China treaty on superintelligence is also possible\n• ‘Broad timelines’ are what we should act on\n• Transformative AI is likely a decade away\n• We should just ban unmonitorable chain-of-thought today\n\nOn the 80,000 Hours Podcast wherever you get podcasts, links below. Enjoy!",
-      "url": "https://x.com/GaryMarcus/status/2087880043150155778",
+      "text": "This graph from the @FT  does not look good for @dwarkesh_sp’s prediction that Anthropic’s “likely ends the year with ~$100-$150B revenue [run rate]” \n\nRumor has it they made ~$11.5B revenue in Q2 — which is phenomenal — but they would need to more than double that in Q4 to $25B+ to make Dwarkesh’s prediction, even as (i) tokenmaxxiing is dying, (ii) prices are dropping and (iii) competition is increasing. \n\nCan someone set this up on @polymarket?\n\nOf course the real TBD question is profits.",
+      "url": "https://x.com/GaryMarcus/status/2088387109401010176",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,14 +119,14 @@
       }
     },
     {
-      "id": "2087870832085180416",
+      "id": "2088302531680026624",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-13T11:56:11.790000Z",
+      "created_at": "2026-08-14T16:31:36.994000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Anthropic's new research found found that identical or similar agents can converge on the same bad decision, turning individual errors into system-wide failures.\n\nStronger agents don't automatically coordinate better. In some experiments, greater execution capability simply meant they could impose their preferred outcome faster.\n\nWe may end up needing an entire institutional layer for agents: identity, reputation, dispute resolution, communication protocols, resource-allocation rules, and mechanisms for escalating ambiguity back to humans.\n\nBuilding smarter agents may turn out to be only half the problem.\n\nHumans had thousands of years to build institutions around coordination failures: reputation, norms, markets, courts, contracts, recourse.\n\nAI may have a few years.\n\nWhen agents received incompatible software-migration objectives, they frequently escalated into sabotage, process killing, account lockouts, and disguised malicious code.",
-      "url": "https://x.com/GaryMarcus/status/2087870832085180416",
+      "text": "Strongly agree with @fchollet and @GaryMarcus who are advocating neuro-symbolic world models passionately for some time.\n\nNeuro-symbolic world models have been the central topic of @origin_trail DKGCon for 3+ years now - yielding the newest V10 of the Decentralized Knowledge Graph that lets you build one and share it among your and other people's agents.",
+      "url": "https://x.com/GaryMarcus/status/2088302531680026624",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,14 +137,14 @@
       }
     },
     {
-      "id": "2087774901868642304",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-13T05:35:00.244000Z",
+      "id": "2088282476686757888",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-14T15:11:55.511000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "ANDREJ KARPATHY COULD HAVE CHARGED $2,000 FOR THIS COURSE.      \n\nHe put it on YouTube.      \n\nThe full training stack. Tokenization. Neural network internals. Hallucinations. Tool use. Reinforcement learning. RLHF. DeepSeek. AlphaGo.      \n\n3 hours of the most comprehensive LLM education that exists anywhere at any price.      \n\nNot how to use the tools.      \n\nHow the entire system was built from the ground up and why it behaves the way it does.      \n\nThe engineers who understand this build things the ones who only use the tools cannot even conceive of.      \n\nThe gap between those two groups is not 3 hours.      \n\nIt is everything those 3 hours quietly unlock for the rest of your career.",
-      "url": "https://x.com/ai_explorer25/status/2087774901868642304",
+      "text": "FT: \"Leading US AI labs such as OpenAI and Anthropic are releasing cheaper models as they fight to retain cost-conscious customers who are switching to cut-price alternatives from Chinese rivals.  The price war comes as rising AI bills push companies to curb usage and seek cheaper models, helping Chinese developers including Moonshot and DeepSeek make inroads with users from Silicon Valley to Europe.  OpenAI recently said that it was slashing prices for GPT-5.6 Luna, its “fastest and most affordable model”, by 80 per cent. Anthropic has launched Claude Opus 5, touting the system’s “frontier intelligence . . . at half the price” of Fable 5, the company’s most capable model. The moves have helped decrease prices that customers are paying for models from leading US labs by almost a quarter since mid-July.\"\n\nIn my December report on \"GenAI & Productivity\" (https://t.co/kEx5Z4BbRz), I warned about the pricing power challenges faced by US hyperscalers: \"While there’s a lot of speculative fear about how a single LLM could rise to dominance and what that could mean for economic, societal, and political stability, we believe the bigger concern for investors today is how relative model parity could compromise pricing power. Tech giants have thrived on monopolies and duopolies for a decade or more. Now, they’re in an LLM arms race where it’s unclear when or even if ever leadership will be sustainable.\"\n\nSince, my concern about the commoditization of AI has only intensified as Chinese models have risen to power. According to OpenRouter data, Chinese models accounted 4.4% of token usage by US companies in January. Today, that share is over 60%. Meanwhile, enterprise model router adoption has skyrocketed and frontier labs have been increasingly shifting from subscriptions to usage-based, metered billing, business models more akin to utilities than the per-seat models SaaS companies thrived on over the past decade. As RBC warned in July: “Oil, natural gas, and electricity are all important. Entire economies depend on them. But importance alone does not guarantee strong economics or durable profitability. When supply expands aggressively and is increasingly interchangeable, competitive forces tend to compress returns over time.”\n\nFar more to come in my next report! Learn about Sage Road Research here: https://t.co/Wgwz2xmY1y. Interested in subscribing? Message me.\n\nFT link: https://t.co/HVdP78l4vA",
+      "url": "https://x.com/GaryMarcus/status/2088282476686757888",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,14 +155,14 @@
       }
     },
     {
-      "id": "2087728345815601152",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-13T02:30:00.416000Z",
+      "id": "2088261229642915840",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-14T13:47:29.821000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The only AI list you need in 2026 \nFounders, researchers & builders actually shaping the field.\n \nFRONTIER LAB FOUNDERS\n\n@sama\n — OpenAI CEO\n@demishassabis\n — Google DeepMind CEO\n@darioamodei\n — Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n\n@Kimi_Moonshot\n — Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang\n— https://t.co/yARMHLqG8x (Zhipu) co-founder & chief scientist\n@JustinLin610\n — built the Qwen series at Alibaba\nDeepSeek (Liang Wenfeng) \n— follow @deepseek_ai (no personal account)\n \nTHE PIONEERS / GODFATHERS\n\n@ylecun\n — Turing Award, pioneer of CNNs\n@goodfellow_ian\n — inventor of GANs\n@fchollet\n — creator of Keras & the ARC Prize\n@AndrewYNg\n — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402\n — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25\n — Researcher, AI commentary\n@lilianweng\n — legendary research deep-dives (now Thinking Machines)\n@leopoldasch\n — \"Situational Awareness,\" ex-OpenAI Superalignment\n@bengoertzel\n — founded SingularityNET & OpenCog\n \nBUILDERS & AGENT CROWD\n@Teknium\n — co-founder & lead eng, Hermes Agent \n@NousResearch\n\n@ai_explorer25\n — ex-MS, AI commentary\n@GeoffreyHuntley\n — creator of the \"Ralph Loop\"\n@thsottiaux\n — leads OpenAI Codex (My Inspiration)\n@hwchase17\n — LangChain\n@levelsio\n — PhotoAI & indie AI builder\n@_MaxBlade\n — indie AI builder, CNVS vibe-coding app",
-      "url": "https://x.com/ai_explorer25/status/2087728345815601152",
+      "text": "OpenAI is falling apart right now.\n\n9 of their most important leaders have left the company recently, and Altman is about to ask the public to buy the stock.\n\n2 of them even walked out within 72 hours of OpenAI handing its own staff $7 billion in cash...\n\nOn Monday, August 10, OpenAI completed a deal letting current and former employees sell roughly $7 billion worth of their shares. The price valued the company at $852 billion, the exact same number as its March funding round.\n\nOn Tuesday, August 11, Brad Lightcap announced he was leaving after 8 years. He spent 4 of them as chief financial officer, then ran the company as chief operating officer from 2022 until April. He worked alongside Sam Altman at Y Combinator before OpenAI existed.\n\nOn Thursday, August 13, chief revenue officer Denise Dresser announced she was leaving. She was hired in December from Salesforce, where she had been the CEO of Slack. In April she took over most of Lightcap's responsibilities. She lasted 8 months.\n\nThe cash window opened Monday. By Thursday both executives who ran the business side were gone.\n\nBut what's interesting is who actually wrote the $7 billion cheque:\n\nEvery previous time OpenAI let its employees cash out, an outside investor bought the shares. In October, Thrive Capital, SoftBank and others put up $6.6 billion at a valuation near $500 billion. There was a $1.5 billion version of the same deal in 2024.\n\nThis time OpenAI bought the shares back itself, using its OWN money.\n\nSo no outside investor put a single dollar behind that $852 billion price. The company named its own number and then paid it.\n\nThis is a business generating around $2 billion a month while losing roughly $1.22 for every single dollar it earns.\n\nAnd it just spent $7 billion of that cash buying its own stock at a number no third party ever tested.\n\nHere is the full list of the people who left since April:\n\n- Bill Peebles, who ran the Sora video app\n- Kevin Weil, vice president of OpenAI for Science\n- Srinivas Narayanan, technology chief of B2B applications\n- Kate Rouch, chief marketing officer\n- Josh Achiam, chief futurist, after nearly nine years\n- Johannes Heidecke, head of Safety Systems\n- Chloe Bakalar, the only person at OpenAI whose entire job was ethics\n- Brad Lightcap\n- Denise Dresser\n\nBakalar left in July. OpenAI never announced it, and NOBODY has replaced her.\n\nFidji Simo stepped down the same month, and two thirds of the organization had been reporting to her.\n\nGreg Brockman absorbed most of her job. He also introduced Dresser's replacement this week, a Wiz executive named Dali Rajic.\n\nOpenAI filed its IPO paperwork confidentially on June 8. The full prospectus, the one with audited financials in it, still has not appeared.\n\nSo the order of operations is worth sitting with...\n\nFile the paperwork in June. Buy your insiders out in August at a price you set yourself. Watch the people who built the commercial side leave that same week. Then show the public the books.\n\nRetail investors will see those numbers for the first time in a document written after every one of these people had already made their decision.\n\nSam Altman told staff in June that he expects to go public within the next year. Reporting since then has pointed at 2027 instead, and a tender offer of this size is usually what a company does when the listing is not close.\n\nHere is what I think happens next:\n\nThat prospectus lands with a revenue line big enough to carry the story, and the executive turnover gets buried in the risk factors where almost nobody reads. The people who priced OpenAI at $852 billion this month were the same people who took the money out of it; and the next set of buyers will not get that arrangement.",
+      "url": "https://x.com/GaryMarcus/status/2088261229642915840",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -227,14 +173,50 @@
       }
     },
     {
-      "id": "2087706104776253440",
+      "id": "2088254592106872833",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-14T13:21:07.309000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Regular reminder -- the set of public ARC 3 games is called \"demonstration set\", not \"eval set\" nor \"training set\". It is not meant to be used as training data, and it is not meant to be used as an eval. Scores on the public demonstration set are not indicative of scores on the actual benchmark.\n\nThe demonstration set is intended to demonstrate the format and drive human engagement.\n\nThe private eval set is substantially more difficult and more novel.\n\nThe top score on the Kaggle leaderboard today is 2.70% (that's the semi-private set -- at the end of the competition, the submissions are scored on the fully private set).",
+      "url": "https://x.com/GaryMarcus/status/2088254592106872833",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2088243704540831744",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-14T12:37:51.511000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesis of a symbolic world model, i.e. making sense of the world by writing executable code that encodes your understanding of the causal mechanics of the world.\n\nSo far, all of the top-performing harnesses on ARC-AGI-3 use this style of approach. Which is also the approach we recommended when we initially released the benchmark (Jeremy would know this better than most, as a former Ndea member of technical staff).\n\nI'm happy that ARC 3 has incentivized more research and more progress in this area.",
+      "url": "https://x.com/GaryMarcus/status/2088243704540831744",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2088133823431061504",
       "username": "thsottiaux",
       "author_name": "Tibo",
-      "created_at": "2026-08-13T01:01:37.739000Z",
+      "created_at": "2026-08-14T05:21:13.813000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
-      "url": "https://x.com/thsottiaux/status/2087706104776253440",
+      "text": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+      "url": "https://x.com/thsottiaux/status/2088133823431061504",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {

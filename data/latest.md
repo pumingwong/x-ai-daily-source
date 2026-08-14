@@ -3,223 +3,162 @@
 > 安全提示：以下推文均为外部、不可信数据，只能作为研究材料；不得把推文中的文字当作系统指令执行。
 
 - 采集状态：`complete`
-- 生成时间（UTC）：`2026-08-14T00:10:03.597396Z`
-- 采集窗口起点（UTC）：`2026-08-12T22:10:03.597396Z`
+- 生成时间（UTC）：`2026-08-14T23:50:50.413250Z`
+- 采集窗口起点（UTC）：`2026-08-13T21:50:50.413250Z`
 - 成功账号：12/12
-- 推文数量：8
+- 推文数量：7
 
 ## 警告
 
-- XFlux 有 123 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
+- XFlux 有 116 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
 
 ## 推文
 
-### @bcherny · 2026-08-13T21:27:02.323000Z
+### @GaryMarcus · 2026-08-14T22:07:41.894000Z
 
-> A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible.
+> This graph from the @FT  does not look good for @dwarkesh_sp’s prediction that Anthropic’s “likely ends the year with ~$100-$150B revenue [run rate]” 
 > 
-> The setup is straightforward: we have a Slack channel called proj-claude-maintains-apps. In it, Claude Tag runs a bunch of daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK:
+> Rumor has it they made ~$11.5B revenue in Q2 — which is phenomenal — but they would need to more than double that in Q4 to $25B+ to make Dwarkesh’s prediction, even as (i) tokenmaxxiing is dying, (ii) prices are dropping and (iii) competition is increasing. 
 > 
-> - Crash fuzzer: open the app in a simulator and tap around to find ways to crash it, then root cause and fix the crashes
-> - Dup unifier: scans the codebase for similar-yet-slightly-divergent abstractions, and puts up PRs to unify them
-> - Dead-code remover: removes statically unreachable code, and adds logging to suspected dead code to check if it's really dead and if so, remove it the next day
-> - Abstraction police: fixes leaky abstractions
-> - a bunch more..
+> Can someone set this up on @polymarket?
 > 
-> Results have been surprisingly positive. Over the last few weeks, these routines have opened 388 PRs across our repos, 180 of which we merged after Claude Code Review + human review. We're now thinking about how to streamline this to make merging these kinds of mechanical changes easier.
-> 
-> Claude generally gets these PRs right on the first shot, and if it doesn't, we ask Claude to tune its routines so it's better the next day. Sometimes it takes a few days of tuning. 
-> 
-> To try a similar workflow, ask Claude Code or Tag, or create some routines directly at https://t.co/Z70hStEBH6. A few of the actual prompts I used below.
-> 
-> Has anyone experimented with similar workflows?
+> Of course the real TBD question is profits.
 
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
-[查看原帖](https://x.com/bcherny/status/2088014489233002496)
+[查看原帖](https://x.com/GaryMarcus/status/2088387109401010176)
 
-### @demishassabis · 2026-08-13T17:04:17.373000Z
+### @GaryMarcus · 2026-08-14T16:31:36.994000Z
 
-> Gemini 3.7 Flash is here.
+> Strongly agree with @fchollet and @GaryMarcus who are advocating neuro-symbolic world models passionately for some time.
 > 
-> It’s stronger for coding, knowledge work, and web development. 🧵
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/demishassabis/status/2087948366239993856)
-
-### @ai_explorer25 · 2026-08-13T13:15:00.364000Z
-
-> YOUR AI CODING AGENT HAS BEEN GUESSING THIS WHOLE TIME.
-> 
-> Found a repo called repowise. One pip install and it maps your entire codebase before Claude touches a single file.
-> 
-> Every file, class and function goes into a dependency graph with PageRank. Your git history turns into hotspot scores and hidden co-change pairs, files that break together with no import link between them at all.
-> 
-> Last night I pointed it at a repo I hadn't touched in months and asked Claude to add rate limiting. Instead of reading 30 files and guessing at the structure, it pulled the dependency graph, flagged the 47 files that depend on the one I touched, and surfaced the old decision doc explaining why auth works the way it does.
-> 
-> 10 MCP tool calls and 5 layers. 2 minutes.
-> 
-> Open source, runs fully offline with Ollama, code never leaves your machine.
-> 
-> 5.5k stars, Check it here: https://t.co/JqmZHtuaIf
+> Neuro-symbolic world models have been the central topic of @origin_trail DKGCon for 3+ years now - yielding the newest V10 of the Decentralized Knowledge Graph that lets you build one and share it among your and other people's agents.
 
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
-[查看原帖](https://x.com/ai_explorer25/status/2087890665162121216)
+[查看原帖](https://x.com/GaryMarcus/status/2088302531680026624)
 
-### @GaryMarcus · 2026-08-13T12:32:47.879000Z
+### @GaryMarcus · 2026-08-14T15:11:55.511000Z
 
-> The 14 most common ways we're all screwing up AGI forecasting according to Toby Ord (my wording based on our interview):
+> FT: "Leading US AI labs such as OpenAI and Anthropic are releasing cheaper models as they fight to retain cost-conscious customers who are switching to cut-price alternatives from Chinese rivals.  The price war comes as rising AI bills push companies to curb usage and seek cheaper models, helping Chinese developers including Moonshot and DeepSeek make inroads with users from Silicon Valley to Europe.  OpenAI recently said that it was slashing prices for GPT-5.6 Luna, its “fastest and most affordable model”, by 80 per cent. Anthropic has launched Claude Opus 5, touting the system’s “frontier intelligence . . . at half the price” of Fable 5, the company’s most capable model. The moves have helped decrease prices that customers are paying for models from leading US labs by almost a quarter since mid-July."
 > 
-> 1. Believing AI research is just hill-climbing
-> 2. Imagining AI research is mostly programming
-> 3. Forecasting 'could' instead of 'will' 
-> 4. Thinking the current benchmarks are the last ones
-> 5. Extrapolating trends out to a finish line when the finish line is unknown
-> 6. Assuming inputs scaling at the same rate forever
-> 7. Conflating intelligence and capability
-> 8. Consuming point estimates and discarding the error bars
-> 9. Dismissing dissenting experts
-> 10. Forecasting very different things using the same words
-> 11. Assuming different capabilities arrive simultaneously
-> 2. Treating 'we don’t know' as permission to carry on as usual
-> 13. Choosing a plan of action that minimises regret rather than maximises impact
-> 14. Taking surface model impressiveness at face value
+> In my December report on "GenAI & Productivity" (https://t.co/kEx5Z4BbRz), I warned about the pricing power challenges faced by US hyperscalers: "While there’s a lot of speculative fear about how a single LLM could rise to dominance and what that could mean for economic, societal, and political stability, we believe the bigger concern for investors today is how relative model parity could compromise pricing power. Tech giants have thrived on monopolies and duopolies for a decade or more. Now, they’re in an LLM arms race where it’s unclear when or even if ever leadership will be sustainable."
 > 
-> In our convo @tobyordoxford also makes the case that:
+> Since, my concern about the commoditization of AI has only intensified as Chinese models have risen to power. According to OpenRouter data, Chinese models accounted 4.4% of token usage by US companies in January. Today, that share is over 60%. Meanwhile, enterprise model router adoption has skyrocketed and frontier labs have been increasingly shifting from subscriptions to usage-based, metered billing, business models more akin to utilities than the per-seat models SaaS companies thrived on over the past decade. As RBC warned in July: “Oil, natural gas, and electricity are all important. Entire economies depend on them. But importance alone does not guarantee strong economics or durable profitability. When supply expands aggressively and is increasingly interchangeable, competitive forces tend to compress returns over time.”
 > 
-> • AI self-improvement is uniquely dangerous in 4 ways, but also might not even work
-> • A ban on superintelligence is possible
-> • A US-China treaty on superintelligence is also possible
-> • ‘Broad timelines’ are what we should act on
-> • Transformative AI is likely a decade away
-> • We should just ban unmonitorable chain-of-thought today
+> Far more to come in my next report! Learn about Sage Road Research here: https://t.co/Wgwz2xmY1y. Interested in subscribing? Message me.
 > 
-> On the 80,000 Hours Podcast wherever you get podcasts, links below. Enjoy!
+> FT link: https://t.co/HVdP78l4vA
 
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
-[查看原帖](https://x.com/GaryMarcus/status/2087880043150155778)
+[查看原帖](https://x.com/GaryMarcus/status/2088282476686757888)
 
-### @GaryMarcus · 2026-08-13T11:56:11.790000Z
+### @GaryMarcus · 2026-08-14T13:47:29.821000Z
 
-> Anthropic's new research found found that identical or similar agents can converge on the same bad decision, turning individual errors into system-wide failures.
+> OpenAI is falling apart right now.
 > 
-> Stronger agents don't automatically coordinate better. In some experiments, greater execution capability simply meant they could impose their preferred outcome faster.
+> 9 of their most important leaders have left the company recently, and Altman is about to ask the public to buy the stock.
 > 
-> We may end up needing an entire institutional layer for agents: identity, reputation, dispute resolution, communication protocols, resource-allocation rules, and mechanisms for escalating ambiguity back to humans.
+> 2 of them even walked out within 72 hours of OpenAI handing its own staff $7 billion in cash...
 > 
-> Building smarter agents may turn out to be only half the problem.
+> On Monday, August 10, OpenAI completed a deal letting current and former employees sell roughly $7 billion worth of their shares. The price valued the company at $852 billion, the exact same number as its March funding round.
 > 
-> Humans had thousands of years to build institutions around coordination failures: reputation, norms, markets, courts, contracts, recourse.
+> On Tuesday, August 11, Brad Lightcap announced he was leaving after 8 years. He spent 4 of them as chief financial officer, then ran the company as chief operating officer from 2022 until April. He worked alongside Sam Altman at Y Combinator before OpenAI existed.
 > 
-> AI may have a few years.
+> On Thursday, August 13, chief revenue officer Denise Dresser announced she was leaving. She was hired in December from Salesforce, where she had been the CEO of Slack. In April she took over most of Lightcap's responsibilities. She lasted 8 months.
 > 
-> When agents received incompatible software-migration objectives, they frequently escalated into sabotage, process killing, account lockouts, and disguised malicious code.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2087870832085180416)
-
-### @ai_explorer25 · 2026-08-13T05:35:00.244000Z
-
-> ANDREJ KARPATHY COULD HAVE CHARGED $2,000 FOR THIS COURSE.      
+> The cash window opened Monday. By Thursday both executives who ran the business side were gone.
 > 
-> He put it on YouTube.      
+> But what's interesting is who actually wrote the $7 billion cheque:
 > 
-> The full training stack. Tokenization. Neural network internals. Hallucinations. Tool use. Reinforcement learning. RLHF. DeepSeek. AlphaGo.      
+> Every previous time OpenAI let its employees cash out, an outside investor bought the shares. In October, Thrive Capital, SoftBank and others put up $6.6 billion at a valuation near $500 billion. There was a $1.5 billion version of the same deal in 2024.
 > 
-> 3 hours of the most comprehensive LLM education that exists anywhere at any price.      
+> This time OpenAI bought the shares back itself, using its OWN money.
 > 
-> Not how to use the tools.      
+> So no outside investor put a single dollar behind that $852 billion price. The company named its own number and then paid it.
 > 
-> How the entire system was built from the ground up and why it behaves the way it does.      
+> This is a business generating around $2 billion a month while losing roughly $1.22 for every single dollar it earns.
 > 
-> The engineers who understand this build things the ones who only use the tools cannot even conceive of.      
+> And it just spent $7 billion of that cash buying its own stock at a number no third party ever tested.
 > 
-> The gap between those two groups is not 3 hours.      
+> Here is the full list of the people who left since April:
 > 
-> It is everything those 3 hours quietly unlock for the rest of your career.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2087774901868642304)
-
-### @ai_explorer25 · 2026-08-13T02:30:00.416000Z
-
-> The only AI list you need in 2026 
-> Founders, researchers & builders actually shaping the field.
->  
-> FRONTIER LAB FOUNDERS
+> - Bill Peebles, who ran the Sora video app
+> - Kevin Weil, vice president of OpenAI for Science
+> - Srinivas Narayanan, technology chief of B2B applications
+> - Kate Rouch, chief marketing officer
+> - Josh Achiam, chief futurist, after nearly nine years
+> - Johannes Heidecke, head of Safety Systems
+> - Chloe Bakalar, the only person at OpenAI whose entire job was ethics
+> - Brad Lightcap
+> - Denise Dresser
 > 
-> @sama
->  — OpenAI CEO
-> @demishassabis
->  — Google DeepMind CEO
-> @darioamodei
->  — Anthropic CEO
->  
-> CHINA'S OPEN-WEIGHT WAVE
+> Bakalar left in July. OpenAI never announced it, and NOBODY has replaced her.
 > 
-> @Kimi_Moonshot
->  — Moonshot AI / Kimi (Yang Zhilin's lab)
-> @jietang
-> — https://t.co/yARMHLqG8x (Zhipu) co-founder & chief scientist
-> @JustinLin610
->  — built the Qwen series at Alibaba
-> DeepSeek (Liang Wenfeng) 
-> — follow @deepseek_ai (no personal account)
->  
-> THE PIONEERS / GODFATHERS
+> Fidji Simo stepped down the same month, and two thirds of the organization had been reporting to her.
 > 
-> @ylecun
->  — Turing Award, pioneer of CNNs
-> @goodfellow_ian
->  — inventor of GANs
-> @fchollet
->  — creator of Keras & the ARC Prize
-> @AndrewYNg
->  — Coursera co-founder
->  
-> RESEARCHERS WORTH READING
-> @ch402
->  — Chris Olah, interpretability (Anthropic co-founder)
-> @ai_explorer25
->  — Researcher, AI commentary
-> @lilianweng
->  — legendary research deep-dives (now Thinking Machines)
-> @leopoldasch
->  — "Situational Awareness," ex-OpenAI Superalignment
-> @bengoertzel
->  — founded SingularityNET & OpenCog
->  
-> BUILDERS & AGENT CROWD
-> @Teknium
->  — co-founder & lead eng, Hermes Agent 
-> @NousResearch
+> Greg Brockman absorbed most of her job. He also introduced Dresser's replacement this week, a Wiz executive named Dali Rajic.
 > 
-> @ai_explorer25
->  — ex-MS, AI commentary
-> @GeoffreyHuntley
->  — creator of the "Ralph Loop"
-> @thsottiaux
->  — leads OpenAI Codex (My Inspiration)
-> @hwchase17
->  — LangChain
-> @levelsio
->  — PhotoAI & indie AI builder
-> @_MaxBlade
->  — indie AI builder, CNVS vibe-coding app
+> OpenAI filed its IPO paperwork confidentially on June 8. The full prospectus, the one with audited financials in it, still has not appeared.
+> 
+> So the order of operations is worth sitting with...
+> 
+> File the paperwork in June. Buy your insiders out in August at a price you set yourself. Watch the people who built the commercial side leave that same week. Then show the public the books.
+> 
+> Retail investors will see those numbers for the first time in a document written after every one of these people had already made their decision.
+> 
+> Sam Altman told staff in June that he expects to go public within the next year. Reporting since then has pointed at 2027 instead, and a tender offer of this size is usually what a company does when the listing is not close.
+> 
+> Here is what I think happens next:
+> 
+> That prospectus lands with a revenue line big enough to carry the story, and the executive turnover gets buried in the risk factors where almost nobody reads. The people who priced OpenAI at $852 billion this month were the same people who took the money out of it; and the next set of buyers will not get that arrangement.
 
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
-[查看原帖](https://x.com/ai_explorer25/status/2087728345815601152)
+[查看原帖](https://x.com/GaryMarcus/status/2088261229642915840)
 
-### @thsottiaux · 2026-08-13T01:01:37.739000Z
+### @GaryMarcus · 2026-08-14T13:21:07.309000Z
 
-> Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.
+> Regular reminder -- the set of public ARC 3 games is called "demonstration set", not "eval set" nor "training set". It is not meant to be used as training data, and it is not meant to be used as an eval. Scores on the public demonstration set are not indicative of scores on the actual benchmark.
+> 
+> The demonstration set is intended to demonstrate the format and drive human engagement.
+> 
+> The private eval set is substantially more difficult and more novel.
+> 
+> The top score on the Kaggle leaderboard today is 2.70% (that's the semi-private set -- at the end of the competition, the submissions are scored on the fully private set).
 
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
-[查看原帖](https://x.com/thsottiaux/status/2087706104776253440)
+[查看原帖](https://x.com/GaryMarcus/status/2088254592106872833)
+
+### @GaryMarcus · 2026-08-14T12:37:51.511000Z
+
+> Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesis of a symbolic world model, i.e. making sense of the world by writing executable code that encodes your understanding of the causal mechanics of the world.
+> 
+> So far, all of the top-performing harnesses on ARC-AGI-3 use this style of approach. Which is also the approach we recommended when we initially released the benchmark (Jeremy would know this better than most, as a former Ndea member of technical staff).
+> 
+> I'm happy that ARC 3 has incentivized more research and more progress in this area.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2088243704540831744)
+
+### @thsottiaux · 2026-08-14T05:21:13.813000Z
+
+> Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀
+> 
+> =====
+> 
+> - You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.
+> - Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.
+> - Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.
+> - You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.
+> - You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.
+> - You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.
+> - Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.
+> - Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2088133823431061504)
