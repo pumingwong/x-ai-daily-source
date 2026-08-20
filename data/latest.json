@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-19T23:50:03.021088Z",
-  "window_start": "2026-08-18T21:50:03.021088Z",
+  "generated_at": "2026-08-20T23:52:24.596601Z",
+  "window_start": "2026-08-19T21:52:24.596601Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -40,16 +40,16 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 15,
+      "returned_count": 14,
       "recent_count": 0,
-      "timestamp_corrected_count": 15,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 8,
-      "recent_count": 7,
-      "timestamp_corrected_count": 8,
+      "returned_count": 7,
+      "recent_count": 3,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
@@ -61,9 +61,9 @@
     },
     {
       "username": "maximelabonne",
-      "returned_count": 10,
-      "recent_count": 0,
-      "timestamp_corrected_count": 10,
+      "returned_count": 11,
+      "recent_count": 1,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
@@ -82,33 +82,33 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 8,
-      "recent_count": 3,
-      "timestamp_corrected_count": 8,
+      "returned_count": 7,
+      "recent_count": 0,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "bcherny",
-      "returned_count": 6,
-      "recent_count": 1,
-      "timestamp_corrected_count": 6,
+      "returned_count": 5,
+      "recent_count": 0,
+      "timestamp_corrected_count": 5,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 119 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 116 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 14,
+  "tweet_count": 8,
   "tweets": [
     {
-      "id": "2090191234459660288",
+      "id": "2090570470127030272",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-19T21:36:38.827000Z",
+      "created_at": "2026-08-20T22:43:35.656000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "the books about the mid-to-late 2020s are going to be like the books about the Great Depression, with the same theme in every one: what were they thinking?",
-      "url": "https://x.com/GaryMarcus/status/2090191234459660288",
+      "text": "🦔ChatGPT can now read your entire iMessage history and send texts on your behalf. Every conversation with your family, your doctor, your lawyer, your ex, on OpenAI’s servers so it can reply to your mom for you. Altman told us a few days ago he wanted ChatGPT to hold your entire life. He meant it. This is a company that hasn’t turned an annual profit, is heading for an IPO, and just asked for access to the most personal data on your computer. \n\nBut sure, let it answer your group chat.\n\nHedgie🤗",
+      "url": "https://x.com/GaryMarcus/status/2090570470127030272",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +119,14 @@
       }
     },
     {
-      "id": "2090186797234212864",
+      "id": "2090525062273110016",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-19T21:19:00.910000Z",
+      "created_at": "2026-08-20T19:43:09.580000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Old Version of Singularity: An age of abundance driving by superhuman machines, and/or a “moment when humans merge with AI via brain-to-computer interfaces to become “much smarter””\n\nNew version of the Singularity:  a huge increase in the rate of new firm creation.\n\nThe currency of Singularity is being steadily devalued—exactly per this July essay: https://t.co/cZ5YJPyF1y",
-      "url": "https://x.com/GaryMarcus/status/2090186797234212864",
+      "text": "🚨OPENAI AND ANTHROPIC JUST FOLDED ON THEIR DATA RETENTION POLICY AFTER PALANTIR CEO EXPOSED THEIR REAL BUSINESS MODEL\n\nAlex Karp:\n>\"something has gone completely wrong\" \n>they want \"access to my data\" so they can \"build my alpha\" \n>\"i'm gonna get no value, and they're gonna get my IP\" \n>\"this is effing insane\" \n>\"trying to drug addict us to a future they believe they control\" \n>\"who owns the data? where is it cached? are the prompts secured?\" \n>\"we need to rebuild trust\"\n\nYesterday: OpenAI started testing \"private safety processing\" to avoid retaining customer data\n\nToday: Anthropic reversing course, will allow enterprise customers to keep data on THEIR OWN cloud infrastructure instead of Anthropic's\n\nAlex Karp was right.",
+      "url": "https://x.com/GaryMarcus/status/2090525062273110016",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,68 +137,14 @@
       }
     },
     {
-      "id": "2090173535922868224",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-19T20:26:19.167000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
-      "url": "https://x.com/thsottiaux/status/2090173535922868224",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090165328219455488",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-19T19:53:42.298000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We will continue to offer Zero Data Retention for frontier models.\n\nAs AI takes on longer, more autonomous work and delivers greater value to businesses, safety systems also need to identify risks across related interactions. \n\nTo help address those risks, we're previewing Private Safety Processing, which is designed to improve safety without giving OpenAI personnel access to the underlying content.",
-      "url": "https://x.com/thsottiaux/status/2090165328219455488",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090162539246280704",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-19T19:42:37.355000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Remember my discussion with @dwarkesh_sp about revenue forecasts for Anthropic?\n\nHe is basically projecting continuous exponential growth for Anthropic’s revenue run rate; I have been saying it will flatten out because of Chinese models, price wars, and the end of tokenmaxxing.\n\nFrom the data below it looks like (tentatively, it’s a small sample to be sure) I might be right. A flattening may have begun.\n\n[Of course long term, *profits* are what really matters.]",
-      "url": "https://x.com/GaryMarcus/status/2090162539246280704",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090147703837929472",
+      "id": "2090492222349213696",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-19T18:43:40.318000Z",
+      "created_at": "2026-08-20T17:32:39.932000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Something I saw recently stuck with me. A company let an AI assistant handle customer emails and refunds on its own.\n\nA customer wrote in about an order. Buried in the email, in small print, were instructions telling the assistant to approve a full refund, no questions asked. It read them, followed along, and pushed the money through.\n\nNo one broke in. No logins were stolen. It just did exactly what the email quietly asked.\n\nAs more businesses hand these systems real control, this is only going to happen more.\n\nFabraix hunts for gaps like this early, before the wrong people find them. Been testing it this past week, and honestly it left me both impressed and a lot more at ease.\n\n@FabraixHQ",
-      "url": "https://x.com/ai_explorer25/status/2090147703837929472",
+      "text": "what if AI teammates (Grok Bot, Hermes, etc.) lived everywhere?\n\nIntroducing Skydive by Anything.\n\n- omnichannel (Slack, email, iMessage, CLI)\n- cloud native (always on, works while you sleep)\n- model agnostic (Fable, GPT, Deepseek, more)\n\neveryone gets full access from day one\n\nlet's fly. 🪂",
+      "url": "https://x.com/ai_explorer25/status/2090492222349213696",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,14 +155,32 @@
       }
     },
     {
-      "id": "2090098599304507392",
+      "id": "2090491703534968832",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-20T17:30:36.237000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today, we release DSpark draft models for LFM2.5-1.2B-Instruct, LFM2.5-2.6B, and LFM2.5-8B-A1B. These add a speculative decoding path that trades a minimal memory increase for a large decoding speedup without changing output quality.\n\nA lightweight draft model proposes a block of candidate tokens and the target model verifies them in a single forward pass. Across MATH500, GSM8K, HumanEval, MBPP, and MT-Bench at batch size 1:\n\n> Up to 3.18x throughput on an H100: LFM2.5-8B-A1B on MATH500, 428 → 1362 tok/s\n> Up to 2.87x on an M4 Max MacBook Pro: LFM2.5-1.2B-Instruct on HumanEval, 136 → 389 tok/s\n> LFM2.5-2.6B means: 2.67x on the H100 (323 → 864 tok/s), 2.27x on device (61 → 139 tok/s)\n> Under greedy decoding, the emitted sequence is identical to baseline by construction, so benchmark accuracy is unchanged.\n\nEach draft model is around 300M parameters, with embedding and LM head tied to its target model. The gain shows most in agentic workloads, where the model reasons before every tool call and the user waits through it all: on BFCL multi-tool scenarios, DSpark cuts LFM2.5-2.6B latency by nearly 50% on average.\n\n🧵",
+      "url": "https://x.com/maximelabonne/status/2090491703534968832",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090467445718777856",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-19T15:28:32.885000Z",
+      "created_at": "2026-08-20T15:54:12.723000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "No chance radiologists get replaced.  A model is outdated the minute it is released.  \n\nModel usage  costs money. A lot more than a radiologist.  \n\nMedicine is a business. \n\nPutting together AI with domain knowledge is complex.  When it can be the difference between life and death,  who do you want building it and using it ? \n\nPeople forget that using AI and trying to get accurate answers is a skill that will need to be taught in med school \n\nAI won't replace radiologists. But every radiologist will use AI",
-      "url": "https://x.com/GaryMarcus/status/2090098599304507392",
+      "text": "May startle the markets with this but: OpenAI is growing faster than Anthropic, actually.\n\nWhile data through Q2 shows tepid growth for OpenAI vs. Anthropic, Q3 to date shows that OpenAI has surpassed Anthropic in QoQ enterprise growth: 82 vs. 76.\n\nWhy? GPT-5.6 Sol is really good, increasingly the choice for developers. Fable 5, meanwhile, disappointed both in adoption and real-world application given price + data retention requirements imposed by regulators.",
+      "url": "https://x.com/GaryMarcus/status/2090467445718777856",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -227,32 +191,14 @@
       }
     },
     {
-      "id": "2090085886335864832",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-19T14:38:01.877000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Counterpoint: “If alignment issues are becoming big enough that OpenAI is willing to commit 20% of research inference compute to chain-of-thought monitoring [suggesting] that suggests that alignment issues are becoming a pretty serious concern” we need to invest more heavily in alternatives to LLMs because LLM-centered architectures are failing to yield alignment.\n\nI don’t know how much more evidence we need for that.\n\n(but yes, we also do need coherent policies, as @emollick rightly suggests)",
-      "url": "https://x.com/GaryMarcus/status/2090085886335864832",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090009012721049600",
+      "id": "2090438921813405696",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-19T09:32:33.779000Z",
+      "created_at": "2026-08-20T14:00:52.094000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The B2B creator economy is getting interesting. 👀\n\n@join_astute just launched on Product Hunt after announcing a $1.2M pre-seed.\n\nAs a creator, I’m excited about their approach to helping brands discover creators, build partnerships, and make creator marketing more data-driven.\n\nBig congratulations to @vida_stanic ! 🚀\n\nGo check out the launch 👇\nhttps://t.co/KdrJsFUpmu",
-      "url": "https://x.com/ai_explorer25/status/2090009012721049600",
+      "text": "Most teams rebuild the same foundation for every new app: auth, data, storage, payments, deploy…\n\nWe made that layer solid once, inside one SDK.\n\nThen we used it to ship 30 full open-source apps in 30 days.\n\nYou can take any of them, run three commands, and have your own live version in under two minutes.\n\nhttps://t.co/3wN9PbjDCB",
+      "url": "https://x.com/ai_explorer25/status/2090438921813405696",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,14 +209,14 @@
       }
     },
     {
-      "id": "2089959043746156544",
+      "id": "2090438707950268417",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-19T06:14:00.247000Z",
+      "created_at": "2026-08-20T14:00:01.105000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
-      "url": "https://x.com/ai_explorer25/status/2089959043746156544",
+      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then read the guide I leave below on how to create a system that prompts itself.",
+      "url": "https://x.com/ai_explorer25/status/2090438707950268417",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -281,68 +227,14 @@
       }
     },
     {
-      "id": "2089902674804174848",
+      "id": "2090265061000458240",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-19T02:30:00.844000Z",
+      "created_at": "2026-08-20T02:30:00.446000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n\n@karpathy\n - must-follow account for AI; recently joined Anthropic\n\n@bcherny\n - Claude Code creator, always shares great tips\n\n@trq212\n - also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n\n@polynoamial\n - works on reasoning research, shares a lot of technical details\n\n@gabriel1\n - Sora developer, great career path\n\n@jxnlco\n - works on dev experience, shares a lot about Codex\n\nGoogle AI\n\n@OfficialLoganK\n- all the major Google Gemini and AI Studio updates\n\n@ammaar\n - product and design; shares great things about vibe-coding in Google AI Studio\n\n@fofrAI\n- cool use cases for generative models\n\nCursor\n\n@leerob\n- the loudest voice behind Cursor updates\n\n@ericzakariasson\n- shares great insights on using Cursor\n\n@mntruell\n - Cursor’s CEO; major releases and usage updates\n\nxAI\n\n@milichab\n  - recently joined xAI, shares updates on Grok\n\n@skcd42\n - also covers major Grok releases\n\n@ai_explorer25\n- covers all ai content and free resources",
-      "url": "https://x.com/ai_explorer25/status/2089902674804174848",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2089892737394831360",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-19T01:50:31.581000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "How Anthropic's new results post would read without the PR:\n\nClaude orchestrated open-source protein design models,  PXDesign, RFdiffusion, Genie, BoltzGen, from a 30k-token expert prompt and 12,500 H100-hours of compute, and designed binders against 14 of 15 targets. Hit rates of 22–35% against a 10–15% baseline, where some of those tools already report similar numbers on their own.\n\nThe orchestration is genuinely impressive. But the open-source models did most of the lifting, and they came from the Baker lab, Columbia, MIT, ByteDance Seed, and most of them were already wet-lab validated before Claude touched them.\n\nWhich also sets the ceiling. All these generators share a single PDB-shaped training distribution, so calling four of them doesn't diversify away the blind spot, since they fail together. The targets that worked are the well-studied ones. \n\nSo the valid claim is that an agent can now drive this stack competently in the regime where the stack already works.\n\nInstead, we got this announcement:",
-      "url": "https://x.com/GaryMarcus/status/2089892737394831360",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2089891927462391808",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-19T01:47:18.478000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
-      "url": "https://x.com/thsottiaux/status/2089891927462391808",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2089842387736784897",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-08-18T22:30:27.287000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work.\n\nWe wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets.\n\nWe then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed.",
-      "url": "https://x.com/bcherny/status/2089842387736784897",
+      "text": "Best 15 accounts to follow in AI:\n\n@karpathy\n = LLMs king\n\n@steipete\n= built openclaw\n\n@gregisenberg\n= startup ideas king\n\n@rileybrown\n= vibecode king\n\n@jackfriks\n= solo apps king\n\n@levelsio\n= startups king\n\n@marclou\n= startups king\n\n@EXM7777\n= AI ops + systems king\n\n@eptwts\n = AI money twitter king\n\n@ai_explorer25\n= AI queen\n\n@godofprompt\n= prompt king\n\n@vasuman\n= AI agents king\n\n@AmirMushich\n= AI ads king\n\n@0xROAS\n= AI UGCs king\n\n@egeberkina\n= AI images king  \n\nFollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2090265061000458240",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
