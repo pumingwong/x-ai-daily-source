@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-20T23:52:24.596601Z",
-  "window_start": "2026-08-19T21:52:24.596601Z",
+  "generated_at": "2026-08-21T23:51:22.715760Z",
+  "window_start": "2026-08-20T21:51:22.715760Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -26,9 +26,9 @@
     },
     {
       "username": "AndrewYNg",
-      "returned_count": 18,
+      "returned_count": 16,
       "recent_count": 0,
-      "timestamp_corrected_count": 18,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
@@ -47,16 +47,16 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 7,
-      "recent_count": 3,
-      "timestamp_corrected_count": 7,
+      "returned_count": 10,
+      "recent_count": 5,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 10,
-      "recent_count": 4,
-      "timestamp_corrected_count": 10,
+      "returned_count": 14,
+      "recent_count": 5,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
@@ -83,7 +83,7 @@
     {
       "username": "thsottiaux",
       "returned_count": 7,
-      "recent_count": 0,
+      "recent_count": 2,
       "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
@@ -96,10 +96,226 @@
     }
   ],
   "warnings": [
-    "XFlux 有 116 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 121 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 8,
+  "tweet_count": 13,
   "tweets": [
+    {
+      "id": "2090904952080420864",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-21T20:52:42.368000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🚨👇 Republicans are abandoning data centers faster than rats abandon sinking ships.\n\nPerhaps no industry in history has spoiled its own prospects faster than the AI industry.\n\nThrough a mixture of greed, stupidity, and arrogance, the heroes of 2023 have become the villains of 2026.",
+      "url": "https://x.com/GaryMarcus/status/2090904952080420864",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090887765638651904",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-21T19:44:24.801000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Programming with Claude Code radically changed about 7 or 8 months ago. I am at least 10x more productive than I used to be. A year ago I was wondering if it was making me more productive at all.\n\nI’m using Hermes with Grok 4.6 to do actual work - literally hours of work - every day. 90% autonomously.\n\nGiving Hermes a script and a governed API to call while running on a dedicated Ubtuntu VM with very limited access has been tremendously helpful. I keep throwing work at it and still can’t seem to use up the Grok 4.6 credits I get for free with X Premium+.\n\nThe key is symbolic AI layered in with an LLM. @GaryMarcus  was right all along.",
+      "url": "https://x.com/GaryMarcus/status/2090887765638651904",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090867007109636096",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-21T18:21:55.582000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "If AutoML is your field, this benchmark deserves your attention. \nThe AI4AI-Bench results indicate that fine-tuning execution settings like batch size and learning rate hits a ceiling around 0.126, whereas empowering agents to redesign the learning process, rethinking objectives, supervision, and how updates happen yields an average of 0.226. \n\nThe frontier isn't more sophisticated tuning of parameters; it's searching over the methods themselves.",
+      "url": "https://x.com/ai_explorer25/status/2090867007109636096",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090854778146557952",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-21T17:33:19.970000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "1/\nRecursive self-improvement (RSI) depends on agents improving how AI systems are trained\n—not just tuning hyperparameters, but improving the training algorithm itself.\n\nWe tested this directly with AI4AI-Bench: 10 real research repositories spanning 10 distinct  algorithm families.\n\nFull breakdown 👇\nGitHub: [https://t.co/s0f0NY7PdQ]\nPaper Link: [https://t.co/x0qY8wnlwB]\nEinsia Website:[https://t.co/Rewt4FJwl8]\n\n📊 The results:\nThe average score is just 0.166.\nEven the best-performing model, Opus 5, reaches only 0.288.\nThe median exploration cost per task rises from $1.69 to $34.60.\n\n#AI4AI #RecursiveSelfImprovement #AIResearch #AI4AI_Bench",
+      "url": "https://x.com/ai_explorer25/status/2090854778146557952",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090838862042148864",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-21T16:30:05.275000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Whatever you may think of Generative AI, the Capex craze is absolutely bonkers: “we are potentially talking about AI needing to generate $10 trillion in annual sales to justify all the capex being thrown at it.\n\nFor reference, global spending on food (including restaurants) is around $10 trillion. Health care is about the same amount. The entire global software market is only $1.4 trillion.”",
+      "url": "https://x.com/GaryMarcus/status/2090838862042148864",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090798121072963584",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-21T13:48:11.871000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2090798121072963584",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090766694805340160",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-08-21T11:43:19.265000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+      "url": "https://x.com/thsottiaux/status/2090766694805340160",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090766636663918592",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-21T11:43:05.403000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "$10 Trillion In Annual AI Revenue May Be Necessary To Monetize All The Capex Being Plowed Into Data Centers\n\nHyperscaler capex is expected to reach $1 trillion in 2027, most of which will be AI-related. Let us assume that a capex bust is avoided and capital spending remains at $1 trillion. Let us also assume a blended depreciation rate of 13%, which is roughly what the hyperscalers are currently assuming.\n\nIn steady state, the gross value of hyperscaler assets will then converge to 1/0.13=$7.7 trillion, with $1 trillion in annual depreciation expense. Using a straight-line depreciation approach, the net stock of hyperscaler assets will settle at about 0.5*7.7=$3.8 trillion.\n\nThe hyperscalers currently enjoy a pre-tax return on invested capital of 30%-50%. Just to steelman the argument, let us use the lower end of that range. In that case, they would need to generate 0.3*3.8=$1.2 trillion in annual EBIT, implying 1+1.2=$2.2 trillion in EBITDA. \n\nAnalysts expect the EBITDA margins for the hyperscalers to rise to around 50% by the end of the decade. If they were to achieve this, they would need to generate 2.2/0.5=$4.3 trillion in annual revenue. That is $526 for every man, woman, and child on Earth. However, if EBITDA margins were to fall back to 30%, which is what they were in recent years, the required revenue would rise to 2.2/0.3=$7.2 trillion. \n\nKeep in mind that the foregoing calculation does not even include revenue from SpaceX, the neoclouds, or Chinese AI companies. If one were to include those companies and others, we are potentially talking about AI needing to generate $10 trillion in annual sales to justify all the capex being thrown at it.\n\nFor reference, global spending on food (including restaurants) is around $10 trillion. Health care is about the same amount. The entire global software market is only $1.4 trillion. \n\nClients can read the rest of the report here:\n\nhttps://t.co/u18LAEl6Hv",
+      "url": "https://x.com/GaryMarcus/status/2090766636663918592",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090715082426871808",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-21T08:18:13.915000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Nature healed: LFM2.5-2.6B is free on OpenRouter and has good throughput!\n\nTry it in your favorite agentic harness today.",
+      "url": "https://x.com/maximelabonne/status/2090715082426871808",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090681554871713792",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-21T06:05:00.323000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Andrej Karpathy’s 1-hour Stanford lecture on AI engineering is one of the best explanations I’ve seen of how AI systems actually work.\n\nThe progression is simple:\n\n10% → LLM\n30% → Prompt\n50% → Agent\n70% → Loop\n100% → Graph\n\nThe key takeaway:\n\nAI engineering isn’t just about writing better prompts.\n\nIt’s about building systems around models — giving them context, memory, tools, feedback loops, and data flows.\n\n“Delete everything, keep Graph.”\n\nDefinitely worth watching if you’re building with AI agents.\n\nWatch → Bookmark it",
+      "url": "https://x.com/ai_explorer25/status/2090681554871713792",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090675027587084290",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-08-21T05:39:04.097000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+      "url": "https://x.com/thsottiaux/status/2090675027587084290",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2090627449818071040",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-21T02:30:00.673000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "list of 12 active AI researchers on X:\n\n1.  \n@karpathy\n\n  — Andrej Karpathy\n2.  \n@rasbt\n\n  — Sebastian Raschka\n3.  \n@AndrewYNg\n\n  — Andrew Ng\n4.  \n@drfeifei\n\n — Fei-Fei Li\n5.  \n@demishassabis\n\n  — Demis Hassabis\n6.  \n@GaryMarcus\n\n  — Gary Marcus\n7.  \n@ai_explorer25\n\n   — AI Explorer\n8.  \n@maximelabonne\n\n  — Maxime Labonne\n9.  \n@chipro\n\n  — Chip Huyen\n10.  \n@ilyasut\n\n — Ilya Sutskever\n11.  \n@thsottiaux\n\n — Thibault \"Tibo\" Sottiaux\n12.  \n@bcherny\n\n — Boris Cherny",
+      "url": "https://x.com/ai_explorer25/status/2090627449818071040",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2090570470127030272",
       "username": "GaryMarcus",
@@ -109,132 +325,6 @@
       "timestamp_corrected": true,
       "text": "🦔ChatGPT can now read your entire iMessage history and send texts on your behalf. Every conversation with your family, your doctor, your lawyer, your ex, on OpenAI’s servers so it can reply to your mom for you. Altman told us a few days ago he wanted ChatGPT to hold your entire life. He meant it. This is a company that hasn’t turned an annual profit, is heading for an IPO, and just asked for access to the most personal data on your computer. \n\nBut sure, let it answer your group chat.\n\nHedgie🤗",
       "url": "https://x.com/GaryMarcus/status/2090570470127030272",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090525062273110016",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-20T19:43:09.580000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "🚨OPENAI AND ANTHROPIC JUST FOLDED ON THEIR DATA RETENTION POLICY AFTER PALANTIR CEO EXPOSED THEIR REAL BUSINESS MODEL\n\nAlex Karp:\n>\"something has gone completely wrong\" \n>they want \"access to my data\" so they can \"build my alpha\" \n>\"i'm gonna get no value, and they're gonna get my IP\" \n>\"this is effing insane\" \n>\"trying to drug addict us to a future they believe they control\" \n>\"who owns the data? where is it cached? are the prompts secured?\" \n>\"we need to rebuild trust\"\n\nYesterday: OpenAI started testing \"private safety processing\" to avoid retaining customer data\n\nToday: Anthropic reversing course, will allow enterprise customers to keep data on THEIR OWN cloud infrastructure instead of Anthropic's\n\nAlex Karp was right.",
-      "url": "https://x.com/GaryMarcus/status/2090525062273110016",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090492222349213696",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-20T17:32:39.932000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "what if AI teammates (Grok Bot, Hermes, etc.) lived everywhere?\n\nIntroducing Skydive by Anything.\n\n- omnichannel (Slack, email, iMessage, CLI)\n- cloud native (always on, works while you sleep)\n- model agnostic (Fable, GPT, Deepseek, more)\n\neveryone gets full access from day one\n\nlet's fly. 🪂",
-      "url": "https://x.com/ai_explorer25/status/2090492222349213696",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090491703534968832",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-08-20T17:30:36.237000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Today, we release DSpark draft models for LFM2.5-1.2B-Instruct, LFM2.5-2.6B, and LFM2.5-8B-A1B. These add a speculative decoding path that trades a minimal memory increase for a large decoding speedup without changing output quality.\n\nA lightweight draft model proposes a block of candidate tokens and the target model verifies them in a single forward pass. Across MATH500, GSM8K, HumanEval, MBPP, and MT-Bench at batch size 1:\n\n> Up to 3.18x throughput on an H100: LFM2.5-8B-A1B on MATH500, 428 → 1362 tok/s\n> Up to 2.87x on an M4 Max MacBook Pro: LFM2.5-1.2B-Instruct on HumanEval, 136 → 389 tok/s\n> LFM2.5-2.6B means: 2.67x on the H100 (323 → 864 tok/s), 2.27x on device (61 → 139 tok/s)\n> Under greedy decoding, the emitted sequence is identical to baseline by construction, so benchmark accuracy is unchanged.\n\nEach draft model is around 300M parameters, with embedding and LM head tied to its target model. The gain shows most in agentic workloads, where the model reasons before every tool call and the user waits through it all: on BFCL multi-tool scenarios, DSpark cuts LFM2.5-2.6B latency by nearly 50% on average.\n\n🧵",
-      "url": "https://x.com/maximelabonne/status/2090491703534968832",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090467445718777856",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-20T15:54:12.723000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "May startle the markets with this but: OpenAI is growing faster than Anthropic, actually.\n\nWhile data through Q2 shows tepid growth for OpenAI vs. Anthropic, Q3 to date shows that OpenAI has surpassed Anthropic in QoQ enterprise growth: 82 vs. 76.\n\nWhy? GPT-5.6 Sol is really good, increasingly the choice for developers. Fable 5, meanwhile, disappointed both in adoption and real-world application given price + data retention requirements imposed by regulators.",
-      "url": "https://x.com/GaryMarcus/status/2090467445718777856",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090438921813405696",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-20T14:00:52.094000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Most teams rebuild the same foundation for every new app: auth, data, storage, payments, deploy…\n\nWe made that layer solid once, inside one SDK.\n\nThen we used it to ship 30 full open-source apps in 30 days.\n\nYou can take any of them, run three commands, and have your own live version in under two minutes.\n\nhttps://t.co/3wN9PbjDCB",
-      "url": "https://x.com/ai_explorer25/status/2090438921813405696",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090438707950268417",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-20T14:00:01.105000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then read the guide I leave below on how to create a system that prompts itself.",
-      "url": "https://x.com/ai_explorer25/status/2090438707950268417",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2090265061000458240",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-20T02:30:00.446000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best 15 accounts to follow in AI:\n\n@karpathy\n = LLMs king\n\n@steipete\n= built openclaw\n\n@gregisenberg\n= startup ideas king\n\n@rileybrown\n= vibecode king\n\n@jackfriks\n= solo apps king\n\n@levelsio\n= startups king\n\n@marclou\n= startups king\n\n@EXM7777\n= AI ops + systems king\n\n@eptwts\n = AI money twitter king\n\n@ai_explorer25\n= AI queen\n\n@godofprompt\n= prompt king\n\n@vasuman\n= AI agents king\n\n@AmirMushich\n= AI ads king\n\n@0xROAS\n= AI UGCs king\n\n@egeberkina\n= AI images king  \n\nFollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2090265061000458240",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
