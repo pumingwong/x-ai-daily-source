@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-22T23:48:28.910888Z",
-  "window_start": "2026-08-21T21:48:28.910888Z",
+  "generated_at": "2026-08-23T23:48:54.818413Z",
+  "window_start": "2026-08-22T21:48:54.818413Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -20,7 +20,7 @@
     {
       "username": "rasbt",
       "returned_count": 14,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
@@ -47,16 +47,16 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 5,
-      "recent_count": 3,
-      "timestamp_corrected_count": 5,
+      "returned_count": 11,
+      "recent_count": 9,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
-      "recent_count": 4,
-      "timestamp_corrected_count": 14,
+      "returned_count": 15,
+      "recent_count": 3,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
@@ -82,9 +82,9 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 8,
+      "returned_count": 7,
       "recent_count": 1,
-      "timestamp_corrected_count": 8,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
@@ -96,19 +96,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 116 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 122 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 9,
+  "tweet_count": 13,
   "tweets": [
     {
-      "id": "2091285257836265472",
+      "id": "2091668249545170944",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-22T22:03:54.326000Z",
+      "created_at": "2026-08-23T23:25:46.665000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "i’ve never seen canadians—politically left, right and center—so angry with the united states as right now\n\nmany americans don’t care or know why it matters. but long term the united states benefits greatly from deep and trusted international relationships. and none have been closer (and closely integrated) than us-canada",
-      "url": "https://x.com/GaryMarcus/status/2091285257836265472",
+      "text": "Olympic-level hypocrisy. Altman will say absolutely anything.\n\nHere is he today taking a shot at Dario as if Sam hadn’t done EXACTLY the same thing just a few months earlier.\n\nSam today: “there are some people in the AI field who effectively say we're going to give the world a cure to all disease and we're going to make stuff really cheap in exchange for people giving up their autonomy and impact over the future and power, in the name of safety”\n\nand a screenshot of Sam himself alleging an cancer cure just a few months earlier:",
+      "url": "https://x.com/GaryMarcus/status/2091668249545170944",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +119,14 @@
       }
     },
     {
-      "id": "2091277031992668160",
+      "id": "2091585229425463296",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-22T21:31:13.132000Z",
+      "created_at": "2026-08-23T17:55:53.126000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Canadian views of America have collapsed.\nPew: only 33% now have a favorable opinion of the U.S. (54% in 2024).\nJust 35% still call us a reliable partner — down from 83% in 2022.\nThey now rate China higher than the United States.\n81% of Canadians describe the relationship as negative.\nThat’s not a mood swing. That’s a structural break.",
-      "url": "https://x.com/GaryMarcus/status/2091277031992668160",
+      "text": "damn sam fires shots at dario and anthropic\n\n\"there are some people in the AI field who effectively say we're going to give the world a cure to all disease and we're going to make stuff really cheap in exchange for people giving up their autonomy and impact over the future and power, in the name of safety.\"\n\n\"there will be people that have access to huge amounts of wealth and power and other people just get a pretty good everything. This is a terrible sales pitch.\"\n\n\"the like, dear peasants, we will bequeath upon you these gifts of a cure for cancer and material wealth and great entertainment. And you stop complaining and we'll make all the decisions about the future and just trust us, we'll be better than dictators.\"\n\n\"not good, not good.\"",
+      "url": "https://x.com/GaryMarcus/status/2091585229425463296",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +137,14 @@
       }
     },
     {
-      "id": "2091164108620251137",
+      "id": "2091580281769562113",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-22T14:02:30.102000Z",
+      "created_at": "2026-08-23T17:36:13.513000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Bingo, @chamath!\n\nARR can mean both “Annual Recurring Revenue” and “Annualized Run Rate” and Anthropic (or least its supporters) may well be playing games with that, implying the former but really talking about the latter.\n\nAnd of course there is a substantial chance that a lot of this year’s revenue won’t recur for them, as it moves over to open models.",
-      "url": "https://x.com/GaryMarcus/status/2091164108620251137",
+      "text": "🚨 Sam Altman fires shots at Anthropic \n\n>“ai becomes too powerful we can’t control it”\n>“power gets too centralized… one company or model or person”\n>“it’s a very anti-human position”\n>“hand over control to an ai model because we don't trust or like people”\n>“some people think that’s the right outcome”\n>“i think that’s a very misanthropic thing to say”",
+      "url": "https://x.com/GaryMarcus/status/2091580281769562113",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +155,14 @@
       }
     },
     {
-      "id": "2091153697661186048",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-08-22T13:21:07.936000Z",
+      "id": "2091571126170456064",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-23T16:59:50.648000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "A couple of days ago, I did a quick explainer on Claude’s new watermarking process and implementation. Since it’s such a popular topic and sparked such a lively discussion, I thought it might be interesting to go into a bit more detail when explaining how it works.\n\nSo, instead of the usual text article, I recorded a little lecture on the topic (to change it up a bit from my usual articles). \n\nIt ended up a bit longer than intended, but I hope it clarifies a lot of things:\n\n- Sampling the next token in an LLM and pseudorandom number generators\n- How watermarking relates to the regular LLM sampling process\n- Whether watermarking makes text \"worse\"\n- How to remove watermarks\n- Tournament sampling\n- How new text is checked for watermarks without rerunning the LLM\n\nI ended up with ~50 slides, but I hope that these explain it well, though! Happy watching!",
-      "url": "https://x.com/rasbt/status/2091153697661186048",
+      "text": "OpenAI does not want to become the application layer of AI; it wants to be the platform that other application companies build on.\n\n\"I think we should be more of a platform company than a product company. We will build products, of course.\n\nWhat I think most people want is a sort of single interface to their own personal, or their company's, AGI that can kind of help them with whatever they need, and then the ability, with an API, to build anything they want on top of it.\n\nThat is the platform that we should offer to the world. We're going to sell great AI at every point on the cost-performance curve. We will be the best.\n\nYou want really high-end AI to discover science? That's great. You want really inexpensive AI to do a massive amount of work that maybe doesn't require genius-level intelligence? We've got you covered there too.\"\n\n- Sam Altman on @davidsenra  podcast (full video in the quoted tweet)",
+      "url": "https://x.com/GaryMarcus/status/2091571126170456064",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,14 +173,68 @@
       }
     },
     {
-      "id": "2091148391120011264",
+      "id": "2091570925489831936",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-23T16:59:02.802000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "“We are not experiencing an “AI Jobs Shock”. At most, we are experiencing a reduction in hiring by executives who do not understand the technology but who have absorbed vibes that there will be a real-soon-now “AI Jobs Shock”. Where do these vibes come from? From a combination of grifters seeking money, and madmen hearing the voices in their heads of a forthcoming Digital God”.\n\nBrilliant quote from @delong’s newsletter.",
+      "url": "https://x.com/GaryMarcus/status/2091570925489831936",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2091542728798777344",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-23T15:07:00.187000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Below @sama is saying that he was wrong on how quickly people would adopt AI, but not admitting that he was wrong about how soon AGI would come. \n\nBut he was. He literally said in January 2025 that he was “confident we know how to build AGI as we have traditionally understood it“ - but 19 months later we can still can’t really trust the AI we have got, not even the very best models.*\n\nAdoption will MUCH higher once AGI actually arrives. \n\nBut that’s still many years and multiple breakthroughs away.\n\nThat’s the real issue, that Altman doesn’t want talk about.\n—–\n*AI can still do at most only two of the ten sample targets that I proposed in a public with bet Miles Brundage. And that’s being charitable. [See https://t.co/xH14ncZWHr]",
+      "url": "https://x.com/GaryMarcus/status/2091542728798777344",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2091530343811887104",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-23T14:17:47.376000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I am a US Citizen living in Canada. \n\nLet me tell you this.\n\nCanada does not receive the “benefits of being a US state.” \n\nThe US does not keep Canada’s citizens safe; it does not repair Canada’s highways. It does not educate Canada’s citizens. It does not take care of their retirement. \n\nNobody in Canada is asking for any of that.\n\nCanada does not want the “benefits of being a US state”. \n\nCanada does not want to be a US state.\n\nCanada just wants to be free.",
+      "url": "https://x.com/GaryMarcus/status/2091530343811887104",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2091529814981390336",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-22T13:00:02.758000Z",
+      "created_at": "2026-08-23T14:15:41.293000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
-      "url": "https://x.com/ai_explorer25/status/2091148391120011264",
+      "text": "This might be the most uncomfortable prediction you read this week.\n\nAnthropic's CEO Dario Amodei believes 50% of all entry-level lawyers, consultants, and finance professionals could be wiped out in the next 1 to 5 years.\n\nIn a 47-minute conversation, he breaks down exactly which skills will survive the AI shift, and which professionals are about to become far more valuable.\n\nHere's the part worth sitting with: the real divide won't be AI versus humans.\n\nIt will be the people who learn to leverage AI versus the people replaced by those who did.\n\nThe gap is already forming. Start learning AI now, not later.",
+      "url": "https://x.com/ai_explorer25/status/2091529814981390336",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,14 +245,50 @@
       }
     },
     {
-      "id": "2091095784464764929",
+      "id": "2091522936276766720",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-23T13:48:21.282000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Disagree. Anthropic is not (yet) “cooked”. They have a decent chance of surviving. They have a lot of talent; they have significant market share. They have executed well.\n\nBut anyone who invests money in them at a $2 trillion dollar valuation when interest in their premium product is declining, and many others are undercutting Anthropic’s less expensive products on price, should have their head examined.  \n\nIt’s still not even clear that they can be profitable in the absence of subsidies.",
+      "url": "https://x.com/GaryMarcus/status/2091522936276766720",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2091506987028840448",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-23T12:44:58.685000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Sam Altman admits he was wrong on AI's timeline and says society and the economy will adapt more slowly\n\n\"I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.\"\n\n\"I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.\"\n\n\"People keep doing the same things, buying from the same company, wanting to use their tools the same way. I think this is actually a positive in many ways, and it's going to make this big transition go smoother and slower. I'm grateful for it.\"\n\n\"But it means we've all been too ambitious on timelines. Even with this incredible technology, society and the economy will adapt more slowly.\"",
+      "url": "https://x.com/GaryMarcus/status/2091506987028840448",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2091489443131637760",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-22T09:31:00.354000Z",
+      "created_at": "2026-08-23T11:35:15.894000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Elon Musk runs a 5-step first-principles algorithm for any problem: \n\nfirst, question and fix dumb requirements; \nsecond, delete any part or step you can (if you're not adding back 10%, you didn't cut enough); \nthird, simplify and optimize what remains. \nOnly then do you speed it up, and finally automate it. \n\nThe order is critical : \"the most common mistake of smart engineers is to optimize a thing that should not exist,\" so never optimize, accelerate, or automate something before trying to delete it.\n\nWatch this video fully to understand it more",
-      "url": "https://x.com/ai_explorer25/status/2091095784464764929",
+      "text": "Anthropic just released a 4-hour course to getting a $500k AI engineering job:  \n\n00:15 - The right way to prompt Claude \n33:21 - What makes Claude act dumber on your code \n01:33:39 - How Anthropic use Claude every day \n02:50:56 - The fix that makes Claude way smarter  \n\n4-hour Anthropic free course replaces about 10 paid engineering courses.  \n\nWatch it today, then read the step-by-step guide on building loops below.",
+      "url": "https://x.com/ai_explorer25/status/2091489443131637760",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,32 +299,14 @@
       }
     },
     {
-      "id": "2091044948858867713",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-22T06:09:00.201000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "OpenAI CEO Sam Altman:\n\n\"We're roughly six months away from a world where a future version of ChatGPT could watch your screen, record every meeting and call, and hold complete context of your entire life.\n\nWe're just one model generation away from this becoming remarkably useful.\"",
-      "url": "https://x.com/ai_explorer25/status/2091044948858867713",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2091033630089068545",
+      "id": "2091407991669219328",
       "username": "thsottiaux",
       "author_name": "Tibo",
-      "created_at": "2026-08-22T05:24:01.596000Z",
+      "created_at": "2026-08-23T06:11:36.352000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
-      "url": "https://x.com/thsottiaux/status/2091033630089068545",
+      "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+      "url": "https://x.com/thsottiaux/status/2091407991669219328",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -245,14 +317,14 @@
       }
     },
     {
-      "id": "2090989837189054464",
+      "id": "2091352225767448576",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-22T02:30:00.555000Z",
+      "created_at": "2026-08-23T02:30:00.725000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n\n@karpathy\n - must-follow account for AI; recently joined Anthropic\n\n@bcherny\n - Claude Code creator, always shares great tips\n\n@trq212\n - also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n\n@polynoamial\n - works on reasoning research, shares a lot of technical details\n\n@gabriel1\n - Sora developer, great career path\n\n@jxnlco\n - works on dev experience, shares a lot about Codex\n\nGoogle AI\n\n@OfficialLoganK\n- all the major Google Gemini and AI Studio updates\n\n@ammaar\n - product and design; shares great things about vibe-coding in Google AI Studio\n\n@fofrAI\n - cool use cases for generative models\n\nCursor\n\n@leerob\n- the loudest voice behind Cursor updates\n\n@ericzakariasson\n- shares great insights on using Cursor\n\n@mntruell\n - Cursor’s CEO; major releases and usage updates\n\nxAI\n\n@milichab\n  - recently joined xAI, shares updates on Grok\n\n@skcd42\n - also covers major Grok releases\n\n@ai_explorer25\n- covers all ai content and free resources",
-      "url": "https://x.com/ai_explorer25/status/2090989837189054464",
+      "text": "Best 15 accounts to follow in AI:\n\n@karpathy\n\n = LLMs king\n\n@steipete\n\n= built openclaw\n\n@gregisenberg\n\n= startup ideas king\n\n@rileybrown\n\n= vibecode king\n\n@jackfriks\n\n= solo apps king\n\n@levelsio\n\n= startups king\n\n@marclou\n\n= startups king\n\n@EXM7777\n\n= AI ops + systems king\n\n@eptwts\n\n = AI money twitter king\n\n@ai_explorer25\n\n= AI queen\n\n@godofprompt\n\n= prompt king\n\n@vasuman\n\n= AI agents king\n\n@AmirMushich\n\n= AI ads king\n\n@0xROAS\n\n= AI UGCs king\n\n@egeberkina\n\n= AI images king  \n\nFollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2091352225767448576",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
