@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-23T23:48:54.818413Z",
-  "window_start": "2026-08-22T21:48:54.818413Z",
+  "generated_at": "2026-08-24T23:50:04.146424Z",
+  "window_start": "2026-08-23T21:50:04.146424Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -47,23 +47,23 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 11,
-      "recent_count": 9,
-      "timestamp_corrected_count": 11,
+      "returned_count": 7,
+      "recent_count": 4,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
+      "returned_count": 16,
       "recent_count": 3,
-      "timestamp_corrected_count": 15,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 10,
-      "recent_count": 0,
-      "timestamp_corrected_count": 10,
+      "returned_count": 9,
+      "recent_count": 2,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -83,7 +83,7 @@
     {
       "username": "thsottiaux",
       "returned_count": 7,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
@@ -96,19 +96,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 122 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 118 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 13,
+  "tweet_count": 9,
   "tweets": [
     {
-      "id": "2091668249545170944",
+      "id": "2092027902183546880",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T23:25:46.665000Z",
+      "created_at": "2026-08-24T23:14:54.536000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Olympic-level hypocrisy. Altman will say absolutely anything.\n\nHere is he today taking a shot at Dario as if Sam hadn’t done EXACTLY the same thing just a few months earlier.\n\nSam today: “there are some people in the AI field who effectively say we're going to give the world a cure to all disease and we're going to make stuff really cheap in exchange for people giving up their autonomy and impact over the future and power, in the name of safety”\n\nand a screenshot of Sam himself alleging an cancer cure just a few months earlier:",
-      "url": "https://x.com/GaryMarcus/status/2091668249545170944",
+      "text": "A warning in four parts. \n\n1. If this trade war continues it will\nprobably be an economic disaster for both countries. \n\n2. Canada is not about give up on its sovereignty. It is existential for them.\n\n3. U.S is doubling down.\n\nTherefore:\n\n4. If you live on either side of the border, brace for disaster.",
+      "url": "https://x.com/GaryMarcus/status/2092027902183546880",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +119,14 @@
       }
     },
     {
-      "id": "2091585229425463296",
+      "id": "2091939668136722432",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T17:55:53.126000Z",
+      "created_at": "2026-08-24T17:24:17.900000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "damn sam fires shots at dario and anthropic\n\n\"there are some people in the AI field who effectively say we're going to give the world a cure to all disease and we're going to make stuff really cheap in exchange for people giving up their autonomy and impact over the future and power, in the name of safety.\"\n\n\"there will be people that have access to huge amounts of wealth and power and other people just get a pretty good everything. This is a terrible sales pitch.\"\n\n\"the like, dear peasants, we will bequeath upon you these gifts of a cure for cancer and material wealth and great entertainment. And you stop complaining and we'll make all the decisions about the future and just trust us, we'll be better than dictators.\"\n\n\"not good, not good.\"",
-      "url": "https://x.com/GaryMarcus/status/2091585229425463296",
+      "text": "🦔55% of companies that laid off workers citing AI now regret it, according to Forrester. Two-thirds are already rehiring. A survey of 600 HR leaders found over a third had rehired more than half the roles they cut, often within six months and at higher cost. Klarna bragged about replacing 700 customer service workers with AI, then quietly started hiring humans again when quality collapsed. Ford is rehiring engineers to fix problems automated systems couldn't handle. Forrester projects AI automates about 6% of jobs by 2030. Six percent.\n\nMy Take\nCompanies fired people, replaced them with AI, watched things break, and are now paying more to bring people back than they saved by cutting them. I think it exposes how poorly most executives understood what their own employees actually did. The work that's easy to see, writing code, answering tickets, processing claims, looked like the expensive part. The work that's hard to see, the institutional knowledge, the judgment calls, the context about why things are done a certain way, turned out to be what held everything together.\n\nThis reminds me of the offshoring wave in the 2000s. Companies moved everything they could overseas, discovered the hidden costs a year later, and quietly brought it back under a different name. Same impulse, same blindness to what the people they cut were actually doing all day. The difference is that offshoring at least put humans on the other end. This time they replaced humans with a tool that hallucinates, can't handle edge cases, and has no memory of why the last three attempts at solving this problem failed. Forrester says 6% by 2030. Over half the companies that swung bigger than that already regret it.\n\nHedgie🤗\nhttps://t.co/IQpUmOJGbx",
+      "url": "https://x.com/GaryMarcus/status/2091939668136722432",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +137,14 @@
       }
     },
     {
-      "id": "2091580281769562113",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T17:36:13.513000Z",
+      "id": "2091922042149085184",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-24T16:14:15.537000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "🚨 Sam Altman fires shots at Anthropic \n\n>“ai becomes too powerful we can’t control it”\n>“power gets too centralized… one company or model or person”\n>“it’s a very anti-human position”\n>“hand over control to an ai model because we don't trust or like people”\n>“some people think that’s the right outcome”\n>“i think that’s a very misanthropic thing to say”",
-      "url": "https://x.com/GaryMarcus/status/2091580281769562113",
+      "text": "Which model should you run on the iPhone 17 Pro?\n\nAnnouncing our new intelligence and inference testing for small models on mobile devices: independent measurement of how capable small models are in typical on-device tasks, and how they perform on popular phones - in partnership with @liquidai \n\nWe have partnered with @liquidai to deliver mobile device inference benchmarking, covering a range of models in 4-bit or lower precision on the iPhone 17 Pro and Galaxy S26 Ultra\n\nWe’re publishing our phone-scale intelligence evaluation results in combination with @liquidai's inference performance benchmarks to give users and developers a holistic view of how small models are performing on phones\n\nInference benchmarking is conducted in a controlled environment using Liquid AI’s inference benchmarking software, which Artificial Analysis has examined and is open-sourced on Liquid AI’s GitHub. Results cover end-to-end generation time, output speed, peak memory usage and other metrics. The inference benchmarking app, ‘Pipette’, is available to download for free on iOS and Android, allowing users to test a variety of models on their own devices\n\nWe are ranking phone-scale model intelligence based on each model’s average score in five evaluations chosen for the task-based work these models do in practice: BFCL, IFBench, AA-Omniscience, GPQA Diamond and MATH-500. These evaluations are run by Artificial Analysis using our independent methodology. By default, we limit models to 16K context on each of these evaluations, representing the lack of memory space for significant KV cache on mobile devices. This leads to some intelligent but verbose models dipping in relative score - they were not designed for the constraints that phone memory imposes on token use\n\nWe are defining our portable device category as including models that fit within 8 GB of memory after quantization, including KV cache, at 8K context\n\nWe expect both the intelligence and inference benchmarks to evolve over time, as new models, devices, inference frameworks and quantization techniques are released. Our pages will remain up to date with these new additions\n\nInitial results:\n\n➤ Nanbeige4.2-3B and LFM2.5-2.6B share the top average evaluation score at 63 (with a 16K context limit), ahead of Ornith-1.0-9B at 62 and Qwen3.5 9B (Reasoning) at 61. LFM2.5-2.6B achieves its score more efficiently: on an iPhone 17 Pro it answers a standard 1,024-token prompt in 8.0s using 2.3 GB of memory, against 21.4s and 4.0 GB for Nanbeige4.2-3B and 25+ seconds and 6.9 GB for the two 9B models\n\n➤ The 16K context limit shapes the leaderboard: as an example, Qwen3.5 9B (Reasoning) spends 74.5M output tokens across one pass of the benchmark set, hitting the 16K limit on 29% of its generations and landing in fourth place overall. With the limit raised to 64K, Ling 3.0 Tiny takes first place with a score of 66, ahead of Nanbeige4.2-3B (65), Qwen3.5 9B (Reasoning, 64), and LFM2.5 2.6B (64). But a 64K window does not fit in mobile phone memory, and at 55 output tokens/s on an iPhone, generating 64K tokens could mean a 20+ minute wait and a lot of battery use. This is why our primary results are capped at 16K, but we're also publishing a set of results capped at 64K, and another capped at one minute of generation time\n\n➤ The speed-intelligence Pareto frontier is short: six models are unbeaten on both intelligence and speed on an iPhone 17 Pro: LFM2.5-230M (27 at 0.9s), MiniCPM5-1B (45 at 2.9s), LFM2.5-8B-A1B (58 at 5.7s), Ling 3.0 Tiny (59 at 5.7s), LFM2.5-2.6B (63 at 8.0s) and Nanbeige4.2-3B (63 at 21.4s). LFM2.5-8B-A1B and Ling 3.0 Tiny are mixture-of-experts models that activate ~1B parameters per token, which is how they answer in under 6s with 8B-class weights\n\n➤ Leading models have opposite strengths: Nanbeige4.2-3B is the most balanced (76% on BFCL, 96% on MATH-500, 67% on GPQA Diamond); Qwen3.5 9B (Non-reasoning) is the strongest tool caller (77% on BFCL) and scientific reasoner (79% on GPQA Diamond); LFM2.5-2.6B follows instructions best of any model measured on the iPhone (59% on IFBench), clears 90% on MATH-500 and hallucinates far less on AA-Omniscience (79% non-hallucination, against 33% for Nanbeige4.2-3B and 24% for Qwen3.5 9B (Reasoning))\n\nMore details below in thread ⬇️",
+      "url": "https://x.com/maximelabonne/status/2091922042149085184",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +155,14 @@
       }
     },
     {
-      "id": "2091571126170456064",
+      "id": "2091921358746005504",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T16:59:50.648000Z",
+      "created_at": "2026-08-24T16:11:32.601000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "OpenAI does not want to become the application layer of AI; it wants to be the platform that other application companies build on.\n\n\"I think we should be more of a platform company than a product company. We will build products, of course.\n\nWhat I think most people want is a sort of single interface to their own personal, or their company's, AGI that can kind of help them with whatever they need, and then the ability, with an API, to build anything they want on top of it.\n\nThat is the platform that we should offer to the world. We're going to sell great AI at every point on the cost-performance curve. We will be the best.\n\nYou want really high-end AI to discover science? That's great. You want really inexpensive AI to do a massive amount of work that maybe doesn't require genius-level intelligence? We've got you covered there too.\"\n\n- Sam Altman on @davidsenra  podcast (full video in the quoted tweet)",
-      "url": "https://x.com/GaryMarcus/status/2091571126170456064",
+      "text": "People on this site are such a joke.\n\nIn 2024 they couldn’t shut up about free speech the First Amendment.\n\nNow a black woman wins a big 1st amendment decision — against “legacy media” no less— and there is total fucking silence here. \n\nNobody cares, at all. Not even @elonmusk who made such a big stink about free speech before.\n\nEpic hypocrisy. Epic.",
+      "url": "https://x.com/GaryMarcus/status/2091921358746005504",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,14 +173,14 @@
       }
     },
     {
-      "id": "2091570925489831936",
+      "id": "2091910905231458304",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T16:59:02.802000Z",
+      "created_at": "2026-08-24T15:30:00.289000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "“We are not experiencing an “AI Jobs Shock”. At most, we are experiencing a reduction in hiring by executives who do not understand the technology but who have absorbed vibes that there will be a real-soon-now “AI Jobs Shock”. Where do these vibes come from? From a combination of grifters seeking money, and madmen hearing the voices in their heads of a forthcoming Digital God”.\n\nBrilliant quote from @delong’s newsletter.",
-      "url": "https://x.com/GaryMarcus/status/2091570925489831936",
+      "text": "Sam Altman says:\n\n\"the world probably won't be that different, even with superintelligence, because people are still wired to care about and interact with each other\"\n\nFor most people, that'll be the whole point\n\nWe're not going to hand over control to an AI model gradually",
+      "url": "https://x.com/GaryMarcus/status/2091910905231458304",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,50 +191,14 @@
       }
     },
     {
-      "id": "2091542728798777344",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T15:07:00.187000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Below @sama is saying that he was wrong on how quickly people would adopt AI, but not admitting that he was wrong about how soon AGI would come. \n\nBut he was. He literally said in January 2025 that he was “confident we know how to build AGI as we have traditionally understood it“ - but 19 months later we can still can’t really trust the AI we have got, not even the very best models.*\n\nAdoption will MUCH higher once AGI actually arrives. \n\nBut that’s still many years and multiple breakthroughs away.\n\nThat’s the real issue, that Altman doesn’t want talk about.\n—–\n*AI can still do at most only two of the ten sample targets that I proposed in a public with bet Miles Brundage. And that’s being charitable. [See https://t.co/xH14ncZWHr]",
-      "url": "https://x.com/GaryMarcus/status/2091542728798777344",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2091530343811887104",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T14:17:47.376000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "I am a US Citizen living in Canada. \n\nLet me tell you this.\n\nCanada does not receive the “benefits of being a US state.” \n\nThe US does not keep Canada’s citizens safe; it does not repair Canada’s highways. It does not educate Canada’s citizens. It does not take care of their retirement. \n\nNobody in Canada is asking for any of that.\n\nCanada does not want the “benefits of being a US state”. \n\nCanada does not want to be a US state.\n\nCanada just wants to be free.",
-      "url": "https://x.com/GaryMarcus/status/2091530343811887104",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2091529814981390336",
+      "id": "2091906740275367936",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-23T14:15:41.293000Z",
+      "created_at": "2026-08-24T15:13:27.286000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "This might be the most uncomfortable prediction you read this week.\n\nAnthropic's CEO Dario Amodei believes 50% of all entry-level lawyers, consultants, and finance professionals could be wiped out in the next 1 to 5 years.\n\nIn a 47-minute conversation, he breaks down exactly which skills will survive the AI shift, and which professionals are about to become far more valuable.\n\nHere's the part worth sitting with: the real divide won't be AI versus humans.\n\nIt will be the people who learn to leverage AI versus the people replaced by those who did.\n\nThe gap is already forming. Start learning AI now, not later.",
-      "url": "https://x.com/ai_explorer25/status/2091529814981390336",
+      "text": "I ran the same task on Claude Code and DeepSeek's new agent harness. One cost $150. The other cost $2.\n Today we're launching https://t.co/twx6etZb3X (@agentsky_dev), the \"OpenRouter for Agents\" — one API → Claude Code, Codex, DeepSeek, Kimi, OpenCode, and every major agent in the cloud.  \nAnd Agent Playground on top: race them on your own task, with your real tools (GitHub, Gmail, more), side by side in a browser: time, cost, tokens burnt.  \n\nGuess which one was $2.",
+      "url": "https://x.com/ai_explorer25/status/2091906740275367936",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -245,14 +209,14 @@
       }
     },
     {
-      "id": "2091522936276766720",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T13:48:21.282000Z",
+      "id": "2091906366294396928",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-24T15:11:58.122000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Disagree. Anthropic is not (yet) “cooked”. They have a decent chance of surviving. They have a lot of talent; they have significant market share. They have executed well.\n\nBut anyone who invests money in them at a $2 trillion dollar valuation when interest in their premium product is declining, and many others are undercutting Anthropic’s less expensive products on price, should have their head examined.  \n\nIt’s still not even clear that they can be profitable in the absence of subsidies.",
-      "url": "https://x.com/GaryMarcus/status/2091522936276766720",
+      "text": "Today we release Pipette, a model evaluation suite for on-device intelligence, in partnership with @ArtificialAnlys \n\nMost benchmarking platforms are optimized to measure core capabilities and speed profile of foundation models served in the cloud. Pipette gives the field a common, reproducible way to measure the quality, speed, latency, and memory use of AI models on devices such as phones, laptops, PCs, AI boxes, and embedded hardware.\n\n> Pipette is open source\n> In Pipette, models get compated as model + quantization + runtime + device from one interface.\n> It comes with a warehouse of verified benchmark results, currently with 10k+ results across 35 model classes, 7 quants, llama.cpp runtimes, and 4 devices.\n> Pipette is a dynamic platform, allowing new contributions from day one, adding new devices, runtimes, model families, and quantization levels. \n\n🧵",
+      "url": "https://x.com/maximelabonne/status/2091906366294396928",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,32 +227,14 @@
       }
     },
     {
-      "id": "2091506987028840448",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-23T12:44:58.685000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Sam Altman admits he was wrong on AI's timeline and says society and the economy will adapt more slowly\n\n\"I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.\"\n\n\"I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.\"\n\n\"People keep doing the same things, buying from the same company, wanting to use their tools the same way. I think this is actually a positive in many ways, and it's going to make this big transition go smoother and slower. I'm grateful for it.\"\n\n\"But it means we've all been too ambitious on timelines. Even with this incredible technology, society and the economy will adapt more slowly.\"",
-      "url": "https://x.com/GaryMarcus/status/2091506987028840448",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2091489443131637760",
+      "id": "2091759910723760129",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-23T11:35:15.894000Z",
+      "created_at": "2026-08-24T05:30:00.393000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Anthropic just released a 4-hour course to getting a $500k AI engineering job:  \n\n00:15 - The right way to prompt Claude \n33:21 - What makes Claude act dumber on your code \n01:33:39 - How Anthropic use Claude every day \n02:50:56 - The fix that makes Claude way smarter  \n\n4-hour Anthropic free course replaces about 10 paid engineering courses.  \n\nWatch it today, then read the step-by-step guide on building loops below.",
-      "url": "https://x.com/ai_explorer25/status/2091489443131637760",
+      "text": "Satya Nadela is basically describing the death of the traditional SaaS model.\n\nExplains the AI agentic future, and where the \"value\" lives.\n\nBecause business logic is moving from the software application to the AI agents.\n\nCurrently, you buy software for its specific features and rules. \n\nNadella argues that in the future, software apps will essentially become dumb databases (\"CRUD\") or simple tools. \n\nThe AI Agent will hold all the intelligence, orchestration, and reasoning, simply updating the databases as needed. The software becomes a commodity; the AI becomes the \"brain\" and the worker.\n\nVideo from Bg2 Pod Youtube Channel",
+      "url": "https://x.com/ai_explorer25/status/2091759910723760129",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -299,32 +245,14 @@
       }
     },
     {
-      "id": "2091407991669219328",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-23T06:11:36.352000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
-      "url": "https://x.com/thsottiaux/status/2091407991669219328",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2091352225767448576",
+      "id": "2091714613695881216",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-23T02:30:00.725000Z",
+      "created_at": "2026-08-24T02:30:00.740000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Best 15 accounts to follow in AI:\n\n@karpathy\n\n = LLMs king\n\n@steipete\n\n= built openclaw\n\n@gregisenberg\n\n= startup ideas king\n\n@rileybrown\n\n= vibecode king\n\n@jackfriks\n\n= solo apps king\n\n@levelsio\n\n= startups king\n\n@marclou\n\n= startups king\n\n@EXM7777\n\n= AI ops + systems king\n\n@eptwts\n\n = AI money twitter king\n\n@ai_explorer25\n\n= AI queen\n\n@godofprompt\n\n= prompt king\n\n@vasuman\n\n= AI agents king\n\n@AmirMushich\n\n= AI ads king\n\n@0xROAS\n\n= AI UGCs king\n\n@egeberkina\n\n= AI images king  \n\nFollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2091352225767448576",
+      "text": "The only AI list you need in 2026 \nFounders, researchers & builders actually shaping the field.\n \nFRONTIER LAB FOUNDERS\n\n@sama\n — OpenAI CEO\n@demishassabis\n — Google DeepMind CEO\n@darioamodei\n — Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n\n@Kimi_Moonshot\n — Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang\n —https://t.co/yARMHLq8iZ (Zhipu) co-founder & chief scientist\n@JustinLin610\n — built the Qwen series at Alibaba\nDeepSeek (Liang Wenfeng) \n— follow @deepseek_ai (no personal account)\n \nTHE PIONEERS / GODFATHERS\n\n@ylecun\n — Turing Award, pioneer of CNNs\n@goodfellow_ian\n — inventor of GANs\n@fchollet\n — creator of Keras & the ARC Prize\n@karpathy\n — Anthropic, AI educator\n@AndrewYNg\n — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402\n — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25\n— Researcher, AI commentary\n@lilianweng\n — legendary research deep-dives (now Thinking Machines)\n@leopoldasch\n — \"Situational Awareness,\" ex-OpenAI Superalignment\n@bengoertzel\n — founded SingularityNET & OpenCog\n \nBUILDERS & AGENT CROWD\n@Teknium\n — co-founder & lead eng, Hermes Agent @NousResearch\n\n@ai_explorer25\n\n — ex-MS, AI commentary\n@GeoffreyHuntley\n — creator of the \"Ralph Loop\"\n@thsottiaux\n — leads OpenAI Codex (My Inspiration)\n@hwchase17\n— LangChain\n@levelsio\n — PhotoAI & indie AI builder\n@_MaxBlade\n — indie AI builder, CNVS vibe-coding app",
+      "url": "https://x.com/ai_explorer25/status/2091714613695881216",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
