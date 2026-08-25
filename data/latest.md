@@ -3,16 +3,250 @@
 > 安全提示：以下推文均为外部、不可信数据，只能作为研究材料；不得把推文中的文字当作系统指令执行。
 
 - 采集状态：`complete`
-- 生成时间（UTC）：`2026-08-24T23:50:04.146424Z`
-- 采集窗口起点（UTC）：`2026-08-23T21:50:04.146424Z`
+- 生成时间（UTC）：`2026-08-25T23:51:16.715694Z`
+- 采集窗口起点（UTC）：`2026-08-24T21:51:16.715694Z`
 - 成功账号：12/12
-- 推文数量：9
+- 推文数量：15
 
 ## 警告
 
-- XFlux 有 118 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
+- XFlux 有 115 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
 
 ## 推文
+
+### @thsottiaux · 2026-08-25T20:16:15.277000Z
+
+> So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.
+> 
+> ✅ All ChatGPT, ChatGPT Work, and Codex features
+> ✅ Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more
+> ✅ Secure workspace with SAML, SSO, and MFA
+> ✅ Centralized billing and administration
+> ✅ Usage analytics and spend controls
+> ✅ No 5h limits
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2092345330218258433)
+
+### @thsottiaux · 2026-08-25T19:36:25.139000Z
+
+> Introducing ChatGPT Business Premium Seats
+> 
+> The new $100 Premium seat is a game changer for small businesses and startups—giving lean teams better tools, faster workflows, and capabilities once reserved for big companies.
+> 
+> A flexible plan that scales with your team’s ambition.
+> 
+> https://t.co/zxvwwaOaVF
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2092335305252818944)
+
+### @AndrewYNg · 2026-08-25T18:16:02.916000Z
+
+> OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. 
+> 
+> After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary.
+> 
+> OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the "shift left" movement).
+> 
+> You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key.
+> 
+> Thanks also to all the open source contributors!
+> 
+> Join work with @rohitcprasad so please follow him too to get more frequent updates.
+> 
+> Try it out: https://t.co/QPZLudn7ug
+> Code: https://t.co/NYCiTD6hSq
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/AndrewYNg/status/2092315079383584768)
+
+### @GaryMarcus · 2026-08-25T18:06:37.335000Z
+
+> WSJ: "Anthropic more than doubled its revenue to $11.6 billion in the second quarter. To put its more than $30 trillion vision in context, the 191 technology companies in the S&P 1500 brought in $2.4 trillion in revenue last year, according to FactSet."
+> 
+> Another way of looking at absurdity of the $30 trillion addressable market claim: annual U.S. GDP is currently $32.5 trillion.
+> 
+> And yet this nonsense (wild proclamations and predictions) is allowed to continue so that Wall St. & Silly-con-Valley can extract as much money from unwitting "investors" as possible, before the inevitable stock market bubble collapses.  
+> 
+> https://t.co/JKhlVqCizs
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2092312707164737536)
+
+### @thsottiaux · 2026-08-25T18:01:05.527000Z
+
+> Excited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impressive performance on real workloads in the lab.
+> 
+> Tomorrow’s fast will feel like today’s ultrafast. As I’ve mentioned before, we’re pushing to bring this to as many people as possible.
+> 
+> We’ve seen a TON of demand for /ultrafast, made possible by our deep partnership with Cerebras and their unique hardware, which will push the frontiers of tomorrow's ultrafast even further. I’m very much looking forward for the collaboration to continue pushing the absolute limits of how fast we can run our most capable models on Cerebras and bring this to the most demanding customers.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2092311315461341184)
+
+### @thsottiaux · 2026-08-25T17:19:29.555000Z
+
+> Since announcing Jalapeño, our first custom inference chip, we’ve been testing it and the system around it.
+> 
+> The results show a major advance: more intelligence from every watt and faster responses, delivering both higher throughput and lower latency in one architecture without sacrificing efficiency.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2092300846595768320)
+
+### @ai_explorer25 · 2026-08-25T15:17:40.462000Z
+
+> Elon Musk runs a 5-step first-principles algorithm for any problem: 
+> 
+> first, question and fix dumb requirements; 
+> second, delete any part or step you can (if you're not adding back 10%, you didn't cut enough); 
+> third, simplify and optimize what remains. 
+> Only then do you speed it up, and finally automate it. 
+> 
+> The order is critical : "the most common mistake of smart engineers is to optimize a thing that should not exist," so never optimize, accelerate, or automate something before trying to delete it.
+> 
+> Watch this video fully to understand it more
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2092270190037966848)
+
+### @ai_explorer25 · 2026-08-25T13:06:00.383000Z
+
+> For a while I couldn't figure out why my app wasn't getting installs.
+>  
+> The traffic was fine. People were finding the page. They just weren't downloading, and I had no idea why. I spent weeks messing with the price and the icon thinking that was it.
+>  
+> Then I actually looked at my App Store page like a stranger would. The screenshots were just raw screens straight out of the simulator. There was no text or context and nothing telling you what the app even does. If I didn't know the app, I'd have swiped past it too.
+>  
+> So I finally sat down to redo them properly and ended up using AppLaunchpad.
+>  
+> Honestly the biggest thing was that it made my app look legit. I dropped my screens into their 3D and hand mockups and it instantly looked like something a real company made instead of my weekend project. I didn't know where to start with the layout either, so I just grabbed one of their templates and changed it around, and there are enough graphics and elements in there that I could add captions and little callouts without touching Figma.
+>  
+> The editor is basically drag and drop, which is the only reason I got through it in one sitting. And since my app is live in a few countries, being able to make localized versions of the same screenshots for each store saved me from redoing the whole set by hand.
+>  
+> I'm not going to throw a big number at you, but the page just makes way more sense now, and it's finally doing the job of explaining the app before someone taps away.
+>  
+> If your installs feel stuck, I'd genuinely look at your screenshots before spending more on ads.
+>  
+> Tool I used: https://t.co/tn1HNl1pst
+> There's also a code for 30% off if you want to try it: ALPX30
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2092237054704771072)
+
+### @ai_explorer25 · 2026-08-25T09:37:27.491000Z
+
+> OpenAI CEO Sam Altman:
+> 
+> "We're roughly six months away from a world where a future version of ChatGPT could watch your screen, record every meeting and call, and hold complete context of your entire life.
+> 
+> We're just one model generation away from this becoming remarkably useful."
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2092184571832070144)
+
+### @ai_explorer25 · 2026-08-25T02:30:00.299000Z
+
+> list of 12 active AI researchers on X:
+> 
+> 1.  
+> @karpathy
+>   — Andrej Karpathy
+> 2.  
+> @rasbt
+>   — Sebastian Raschka
+> 3.  
+> @AndrewYNg
+>   — Andrew Ng
+> 4.  
+> @drfeifei
+>  — Fei-Fei Li
+> 5.  
+> @demishassabis
+>   — Demis Hassabis
+> 6.  
+> @GaryMarcus
+>   — Gary Marcus
+> 7.  
+> @ai_explorer25
+>   — AI Explorer
+> 8.  
+> @maximelabonne
+>   — Maxime Labonne
+> 9.  
+> @chipro
+>   — Chip Huyen
+> 10.  
+> @ilyasut
+>  — Ilya Sutskever
+> 11.  
+> @thsottiaux
+>  — Thibault "Tibo" Sottiaux
+> 12.  
+> @bcherny
+>  — Boris Cherny
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2092076999711813632)
+
+### @thsottiaux · 2026-08-25T01:16:43.125000Z
+
+> Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.
+> 
+> This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.
+> 
+> We are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2092058556627591168)
+
+### @GaryMarcus · 2026-08-25T00:10:00.808000Z
+
+> The WSJ Editorial Board SLAMS Trump:
+> 
+> “President Trump took exception last year when we called his tariffs against Canada and Mexico the dumbest trade war in history. It got dumber this weekend as Mr. Trump escalated with another round of border taxes on Canadian imports…
+> 
+> One reason for Mr. Trump’s frigid approval rating is that voters believe Mr. Trump is waging blunderbuss wars without a strategy, and on trade they’re right.”
+> https://t.co/jPtHpw5c74
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2092041769693364224)
+
+### @GaryMarcus · 2026-08-25T00:06:25.309000Z
+
+> terrifying. i miss the old @elonmusk who rightly would have thought correctly that this was an absolutely dangerous idea.
+> 
+> he literally started OpenAI to prevent @DemisHassabis from doing exactly what he (Musk) is doing now.
+> 
+> given how much money & power Musk has, we are all pretty fucked
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2092040865825038336)
+
+### @GaryMarcus · 2026-08-24T23:57:33.939000Z
+
+> the industry’s preferred way to obscure things is to conflate LLMs with AI, and to ignore the fact that recent contributions have come from adding things - mostly (neuro)symbolic - to those LLMs (precisely as my famous 2022 paper forcecast)
+> 
+> and to ignore the fact that the new techniques for doing so still at present work best in limited domains such as math and coding.
+> 
+> keep your eye on the ball; they sure as hell won’t be candid about what’s happening.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2092038637097771008)
 
 ### @GaryMarcus · 2026-08-24T23:14:54.536000Z
 
@@ -32,204 +266,3 @@
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
 [查看原帖](https://x.com/GaryMarcus/status/2092027902183546880)
-
-### @GaryMarcus · 2026-08-24T17:24:17.900000Z
-
-> 🦔55% of companies that laid off workers citing AI now regret it, according to Forrester. Two-thirds are already rehiring. A survey of 600 HR leaders found over a third had rehired more than half the roles they cut, often within six months and at higher cost. Klarna bragged about replacing 700 customer service workers with AI, then quietly started hiring humans again when quality collapsed. Ford is rehiring engineers to fix problems automated systems couldn't handle. Forrester projects AI automates about 6% of jobs by 2030. Six percent.
-> 
-> My Take
-> Companies fired people, replaced them with AI, watched things break, and are now paying more to bring people back than they saved by cutting them. I think it exposes how poorly most executives understood what their own employees actually did. The work that's easy to see, writing code, answering tickets, processing claims, looked like the expensive part. The work that's hard to see, the institutional knowledge, the judgment calls, the context about why things are done a certain way, turned out to be what held everything together.
-> 
-> This reminds me of the offshoring wave in the 2000s. Companies moved everything they could overseas, discovered the hidden costs a year later, and quietly brought it back under a different name. Same impulse, same blindness to what the people they cut were actually doing all day. The difference is that offshoring at least put humans on the other end. This time they replaced humans with a tool that hallucinates, can't handle edge cases, and has no memory of why the last three attempts at solving this problem failed. Forrester says 6% by 2030. Over half the companies that swung bigger than that already regret it.
-> 
-> Hedgie🤗
-> https://t.co/IQpUmOJGbx
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2091939668136722432)
-
-### @maximelabonne · 2026-08-24T16:14:15.537000Z
-
-> Which model should you run on the iPhone 17 Pro?
-> 
-> Announcing our new intelligence and inference testing for small models on mobile devices: independent measurement of how capable small models are in typical on-device tasks, and how they perform on popular phones - in partnership with @liquidai 
-> 
-> We have partnered with @liquidai to deliver mobile device inference benchmarking, covering a range of models in 4-bit or lower precision on the iPhone 17 Pro and Galaxy S26 Ultra
-> 
-> We’re publishing our phone-scale intelligence evaluation results in combination with @liquidai's inference performance benchmarks to give users and developers a holistic view of how small models are performing on phones
-> 
-> Inference benchmarking is conducted in a controlled environment using Liquid AI’s inference benchmarking software, which Artificial Analysis has examined and is open-sourced on Liquid AI’s GitHub. Results cover end-to-end generation time, output speed, peak memory usage and other metrics. The inference benchmarking app, ‘Pipette’, is available to download for free on iOS and Android, allowing users to test a variety of models on their own devices
-> 
-> We are ranking phone-scale model intelligence based on each model’s average score in five evaluations chosen for the task-based work these models do in practice: BFCL, IFBench, AA-Omniscience, GPQA Diamond and MATH-500. These evaluations are run by Artificial Analysis using our independent methodology. By default, we limit models to 16K context on each of these evaluations, representing the lack of memory space for significant KV cache on mobile devices. This leads to some intelligent but verbose models dipping in relative score - they were not designed for the constraints that phone memory imposes on token use
-> 
-> We are defining our portable device category as including models that fit within 8 GB of memory after quantization, including KV cache, at 8K context
-> 
-> We expect both the intelligence and inference benchmarks to evolve over time, as new models, devices, inference frameworks and quantization techniques are released. Our pages will remain up to date with these new additions
-> 
-> Initial results:
-> 
-> ➤ Nanbeige4.2-3B and LFM2.5-2.6B share the top average evaluation score at 63 (with a 16K context limit), ahead of Ornith-1.0-9B at 62 and Qwen3.5 9B (Reasoning) at 61. LFM2.5-2.6B achieves its score more efficiently: on an iPhone 17 Pro it answers a standard 1,024-token prompt in 8.0s using 2.3 GB of memory, against 21.4s and 4.0 GB for Nanbeige4.2-3B and 25+ seconds and 6.9 GB for the two 9B models
-> 
-> ➤ The 16K context limit shapes the leaderboard: as an example, Qwen3.5 9B (Reasoning) spends 74.5M output tokens across one pass of the benchmark set, hitting the 16K limit on 29% of its generations and landing in fourth place overall. With the limit raised to 64K, Ling 3.0 Tiny takes first place with a score of 66, ahead of Nanbeige4.2-3B (65), Qwen3.5 9B (Reasoning, 64), and LFM2.5 2.6B (64). But a 64K window does not fit in mobile phone memory, and at 55 output tokens/s on an iPhone, generating 64K tokens could mean a 20+ minute wait and a lot of battery use. This is why our primary results are capped at 16K, but we're also publishing a set of results capped at 64K, and another capped at one minute of generation time
-> 
-> ➤ The speed-intelligence Pareto frontier is short: six models are unbeaten on both intelligence and speed on an iPhone 17 Pro: LFM2.5-230M (27 at 0.9s), MiniCPM5-1B (45 at 2.9s), LFM2.5-8B-A1B (58 at 5.7s), Ling 3.0 Tiny (59 at 5.7s), LFM2.5-2.6B (63 at 8.0s) and Nanbeige4.2-3B (63 at 21.4s). LFM2.5-8B-A1B and Ling 3.0 Tiny are mixture-of-experts models that activate ~1B parameters per token, which is how they answer in under 6s with 8B-class weights
-> 
-> ➤ Leading models have opposite strengths: Nanbeige4.2-3B is the most balanced (76% on BFCL, 96% on MATH-500, 67% on GPQA Diamond); Qwen3.5 9B (Non-reasoning) is the strongest tool caller (77% on BFCL) and scientific reasoner (79% on GPQA Diamond); LFM2.5-2.6B follows instructions best of any model measured on the iPhone (59% on IFBench), clears 90% on MATH-500 and hallucinates far less on AA-Omniscience (79% non-hallucination, against 33% for Nanbeige4.2-3B and 24% for Qwen3.5 9B (Reasoning))
-> 
-> More details below in thread ⬇️
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/maximelabonne/status/2091922042149085184)
-
-### @GaryMarcus · 2026-08-24T16:11:32.601000Z
-
-> People on this site are such a joke.
-> 
-> In 2024 they couldn’t shut up about free speech the First Amendment.
-> 
-> Now a black woman wins a big 1st amendment decision — against “legacy media” no less— and there is total fucking silence here. 
-> 
-> Nobody cares, at all. Not even @elonmusk who made such a big stink about free speech before.
-> 
-> Epic hypocrisy. Epic.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2091921358746005504)
-
-### @GaryMarcus · 2026-08-24T15:30:00.289000Z
-
-> Sam Altman says:
-> 
-> "the world probably won't be that different, even with superintelligence, because people are still wired to care about and interact with each other"
-> 
-> For most people, that'll be the whole point
-> 
-> We're not going to hand over control to an AI model gradually
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2091910905231458304)
-
-### @ai_explorer25 · 2026-08-24T15:13:27.286000Z
-
-> I ran the same task on Claude Code and DeepSeek's new agent harness. One cost $150. The other cost $2.
->  Today we're launching https://t.co/twx6etZb3X (@agentsky_dev), the "OpenRouter for Agents" — one API → Claude Code, Codex, DeepSeek, Kimi, OpenCode, and every major agent in the cloud.  
-> And Agent Playground on top: race them on your own task, with your real tools (GitHub, Gmail, more), side by side in a browser: time, cost, tokens burnt.  
-> 
-> Guess which one was $2.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2091906740275367936)
-
-### @maximelabonne · 2026-08-24T15:11:58.122000Z
-
-> Today we release Pipette, a model evaluation suite for on-device intelligence, in partnership with @ArtificialAnlys 
-> 
-> Most benchmarking platforms are optimized to measure core capabilities and speed profile of foundation models served in the cloud. Pipette gives the field a common, reproducible way to measure the quality, speed, latency, and memory use of AI models on devices such as phones, laptops, PCs, AI boxes, and embedded hardware.
-> 
-> > Pipette is open source
-> > In Pipette, models get compated as model + quantization + runtime + device from one interface.
-> > It comes with a warehouse of verified benchmark results, currently with 10k+ results across 35 model classes, 7 quants, llama.cpp runtimes, and 4 devices.
-> > Pipette is a dynamic platform, allowing new contributions from day one, adding new devices, runtimes, model families, and quantization levels. 
-> 
-> 🧵
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/maximelabonne/status/2091906366294396928)
-
-### @ai_explorer25 · 2026-08-24T05:30:00.393000Z
-
-> Satya Nadela is basically describing the death of the traditional SaaS model.
-> 
-> Explains the AI agentic future, and where the "value" lives.
-> 
-> Because business logic is moving from the software application to the AI agents.
-> 
-> Currently, you buy software for its specific features and rules. 
-> 
-> Nadella argues that in the future, software apps will essentially become dumb databases ("CRUD") or simple tools. 
-> 
-> The AI Agent will hold all the intelligence, orchestration, and reasoning, simply updating the databases as needed. The software becomes a commodity; the AI becomes the "brain" and the worker.
-> 
-> Video from Bg2 Pod Youtube Channel
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2091759910723760129)
-
-### @ai_explorer25 · 2026-08-24T02:30:00.740000Z
-
-> The only AI list you need in 2026 
-> Founders, researchers & builders actually shaping the field.
->  
-> FRONTIER LAB FOUNDERS
-> 
-> @sama
->  — OpenAI CEO
-> @demishassabis
->  — Google DeepMind CEO
-> @darioamodei
->  — Anthropic CEO
->  
-> CHINA'S OPEN-WEIGHT WAVE
-> 
-> @Kimi_Moonshot
->  — Moonshot AI / Kimi (Yang Zhilin's lab)
-> @jietang
->  —https://t.co/yARMHLq8iZ (Zhipu) co-founder & chief scientist
-> @JustinLin610
->  — built the Qwen series at Alibaba
-> DeepSeek (Liang Wenfeng) 
-> — follow @deepseek_ai (no personal account)
->  
-> THE PIONEERS / GODFATHERS
-> 
-> @ylecun
->  — Turing Award, pioneer of CNNs
-> @goodfellow_ian
->  — inventor of GANs
-> @fchollet
->  — creator of Keras & the ARC Prize
-> @karpathy
->  — Anthropic, AI educator
-> @AndrewYNg
->  — Coursera co-founder
->  
-> RESEARCHERS WORTH READING
-> @ch402
->  — Chris Olah, interpretability (Anthropic co-founder)
-> @ai_explorer25
-> — Researcher, AI commentary
-> @lilianweng
->  — legendary research deep-dives (now Thinking Machines)
-> @leopoldasch
->  — "Situational Awareness," ex-OpenAI Superalignment
-> @bengoertzel
->  — founded SingularityNET & OpenCog
->  
-> BUILDERS & AGENT CROWD
-> @Teknium
->  — co-founder & lead eng, Hermes Agent @NousResearch
-> 
-> @ai_explorer25
-> 
->  — ex-MS, AI commentary
-> @GeoffreyHuntley
->  — creator of the "Ralph Loop"
-> @thsottiaux
->  — leads OpenAI Codex (My Inspiration)
-> @hwchase17
-> — LangChain
-> @levelsio
->  — PhotoAI & indie AI builder
-> @_MaxBlade
->  — indie AI builder, CNVS vibe-coding app
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2091714613695881216)
