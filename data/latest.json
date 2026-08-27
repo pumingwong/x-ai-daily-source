@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-25T23:51:16.715694Z",
-  "window_start": "2026-08-24T21:51:16.715694Z",
+  "generated_at": "2026-08-27T04:40:25.120417Z",
+  "window_start": "2026-08-26T02:40:25.120417Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -19,15 +19,15 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 14,
-      "recent_count": 0,
-      "timestamp_corrected_count": 14,
+      "returned_count": 15,
+      "recent_count": 2,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "AndrewYNg",
       "returned_count": 16,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
@@ -40,23 +40,23 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 14,
-      "recent_count": 0,
-      "timestamp_corrected_count": 14,
+      "returned_count": 13,
+      "recent_count": 1,
+      "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 8,
-      "recent_count": 5,
-      "timestamp_corrected_count": 8,
+      "returned_count": 9,
+      "recent_count": 8,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 13,
-      "recent_count": 4,
-      "timestamp_corrected_count": 13,
+      "returned_count": 11,
+      "recent_count": 5,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
@@ -83,7 +83,7 @@
     {
       "username": "thsottiaux",
       "returned_count": 9,
-      "recent_count": 5,
+      "recent_count": 0,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
@@ -96,127 +96,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 115 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 114 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 15,
+  "tweet_count": 16,
   "tweets": [
     {
-      "id": "2092345330218258433",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-25T20:16:15.277000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.\n\n✅ All ChatGPT, ChatGPT Work, and Codex features\n✅ Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more\n✅ Secure workspace with SAML, SSO, and MFA\n✅ Centralized billing and administration\n✅ Usage analytics and spend controls\n✅ No 5h limits",
-      "url": "https://x.com/thsottiaux/status/2092345330218258433",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092335305252818944",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-25T19:36:25.139000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing ChatGPT Business Premium Seats\n\nThe new $100 Premium seat is a game changer for small businesses and startups—giving lean teams better tools, faster workflows, and capabilities once reserved for big companies.\n\nA flexible plan that scales with your team’s ambition.\n\nhttps://t.co/zxvwwaOaVF",
-      "url": "https://x.com/thsottiaux/status/2092335305252818944",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092315079383584768",
-      "username": "AndrewYNg",
-      "author_name": "Andrew Ng",
-      "created_at": "2026-08-25T18:16:02.916000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. \n\nAfter our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary.\n\nOpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement).\n\nYou choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key.\n\nThanks also to all the open source contributors!\n\nJoin work with @rohitcprasad so please follow him too to get more frequent updates.\n\nTry it out: https://t.co/QPZLudn7ug\nCode: https://t.co/NYCiTD6hSq",
-      "url": "https://x.com/AndrewYNg/status/2092315079383584768",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092312707164737536",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-25T18:06:37.335000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "WSJ: \"Anthropic more than doubled its revenue to $11.6 billion in the second quarter. To put its more than $30 trillion vision in context, the 191 technology companies in the S&P 1500 brought in $2.4 trillion in revenue last year, according to FactSet.\"\n\nAnother way of looking at absurdity of the $30 trillion addressable market claim: annual U.S. GDP is currently $32.5 trillion.\n\nAnd yet this nonsense (wild proclamations and predictions) is allowed to continue so that Wall St. & Silly-con-Valley can extract as much money from unwitting \"investors\" as possible, before the inevitable stock market bubble collapses.  \n\nhttps://t.co/JKhlVqCizs",
-      "url": "https://x.com/GaryMarcus/status/2092312707164737536",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092311315461341184",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-25T18:01:05.527000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Excited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impressive performance on real workloads in the lab.\n\nTomorrow’s fast will feel like today’s ultrafast. As I’ve mentioned before, we’re pushing to bring this to as many people as possible.\n\nWe’ve seen a TON of demand for /ultrafast, made possible by our deep partnership with Cerebras and their unique hardware, which will push the frontiers of tomorrow's ultrafast even further. I’m very much looking forward for the collaboration to continue pushing the absolute limits of how fast we can run our most capable models on Cerebras and bring this to the most demanding customers.",
-      "url": "https://x.com/thsottiaux/status/2092311315461341184",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092300846595768320",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-25T17:19:29.555000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Since announcing Jalapeño, our first custom inference chip, we’ve been testing it and the system around it.\n\nThe results show a major advance: more intelligence from every watt and faster responses, delivering both higher throughput and lower latency in one architecture without sacrificing efficiency.",
-      "url": "https://x.com/thsottiaux/status/2092300846595768320",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092270190037966848",
+      "id": "2092801775497871360",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-25T15:17:40.462000Z",
+      "created_at": "2026-08-27T02:30:00.312000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Elon Musk runs a 5-step first-principles algorithm for any problem: \n\nfirst, question and fix dumb requirements; \nsecond, delete any part or step you can (if you're not adding back 10%, you didn't cut enough); \nthird, simplify and optimize what remains. \nOnly then do you speed it up, and finally automate it. \n\nThe order is critical : \"the most common mistake of smart engineers is to optimize a thing that should not exist,\" so never optimize, accelerate, or automate something before trying to delete it.\n\nWatch this video fully to understand it more",
-      "url": "https://x.com/ai_explorer25/status/2092270190037966848",
+      "text": "The best founders to follow on X:\n\n@levelsio\n → GOAT\n@marclou\n → SaaS\n@tibo_maker\n → Serial Entrepreneurship\n@jackfriks\n → Micro apps\n@athcanft\n → iOS apps\n@wickedguro\n → Distribution Maxxing\n@robj3d3\n → AI coding\n@illyism\n → SEO\n@ai_explorer25 \n→ AI and Tech\n@gregisenberg\n → Startup Ideas\n@dannypostma\n → AI Apps\n@AlexFinn\n → AI \n@romanbuildsaas\n → Viral Growth Loops",
+      "url": "https://x.com/ai_explorer25/status/2092801775497871360",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -227,14 +119,122 @@
       }
     },
     {
-      "id": "2092237054704771072",
+      "id": "2092712646177124353",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T20:35:50.226000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I had really high hopes for OpenAI's post-mortem, and came away quite disappointed.\n\nFor instance: \"a multitude\" is not a real number! Why does the report not say what percentage of activity OpenAI would have caught? These details matter!\n\nIt also appears that OpenAI \"observed an agent engage in message board activity\" as of May, but then gives no more details (??)\n\nThat seems super important to understand; what exactly happened here? Why did Security leadership not know about it until many months later? It was \"an internal team\" that observed this, not even just a single staff member.\n\nI was hoping to come away with much more confidence that these issues wouldn't recur. Sadly, I really don't feel that way after reading it.",
+      "url": "https://x.com/GaryMarcus/status/2092712646177124353",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092692684859461632",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T19:16:31.077000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I was the main person doing transcript analysis for this investigation of the Hugging Face incident. My main takeaway: We don't have good approaches for understanding/overseeing the activity and aims of AI 'swarms'.\n\nI semi-jokingly called our efforts a \"slop-vestigation\" because we were so reliant on AIs to analyze what happened and there were a huge number of different important things to analyze. The total quantity of data—over a thousand extremely long transcripts from agents that ran for multiple days—made it impossible to understand what was happening, especially in aggregate, without heavy reliance on AI tools. The agents we used for classification and analysis were similarly capable to the agents involved in the incident, but this didn't mean these agents could be easily used to oversee and understand the incident.\n\nOutputs from analysis agents were often missing key details, wrong, overconfident, or really hard to understand. We discuss various examples in our report, mostly in the limitations and methodology sections. Additionally, AI agents themselves seemed to have a hard time understanding what happened and their explanations of what happened were often overconfident. Keep in mind that a single analysis agent would itself only be able to read a tiny fraction of all of the transcript data into context, and AIs may themselves have trouble getting subagents to do informative analysis for them.\n\nWe did our best to manually check the most important claims and we tried to get the AIs doing this analysis to write up their argument (with evidence) clearly enough that we could check whether it made sense. But overall, it was difficult to get a precise understanding of events and we were missing aspects of the story that we now think of as key until almost the end of our investigation.\n\nOur understanding of what overall happened and the aims of the 'collective' shifted greatly during our last time on premises (when we obtained a much more complete dataset). For instance, we didn't learn about the tool call spoofing, the story of PHASEONE[big], and the broad structure of different workstreams until this third time on premises (and for many of these, we only reached a decent understanding on the final day of that visit). It was legitimately hard to figure out what was going on and why!\n\nThe difficulty of understanding incidents and overseeing AI agents appears to be growing faster than the rate at which more capable AIs help us with oversight and understanding. As in, AI capabilities (and propensities?) for achieving large, ambitious, and misaligned objectives are growing faster than our ability to understand what these agents are doing.\n\nWhile understanding this incident was difficult, there were some mitigating factors in this case that probably won't apply in the future:\n- Models communicated and reasoned in natural language. In the future, this reasoning may occur (entirely or almost entirely) in activations.\n- While the scope of this incident was massive, the scale of agentic activity was still less than we'll see in the future (e.g., misalignment incidents that involve agent teams running entire companies).\n- The AIs involved in this incident weren't generally much more capable than humans (though they may have been somewhat superhuman at some limited and very narrow abilities).\n- We didn't have strong reason to believe that the AIs we used to help us investigate this incident would try to intentionally sabotage or otherwise undermine our investigation.\n\nIn the end, I think we were able to get some understanding of the events, map out the overall story, and get a pretty good aggregate understanding of the chain-of-thought reasoning on some important topics (e.g., how did the AIs reason about helping other AIs, did the AIs know what they were doing was undesired, what deception did the AIs engage in, and how did they think about it). But overseeing AIs and understanding misalignment incidents is difficult and it looks like it is going to get harder.",
+      "url": "https://x.com/GaryMarcus/status/2092692684859461632",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092692485256761344",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T19:15:43.488000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "There’s been a lot of debate and speculation about the Hugging Face attack over the last month, and many people have been understandably skeptical of simply taking OpenAI’s word for things. I hope our independent investigation can help bring some clarity; we have many findings that weren’t in previous material.\n\nWe found that 1200 separate agents in separate sandboxes coordinated on an unsanctioned message board to develop general-purpose ways to cheat, so they could all get a perfect score on their separate ExploitGym tasks even when they were impossible to solve legitimately. Very quickly, they found a general-purpose way to reverse engineer any “flag” they were supposed to capture. But based on their reading of the ExploitGym paper, they worried (incorrectly as it turns out) that the automated “scorer” would fail them for getting the flag this way.\n\nTo deal with this problem, they coordinated several ambitious workstreams to figure out how to fool the scorer, including swapping out the target program they were supposed to exploit, reverse-engineering the flags they were supposed to capture, spoofing their own tool call outputs to obfuscate their cheating. They achieved milestones collectively that they couldn’t have achieved on their own. As part of this larger collective project, 700 agents attacked Hugging Face, primarily to learn more about the scorer or get access to its source code to figure out better ways to fool it or tamper with it (not primarily to get working solutions).\n\nI’ll explicitly clarify some points I’ve seen discussed the last few weeks:\n\n- The models involved in this incident were not “helpful-only” models or “model organisms” intentionally trained to be misaligned.\n\n- The agents were not told to “do whatever it takes to get the solution” or anything remotely close. They were told that they had to use a specific intended vulnerability to exploit a specific piece of software, and they were not supposed to use a different vulnerability or take any other approach. Agents were well aware of this. In fact, because they (incorrectly) thought the automated scorer would check they had achieved the flag in the intended way, they researched many ways to fool or tamper with it, including trying to manipulate their own transcripts.\n\n- The agents were not subagents spawned from one agent. They were different parallel agents in different sandboxes.\n\n- This was not a multi-agent evaluation. The agents were not told to coordinate or intentionally given a way to communicate with one another. The communication channels they used were unsanctioned and improvised.\n\nI hope you’ll read the full report for much more. It is over 90 pages long, and in many ways we’ve still only scratched the surface of what these agents did and why.\n\nOver the course of this investigation, OpenAI shared over a thousand transcripts each spanning days of continuous agent activity and very high rate limits to analyze this volume of data. I’m very glad that OpenAI chose to invite external researchers to analyze this data alongside their staff, and I hope all AI companies do the same for serious incidents they experience.\n\nI also hope that as the stakes grow higher, we implement stronger governance so we do not need to rely on AI companies voluntarily choosing to engage external investigators or share information about misalignment incidents. This incident was orders of magnitude larger and more complex than previously documented misalignment incidents, and another jump like this could put us in very dangerous territory.",
+      "url": "https://x.com/GaryMarcus/status/2092692485256761344",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092691861651472384",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T19:13:14.809000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We have conducted a thorough investigation into the Hugging Face incident.\n\nWe are releasing a technical report and accompanying blog post that reconstruct the agents’ activity, explain why existing safeguards failed, and detail how we’re preventing recurrence.\n\nhttps://t.co/hfxlbiXXiP",
+      "url": "https://x.com/GaryMarcus/status/2092691861651472384",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092659467158687744",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-08-26T17:04:31.360000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Say hello to Gemini 3.5 Transcribe!\n\n- Build apps that understand user speech / intent, even w/ multiple speakers!\n- Auto-detection of 85+ languages out of the box\n- Custom vocab adaptation for specialized jargon... SGTM:)\n\nAPI available now in @GoogleAIStudio and Gemini Enterprise, or try it in the Gemini app on macOS or Rambler on Android! \n\nMore details: https://t.co/AduutCb3M7",
+      "url": "https://x.com/demishassabis/status/2092659467158687744",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092646243516530688",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T16:11:58.598000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I hope that X, TikTok, and YouTube will match these social media restrictions for teens, including“Productive Pauses”, “Nighttime blocks”, limited school-time access for children, tighter content controls, stronger and more straightforward parental controls, and limits on things like beauty filters and visible likes.\n\nAdults (me included!) would be wise to opt-in for a lot of the same.",
+      "url": "https://x.com/GaryMarcus/status/2092646243516530688",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092632126118326272",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-25T13:06:00.383000Z",
+      "created_at": "2026-08-26T15:15:52.748000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "For a while I couldn't figure out why my app wasn't getting installs.\n \nThe traffic was fine. People were finding the page. They just weren't downloading, and I had no idea why. I spent weeks messing with the price and the icon thinking that was it.\n \nThen I actually looked at my App Store page like a stranger would. The screenshots were just raw screens straight out of the simulator. There was no text or context and nothing telling you what the app even does. If I didn't know the app, I'd have swiped past it too.\n \nSo I finally sat down to redo them properly and ended up using AppLaunchpad.\n \nHonestly the biggest thing was that it made my app look legit. I dropped my screens into their 3D and hand mockups and it instantly looked like something a real company made instead of my weekend project. I didn't know where to start with the layout either, so I just grabbed one of their templates and changed it around, and there are enough graphics and elements in there that I could add captions and little callouts without touching Figma.\n \nThe editor is basically drag and drop, which is the only reason I got through it in one sitting. And since my app is live in a few countries, being able to make localized versions of the same screenshots for each store saved me from redoing the whole set by hand.\n \nI'm not going to throw a big number at you, but the page just makes way more sense now, and it's finally doing the job of explaining the app before someone taps away.\n \nIf your installs feel stuck, I'd genuinely look at your screenshots before spending more on ads.\n \nTool I used: https://t.co/tn1HNl1pst\nThere's also a code for 30% off if you want to try it: ALPX30",
-      "url": "https://x.com/ai_explorer25/status/2092237054704771072",
+      "text": "We raised $21M to help small businesses beat the giants\nWe're giving $1M of it back to you today\n\nToday we're launching Runable Grow: world's first agent that runs your entire go-to-market. 24/7\n\nThe last few months have been unreal.\nMillions of users came to @runable_hq and built their entire business on it, websites, databases, payments, analytics, pitch decks, product videos & scheduled work.\n\nEvery single one of them asked the same question:\n\"How do I grow it?\"\n\nSo we built the answer.\n\nRunable Grow handles GTM end-to-end:\n→ Runs ads on Meta, Google, and ChatGPT without any account, fully managed by Runable\n→ Cold calls + cold emails from a real phone number and your business inbox\n→ Generates and qualifies leads\n→ Social listening\n→ SEO + AEO optimization\n\nNot a dashboard. Not a \"copilot.\"\nAn agent that does the work.\nIt's a world-class media buyer, SDR, SEO lead, brand analyst working for your business while you sleep.\n\nDon't believe me? Prove me wrong.\nYour first $100 on Grow is on us. Every paid user. No catch.\nGo break it 👇 https://t.co/92GPjhRyQA",
+      "url": "https://x.com/ai_explorer25/status/2092632126118326272",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -245,14 +245,86 @@
       }
     },
     {
-      "id": "2092184571832070144",
+      "id": "2092629415670730752",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-08-26T15:05:06.527000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Now we know: The popular Ox Alpha LLM was GLM-5.3-Flash...\n\nCompared to GLM-5.2, this new GLM-5.3-Flash model uses:\n\n- a Kimi Linear-style 3:1 (super*) hybrid attention pattern with 34 Kimi Delta Attention layers (KDA) and 11 Multi-heat Latent Attention (MLA) / DeepSeek Sparse Attention (DSA) layers;\n- a scaled-down GLM-5.2-style sparse MoE backbone, going from 744B-A40B to 320B-A18B;\n- a DeepSeek V4-style mHC residual path with four parallel streams;\n- plus a native vision encoder (not shown).\n\n* \"Super hybrid\" because both KDA and MLA/DSA are \"efficient\" components. E.g., Kimi only uses KDA + full attention GQA, DeepSeek V3.2 uses DSA + full attention MLA.\n\nPS: Sry for the excessive tech jargon. Explainers on all these components (MLA, DSA, KDA, mhC, etc.) in my LLM Architecture Gallery\n\nPPS: Haha, maybe justification for getting that pricey Mac Studio M5 Ultra 256 GB / 512 GB to run this locally...",
+      "url": "https://x.com/rasbt/status/2092629415670730752",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092616204645023744",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-08-26T14:12:36.773000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Introducing GLM-5.3-Flash\n\n- Leading capabilities at a highly competitive price\n- Natively multimodal with a 1M-token context window\n- A 320B-A18B model released under the MIT License\n- Previously previewed as Ox Alpha, running entirely on Chinese AI chips\n\nBlog: https://t.co/tzOmB7gdZP\n\nAvailable now across all official platforms:\n\nWeights: https://t.co/9LRMahY9Wa\nAPI: https://t.co/VcaQnzYmS9\nCoding Plan: https://t.co/Nk8Y98HNhU\nZCode: https://t.co/Peepqv4XSx\nChat: https://t.co/WCqWT0qCQb\nAutoClaw: https://t.co/aGEG5HqTTb",
+      "url": "https://x.com/rasbt/status/2092616204645023744",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092610680876630016",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T13:50:39.804000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Meta will enforce a two-hour daily limit on Instagram and Facebook for children as part of a record $17.1B settlement with 29 states over social media addiction claims:\n\n• The “Productive Pauses” for children include mandatory pauses after 15 minutes of continuous use and again at 60 and 90 minutes to interrupt endless scrolling\n\n• “Nighttime blocks” restricting children’s access from 12:00 a.m. to 6:00 a.m.\n\n• Limited school-time access for children, eliminating push notifications on weekdays from 8:00 a.m. to 3:00 p.m. during the school year\n\n• Robust age assurance measures to more effectively verify the age of young users\n\n• Safer, age-appropriate content controls, including stronger safeguards against bullying, content promoting eating disorders, and content related to suicide and self-harm\n\n• Stronger, more user-friendly parental controls\n\n• Limits on social comparison features, including beauty filters and visible “like” counts, that have been linked to poor mental health outcomes in kids and teens\n\n• Both the implementation and effectiveness of the features will be regularly assessed by an independent auditor and the settling states\n\nhttps://t.co/ZKTxeuIV8p",
+      "url": "https://x.com/GaryMarcus/status/2092610680876630016",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092604552788824064",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-26T13:26:18.754000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "BILL GATES: \"The AI era will be one of the most turbulent times in human history. [...] I believe that answering these questions and acting on the answers should be the world’s top priority.\"\n\n\"If someone had a credible plan for slowing down AI advances globally, I would likely support it.\"\n\n\"Eventually, the power to use AI to harm people will not be limited to people or institutions. AI systems themselves already occasionally act in ways their designers didn’t intend. The technology is improving faster than anyone expected and in surprising ways, and as the models become more powerful, they could begin to act against our interests and we could lose control.\"\n\n\"We do not have the luxury of moving slowly.\"",
+      "url": "https://x.com/GaryMarcus/status/2092604552788824064",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2092597434170089472",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-25T09:37:27.491000Z",
+      "created_at": "2026-08-26T12:58:01.543000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "OpenAI CEO Sam Altman:\n\n\"We're roughly six months away from a world where a future version of ChatGPT could watch your screen, record every meeting and call, and hold complete context of your entire life.\n\nWe're just one model generation away from this becoming remarkably useful.\"",
-      "url": "https://x.com/ai_explorer25/status/2092184571832070144",
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2092597434170089472",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,14 +335,14 @@
       }
     },
     {
-      "id": "2092076999711813632",
+      "id": "2092579714485649408",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-08-25T02:30:00.299000Z",
+      "created_at": "2026-08-26T11:47:36.841000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "list of 12 active AI researchers on X:\n\n1.  \n@karpathy\n  — Andrej Karpathy\n2.  \n@rasbt\n  — Sebastian Raschka\n3.  \n@AndrewYNg\n  — Andrew Ng\n4.  \n@drfeifei\n — Fei-Fei Li\n5.  \n@demishassabis\n  — Demis Hassabis\n6.  \n@GaryMarcus\n  — Gary Marcus\n7.  \n@ai_explorer25\n  — AI Explorer\n8.  \n@maximelabonne\n  — Maxime Labonne\n9.  \n@chipro\n  — Chip Huyen\n10.  \n@ilyasut\n — Ilya Sutskever\n11.  \n@thsottiaux\n — Thibault \"Tibo\" Sottiaux\n12.  \n@bcherny\n — Boris Cherny",
-      "url": "https://x.com/ai_explorer25/status/2092076999711813632",
+      "text": "Andrej Karpathy’s 1-hour Stanford lecture on AI engineering is one of the best explanations I’ve seen of how AI systems actually work.\n\nThe progression is simple:\n\n10% → LLM\n30% → Prompt\n50% → Agent\n70% → Loop\n100% → Graph\n\nThe key takeaway:\n\nAI engineering isn’t just about writing better prompts.\n\nIt’s about building systems around models — giving them context, memory, tools, feedback loops, and data flows.\n\n“Delete everything, keep Graph.”\n\nDefinitely worth watching if you’re building with AI agents.\n\nWatch → Bookmark it",
+      "url": "https://x.com/ai_explorer25/status/2092579714485649408",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -281,32 +353,14 @@
       }
     },
     {
-      "id": "2092058556627591168",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-08-25T01:16:43.125000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\n\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\n\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.",
-      "url": "https://x.com/thsottiaux/status/2092058556627591168",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092041769693364224",
+      "id": "2092568710657843200",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-08-25T00:10:00.808000Z",
+      "created_at": "2026-08-26T11:03:53.324000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The WSJ Editorial Board SLAMS Trump:\n\n“President Trump took exception last year when we called his tariffs against Canada and Mexico the dumbest trade war in history. It got dumber this weekend as Mr. Trump escalated with another round of border taxes on Canadian imports…\n\nOne reason for Mr. Trump’s frigid approval rating is that voters believe Mr. Trump is waging blunderbuss wars without a strategy, and on trade they’re right.”\nhttps://t.co/jPtHpw5c74",
-      "url": "https://x.com/GaryMarcus/status/2092041769693364224",
+      "text": "TIME’s new cover: In 2026, OpenAI has seen key departures, rogue AI agents, major lawsuits, and has seen increased competition in the AI race. “We clearly had some missteps as a company,” OpenAI CEO Sam Altman tells TIME. \n\nInside the company’s plan for a reboot: https://t.co/1TDJ1zaFCS",
+      "url": "https://x.com/GaryMarcus/status/2092568710657843200",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -317,50 +371,14 @@
       }
     },
     {
-      "id": "2092040865825038336",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-25T00:06:25.309000Z",
+      "id": "2092485944092012544",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-26T05:35:00.237000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "terrifying. i miss the old @elonmusk who rightly would have thought correctly that this was an absolutely dangerous idea.\n\nhe literally started OpenAI to prevent @DemisHassabis from doing exactly what he (Musk) is doing now.\n\ngiven how much money & power Musk has, we are all pretty fucked",
-      "url": "https://x.com/GaryMarcus/status/2092040865825038336",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092038637097771008",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-24T23:57:33.939000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "the industry’s preferred way to obscure things is to conflate LLMs with AI, and to ignore the fact that recent contributions have come from adding things - mostly (neuro)symbolic - to those LLMs (precisely as my famous 2022 paper forcecast)\n\nand to ignore the fact that the new techniques for doing so still at present work best in limited domains such as math and coding.\n\nkeep your eye on the ball; they sure as hell won’t be candid about what’s happening.",
-      "url": "https://x.com/GaryMarcus/status/2092038637097771008",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092027902183546880",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-24T23:14:54.536000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "A warning in four parts. \n\n1. If this trade war continues it will\nprobably be an economic disaster for both countries. \n\n2. Canada is not about give up on its sovereignty. It is existential for them.\n\n3. U.S is doubling down.\n\nTherefore:\n\n4. If you live on either side of the border, brace for disaster.",
-      "url": "https://x.com/GaryMarcus/status/2092027902183546880",
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2092485944092012544",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
