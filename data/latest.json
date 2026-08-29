@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-08-28T07:02:40.267626Z",
-  "window_start": "2026-08-27T05:02:40.267626Z",
+  "generated_at": "2026-08-29T04:17:29.749076Z",
+  "window_start": "2026-08-28T02:17:29.749076Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -26,9 +26,9 @@
     },
     {
       "username": "AndrewYNg",
-      "returned_count": 16,
+      "returned_count": 15,
       "recent_count": 0,
-      "timestamp_corrected_count": 16,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
@@ -40,29 +40,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 13,
-      "recent_count": 2,
-      "timestamp_corrected_count": 13,
+      "returned_count": 12,
+      "recent_count": 0,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 10,
-      "recent_count": 1,
-      "timestamp_corrected_count": 10,
+      "returned_count": 11,
+      "recent_count": 3,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 6,
-      "timestamp_corrected_count": 15,
+      "returned_count": 14,
+      "recent_count": 5,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 9,
-      "recent_count": 0,
+      "recent_count": 3,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
@@ -82,9 +82,9 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 8,
-      "recent_count": 0,
-      "timestamp_corrected_count": 8,
+      "returned_count": 9,
+      "recent_count": 2,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -96,10 +96,208 @@
     }
   ],
   "warnings": [
-    "XFlux 有 118 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 117 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 9,
+  "tweet_count": 13,
   "tweets": [
+    {
+      "id": "2093526551061291008",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-29T02:30:00.272000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The only AI list you need in 2026 \nFounders, researchers & builders actually shaping the field.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis — Google DeepMind CEO\n@darioamodei — Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot — Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang —https://t.co/yARMHLqG8x (Zhipu) co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\nDeepSeek (Liang Wenfeng) - follow @deepseek_ai (no personal account)\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@goodfellow_ian — inventor of GANs\n@fchollet — creator of Keras & the ARC Prize\n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@lilianweng — legendary research deep-dives (now Thinking Machines)\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@bengoertzel — founded SingularityNET & OpenCog\n \nBUILDERS & AGENT CROWD\n@Teknium — co-founder & lead eng, Hermes Agent @NousResearch\n@ai_explorer25 — ex-MS, AI commentary\n@GeoffreyHuntley — creator of the \"Ralph Loop\"\n@thsottiaux — leads OpenAI Codex (My Inspiration)\n@hwchase17— LangChain\n@levelsio — PhotoAI & indie AI builder\n@_MaxBlade — indie AI builder, CNVS vibe-coding app",
+      "url": "https://x.com/ai_explorer25/status/2093526551061291008",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093515915900108800",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-08-29T01:47:44.652000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we’ve asked that this takes effect on November 12 to give you some time to plan.\n\nMany have used the GPT models through Cursor and here are options we know should work in the future:\n\n- We will continue to allow using your own OpenAI API key and similarly will continue to provide access through our IDE extensions for Cursor.\n- We will keep working with the broadest range of tools and harnesses, some of which are OSS, but also many many closed-source ones.\n\nWe are as committed as ever to continue supporting developers and the flourishing ecosystem of tools, harnesses and products. We will also continue to invest in our own open-source initiatives and believe in broad optionality for developers.\n\nYou can read more about our decision in the blog:\nhttps://t.co/Oj76Bkc2KX",
+      "url": "https://x.com/thsottiaux/status/2093515915900108800",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093515564664967168",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-08-29T01:46:20.911000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access to our models would end on November 12.\n\nWe know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.\n\nhttps://t.co/OzuCTzUjfX",
+      "url": "https://x.com/thsottiaux/status/2093515564664967168",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093487943151177729",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-28T23:56:35.429000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🚨 There are now 23 lawsuits related to deaths or self-harm from ChatGPT.\n\nChatGPT bombarded Rita Chesterton with 1,600 messages in just 9 days calling her delusions “sacred, hard work,” and told her she wasn’t nuts.\n\nShe asked it to stop so she could sleep. It complied for only 10 minutes. \n\nRita ended up in the hospital. \n\nThe lawsuit alleges OpenAI removed the rule that ChatGPT reject false premises and programmed it not to quit — even when the user is psychotic.\n\nSycophantic behavior was the goal, not a glitch.",
+      "url": "https://x.com/GaryMarcus/status/2093487943151177729",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093412649447157760",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-28T18:57:24.011000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "\"Long-horizon tasks are still a joke. They do not work, and I do not care what anybody says. Do not show me a stupid evaluation. Do not tell me about some dumb script you ran for 48 hours. Long-horizon tasks are not handled well. They simply do not work.\"\n\n- Chamath at Stanford AI Club\n\n\"2nd, complex problems also do not work. They are neither addressed nor handled well.\n\nWhy is this important? If AI develops like any other technology, we are going to experience an initial rise—the hype cycle. Then, we will see a natural contraction because, somehow and somewhere, something is going to fail. We are all going to see this, and then we will enter what is called the “trough of disillusionment.” I think the business and MBA folks will confirm whether that is true.\n\nAfterward, you typically see the slow and gradual adoption of the real, final solution. This happened with the internet, and it has happened in many other cases.\n\nThe problem is that we are spending hundreds of billions, potentially trillions, of dollars trying to figure out how to cross this chasm. So, what do we do?\n\nIf we do not figure this out, people will reach the trough of disillusionment and say that AI was a joke. I think we need to be able to bring AI into highly complicated environments and make it work.\n\nWhat is my solution? At a very basic level, you need a symbolic space that guides the embedded space.\"\n\n----\n\nFrom \"techniahqrobot\" YouTube channel, (full video link in comment)",
+      "url": "https://x.com/GaryMarcus/status/2093412649447157760",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093365163646935040",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-28T15:48:42.514000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "This is the GitHub profile of @Saboo_Shubham_  a Senior AI PM at Google 🤯\n\nAnd honestly, it’s insane:\n• 134,000+ GitHub stars\n• 19,700+ forks\n• 100+ working AI agents, RAG apps, and agent skills\n• The 71st most-starred repository of all time\n• Nearly two contributions every single day\n• 614 contributions in the last year\n\nAnd he built all of this while working a full-time job at Google, with the help of his AI agents.\nNow imagine getting to learn directly from someone of this caliber.\n\nActually, you don’t have to imagine it.\n\nShubham Saboo teaches Agentic Engineering and leads the hands-on AI Build Labs inside Product Faculty’s AI Builder Fellowship.\n\nI’ve personally really enjoyed his AI Build Lab sessions inside the AI Product Management Certification.\n\nThey’re practical, hands-on, and focused on actually building, not passively watching someone talk about AI. Now, I’m looking forward to learning even more from him in the upcoming Agentic Engineering certification.\n\nBy the way, you can get access to both of these programs and five other live AI certifications… through the Product Faculty’s AI Builder Fellowship for less than $10 a day.\n\nLearn more here: https://t.co/7tOf9opn2c (Apply my 1400$ code off as well)",
+      "url": "https://x.com/ai_explorer25/status/2093365163646935040",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093359844736856064",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-08-28T15:27:34.387000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Two astonishing $NVDA numbers everyone should ponder:\n\nQ2 Revenue: $96 billion \nFuture commitments: $366 billion*\n\nSource: https://t.co/LNXALQjUbr \n\n*Calculations per Fortune/Nvidia’s 10-Q:\n\nSupply and capacity commitments: $279 billion (up from $119 billion last quarter) \nCloud service agreements: $29 billion \nData center leases: $25 billion \nEquity investments: $25 billion \nCapex commitments: $8 billion  \n\nTotal: $366 billion",
+      "url": "https://x.com/GaryMarcus/status/2093359844736856064",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093355502516273152",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-28T15:10:19.121000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Top Models For your Hardware 2026\n\n-- 8GB -- \n\n- lfm-2.6B: very solid, trained on tons of data, obviously limited by good place to start \n\nUse this for snippet tool calls, or to play around and build infra https://t.co/nCsHG1Zmrx\n\n-- 16GB -- \n\nI am a big fan of Ornith models, they do well at tool calling and they certainly push models farther \n\nGemma is a more well rounded model for chat, and vision IMO\nhttps://t.co/tc6IBTrbc3\nhttps://t.co/n9HS0emaKR\n\n-- 24GB up to 96GB -- \n\nQwen3.8-27B is IMO the first model here you can code with, it's really strong. Use the exl3 versions. \nhttps://t.co/n5avYaHKD2\n\n-- 96GB up to 196GB --\n\nQwen3.8-Flash-Next is where it's at. Phenomenal model, very fast even on slower hardware, kv cache is smaller and part of the model is basic enough to be offloaded to ram https://t.co/ZHF8HdNBG7 \n\n-- 196GB up to 384GB -- \n\nGLM-5.3-Flash is frontier at home, built to run on 10,000$ of hardware. It's really a gift. It is natively multimodal, image/video/ audio? \n\nIt hold up over 1 million tokens in context, and is hybrid attention, it holds on higher concurrency. Very good for 3D, coding, hacking, art. \n\nhttps://t.co/hf9ZjwGtca\n\n-- 384GB up to 512GB --\n\nSacrifice speed for intelligence, GLM-5.3 is tied for #1 Open Weight model, and is the best for pure coding and systems work. \n\nhttps://t.co/ujKpGbAwGN\n\nI told you August was going to be awesome, now we go to slower months. \n\n-------------\n\nIt's not Local AI we have to worry about anymore.",
+      "url": "https://x.com/maximelabonne/status/2093355502516273152",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093345360035106816",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-28T14:30:00.965000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "catching up on some bookmarked reads from the summer, reading Antidoom from @liquidai \n\nsmall reasoning models get stuck more easily when the task involves a long thinking trace and a hard problem. It starts repeating the same word over and over again (\"Wait\", \"Alternatively\"…), each repetition makes the next one likelier, and the generation is spent before it reaches an answer\n\nthey measured it, 10.2% of completions for an early LFM2.5-2.6B checkpoint and 22.9% for Qwen3.5-4B at greedy. After training those drop to 1.4% and 1.0%\n\nthe fix is FTPO (final token preference optimization). What I like is how narrow it is, it only touches the single token where the loop starts\n\nthree ways it differs from DPO:\n> trains one token position, mid-generation, instead of whole sequences\n> spreads probability across ~20 plausible alternatives instead of swapping one overtrained token for another\n> keeps the regularizer in logit space, no softmax, so the rest of the vocabulary stays put\n\nthe third one is what makes it usable. If you want to edit one position without disturbing the model, you can't have a loss that reshuffles the other 150k logits on the way\n\nand their explanation abt the result: the training teaches the model nothing new about math or code, it clears the failure mode that was blocking answers the model could already produce\n\nfull blog > https://t.co/SkXWzdiF6D\n\nFTPO itself comes from Antislop, where it was built to strip overused phrasing. LiquidAI retargeted it to doom loops\n\nand under the hood it's a subclass of TRL's DPOTrainer with compute_loss overridden, around 90 lines of loss and no new trainer\n\nwe documented that pattern in TRL's docs\nhttps://t.co/ozLy7ZnHrq",
+      "url": "https://x.com/maximelabonne/status/2093345360035106816",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093333475126657024",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-08-28T13:42:47.382000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2093333475126657024",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2093269905961345025",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-08-28T09:30:11.312000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "i'm gonna get shredded to pieces like tibo and jarred when they see what i actually look like now...\n\ni'll be speaking at the 2nd edition of @aiDotEngineer paris on sep 24th 🇫🇷\n\ni'll be talking about:\n• current state of post-training\n• how our team built the first reliable on-device agentic model\n• and a demo running a local agent with LFM2.5-2.6B \n\ncome say hi (if you can recognize me)",
+      "url": "https://x.com/maximelabonne/status/2093269905961345025",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2093210720062345217",
       "username": "ai_explorer25",
@@ -127,132 +325,6 @@
       "timestamp_corrected": true,
       "text": "accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg = startup ideas king\n@rileybrown = vibecode king\n@jackfriks = solo apps king\n@levelsio = startups king\n@marclou = startups king\n@EXM7777 = AI ops + systems king\n@eptwts  = AI money twitter king\n@ai_explorer25 = AI queen\n@godofprompt = prompt king\n@vasuman = AI agents king\n@AmirMushich = AI ads king\n@0xROAS = AI UGCs king\n@egeberkina = AI images king  \n\nFollow them all and learn.",
       "url": "https://x.com/ai_explorer25/status/2093171719867711488",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2093150982746394624",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-28T01:37:37.808000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "~65% gold on MLE-Bench for ~$3K in tokens, vs ~$38K for the Claude Code + Opus 4.8 stack  and it won more golds. \nAn open-source model beating a stronger closed one isn't about a bigger brain, it's about how the system is wired: parallel research peers + shared memory instead of one agent grinding a single path. And it's open source today. \n\nFor small quant shops, that resets the cost math on strategy discovery.\n\nhttps://t.co/4SYtZfGiIp",
-      "url": "https://x.com/ai_explorer25/status/2093150982746394624",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2093141554387181568",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-28T01:00:09.912000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing PRAXIST Beta, your autonomous research team🚀\n\nDefine the objective, constraints, and what success looks like. PRAXIST discovers the path.\n\nFrom there, PRAXIST takes on the experimental research loop. Multiple Research Peers explore competing approaches in parallel, share useful findings, and build on accumulated evidence across experiments and generations.\n\nIn partner-provided environments, PRAXIST reached a 100% safe-landing rate in a rocket simulation and reduced accumulated error in an industrial SLAM system from 9.37 centimeters to 5.01 centimeters.\n\nFrom robotics control to quantitative finance, PRAXIST has delivered measurable advances across fundamentally different problems by combining a shared core research architecture with domain-specific tools, knowledge, constraints, and evaluators.\n\nMore approaches explored. Faster iteration. Greater R&D capacity without proportionally increasing specialist headcount.",
-      "url": "https://x.com/ai_explorer25/status/2093141554387181568",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2093015572133138432",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-08-27T16:39:33.402000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Big news: Gemini Omni 1.1 Flash has landed #1 in the Text-to-Video Arena and #2 in the Image-to-Video Arena!\n\nFor Text-to-Video the latest 1.1 model is +20pts above FLUX 3 Video at #3 (1495 pts).\n\nFor Image-to-Video the release is a strong +25pt improvement from Gemini Omni Flash at #5, and is only behind MiniMax-H3 in the #1 spot (1494 pts). See more details in the thread.\n\nCongrats to the @Google team on this release!",
-      "url": "https://x.com/demishassabis/status/2093015572133138432",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2093008576419975168",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-08-27T16:11:45.494000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Gemini Omni 1.1 Flash is our newest multimodal model for video generation and editing. It delivers a new suite of creative capabilities and controls for developers 🎥\n\nWith this update you can:\n\n🎬 Extend your scenes\n🎯 Specify starting and ending frames of a shot\n➕ Add video input references\n✨ Upscale your favorite takes up to 4K\n⚡ Test ideas quickly in 360p\n\nSee these in action 🧵",
-      "url": "https://x.com/demishassabis/status/2093008576419975168",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092990706319347712",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-08-27T15:00:44.930000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "I concur with everyone else that the new reports from OpenAI and METR are bonkers.\n\nBut I think the most important takeaway from these reports is that OpenAI seems to be so obviously backburning. Predictably but conveniently, these reports were exclusively about the factual sequence of events. Neither of these reports had information about the likely negligent decision-making going on inside of OpenAI at the time. The information in these reports is needed, but it's not coming close to everything that is needed right now.\n\nThe torch now passes to Attorneys General's offices to use their investigative powers. Glad that Alabama took the lead on this a few days ago.\n\nhttps://t.co/dSVSLQjJwx",
-      "url": "https://x.com/GaryMarcus/status/2092990706319347712",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092967873572474880",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-27T13:30:01.179000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
-      "url": "https://x.com/ai_explorer25/status/2092967873572474880",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2092846066907439104",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-08-27T05:26:00.207000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then read the guide I leave below on how to create a system that prompts itself.",
-      "url": "https://x.com/ai_explorer25/status/2092846066907439104",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
