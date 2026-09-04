@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-03T01:23:01.550480Z",
-  "window_start": "2026-09-01T23:23:01.550480Z",
+  "generated_at": "2026-09-04T01:15:14.006675Z",
+  "window_start": "2026-09-02T23:15:14.006675Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -20,7 +20,7 @@
     {
       "username": "rasbt",
       "returned_count": 11,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
@@ -34,29 +34,29 @@
     {
       "username": "drfeifei",
       "returned_count": 9,
-      "recent_count": 4,
+      "recent_count": 0,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "demishassabis",
-      "returned_count": 12,
+      "returned_count": 9,
       "recent_count": 1,
-      "timestamp_corrected_count": 12,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 11,
-      "recent_count": 9,
-      "timestamp_corrected_count": 11,
+      "returned_count": 9,
+      "recent_count": 8,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 20,
-      "recent_count": 8,
-      "timestamp_corrected_count": 20,
+      "returned_count": 18,
+      "recent_count": 7,
+      "timestamp_corrected_count": 18,
       "possibly_truncated": false
     },
     {
@@ -82,69 +82,33 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
+      "returned_count": 2,
+      "recent_count": 1,
+      "timestamp_corrected_count": 2,
       "possibly_truncated": false
     },
     {
       "username": "bcherny",
       "returned_count": 3,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 3,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 118 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 107 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 24,
+  "tweet_count": 17,
   "tweets": [
     {
-      "id": "2095276133155741697",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-09-02T22:22:13.149000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Fable 5.1 makes Claude Tag even more useful. Here it builds a last-minute leadership deck from a metrics spreadsheet and other data across Slack, spots a vendor report that disagrees with the numbers, and flags it before moving on.\n\nClaude Tag is available in Slack on Team and Enterprise plans.",
-      "url": "https://x.com/bcherny/status/2095276133155741697",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095241546560098304",
-      "username": "drfeifei",
-      "author_name": "Fei-Fei Li",
-      "created_at": "2026-09-02T20:04:47.062000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Stanford HAI's fall conference returns this October. Confronting Our AI Future: Hope, Fear, and the Choices Ahead will feature a full day of conversations on work, learning, governance, and how we ensure AI expands human potential. Speakers include @drfeifei, @JeffDean, @audreyt, @erikbryn, Alondra Nelson, and @istoica05, with more to be announced.\n\nRegister by October 1 for early bird pricing: https://t.co/PCmPWlKc73",
-      "url": "https://x.com/drfeifei/status/2095241546560098304",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095239508795240448",
+      "id": "2095626454310821888",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T19:56:41.221000Z",
+      "created_at": "2026-09-03T21:34:16.221000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "no shit. but Sam said something similar to the Senate when we testified together in 2023, endorsing global cooperation around AI regulation. \n\nand then left the room and fought regulation.\n\nnobody should trust him. he reads the room, says what people want to hear. promises mean nothing to him.",
-      "url": "https://x.com/GaryMarcus/status/2095239508795240448",
+      "text": "Hot take on OpenAI GPT-6 Astra*, with a challenge to @gdb’s claims about it being AGI toward the end:\n\n• Looks to be pretty impressive. Multiple reports suggest it is a genuine advance. \n\n• As someone who has campaigned for nearly a decade for (neuro)symbolic world models, often to exceptional hostility, it is extraordinarily vindicating to see that a product from OpenAI explicitly creates and manipulate symbolic world models in the course of some of its computations.\n\n• What we don’t know is how robust that capability is. That is THE key question.\n\n• Success on ARC-AGI is great and impressive, but not —despite the name of the task—proof of AGI; I suspect we will see loads of problems with open-ended real world tasks. As with other recent models I would suspect best performance in verifiable domains.\n\n• And as a scientist, it’s disappointing that we don’t (yet) know much about how the system actually works.\n\n• As ever, enthusiasts got an advance look; skeptics did not. That’s a sound marketing strategy, but it often turns out to be misleading. What we have often seen is initial enthusiasm that gets tempered over time. I suspect we will see that here as well.\n\n• The new system appears to be *less* monitorable than prior systems, which is not great from a safety perspective.  One really doesn’t want more capability in conjunction with less monitorability. \n\n• Would be great to see whether Astra can make progress on any of the ten tasks that Miles Brundage and I bet on at the end of 2024. (No AI to date has succeeded on any, AFAIK; link: https://t.co/64u5wHm3it)\n\n——————-\n*This hot take is VERY tentative, pending more information about how it works and what its limitations are.",
+      "url": "https://x.com/GaryMarcus/status/2095626454310821888",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,32 +119,14 @@
       }
     },
     {
-      "id": "2095232794549002244",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T19:30:00.420000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "meet @mostik_ai!\n\nwhat happens when you put 12 PhDs in one room for four months? first place on the ARC-AGI leaderboard, which I can't say much about while the competition is still running. and this, which I can.\n\neveryone's arguing about whether open models will catch up to frontier models. we think it's the wrong question. here's the one we pose: why does a frontier model have to generate your answer at all, when the only thing you need from it is the reasoning?\n\nwe do this by enabling models to communicate in latent space. through our protocol, hidden states pass straight from a frontier model into a small one running on your infrastructure -- no text between them, and neither model is fine-tuned. two models from different families, sharing reasoning, both left untouched.\n\nhow do we know it works? we tested it on a setup where a 753B model reads the problem, and a 4B edge-class model writes the answer. with this approach, we get results 80% as accurate as the frontier model, but at 20x faster performance.\n\nwe're committed to preventing frontier model lock-in and are already partnering with inference providers to accelerate open-weight adoption. we've done this between 15 of us, in four months, 12 PhDs and a Fields medalist, backed by @generalcatalyst\n\nWIRED has the first external account of the company and the work: https://t.co/tP8nItCsDl\nfull writeup, the setup, and all the numbers: https://t.co/C9NZ5vtV1V",
-      "url": "https://x.com/ai_explorer25/status/2095232794549002244",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095226217494695936",
+      "id": "2095615366680768512",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T19:03:52.328000Z",
+      "created_at": "2026-09-03T20:50:12.724000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Nobody can predict the future with perfect accuracy, but I am increasingly confident that by the end of decade, generative AI  (at least we know it) will be viewed as on balance a tragic, costly mistake.\n\nI hope this will not stop us from finding better ways to do AI — technically and politically — that are more net-positive for society.",
-      "url": "https://x.com/GaryMarcus/status/2095226217494695936",
+      "text": "Marcus, 2020, arXiv: We need symbolic, world models\n\nAlmost everyone but @fChollet: Marcus is wrong\n\nToday: GPT-6 Astra does very well by creating and using symbolic world models.\n\nOpen questions: \n1. how general is Astra’s ability to induce such models?\n2. how does it manage to do so?\n3. can it follow explicit instructions reliably?",
+      "url": "https://x.com/GaryMarcus/status/2095615366680768512",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,68 +137,14 @@
       }
     },
     {
-      "id": "2095223604808216576",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T18:53:29.415000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "One prompt. Your coding agent becomes your entire growth team.\n\nLayers Growth MCP finds what's working in your niche, ships one test, delivers it straight to TikTok drafts, measures the result, and runs the loop again. 27 tools, zero subscription, pay only for what you run.\n\nThis is what growth on autopilot actually looks like.\n\nCheck it out: https://t.co/QOH09IjrIk",
-      "url": "https://x.com/ai_explorer25/status/2095223604808216576",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095222875766902784",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T18:50:35.598000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Layers Growth MCP gives your agent marketing superpowers\n\nPaste one prompt and your coding agent becomes your growth team\n\nIt learns your niche, finds what's working, ships one test at a time, posts, measures, and runs the loop again\n\nNo subscription. Pay as you go.\n\nhttps://t.co/9LQTmL6qI5",
-      "url": "https://x.com/ai_explorer25/status/2095222875766902784",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095219552804286464",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T18:37:23.342000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Finance is full of tiny tasks that quietly eat entire days.\n\nFind the filing. Verify the number. Rebuild the model. Update Excel. Check the formulas. Run scenarios. Write the report.\n\nLing-3.0-flash-Fin is interesting because it targets that entire chain, not just the final question.",
-      "url": "https://x.com/ai_explorer25/status/2095219552804286464",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095207936138125312",
+      "id": "2095600422895644672",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T17:51:13.713000Z",
+      "created_at": "2026-09-03T19:50:49.848000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "As OpenAI (and presumably Chinese open source model makers) flirt with 'neuralese,' making so-called 'chain of thought' reasoning non-auditable, the need to refocus efforts on neurosymbolic approaches becomes more urgent.\n\nTool calls can be audited, even if connectionist models can't be. So, the more tools the better. And as centralized AI approaches struggle to achieve ROI and datacenters face opposition, a shift to edge AI seems inevitable.\n\nOpen models running at the edge, speaking neuralese internally and calling deterministic tools externally, is almost certainly the shape of the future. The question is how we react to that phenomenon. Regulation really only can work in the centralized model, and it looks mostly doomed.\n\n(am I doing the 'speak your mind' thing right, @deanwball @GaryMarcus ?)",
-      "url": "https://x.com/GaryMarcus/status/2095207936138125312",
+      "text": "No.  I still don't think that pure scaling of LLMs can lead to AGI. \n\nBUT...\n\n... most recent advancements aren't actually about scaling LLMs. The really about adding deterministic, symbolic stuff to LLMs.\n\nEven that is not sufficient to get to AGI.\n\nBut it is necessary. (see my article Next Decade in AI).",
+      "url": "https://x.com/GaryMarcus/status/2095600422895644672",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,14 +155,14 @@
       }
     },
     {
-      "id": "2095207088393994240",
+      "id": "2095599835856646144",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T17:47:51.595000Z",
+      "created_at": "2026-09-03T19:48:29.887000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The deeper problem is that natural-language chain-of-thought was never architecturally bound to the computation in the way an audit trail needs to be.\n\nThe learned machinery is in the weights and much of the runtime computation is hidden in activations. CoT can expose genuine parts of that process, but the words we see will not be a complete record of what determined the answer.\n\nSo making CoT less monitorable is worrying - @GaryMarcus  is right about reducing even a fragile safety backstop before we have something better.\n\nThe stronger destination is an architecture in which trust-critical reasoning happens in an inspectable symbolic substrate, where each visible step determines what happens next.\n\nThen the trace isn’t the model’s account of its reasoning. The trace *is* the reasoning and monitoring that ensures safety.",
-      "url": "https://x.com/GaryMarcus/status/2095207088393994240",
+      "text": "Many of you will ask, \"if it saturates ARC 3, is it AGI?\"\n\nWe're not making this claim. All we know about the system so far are its benchmark scores.\n\nWhen we launched ARC 3, and in every presentation we made about it, we were very insistent on one thing: solving it is not proof of AGI. It's not intended as a finish line.\n\nARC 3 is testing the right qualitative properties you'd expect of an AGI system -- exploration under uncertainty, adaptation without instructions, causal world modeling from limited data, etc. -- but in small quantities. ARC 3 games are orders of magnitude shorter timescales than real world tasks, and represent orders of magnitude less data, less modeling complexity, less on-the-fly learning.\n\n(Slide below is from a March 2026 presentation)",
+      "url": "https://x.com/GaryMarcus/status/2095599835856646144",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -281,14 +173,104 @@
       }
     },
     {
-      "id": "2095198664222490624",
+      "id": "2095598538646568960",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-03T19:43:20.608000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "What exactly does it it mean for monitorability that \"The depth of the computation graph for our present frontier models, including Astra, is within a factor of two of GPT-4\" @merettm? (And did you mean GPT-4 or was that a typo?)\n\nFor example, does that mean Astra is half as monitorable as GPT-4?",
+      "url": "https://x.com/GaryMarcus/status/2095598538646568960",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095598450947792896",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-03T19:42:59.699000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game.\n\nIn fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation.\n\nOverall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself.\n\nWe see Astra as a major breakthrough in model intelligence.\n\nRead our post on Astra and what these results mean: https://t.co/wJnYxEqYNI",
+      "url": "https://x.com/GaryMarcus/status/2095598450947792896",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095597607339057152",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-03T19:39:38.567000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Astra creates a dense compact symbolic world model to complete ARC-AGI-3 environments.\n\nFor example, in environment s5i5, Astra:\n\n- Recorded the current level, hub orientation, and mechanism lengths: \"L8: hub q2 (8↓). Lengths: 14=1…\"\n\n- It mapped operations to exact controls: \"9−=(39,4), rotate=(49,18), 14+=(59,11)\"\n\n- And it wrote ordered plans: \"extend8 to3; retract10 to2; shorten8 to1\"\n\nThis on-the-fly algebraic shorthand helped Astra preserve the state that mattered and execute precise multi-step plans across turns.",
+      "url": "https://x.com/GaryMarcus/status/2095597607339057152",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095597168665186304",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-09-03T19:37:53.979000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring it to all Plus users and not only Pro, Business and Enterprise. \n\nIt will take a few days for the rollout to complete and behind the scenes many novel systems will operate at scale for the first time and we are bringing a lot of compute up.\n\nIt is pure magic.\n\nhttps://t.co/WUdXA3xSoh",
+      "url": "https://x.com/thsottiaux/status/2095597168665186304",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095596839823372288",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-03T19:36:35.577000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GPT-6 Astra is more aligned than our previous models. But it’s also less monitorable, which is a concerning trend that we take very seriously. We believe monitorability drop comes from a jump in intelligence and not direct optimization pressure on CoT or architecture changes. More thoughts in the thread.",
+      "url": "https://x.com/GaryMarcus/status/2095596839823372288",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095531140983779328",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T17:14:23.116000Z",
+      "created_at": "2026-09-03T15:15:31.753000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Spent some time with Inworld TTS-2 and what stood out to me wasn't just how clean the voices sound, it's how well it holds emotion and pacing across longer passages without going flat.\n\nNot surprised to see it back on top of the Artificial Analysis Arena leaderboard with the GA launch. That's earned. 👏\n\nWorth a listen if real-time voice is on your radar: https://t.co/U9w55pblTc\n\n🔗 Leaderboard: https://t.co/qrcT5pGy9i",
-      "url": "https://x.com/ai_explorer25/status/2095198664222490624",
+      "text": "It all started with a bang.\n\nSomewhere along the way, matter became life.\n\nLife became conscious and consciousness started creating.\n\nThe last and most disruptive in our line of creations is AI. \n\nSince its birth, we have been confronted with countless questions about ourselves and our nature as creators. \n\nBut the most important question isn’t whether AI can create like us or if it’s conscious.\n\nThe question should be where our universal desire to create comes from.\n\nThe only way to answer such a question is through motion picture. \n\nIntroducing: Spectrum. \n\nA film about why we are here.\n\nProduced by @capcutapp\nDirected by ARQ Studios\n\nMade using the newest generation of AI filmmaking tools.\n \nAI is forcing humanity to confront something strange about itself: why are we so compelled to create?\n\nBreakdown coming soon.",
+      "url": "https://x.com/ai_explorer25/status/2095531140983779328",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -299,14 +281,14 @@
       }
     },
     {
-      "id": "2095191287637110784",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T16:45:04.401000Z",
+      "id": "2095497035684438017",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-03T13:00:00.416000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "dear @amir @theinformation, last night you reported re Astra that “an innovative technique that improved the model's performance also means that the model, and others like it, will reveal less of their \"thinking.\".\n\nare you walking back that sentence, or not? it is still there on your site.\n\nif you are walking it back, please publish a correction; if you stand by it, say so.\n\nthis is important (and the second time I am asking).\n\n– @garymarcus",
-      "url": "https://x.com/GaryMarcus/status/2095191287637110784",
+      "text": "Introducing K2 Horizon: a connected fleet of six foundation models ranging from 0.9 billion to 375 billion parameters.\n\n- Frontier performance: Across coding and agentic tasks, K2 Horizon delivers top-tier performance in every size class—with the 0.9B, 3.7B and 7B models setting new state of the art at their respective scales.\n- Radical openness: K2 Horizon represents the largest fully open-source model launch in AI history. The fully open code, training data and recipes are a significant step forward in transparency.\n\nLaunch page: https://t.co/gg0k803SbL\nTech blog: https://t.co/g35L5xMGdS\nHugging Face: https://t.co/3Lb28JhyG9",
+      "url": "https://x.com/ai_explorer25/status/2095497035684438017",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -317,14 +299,14 @@
       }
     },
     {
-      "id": "2095190465897512960",
-      "username": "drfeifei",
-      "author_name": "Fei-Fei Li",
-      "created_at": "2026-09-02T16:41:48.483000Z",
+      "id": "2095493260127219712",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-03T12:45:00.253000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Exciting to see World Labs release Atlas—a breakthrough world model that opens the door to entirely new classes of applications. I’m particularly excited about real-time generation of rich 3D environments for simulation, enabling AI systems to learn, reason, and act across robotics, commerce, and experiential design. #AI",
-      "url": "https://x.com/drfeifei/status/2095190465897512960",
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2095493260127219712",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -335,14 +317,68 @@
       }
     },
     {
-      "id": "2095184464704118784",
+      "id": "2095476123459272705",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-03T11:36:54.553000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Every time I see a 40-page contract I have the exact same thought:\n\nSurely nobody is reading all of this.\n\nAnd then I remember someone eventually has to.\n\nAnd that person is somehow responsible for making sure the company doesn’t lose money because they misunderstood page 27 😭\n\nThis is new but for some reason it feels like something like this should’ve existed already!",
+      "url": "https://x.com/ai_explorer25/status/2095476123459272705",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095473681158094848",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-03T11:27:12.263000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "When did you last actually read a Contract?\n\nNobody does. And inside a company, that has a price.\n\nEvery invoice starts as a sentence in a contract that someone had to read correctly. Get it wrong and you undercharge for a year - or overcharge and lose the account.\n\nAt scale, that's millions.\n\nWe’d all rather hand this work to agents. Except agents are only ~80% there. That last 20% is real money.\n\nSo we tested 100s of models internally and realized we needed to benchmark them properly.\n\nIntroducing FinePrint by @tryflexprice \n\nRun major AI models on real contracts, see what they extract, and compare accuracy, cost, and speed against an answer key we wrote by hand.\n\nUpload your contract and see how your favourite model performs:  https://t.co/1D4Y0fDiQv",
+      "url": "https://x.com/ai_explorer25/status/2095473681158094848",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095402411448025088",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-03T06:44:00.240000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2095402411448025088",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2095341655423320070",
       "username": "demishassabis",
       "author_name": "Demis Hassabis",
-      "created_at": "2026-09-02T16:17:57.687000Z",
+      "created_at": "2026-09-03T02:42:34.875000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance in discovering vulnerabilities and patching them at scale, with Flash-level speed & pricing.\n\nThat includes achieving 86.2% on the important CyberGym industry benchmark, plus 47.2% on CWE-Bench for patching. We saw a 70%+ success rate in discovering vulnerabilities across 20 programming languages on our internal benchmark.",
-      "url": "https://x.com/demishassabis/status/2095184464704118784",
+      "text": "between today and yesterday, we launched two amazing new capabilities: Gemini 3.8 Flash and Agentic Video Understanding and they have been so much fun to build with.\n\nto test their limits, I built a retro Windows 98-themed workstation where you can drop in any YouTube URL of full 2-hour soccer matches 💾 ⚽(or any sports broadcast) & ask super detailed questions like \"show me all the 🟨 yellow cards & bookings\"\n\n⚡ Agentic Video Understanding autonomously navigates across the 120-minute video timeline (no giant downloads or blind frame sampling)\n\n🔍 dynamically zooms into candidate segments to detect referee whistles, tackles & card gestures\n\n📍 isolates every card with exact sub-second timestamps & 2D pitch coordinates\n\n🎬 pops out a tactical ledger where clicking any row instantly seeks and plays live!\n\nno manual scrubbing. pure interactive video intelligence.",
+      "url": "https://x.com/demishassabis/status/2095341655423320070",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -353,176 +389,14 @@
       }
     },
     {
-      "id": "2095172581628538881",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T15:30:44.541000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "In light of recent events, I hereby officially order the indefinite cessation of frontier AI training runs worldwide. Development of narrowly-scoped AI tools, and those that can be reasonably expected to be significantly below the current frontier in software development, cyber, and autonomous capabilities, may continue. Systems of greater combined intelligence, generality, and autonomy may be developed only if and when their developers can demonstrate with high assurance to a capable independent authority that sufficient alignment, control, and oversight exist.\n\n-One human being, on behalf of humans who would like us to stay in charge of our own civilization\n\n(Worth a try, right? :-)",
-      "url": "https://x.com/GaryMarcus/status/2095172581628538881",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095168621597364226",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T15:15:00.396000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "🔥SAM ALTMAN WARNS OF AN AI BUBBLE:\n\nOpenAI CEO Sam Altman reveals: “I’m seeing the first signs of what feels to me like unsustainable silliness.”\n\nHe warned firms are building “crazy amounts of compute” without the revenue or buyers to support it.\n\n“If the whole economy BLOWS UP, yes, that could impact us.”",
-      "url": "https://x.com/GaryMarcus/status/2095168621597364226",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095166259218497536",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T15:05:37.161000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Thanks for speaking up on this and for keeping the depth low for now. I look forward to reading your deeper explanation. It seems to me (and I suspect you agree?) that monitorability is very important and we are now in something of a race to the bottom on it; even with depth low this is a worrying direction to be moving yes? And as the information article says, even if openai doesn't go further, others might... I urge you to make it your job to get some sort of industrywide monitorability standard set up, either to arrest the slide into oblivion or better yet to race to the top. I think this is something where we need more than just political will, we need thoughtful technical specifications. You can contribute greatly towards both.",
-      "url": "https://x.com/GaryMarcus/status/2095166259218497536",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095141254686228484",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-09-02T13:26:15.616000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". \n\nIt's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit.\n\nAbout 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\"\n \nYes, that's it. The looped transformer idea is just reusing layers in the transformer block.\n\nIn the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. \n\nIn simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers.\n\nWhy? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.)\n\nWhile, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation.\n\nIn sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak.\n\nAlso, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method.\n\nReusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do.\n\nBut based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-      "url": "https://x.com/rasbt/status/2095141254686228484",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095136245806714880",
+      "id": "2095338491853025280",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T13:06:21.406000Z",
+      "created_at": "2026-09-03T02:30:00.621000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Most calendar AI hands you a morning brief and a few suggestions. That's where it stops.\n\nCatch actually does the work: it emails the guest, reschedules the meeting, batches your calls, trims the ones that should've been fifteen minutes, and even fills in the other side's scheduling link for you.\n\nBecause suggesting was never the job.\n\nSet up your assistant: https://t.co/7Wyt3A3RiT",
-      "url": "https://x.com/ai_explorer25/status/2095136245806714880",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2095133933407244288",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T12:57:10.087000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Andrej Karpathy’s 1-hour Stanford lecture on AI engineering is one of the best explanations I’ve seen of how AI systems actually work.\n\nThe progression is simple:\n\n10% → LLM\n30% → Prompt\n50% → Agent\n70% → Loop\n100% → Graph\n\nThe key takeaway:\n\nAI engineering isn’t just about writing better prompts.\n\nIt’s about building systems around models — giving them context, memory, tools, feedback loops, and data flows.\n\n“Delete everything, keep Graph.”\n\nDefinitely worth watching if you’re building with AI agents.\n\nWatch → Bookmark it",
-      "url": "https://x.com/ai_explorer25/status/2095133933407244288",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2094980908940197888",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-02T02:49:06.211000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "URGENT: In light of the breaking news from @theinformation about OpenAI’s new techniques that reduce Chain of Thought monitorability, I urge everybody to (re)read (or at least be aware of) this 2025 paper, right now: “Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety” (authors include @Yoshua_Bengio @BethMayBarnes @ancadianadragan @NeelNanda5 and many more) , https://t.co/2bnLn28CnN\n\nThe abstract says, and I concur, “Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability.”\n\nSacrificing that monitorability for performance gains could seriously escalate the risk of future, more dangerous incidents.",
-      "url": "https://x.com/GaryMarcus/status/2094980908940197888",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2094976102275985411",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-02T02:30:00.213000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Must follow founder accounts in X\n\n@dhh (David Heinemeier Hansson) → Ruby on Rails, 37signals \n@jasonfried → Basecamp/37signals, bootstrapping \n@Suhail → Mixpanel, Playground AI \n@amasad (Amjad Masad) → Replit \n@rauchg (Guillermo Rauch) → Vercel \n@noahkagan → AppSumo, marketing\n@gregisenberg → startup ideas (already on your list, huge)\n@thejustinwelsh (Justin Welsh)\n@sweatystartup (Nick Huber) → SMB/real business\n@thedankoe (Dan Koe) → creator business \n@rowancheung → AI news \n@mckaywrigley → AI coding/education \n@nutlope (Hassan El Mghari) → AI apps \n@ai_explorer25 → AI news\n@arvidkahl → bootstrapping \n@tdinh_me (Tony Dinh) → bootstrapped SaaS",
-      "url": "https://x.com/ai_explorer25/status/2094976102275985411",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2094950206106480641",
-      "username": "drfeifei",
-      "author_name": "Fei-Fei Li",
-      "created_at": "2026-09-02T00:47:06.085000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "World Labs co-founder @jcjohnss predicts a real-to-sim-to-real future where Atlas could train a robot for any new environment in minutes using just 5 photos from your phone:\n\n\"One is this notion of fully in-context learning. Maybe I've got a robotics foundation model, then I can demonstrate the robot once how a task should be performed, and that's enough for the robot to figure out.\"\n\n\"Another version is real to sim to real. Maybe I've got my pre-trained robotics foundation model, but I want to adapt it to this particular environment, like this studio, this table, moving this microphone around.\"\n\n\"There's a version where you could come in here and take just a couple casual videos with your phone or a couple images with your phone, use Atlas to reconstruct the space, and now stage all kinds of robotics interactions in this studio space.\"\n\n\"If you could lower the barrier to doing that, you could do it in five minutes to take five photos, upload it to Atlas, have it generate a simulation, maybe describe in natural language what kind of task you want the robot to do, have an agent go build that simulation for you, RL fine-tune your general purpose robotics foundation model, and now you've got a robot maybe in the span of a couple minutes that could come in and is perfectly adapted to this space.\"\n@theworldlabs",
-      "url": "https://x.com/drfeifei/status/2094950206106480641",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2094945906634489856",
-      "username": "drfeifei",
-      "author_name": "Fei-Fei Li",
-      "created_at": "2026-09-02T00:30:01.011000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "This AI model doesn't generate videos. It generates worlds.\n\nFei-Fei Li's World Labs dropped Atlas today. The first model that generates images, video, and 3D in one architecture. Pretrained from scratch.\n\nGive it a few photos of a real space. It reconstructs the full 3D environment. Set the exact camera path. Move through it. Render at 1440p for up to a minute.\n\nGive it footage from ordinary cameras. It creates Matrix-style bullet time. Freeze a moment, rotate around it.\n\nGive it photos of a room. It builds a photorealistic 3D simulation with the depth data robots need for training. Replaces equipment that costs tens of thousands.\n\nThe core principle: the more images you feed it, the less it imagines. One photo means heavy generation. Seven photos means near-pure reconstruction. You control the dial.\n\nEvery AI video tool today creates flat content you watch. Atlas creates spaces you enter.",
-      "url": "https://x.com/drfeifei/status/2094945906634489856",
+      "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete= built openclaw\n@gregisenberg= startup ideas king\n@rileybrown= vibecode king\n@jackfriks= solo apps king\n@levelsio= startups king\n@marclou= startups king\n@EXM7777= AI ops + systems king\n@eptwts = AI money twitter king\n@ai_explorer25= AI queen\n@godofprompt= prompt king\n@vasuman= AI agents king\n@AmirMushich= AI ads king\n@0xROAS= AI UGCs king\n@egeberkina= AI images king  \n\nFollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2095338491853025280",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
