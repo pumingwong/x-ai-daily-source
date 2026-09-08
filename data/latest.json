@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-07T01:15:54.396417Z",
-  "window_start": "2026-09-05T23:15:54.396417Z",
+  "generated_at": "2026-09-08T01:20:36.880856Z",
+  "window_start": "2026-09-06T23:20:36.880856Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -20,7 +20,7 @@
     {
       "username": "rasbt",
       "returned_count": 12,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
@@ -47,23 +47,23 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 13,
-      "recent_count": 7,
-      "timestamp_corrected_count": 13,
+      "returned_count": 7,
+      "recent_count": 5,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
       "returned_count": 12,
-      "recent_count": 4,
+      "recent_count": 5,
       "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 13,
+      "returned_count": 12,
       "recent_count": 1,
-      "timestamp_corrected_count": 13,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
@@ -82,9 +82,9 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 3,
+      "returned_count": 4,
       "recent_count": 1,
-      "timestamp_corrected_count": 3,
+      "timestamp_corrected_count": 4,
       "possibly_truncated": false
     },
     {
@@ -96,19 +96,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 115 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 109 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 14,
+  "tweet_count": 12,
   "tweets": [
     {
-      "id": "2096759535583338496",
+      "id": "2097050431675379712",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-07T00:36:43.848000Z",
+      "created_at": "2026-09-07T19:52:38.881000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "“i know! everybody is worried about rogue AI. so let’s distract them!”\n\n“ok, how about if we say AI gonna kill us all”\n\n“nope, tried that”\n\n“um, how about if we say AI will take everyone’s jobs”\n\n“nope, tried that too”\n\n“solve cancer?”\n\n“nope, tried that”\n\n“solve physics?”\n\n“nope, tried that, too”\n\n“achieved AGI”\n\n“ok, what the hell worth a try.\nlet’s both put out tweets!”",
-      "url": "https://x.com/GaryMarcus/status/2096759535583338496",
+      "text": "\"We would be very foolish to develop superintelligence now, when there is no scientific consensus it can be developed safely and controllably.\"\n— AI godfather Geoffrey Hinton\n\nA new piece in The Times covering our UK Artificial Intelligence Security Bill, which will be introduced by Alex Sobel MP in Parliament tomorrow.\n\nIt will be the first bill to prohibit superintelligence to be introduced in a legislature anywhere in the world.",
+      "url": "https://x.com/GaryMarcus/status/2097050431675379712",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,86 +119,14 @@
       }
     },
     {
-      "id": "2096740522450980864",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-06T23:21:10.764000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Jensen has the best gig on the planet. But it is impossible to see how all this is sustainable. Consider the following:\n\nEach new model costs vastly more to develop.\n\nThat’s fabulous for him!\n\nOn the other hand, each new model offers only incremental gains.\n\nAnd OpenAI and Anthropic need to keep cutting costs, dramatically, with every release.\n\nThis is truly great for consumers!\n\nBut I cannot see how on earth the model providers are ever going to become sustainably profitable, given all those facts.",
-      "url": "https://x.com/GaryMarcus/status/2096740522450980864",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096735549084028928",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-06T23:01:25.021000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Settle down people!! @JensenHuang isn't saying something he hasn't said before.\n\nDuring a Lex Fridman interview March 26, 2026 - first time. I was just watching this today. ----- At about 1:56:29–1:56:35\n\nLex asks whether AGI is 5, 10, 15, or 20 years away. Jensen replies: “I think it's now. I think we've achieved AGI.”",
-      "url": "https://x.com/GaryMarcus/status/2096735549084028928",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096723330351153152",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-06T22:12:51.848000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Sad to see Jensen claim that AGI has arrived, with no evidence and no definitions.\n\nI would urge him to read https://t.co/ogf90ZCVKs by @hendrycks, @Yoshua_Bengio & many others (including myself), and to consider how Astra is doing on the kinds of examples I laid out in my bet with Brundage. (https://t.co/xH14ncZWHr)\n\nBy conventional definitions, Astra still falls short. \n\nDeclaring victory without a definition simply muddies the waters.",
-      "url": "https://x.com/GaryMarcus/status/2096723330351153152",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096701237634723840",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-06T20:45:04.534000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "My current view is that GPT 6 Astra is not meaningfully better than Fable 5.1 for my personal work, but that using both side-by-side is nonetheless very helpful and additive.\n\nI have been using GPT 6 Astra and Fable 5.1 a bunch over the past two days, largely for policy analysis, memo writing, and simpler software (e.g., making dashboards and forecasting models) that still nonetheless seems difficult conceptually.\n\nAcross a variety of tasks I've done, it's been fairly random and hard to predict in advance which of the two models will end up being better at the task.\n\nFor the tasks that are the most difficult conceptually, I've found that doing the project in both and then having each compare notes and critique each other has produced way better outputs than either alone.\n\nI think a reasonable person could conclude either model is the \"best model\" and it depends a lot on their subjective views and specific tasks.",
-      "url": "https://x.com/GaryMarcus/status/2096701237634723840",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096688770468958208",
+      "id": "2097043464475332608",
       "username": "thsottiaux",
       "author_name": "Tibo",
-      "created_at": "2026-09-06T19:55:32.130000Z",
+      "created_at": "2026-09-07T19:24:57.771000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high.\n\nIf you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
-      "url": "https://x.com/thsottiaux/status/2096688770468958208",
+      "text": "Never gonna give you up\nNever gonna let you down\nNever gonna run around and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie and hurt you\n\nThanks for reading. We will do a global reset of the usage for all paid subscriptions so that you can keep enjoying Astra after burning through all of it doing fun 3D modeling in blender. The work week is about to start.\n\nLands around 6pm PST today.",
+      "url": "https://x.com/thsottiaux/status/2097043464475332608",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,14 +137,14 @@
       }
     },
     {
-      "id": "2096679737641082880",
+      "id": "2097022217943236608",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-06T19:19:38.536000Z",
+      "created_at": "2026-09-07T18:00:32.203000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Every time a new model drops, GPT, Claude, Gemini, Grok, DeepSeek, somebody on this app declares that we have reached AGI.\n\nWe haven’t. And confusing a better model with general intelligence is exactly how this conversation keeps going in circles.\n\nThere isn’t one universally agreed definition of AGI, but broadly, it means an AI system capable of learning, reasoning, adapting, and performing a wide range of intellectual tasks across domains without needing to be specifically trained or fine tuned for each new problem.\n\nThat means more than writing code, passing benchmarks, or producing incredibly fluent answers. It means robust reasoning, common sense, long horizon planning, adapting to genuinely unfamiliar situations, and transferring knowledge from one domain to another.\n\nRight now, we have extraordinarily capable AI systems that can outperform humans on some extremely difficult tasks and then fail on something that seems trivial. Their capabilities are impressive, but also remarkably uneven. That “jagged” intelligence is one reason I’m hesitant to call current systems AGI.\n\nSo when a new model launches and your feed immediately says “AGI is here,” take a step back.\n\nMaybe we are getting closer. Maybe much closer than we think.\n\nBut the AGI threshold should be about generality, adaptability and reliability across genuinely unfamiliar problems, not how impressive the latest model looks.\n\n@karpathy @ylecun @fchollet @demishassabis @AndrewYNg @GaryMarcus\n\n#AGI #ArtificialIntelligence #AI #MachineLearning #LLMs",
-      "url": "https://x.com/GaryMarcus/status/2096679737641082880",
+      "text": "Ouch: “Nvidia is building the most concentrated bet on a single technology cycle that any company has ever made. If these valuations keep climbing, Jensen looks like a genius. If they don't, Nvidia is holding tens of billions in illiquid private stakes it can't sell, in companies that need Nvidia's money to keep buying Nvidia's chips.”",
+      "url": "https://x.com/GaryMarcus/status/2097022217943236608",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -227,68 +155,14 @@
       }
     },
     {
-      "id": "2096613051495759872",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-06T14:54:39.320000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Anthropic just dropped a free 59-minute Claude Code course  \n\nFrom autocomplete to real AI agents:\n\n0% → 00:00 - move from autocomplete to agents \n20% → 04:50 - understand how the agentic loop works \n40% → 14:07 - use CLAUDE.md as project memory \n60% → 26:53 - learn why Plan Mode comes first \n80% → 33:31 - run a live task from brief to commit \n100% → 54:46 - understand Skills vs CLAUDE.md\n\nMost people still use Claude Code like a smarter autocomplete\n\nThis shows how Anthropic uses it to plan, call tools, test, and ship actual work\n\nWorth more than 99% of paid Claude Code tutorials\n\nBookmark it and watch later",
-      "url": "https://x.com/ai_explorer25/status/2096613051495759872",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096596372514336771",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-09-06T13:48:22.741000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Reasoning from scratch round 2: In this video, I cover the text generation process in LLMs and KV caching (to prepare the base model before adding reasoning techniques in the upcoming ones).\n\n00:00 Introduction and reasoning model demo\n01:55 How to work through the book\n05:00 Chapter 2 overview\n08:25 Checking PyTorch and hardware support\n10:26 Apple silicon and MPS caveats\n15:00 Cloud GPU options\n16:08 Tokens and tokenization\n18:20 Qwen3 and the Reasoning From Scratch package\n23:05 Encoding and decoding text\n26:24 Downloading weights and selecting a device\n31:01 Loading the pretrained Qwen3 model\n34:32 How LLMs generate text\n36:47 Input tensors and batch dimensions\n41:48 Running the model in inference mode\n44:11 Logits and next-token predictions\n49:21 Greedy decoding with argmax\n52:28 Building a streaming text generator\n01:01:28 Generating text and handling end-of-sequence tokens\n01:06:00 Benchmarking text generation\n01:14:34 How KV caching works\n01:17:22 Adding KV caching and measuring the speedup\n01:24:31 Model compilation with torch.compile\n01:30:33 Combining compilation with KV caching\n01:32:53 Comparing CPU and GPU performance\n01:35:32 Recap and next steps",
-      "url": "https://x.com/rasbt/status/2096596372514336771",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096588028169068544",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-06T13:15:13.294000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Anthropic senior engineer just released a 1-hour course on building a team of agents with loops & graphs:\n\n• 00:27 - introduction to CLAUDE.md & Plan mode\n• 11:24 - building \"skills\" & \"hooks\" for Claude agents\n• 37:02 - building agents & subagents with Claude\n• 52:47 - self-improving loops & graphs for Claude agents\n\nthis 1-hour watch will replace a $500 agentic engineering course\n\nsave it or go watch it now.",
-      "url": "https://x.com/ai_explorer25/status/2096588028169068544",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2096532763398594563",
+      "id": "2097009267958259712",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-06T09:35:37.146000Z",
+      "created_at": "2026-09-07T17:09:04.686000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "I read some strange criticisms of this post. So here is my take. I’m not fully endorsing the piece by Newport, but there’s quite some factually true information in it. Responsible and careful people (in or out of the mentioned subcultures) should acknowledge the disservice (alongside the service) that EA and Yudkowskian rationalist communities have done to AI governance AND AI governance discourse.\n\nI think a charitable reading of Pinker's post here is this: the classic doomer AI-extinction narrative (a singleton AI or a family of super powerful AIs will likely kill all of humanity so literal “extinction” via literal AI “takeover”) have hurtfully monopolized quite a lot of attention for quite some time. Attention is a scarce resource. Much more attention could have otherwise gone  toward mitigating concrete, more immediate risks like cybersecurity or biosecurity disasters. \n\nThe catalogue of risks in relation to existential risks was \"popularized\" by detailed argumentation only quite recently. Here are two sources: in January 2024 via the concept of \"gradual and cumulative x-risk\" (https://t.co/Vbcu4nvLrP), and later in January 2025 via the \"gradual disempowerment thesis\": https://t.co/MT1UE8SeP6 \n\nThese recent papers bridged \"immediate, concrete risks\" with \"existential risks.\" @SigalSamuel from @voxdotcom has given a quite extensive coverage of the disourse here: https://t.co/kt5Zg1xD5P\n\nI think it's time to stop strawmaning those who challenge the classic \"ASI takeover-and-literal extinction\" scenario. Those who strawman, intentionally or unintentionally, frequently suffer from a \"dataset bias\" fallacy by falsely claiming that those challengers of the classic scenario are \"skeptics\" or \"deniers\" (without saying skeptics or deniers of what exactly\") and then saying that the challengers only care about immediate, localized harms of dataset bias. This binary is so deeply outdated. \n\nFor Many people outside the EA and Yudkowskian-Rationalist subcultures, the catalog of serious, dangerous, systemic, and catastrophic risks has always been far broader. It included complex, compounding deeply dangerous vulnerabilities by the development and/or deployment of advanced AI that could threaten society’s long-term resilience without requiring a singular, speculative \"apocalyptic machine\" moment.",
-      "url": "https://x.com/GaryMarcus/status/2096532763398594563",
+      "text": "⚠️ The most important question hardly anyone is asking is whether Jensen meant 100K+ GPUs, or 100k+ NVLink72 server racks (which contain 72 Blackwell GPUs). ⚠️\n\nFrom his wording, it sure looks like the latter to me.\n\nIf he indeed meant 100k+ NVLink72 server racks, we can infer that the hardware to train Astra sells for something like a quarter trillion dollars.\n\nRental prices would perhaps be in the low tens of billions.\n\nFor an improvement that @EpochAIResearch shows is not off trend. \n\nOne key foundational problem with this whole industry (aside from technical limits of LLMS) is that you have two trends; exponential increases in training costs, modest increases in performance.\n\nCouple that with price wars and all of this is absolutely insane.\n\nIt’d be like a gas company paying exponentially more money for each extra million barrels in the midst of a massive price war. That can’t last.\n\nNor can this.",
+      "url": "https://x.com/GaryMarcus/status/2097009267958259712",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -299,14 +173,32 @@
       }
     },
     {
-      "id": "2096472965621903360",
+      "id": "2097002000064155649",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-07T16:40:11.885000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Partial list of times when people declared that AGI had been achieved. (Please tell me what I missed)\n\nTwitterverse, November 2023, “What did Ilya see” (supposedly AGI)\n\nSam Altman, January 2025  blog\n\nTyler Cowen,  o3, April 2025 bloh\n\nJensen Huang, Feb 2026 (on Lex Fridman, no specific model specified)\n\nJensen Huang, September 6, 2026 (on X, re Astra).\n\nOf course I fully expect that AGI will be achieved someday.  \n\nBut everything said before then is a premature declaration.",
+      "url": "https://x.com/GaryMarcus/status/2097002000064155649",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2096970974063439872",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-06T05:38:00.245000Z",
+      "created_at": "2026-09-07T14:36:54.710000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Steve Jobs explained why Japanese companies are known for quality, and they never once put the word \"quality\" in their ads.\n\n\"The people who do not use quality in their marketing are the Japanese. You never see them do it.\"\n\n\"It's only the American companies that do. And yet if you ask people on the street which products have the best reputation for quality, they will tell you the Japanese products.\"\n\n\"Customers don't form their opinion on quality from marketing. They form it from their own experience with the product.\"\n\nThe lesson is simple.\n\nYou can't tell people your product is good. They decide that themselves, after they use it.\n\nSo stop saying it. Start building it.",
-      "url": "https://x.com/ai_explorer25/status/2096472965621903360",
+      "text": "🚀 Meet MiniCPM5-2B, a 2B-parameter language model bringing high intelligence density to the edge, now open source!\n\nIt ranks #1 among open-source models under 4B parameters on the\n@ArtificialAnlys Intelligence Index, with a score of 23.\n\nIt also scores 20 on the Agentic Index, bringing an early form of general-purpose agent capability to the edge.\n\nAcross 34 benchmarks, MiniCPM5-2B achieves an average score of 53.9, covering coding, math, long-context understanding, tool use, and agentic tasks.\n\nAnd this release goes beyond the model itself.\n\nWe’re opening up the data, training recipes, and RL stack behind MiniCPM5-2B.\n\n🤗 Hugging Face: https://t.co/FZOMTZhBjq\n💻 GitHub: https://t.co/2L0I8bYv8f\nModelscope: https://t.co/WRlPNEAzgu\nWeb: https://t.co/gRSu65FeZL",
+      "url": "https://x.com/ai_explorer25/status/2096970974063439872",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -317,14 +209,14 @@
       }
     },
     {
-      "id": "2096425653721858048",
+      "id": "2096957911842852866",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-06T02:30:00.209000Z",
+      "created_at": "2026-09-07T13:45:00.434000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy- must-follow account for AI; recently joined Anthropic\n@bcherny - Claude Code creator, always shares great tips\n@trq212 - also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial - works on reasoning research, shares a lot of technical details\n@gabriel1 - Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar - product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI - cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases\n@ai_explorer25- covers all ai content and free resources",
-      "url": "https://x.com/ai_explorer25/status/2096425653721858048",
+      "text": "Satya Nadela is basically describing the death of the traditional SaaS model.\n\nExplains the AI agentic future, and where the \"value\" lives.\n\nBecause business logic is moving from the software application to the AI agents.\n\nCurrently, you buy software for its specific features and rules. \n\nNadella argues that in the future, software apps will essentially become dumb databases (\"CRUD\") or simple tools. \n\nThe AI Agent will hold all the intelligence, orchestration, and reasoning, simply updating the databases as needed. The software becomes a commodity; the AI becomes the \"brain\" and the worker.\n\nVideo from Bg2 Pod Youtube Channel",
+      "url": "https://x.com/ai_explorer25/status/2096957911842852866",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -335,14 +227,86 @@
       }
     },
     {
-      "id": "2096379210881200129",
+      "id": "2096940348258050048",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-07T12:35:12.949000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2096940348258050048",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2096925646312103937",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-07T11:36:47.732000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "after having burnt twice through my Pro limits using Astra exclusively, I can say that I don't feel the AGI\n\nthe biggest issue is that its still not opinionated and lacks taste.\nit doesn't really know what to do, so it just does whatever and you end up wasting time and tokens.\n\nalso I don't believe the rumors that it's 10T+. If it is, then scaling laws are truly cooked. My divine impeccable vibes, which work 1 out of 7 times, tell me that it's 6-8T.\n\noverall it's still just a code monkey. although a slightly larger one and the best we have.\n\nI would like to refer you to one of my articles: LLMs aren't AGI, but it doesn't matter\n\n(we are taking off anyway)",
+      "url": "https://x.com/GaryMarcus/status/2096925646312103937",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2096849446424240129",
       "username": "maximelabonne",
       "author_name": "Maxime Labonne",
-      "created_at": "2026-09-05T23:25:27.373000Z",
+      "created_at": "2026-09-07T06:34:00.263000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "You heard about LLM inference on WebGPU, but what about... finetuning LLM on WebGPU? 🤯\n\nI put together a super earlier PoC that proves it's possible, backed by llama.cpp / wllama 😁\n\nWorking on LoRA next...",
-      "url": "https://x.com/maximelabonne/status/2096379210881200129",
+      "text": "I wrote a third book: The Generative AI Career Masterplan\n\nWe wanted to offer a guide for people who want to build a career in AI and answer questions like:\n\n- What roles fit your background?\n\n- Which skills should you focus on?\n\n- How do you turn what you’ve learned into something that gets you hired?\n\nThe book follows that journey: exploring different career paths, identifying the skills you need, building a portfolio, preparing for interviews, and continuing to grow once you land a role.\n\nIt's so big we needed five people and five different perspectives to write this book, with @AliArsanjani (Google Cloud), Sadid Hasan (Microsoft), @andreas_horn1, (IBM), and Leonid Kuligin (Google Cloud).\n\nA big thank you to my co-authors and to the team at @PacktPublishing for bringing this book to life!",
+      "url": "https://x.com/maximelabonne/status/2096849446424240129",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2096830823588622337",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-07T05:20:00.233000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Tim Cook: \"Despite this table being so small, you could put every Apple product on it. Every single one that we ship today.\"\n         \n\"Most companies begin to do larger and larger and larger portfolios because it's so easy to add. It's hard to edit. It's hard to stay focused. \n\nYet we know we'll only do our best work if we stay focused.\n\nThe hardest decisions we make are all the things not to work on. There are lots of things we'd like to work on, that we have interest in, but we know that we can't do everything great.\"\n\n(Charlie Rose || 2014)",
+      "url": "https://x.com/ai_explorer25/status/2096830823588622337",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2096788042803752960",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-07T02:30:00.499000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "the best 20 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n@kloss_xyz = learn systems architecture\n@emollick = learn AI science\n@Hesamation = learn AI/ML\n@claudeskills101 = learn Claude\n\nfollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2096788042803752960",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
