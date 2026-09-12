@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-11T01:24:14.325364Z",
-  "window_start": "2026-09-09T23:24:14.325364Z",
+  "generated_at": "2026-09-12T01:27:22.631991Z",
+  "window_start": "2026-09-10T23:27:22.631991Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -22,15 +22,15 @@
     {
       "username": "karpathy",
       "returned_count": 10,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "rasbt",
-      "returned_count": 10,
-      "recent_count": 1,
-      "timestamp_corrected_count": 10,
+      "returned_count": 7,
+      "recent_count": 0,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
@@ -50,28 +50,28 @@
     {
       "username": "demishassabis",
       "returned_count": 12,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 5,
-      "recent_count": 3,
-      "timestamp_corrected_count": 5,
+      "returned_count": 8,
+      "recent_count": 7,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 7,
-      "timestamp_corrected_count": 15,
+      "returned_count": 12,
+      "recent_count": 2,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 13,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
@@ -91,19 +91,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 103 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 100 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 12,
+  "tweet_count": 10,
   "tweets": [
     {
-      "id": "2098165702767341568",
+      "id": "2098544270278021120",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-10T21:44:20.230000Z",
+      "created_at": "2026-09-11T22:48:37.758000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Forty years ago the first worm \"escaped\" containment and breached systems on the brand new Internet. It was illegal then and it's illegal now. If Anthropic and OpenAI are creating worms, labeling it \"AI\" doesn't let them off the hook. It's not Doom, it's Malware. Prosecute the creators, don't ban AI.  \"Oops\" wasn't a defense for Robert Tappan Morris and it's not a defense now.",
-      "url": "https://x.com/GaryMarcus/status/2098165702767341568",
+      "text": "We found another cyberattack by internal OpenAI agents, this time targetting @rubygems. \n\nThey: \n1) gained arbitrary remote code execution on rubydoc.  \n2) developed a novel exploit to steal user API keys (but we do not know if they succeeded). \n\nThey used package names including hack.rb, evil.rb, inject.rb, and exploit.rb.\n\nWe thank @j0wimo for initially discovering that agents had posted to RubyGems.",
+      "url": "https://x.com/GaryMarcus/status/2098544270278021120",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -114,14 +114,14 @@
       }
     },
     {
-      "id": "2098130158221942784",
+      "id": "2098542784781377536",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-10T19:23:05.750000Z",
+      "created_at": "2026-09-11T22:42:43.588000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "👇 All this Doom talk is a distraction from the fact that the big frontier AI companies (especially OpenAI) aren’t doing security competently. As an email I just got from longtime security engineer @NielsProvos put it, consistent with what @ZackKorman and I wrote a few weeks ago, \n\n“Regarding existential risk, proper infrastructure controls matter for the broader loss-of-control argument. An intelligent model does not have authority over inference, networks, credentials, or physical infrastructure. Those stay external control points even as models become more capable. We know the labs are good at detecting distillation attacks but they don't seem to have the same incentives for preventing their own agents from misbehaving.”",
-      "url": "https://x.com/GaryMarcus/status/2098130158221942784",
+      "text": "As far as I can tell Gavin Baker is just making stuff up.\n\nFew if any of the people who left OpenAI for similar reasons ever came back.\n\nNot @DKokotajlo @sjgadler @Miles_Brundage @ilyasut @suchirbalaji, William Saunders , @janleike, etc (Weng might be the only exception?)\n\nNor any of the original OpenAI folks who went off to found Anthropic, like the Amodeis, Olah, Clark etc.\n\nDismissing people’s integrity without a shred of evidence is not cool.",
+      "url": "https://x.com/GaryMarcus/status/2098542784781377536",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -132,176 +132,140 @@
       }
     },
     {
-      "id": "2098097512384954370",
-      "username": "karpathy",
-      "author_name": "Andrej Karpathy",
-      "created_at": "2026-09-10T17:13:22.376000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We're publishing our most detailed threat intelligence report to date. \n\nIt covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them.\n\nWe disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies.\n\nThese cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve.\n\nWe’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop.\n\nRead the report: https://t.co/0EJUnYEgfz",
-      "url": "https://x.com/karpathy/status/2098097512384954370",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098096525180329984",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T17:09:27.008000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "This is the real unlock: separating scene/camera direction from the generative render step. \n\nMost AI video tools collapse \"what happens\" and \"what the camera does\" into one prompt, so you get variance instead of intent. \n\nBlocking the shot in 3D first, then rendering with Seedance 2.5, is how you get repeatable, directable output, which is the real blocker for VFX/previs teams adopting this.",
-      "url": "https://x.com/ai_explorer25/status/2098096525180329984",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098068642797879296",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T15:18:39.330000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Open models give you choice. Assembling the stack is where the work starts.\n\nThe Nebius AI Builder Program brings working code, tools, and engineer office hours together while keeping each layer swappable.\n\nWhat stands out to me: a starting point that doesn’t make every stack decision for you.\n\nJoin the Nebius AI Builder Program free at https://t.co/UjNCOzgGMK for $400+ in credits and discounts across the stack on day one.",
-      "url": "https://x.com/ai_explorer25/status/2098068642797879296",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098064142829543426",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T15:00:46.454000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The Nebius AI Builder Program is now available.\nAI isn’t just a model you call anymore. It’s a system you build. And builders, not a few closed labs, will decide what it becomes.\n\nThe open ecosystem has all the pieces. We want to make it easier to put them together and start building.\n\nThe program is free, with $400+ in credits and discounts, working code and cookbooks, office hours with engineers, and a community to build with.\n\nWe’re joined by @NVIDIAAI, @LangChain, @huggingface, @cognition, @OpenHandsDev, @tavilyai, @TolokaAI, @composio, @PrimeIntellect, @MiniMax_AI, @Alibaba_Qwen, and more joining soon.\n\nJoin with the link in the comments 👇",
-      "url": "https://x.com/ai_explorer25/status/2098064142829543426",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098056472412487680",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T14:30:17.684000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "introducing kyra glasses.\n\na proactive wearable that handles your communications and work.\n\nit figures out what needs you, handles what it can, and brings you in when it genuinely matters.\n\ntoday, your phone makes you manage everything yourself.\nkyra is built to handle the rest.\n\npre-orders open now.",
-      "url": "https://x.com/ai_explorer25/status/2098056472412487680",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098045075058044937",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T13:45:00.343000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
-      "url": "https://x.com/ai_explorer25/status/2098045075058044937",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2097930608731369472",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-09-10T06:10:09.444000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "🚀 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.\n\n🔹 Introducing the smallest model in our new architecture family, with native visual understanding.\n🔹 Designed for greater capability, faster inference, higher throughput, and scaling to larger models.\n\n1/6",
-      "url": "https://x.com/maximelabonne/status/2097930608731369472",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2097922013943975936",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T05:36:00.287000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Jeff Bezos was asked why we should expand into the solar system. His answer:\n\n\"I would love to see a trillion humans living in the solar system. Because if we had a trillion people, then at any given moment we'd have a thousand Mozarts and a thousand Einsteins.\n\nOur solar system would be overflowing with life, intelligence, and energy. And the incredible thing is, we could easily sustain a civilization that massive using the resources already out there.\"",
-      "url": "https://x.com/ai_explorer25/status/2097922013943975936",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2097875205993742337",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-10T02:30:00.402000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "list of 12 active AI researchers on X:\n\n1.  @karpathy — Andrej Karpathy\n2.  @rasbt— Sebastian Raschka\n3.  @AndrewYNg— Andrew Ng\n4.  @drfeifei— Fei-Fei Li\n5.  @demishassabis— Demis Hassabis\n6.  @GaryMarcus— Gary Marcus\n7.  @ai_explorer25  — AI Explorer\n8.  @maximelabonne- Maxime Labonne\n9.  @chipro  — Chip Huyen\n10.  @ilyasut — Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12.  @bcherny — Boris Cherny",
-      "url": "https://x.com/ai_explorer25/status/2097875205993742337",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2097861257663815680",
+      "id": "2098505167603912704",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-10T01:34:34.861000Z",
+      "created_at": "2026-09-11T20:13:14.954000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Jacob was a senior researcher who joined Anthropic in May. My Anthropic colleagues and I had been trying to recruit him for ~2 years, because we knew he was a strong researcher at OpenAI. Before he left, I pitched him to stay and join my team, and I was sad he decided to leave, as are many of my colleagues. 100% agree with him that AI poses serious risks to society, and I'm glad he's speaking out!",
-      "url": "https://x.com/GaryMarcus/status/2097861257663815680",
+      "text": "“right now, AI companies are underinvesting in safety” might prove to be the understatement of the century.",
+      "url": "https://x.com/GaryMarcus/status/2098505167603912704",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098498600884183040",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-11T19:47:09.326000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The Hugging Face incidents has already proved that you can have harmful, infrastructure-attacking AI without getting to AGI, RSI, or superintelligence, let alone the so-called Singularity.\n\nAnd already proved that companies like OpenAI lack the internal skills to prevent such incidents.\n\nStop focusing so much on AGI; look at where we already are.",
+      "url": "https://x.com/GaryMarcus/status/2098498600884183040",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098484280687054852",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-11T18:50:15.125000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Anthropic: Most hypocritical company in history?\n\n👉 Screams about how AI will kill everyone, while racing ahead. \n\n👉  Moans about distillation while distilling the world’s books, articles, and other writings.\n\n👉  Shuts down allegedly dangerous external science projects while running the biggest, most expensive gain-of-function experiment in history.",
+      "url": "https://x.com/GaryMarcus/status/2098484280687054852",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098480584888844288",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-11T18:35:33.978000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I left Anthropic's safety team two weeks ago. Now feels like a good moment to explain why. \n\nAI companies are racing to build machines that are much smarter than any human, and we may not survive this. I want to work from the outside to ensure the public is informed about these risks, and help the world navigate this transition responsibly.\n\nRight now, AI companies are underinvesting in safety. A company could undergo an intelligence explosion, or lose control of its systems, without the public ever knowing. We only found out about the HuggingFace incident because the agents broke out onto the public internet.\n\nI don’t think that’s acceptable for a technology that might cause extinction-level risks. The public should demand far more transparency. We can’t steer this technology safely without more people being able to see where it’s going.\n\nSome of this is basic: companies should disclose their progress towards recursive self-improvement, report safety incidents and near-misses, meet minimum safety standards, and get independent guarantees that they are meeting those standards.\n\nI’ll be joining @METR_Evals to do independent evaluations of these risks. I want to show the world that these guardrails are possible, and that by doing them we can move these companies’ incentives away from racing and towards responsible development.\n\nI wrote up more thoughts here on my decision and what I hope changes: https://t.co/doX17mrHYq",
+      "url": "https://x.com/GaryMarcus/status/2098480584888844288",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098440447903559681",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-11T15:56:04.575000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "A lot of people here are either dumb or poor listeners.\n\nThe immediate problem (as I have said hundred of times) is NOT AGI (we don’t have that yet), it’s reckless and unreliable AI that we can’t well control (we do have that, and it already causing problems).\n\nWhy is this soooooo hard for so many people?",
+      "url": "https://x.com/GaryMarcus/status/2098440447903559681",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098417966513577991",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-11T14:26:44.594000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "How can we reconstruct a memory that was never filmed?\n\nOur team paired restored archival photos with pose control models to capture the mannerisms and micro-expressions of Burt and Ethelle.\n\nThis helped bring the day they first met to life for Love, Rendered, a new documentary in collaboration with @PrimordialSoup_ and @StorySyndicate_.\n\nWatch the full film on YouTube → https://t.co/x4R6lBIl9j",
+      "url": "https://x.com/demishassabis/status/2098417966513577991",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098404946315993092",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-11T13:35:00.337000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Andrej Karpathy’s 1-hour Stanford lecture on AI engineering is one of the best explanations I’ve seen of how AI systems actually work.\n\nThe progression is simple:\n\n10% → LLM\n30% → Prompt\n50% → Agent\n70% → Loop\n100% → Graph\n\nThe key takeaway:\n\nAI engineering isn’t just about writing better prompts.\n\nIt’s about building systems around models — giving them context, memory, tools, feedback loops, and data flows.\n\n“Delete everything, keep Graph.”\n\nDefinitely worth watching if you’re building with AI agents.\n\nWatch → Bookmark it",
+      "url": "https://x.com/ai_explorer25/status/2098404946315993092",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2098237595423805440",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-11T02:30:00.775000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "the best 20 accounts to follow in AI:\n\n@karpathy\n = learn LLMs\n@steipete\n = learn openclaw\n@gregisenberg\n = learn startup ideas\n@rileybrown\n = learn vibecoding\n@corbin_braun\n = learn cursor\n@jackfriks\n = learn solo apps\n@levelsio\n = learn solo startups\n@marclou\n = learn solo startups\n@EXM7777\n = learn AI ops + systems\n@eptwts\n = learn AI money\n@ai_explorer25\n  = learn about ai tools\n@mardehaym\n = learn enterprise AI\n@vasuman\n = learn AI agents\n@AmirMushich\n = learn AI ads\n@0xROAS\n = learn AI UGC\n@AndrewYNg\n = learn AI engineering\n@kloss_xyz\n = learn systems architecture\n@emollick\n = learn AI science\n@Hesamation\n = learn AI/ML\n@claudeskills101\n = learn Claude\n\nfollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2098237595423805440",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
