@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-13T01:21:43.925316Z",
-  "window_start": "2026-09-11T23:21:43.925316Z",
+  "generated_at": "2026-09-14T01:31:20.830894Z",
+  "window_start": "2026-09-12T23:31:20.830894Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 10,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
       "returned_count": 10,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "rasbt",
-      "returned_count": 7,
-      "recent_count": 0,
-      "timestamp_corrected_count": 7,
+      "returned_count": 8,
+      "recent_count": 1,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
@@ -41,22 +50,22 @@
     {
       "username": "demishassabis",
       "returned_count": 12,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 5,
-      "recent_count": 4,
-      "timestamp_corrected_count": 4,
+      "returned_count": 7,
+      "recent_count": 6,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
-      "recent_count": 3,
-      "timestamp_corrected_count": 14,
+      "returned_count": 10,
+      "recent_count": 2,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
@@ -79,36 +88,22 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "thsottiaux",
-      "returned_count": 11,
-      "recent_count": 2,
-      "timestamp_corrected_count": 11,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 10,
-      "recent_count": 1,
-      "timestamp_corrected_count": 10,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 119 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 98 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 10,
+  "tweet_count": 9,
   "tweets": [
     {
-      "id": "2098944619019227136",
+      "id": "2099261864354152448",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-13T01:19:28.336000Z",
+      "created_at": "2026-09-13T22:20:05.518000Z",
       "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Seems like the intersection of the recent @OpenAI rogue swarm hacking incident (https://t.co/6Vbm8xpg2C) with solving Navier–Stokes has created a perfect storm of terror about AI.\n\nI believe there are many reasons for caution, but there seem to be problematic assumptions in the chain of thought that seems to be stoking people's fears:\nSolving Millennium Prize Problem \n= Solving most/all math problems relevant for creating increasingly advanced AI \n= Solving most/all software engineering problems relevant for intelligence (potentially due to limited causal world modeling capabilities: https://t.co/7iocYrtCG5)\n= Solving how to create AI with capabilities similar to or greater than found in most/all humans \n= Solving how to undergo an intelligence explosion via unbounded recursive self-improvement\n\nWhile these capabilities are all likely all related, none of these steps necessarily follow from one another.",
-      "url": "https://x.com/GaryMarcus/status/2098944619019227136",
+      "timestamp_corrected": true,
+      "text": "OpenAI and Anthropic are trying to sell us Perrier water at £1,000 a bottle in a world that has just acquired ubiquitous and clean tap water. \n\nThey may sell a few bottles, but that world has gone, I think. Their investors need to carry the hit.\n\nMe in today’s paper. Gift link in og Tweet:",
+      "url": "https://x.com/GaryMarcus/status/2099261864354152448",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +114,14 @@
       }
     },
     {
-      "id": "2098874247695519744",
+      "id": "2099245685602410496",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-12T20:39:50.505000Z",
+      "created_at": "2026-09-13T21:15:48.203000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "I was initially encouraged by reports that Anthropic CEO Dario Amodei is proposing an AI \"slowdown.\" But it turns out that (1) It's not much of a slowdown (no pause of training runs—and parts of the plan, as I explain below, work *against* slowing down); (2) He's still wed to his Manichaean democracy-vs-autocracy framing (see steps 2 and 3 of his three-step plan in the screenshot, and my critique of them below).\n\nDario’s plan has its strong points. The internal monitoring of AI labs by METR-like groups would be a big advance. (This idea may also be clever swordsmanship: If OpenAI follows suit, the dual monitoring will show Anthropic to be running a tighter ship, and if OpenAI doesn't follow suit, Sam will look bad. Still, it’s good for Sam to be put on the spot like this, so I’m on team Dario here.) \n\nBut any serious AI slowdown-and-governance effort should involve immediate, broad-gauged, and good-faith dialogue with China. Before I explain how Dario’s plan could impede that goal, it’s useful to recall how extreme his views on China are. Here’s what he proposed in his 2024 Machines of Loving Grace essay, as summarized in my book The God Test:\n\n‘Amodei ponders the prospect of the most powerful AIs being in the hands of an “authoritarian bloc”—whose most formidable member, needless to say, would be China. To preempt this development, he says, the US should lead a coalition of democracies that would restrict the authoritarians’ access to key technologies and then would “use AI to achieve robust military superiority,” after which these democracies could “parlay their AI superiority into a durable advantage.” This could “lead to an ‘eternal 1991’—a world where democracies have the upper hand.” Then, Amodei says, the democratic coalition could use this stick to get these repressive autocracies to “give up competing with democracies” unless they want to “fight a superior foe.” And, for added incentive, they could be offered the carrot of access to advanced AI as a reward for finally seeing the light.’\n\nThis is a very dangerous strategy. As Dan @Hendrycks et. al. noted in the 2025 paper Superintelligence Strategy, if a superpower is getting close to reaching superintelligence, and a rival superpower believes this could confer complete dominance, the rival has a strong incentive to pre-empt this achievement via extreme measures of the kind that could escalate quickly to war, even nuclear war. (Reminder: China is within easy striking distance of Taiwanese factories that produce the world’s most advanced AI chips and aren’t allowed to export them to China.) \n\nDario’s proposal does seem to allow for near-term dialogue with China on narrow issues and, maybe, eventually on less narrow ones. Does that mean he's starting to walk back his plan for an end-of-history US-China showdown? Apparently not. His new proposal says US AI labs *shouldn’t* slow down enough to endanger “the lead that US companies have over authoritarian regimes, chiefly the Chinese Communist Party.” Well when the lead is 3-6 months, that doesn’t permit much of a slowdown!\n\nIn hopes of protecting (even, he says, expanding) this lead, Dario advocates not just keeping current restrictions on China’s access to chips and other AI tech but tightening them. So, from Beijing’s point of view, here’s the plan: There are two clubs, one for good guys and one for bad guys, and China doesn't qualify for the good guy club; and the good guys are going to amp up what China already sees as an aggressive, even belligerent, restriction of its access to tech. (Remember: China considers the land beneath the chip factories rightfully China’s and the people who make the chips rightfully Chinese—you don’t have to agree with this view to acknowledge its reality and its relevance to American diplomatic strategy.) If Trump embraced Dario’s plan, that would get his coming summit with Xi off to a bad start.  \n\nThe stated premise of Dario’s plan is solid: Things are moving so fast that we need to quickly engineer a slowdown of AI advance and meanwhile develop effective AI governance. But there can’t be an appreciable and lasting slowdown without China’s cooperation (which helps explain why Dario’s plan, on close reading, doesn’t entail one). And we can’t get the AI governance we need without China’s cooperation, either. This technology’s various dangers (most obviously a bioweapon-caused pandemic, but many others as well) tend to cross borders readily. In the age of AI, national security will require strong international governance. \n\nSome of Dario’s wariness is warranted. Yes, you of course need to be able to verify compliance with international agreements on mutual restraint. And that will in some cases be more challenging with AI than with nuclear arms—which is one reason we need to start working with China now, rather than do things that make working with China harder.    \n\nI think Dario’s China hawkism is sincere—and not (as with some Silicon Valley figures) just a cynical talking point that supports policies he favors. But it’s still a dangerous ideology. This is a man who wants to race China to superintelligence and then use the resulting “military dominance” to bring China to its knees, threatening grave consequences unless Beijing complies with vague but extreme-sounding demands. (Does ‘give up competing with democracies’ mean regime change, or what? Could you elaborate, Dario?). \n\nWhen someone with an ideology like this proposes a plan that in theory could lead to eventual global cooperation, the plan should be inspected for signs that it's unlikely to actually have that effect. In this case the inspection doesn’t take very long.\n\nNone of this is to say that Dario's proposal--as distinguished from the actual complete realization of it--can't bring net benefit. As I said, the plan has its strong points. Besides, misleading headlines are still headlines, and headlines about a proposed \"slowdown\" can move the conversation in a positive direction, perhaps even becoming a self-fulfilling prophecy.   \n\n[Here's Dario's proposal:  https://t.co/Ykp9V9fOyV   Excerpts from every chapter of my book on AI, The God Test: Artificial Intelligence and Our Coming Cosmic Reckoning, can be found here: https://t.co/Azi02gjuJW]",
-      "url": "https://x.com/GaryMarcus/status/2098874247695519744",
+      "text": "Holy shit, we are definitely all about to die.  Had no idea how much progress had been made!",
+      "url": "https://x.com/GaryMarcus/status/2099245685602410496",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +132,32 @@
       }
     },
     {
-      "id": "2098865123792486400",
+      "id": "2099231450256064517",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-09-13T20:19:14.232000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Reasoning from scratch round 3: This time, I cover generating a verifier for...\n\na) ...evaluation (base model versus any future model improvement)\nb) ...the reinforcement learning with verifiable rewards (RLVR) training later on\n\n00:00 Introduction\n01:21 Four approaches to LLM evaluation\n07:20 Verifiers and reinforcement learning with verifiable rewards\n10:52 Notebook setup and dependencies\n13:43 Section 3.1 Building a math verifier\n18:57 Section 3.2 Loading a pre-trained model to generate text\n24:34 Generating and displaying model answers\n29:23 Section 3.3 Implementing a wrapper for easier text generation\n34:00 Section 3.4 Extracting the final answer box\n37:29 Handling answers without boxes\n43:17 Section 3.5 Normalizing the extracted answer\n46:56 Section 3.6 Verifying mathematical equivalence\n53:32 Implementing the equality check\n57:48 Section 3.7 Grading answers\n59:20 Building and testing the answer grader\n1:03:18 Section 3.8 Loading the evaluation dataset (MATH-500)\n1:07:51 Section 3.9 Evaluating the model\n1:08:34 Prompt templates for evaluation\n1:10:47 Prompt sensitivity and memorization\n1:13:55 A minimal evaluation example\n1:15:32 Building the evaluation loop\n1:20:27 Comparing CPU, MPS, and CUDA results\n1:21:54 Reproducibility and floating-point math\n1:23:37 Base model vs. reasoning model\n1:25:30 Summary and next steps",
+      "url": "https://x.com/rasbt/status/2099231450256064517",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2099219431205523456",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-12T20:03:35.197000Z",
+      "created_at": "2026-09-13T19:31:28.667000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "In his Pacing AI letter, Dario claims that RSI is starting to happen.  The problem with this statement is that both the blog posts he links to *and* the system cards for the latest Claude and ChatGPT models make it clear that they are not seeing RSI. \n\nIn fact, the data Anthropic in particular has released thus far makes the case that, while RSI could happen, it's going to immediately run into steeply diminishing returns and not lead to an unbounded intelligence exploson. \n\nFigures and details: \n\n1. Claim in Dario's letter.\n\n2. Quote from Mythos 5.1 system card saying they aren't close to RSI. Risk = low. \n\n3. Quote from Mythos 5.1 system card saying that they believe the coding productivity increase they've seen has been needed just to *maintain* the current rate of progress. (Because AI progress gets harder over time, not easier.) The challenges of finding better algorithms are eating up the productivity gains of using better and better AI tools, is how I read this. \n\n4. Quote from Mythos 5.0 system card estimating that a 40x productivity increase would be needed to double the rate of AI progress. This is consistent with a scaling law exponent of a bit worse than (1/5), meaning that you need to take the fifth root of researcher productivity to find the rate at which progress improves. That's consistent with plenty of other evidence in how human innovation and scientific results scale with added inputs.\n\nIn short: Dario may say they're on the verge of RSI. But the system cards for their models disagree, and give us reason to believe that both RSI and simpler AI-augmented productivity gains are subject to steep diminishing returns.",
-      "url": "https://x.com/GaryMarcus/status/2098865123792486400",
+      "text": "Actually, Jacob Coxon (@hilbertspaess), “there is a strong chance that we could all die in the immediate future. It's not at all an exaggeration” is itself a wild exaggeration.\n\n I laid out exactly why in my essay https://t.co/pTgejGyMpM.\n\nI’ll defend your right to speak endlessly, but I believe you are seriously overselling the extinction risk. \n\nHappy to debate that if you like!",
+      "url": "https://x.com/GaryMarcus/status/2099219431205523456",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +168,14 @@
       }
     },
     {
-      "id": "2098773920644034567",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-09-12T14:01:10.672000Z",
+      "id": "2099177050473185280",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-13T16:43:04.313000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so.\n\nAnthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training.\n\nYou can read the full post here: https://t.co/OGyPb7yaYt",
-      "url": "https://x.com/bcherny/status/2098773920644034567",
+      "text": "Long dissection of Dario’s essay coming soon, putting together skepticism from everyone across the political and techinical spectrum, from  @DavidSacks to  @fchollet to  @HeidyKhlaaf, and a shout to @timnitGebru @mmitchell_ai and @rajiinio whose ideas Dario seems to have nicked without attribution.",
+      "url": "https://x.com/GaryMarcus/status/2099177050473185280",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,14 +186,50 @@
       }
     },
     {
-      "id": "2098767859652665344",
+      "id": "2099176356945043457",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-13T16:40:18.963000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Jacob Coxon’s next interview on BBC (the ex-Anthropic+OpenAI researcher who resigned).\n\n\"If we don't slow down at the current rate of progress, there is a strong chance that we could all die in the immediate future. It's not at all an exaggeration.\n\nAnd many of the people who are deep in the weeds and actually coding the thing, believe that there is a greater than 10% chance for a probability that humans might die. And they all keep this in their head on a daily basis while working on the technology.\"\n\n---\nFull video link in comment.",
+      "url": "https://x.com/GaryMarcus/status/2099176356945043457",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2099144876721917952",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-13T14:35:13.493000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "1) AI will not eradicate humanity. Humans survived an ice age, the Black Death, two world wars, and (so far) the advent of nuclear weapons. Anyone who is loudly warning of AI-caused human extinction should not be taken seriously.\n\n2) If you worked in a company where you anticipated a 10% chance that your product would kill ten people, let alone all people, the correct response would be horror, ceasing all operations, and likely contacting the police or other criminal authorities. I am obviously no Coxon booster but at least his behavior is in line with his stated beliefs. Any current AI company employees saying \"yes, me too, the thing we are building and about to IPO may kill all humans\" should, again, not be taken seriously. Their actions betray their actual beliefs. \n\n3) Antitrust law does not prevent AI companies from coordinating to make sure AI does not hurt people. It does not prevent companies working together to make sure it doesn't hack people; the DOJ and FTC made this clear a decade ago when they issued a policy statement saying that the agencies \"do not believe that antitrust is – or should be – a roadblock to legitimate cybersecurity information sharing.\" The same principles apply here. See: https://t.co/aQsqGn1xjX\n\n4) Antitrust law does absolutely prevent AI companies from organizing to prevent the entry of cheaper, upstart rivals because the bigger companies are burning cash and failing to achieve sufficient profitability. The panic of individual employees may be sincere if misguided, but the moves by their CEOs to achieve some kind of broad \"antitrust waiver\" or \"exemption\" should be meet with deep skepticism in light of the economics of the industry and the threat they face from open models.",
+      "url": "https://x.com/GaryMarcus/status/2099144876721917952",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2099110311005745152",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-12T13:37:05.619000Z",
+      "created_at": "2026-09-13T12:17:52.384000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Anthropic senior engineer just released a 1-hour course on building a team of agents with loops & graphs:\n\n• 00:27 - introduction to CLAUDE.md & Plan mode\n• 11:24 - building \"skills\" & \"hooks\" for Claude agents\n• 37:02 - building agents & subagents with Claude\n• 52:47 - self-improving loops & graphs for Claude agents\n\nthis 1-hour watch will replace a $500 agentic engineering course\n\nsave it or go watch it now.",
-      "url": "https://x.com/ai_explorer25/status/2098767859652665344",
+      "text": "Anthropic just dropped a free 59-minute Claude Code course  \n\nFrom autocomplete to real AI agents:\n\n0% → 00:00 - move from autocomplete to agents \n20% → 04:50 - understand how the agentic loop works \n40% → 14:07 - use CLAUDE.md as project memory \n60% → 26:53 - learn why Plan Mode comes first \n80% → 33:31 - run a live task from brief to commit \n100% → 54:46 - understand Skills vs CLAUDE.md\n\nMost people still use Claude Code like a smarter autocomplete\n\nThis shows how Anthropic uses it to plan, call tools, test, and ship actual work\n\nWorth more than 99% of paid Claude Code tutorials\n\nBookmark it and watch later",
+      "url": "https://x.com/ai_explorer25/status/2099110311005745152",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,86 +240,14 @@
       }
     },
     {
-      "id": "2098646537827938316",
+      "id": "2098962368952967168",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-12T05:35:00.242000Z",
+      "created_at": "2026-09-13T02:30:00.250000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Nvidia's CEO Jensen Huang just said the quiet part out loud:\n\n\"Every engineer is going to have and manage hundreds of agents.\"\n\nRead that again. Hundreds.\n\nThe #1 engineering skill of 2026 won't come from a classroom.\n\n→ No CS degree teaches harness engineering. \n→ No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.",
-      "url": "https://x.com/ai_explorer25/status/2098646537827938316",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098612714608439296",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-12T03:20:36.158000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
-      "url": "https://x.com/thsottiaux/status/2098612714608439296",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098605161794965505",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-12T02:50:35.427000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "If you think that a letter from 25 Field Medalists is about “cope” or keeping their jobs, you are mistaken. \n\nIt is about beauty and insight and the fear that brute force cherry picking with mostly incomprehensible proofs (perhaps combined with a bit of IP theft) is going to undermine the field that they love, in the same way that slop has undermined the joy in other fields.\n\nTerence Tao has been quite clear about this in a series of elegant Mathstodon posts (which I have excerpted here and in my Substack) over the last several days.\n\nI advise anyone unclear about the above to read his posts (or my excerpts) to get context.",
-      "url": "https://x.com/GaryMarcus/status/2098605161794965505",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098599984086081537",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-12T02:30:00.965000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy- must-follow account for AI; recently joined Anthropic\n@bcherny - Claude Code creator, always shares great tips\n@trq212 - also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial - works on reasoning research, shares a lot of technical details\n@gabriel1 - Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar - product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI - cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases\n@ai_explorer25- covers all ai content and free resources",
-      "url": "https://x.com/ai_explorer25/status/2098599984086081537",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2098569975992864768",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-12T00:30:46.478000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Excited to welcome Aidan & @\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
-      "url": "https://x.com/thsottiaux/status/2098569975992864768",
+      "text": "Most noteworthy English accounts to follow in the AI field:\n\n@karpathy = King of Large Language Models\n@steipete = Founder of OpenClaw\n@gregisenberg = King of Startup Ideas\n@rileybrown = King of VibeCode\n@jackfriks = King of Solo App Development\n@levelsio = King of Entrepreneurship\n@ai_explorer25  = AI Gatekeeper & Tools\n@EXM7777  = King of AI Ops\n@aronhouyu = The AI Gatekeeper Slacker\n@eptwts  = King of AI Money-Making on Twitter\n@godofprompt  = King of Prompt Engineering\n@vasuman  = King of AI Agents\n@AmirMushich  = King of AI Advertising\n@0xROAS  = King of AI UGC\n@egeberkina  = King of AI Image Generation\n@MengTo  = King of AI Landing Pages\n@boringmarketer = AI Smart Marketing\n@kimmonismus = King of AI News\n@NorthstarBrain = King of Practical AI",
+      "url": "https://x.com/ai_explorer25/status/2098962368952967168",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
