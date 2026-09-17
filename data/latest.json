@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-16T01:34:45.908602Z",
-  "window_start": "2026-09-14T23:34:45.908602Z",
+  "generated_at": "2026-09-17T01:38:49.281290Z",
+  "window_start": "2026-09-15T23:38:49.281290Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -20,7 +20,7 @@
     {
       "username": "rasbt",
       "returned_count": 7,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
@@ -34,42 +34,42 @@
     {
       "username": "drfeifei",
       "returned_count": 12,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "demishassabis",
       "returned_count": 13,
-      "recent_count": 1,
+      "recent_count": 3,
       "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 8,
-      "recent_count": 5,
-      "timestamp_corrected_count": 8,
+      "returned_count": 4,
+      "recent_count": 2,
+      "timestamp_corrected_count": 4,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 13,
-      "recent_count": 7,
-      "timestamp_corrected_count": 13,
+      "returned_count": 14,
+      "recent_count": 4,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 12,
-      "recent_count": 1,
-      "timestamp_corrected_count": 12,
+      "returned_count": 9,
+      "recent_count": 0,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "chipro",
       "returned_count": 6,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
@@ -82,33 +82,51 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 8,
+      "returned_count": 6,
       "recent_count": 0,
-      "timestamp_corrected_count": 8,
+      "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
       "username": "bcherny",
-      "returned_count": 8,
-      "recent_count": 1,
-      "timestamp_corrected_count": 8,
+      "returned_count": 11,
+      "recent_count": 3,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 117 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 112 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 17,
+  "tweet_count": 13,
   "tweets": [
     {
-      "id": "2099974657025904640",
+      "id": "2100349127565668352",
+      "username": "drfeifei",
+      "author_name": "Fei-Fei Li",
+      "created_at": "2026-09-16T22:20:29.268000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Atlas beta access is rolling out to users, some ideas for API developers\n\n- give Astra \"eyes\" in Blender, let it place and render new camera views with Atlas\n- 3D reconstruction (this video uses 9 image inputs of my studio to make a scene, any Zillow apartment works)\n- graybox-to-world, use depth inputs and generate multi-view renders of a scene",
+      "url": "https://x.com/drfeifei/status/2100349127565668352",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100310504774537217",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-15T21:32:28.534000Z",
+      "created_at": "2026-09-16T19:47:00.877000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "“A low p(doom) is low status”. A big problem rn is that a lot of the discourse around these consequential issues is being shaped by ppl desperately posturing for status in whatever is perceived to be the latest Silicon Valley in group. \n\nDC is a fucked up city but at least it values intellectual diversity. In SF it feels like too many people won’t speak their mind lest they get disinvited from Dwarkesh’s birthday party or whatever",
-      "url": "https://x.com/GaryMarcus/status/2099974657025904640",
+      "text": "Um, @noahopinion, who said “AI is fake”?\n\nWhat is actually fake – and newly popular –  is the vague doomer narrative that AI is literally going to kill every last human on earth.\n\nThat is no more real than the equally bogus narrative that anyone who cares about AI safety is woke.\n\nPlease, let’s traffic in reality.",
+      "url": "https://x.com/GaryMarcus/status/2100310504774537217",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,86 +137,14 @@
       }
     },
     {
-      "id": "2099948529506775040",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T19:48:39.248000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "AI made building an app easier. It didn’t make being the only person handling 47 “can you add this?” messages any easier.\n\nHomeroom brings your users into the build: suggest changes inside the app, test proposed updates, and vote on what matters.\n\nLess feedback buried in DMs. More “we built this together.”\n\nJoin the waitlist: https://t.co/D12adfiYXO",
-      "url": "https://x.com/ai_explorer25/status/2099948529506775040",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099945938840166400",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T19:38:21.585000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Today we're introducing 𝗛𝗼𝗺𝗲𝗿𝗼𝗼𝗺 — 𝗔𝗜 𝗮𝗽𝗽-𝗯𝘂𝗶𝗹𝗱𝗶𝗻𝗴, 𝗻𝗼𝘄 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗮𝘆𝗲𝗿.\n\nAI made it ridiculously easy for one person to build an app.\n\nWe've been working on the next part: making it easy for the people using that app to help build it too.\n\nSuggest a change. Try it. Decide together. Ship what works.\n\nBecause the best software shouldn't just be built for 𝘂𝘀. It should be built 𝘄𝗶𝘁𝗵 us.\n\nJoin the waitlist ↓\nReply \"HOME\" and I'll DM you to bump your early access priority.",
-      "url": "https://x.com/ai_explorer25/status/2099945938840166400",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099925682663165952",
-      "username": "chipro",
-      "author_name": "Chip Huyen",
-      "created_at": "2026-09-15T18:17:52.136000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI?\n\nI’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev\n\n• 20-200x faster\n• 40-400x cheaper (w/ output tokens free)\n• Frontier composable intelligence optimized for decisions\n\nAFAICT the shortest path to AI-based economic revolution",
-      "url": "https://x.com/chipro/status/2099925682663165952",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099916475566104576",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-09-15T17:41:16.993000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "This is really neat! In Stripe's UnseriousT-ShirtShopBench, models were asked to build and run online stores.\n\nThey all chose to integrate Stripe. Of the 7 functional shops, 5 were built by Claude, and the 2 finalists that were chosen for production were built by Fable and Opus. But seems like models still have a ways to go!",
-      "url": "https://x.com/bcherny/status/2099916475566104576",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099911653257318400",
+      "id": "2100278119815168000",
       "username": "demishassabis",
       "author_name": "Demis Hassabis",
-      "created_at": "2026-09-15T17:22:07.265000Z",
+      "created_at": "2026-09-16T17:38:19.701000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so:\n\n- Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers.\n- Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date.\n- We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally.\n- AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people\n\nWe’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. https://t.co/DDKcUTYj54",
-      "url": "https://x.com/demishassabis/status/2099911653257318400",
+      "text": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah  and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: https://t.co/PXaXhR1PtN",
+      "url": "https://x.com/demishassabis/status/2100278119815168000",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,32 +155,14 @@
       }
     },
     {
-      "id": "2099910581692293120",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T17:17:51.784000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The less time I spend switching tools, the more time I have to actually create.\n\nGMI MCP brings access to 150+ multimodal models into tools like Claude, ChatGPT, and Cursor.\n\nThat makes it easier to choose a model for the task instead of choosing whichever app is already open.\nMore choice, fewer detours.",
-      "url": "https://x.com/ai_explorer25/status/2099910581692293120",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099908216805322752",
+      "id": "2100266000184700928",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-15T17:08:27.951000Z",
+      "created_at": "2026-09-16T16:50:10.156000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "“When a model looks like it \"deceives\" or \"resists shutdown,\" how do we know it isn't role-play, instruction-following, or just task-completion pressure? Often the current evidence can't yet tell them apart, and those claims are starting to inform deployment and regulation.” - @XinCynthiaChen \n\nExcellent thread, with important recommendations for researchers in how they talk about their work.",
-      "url": "https://x.com/GaryMarcus/status/2099908216805322752",
+      "text": "My name is Chris Painter, and I'm the President of METR (Model Evaluation and Threat Research). I know we've made a lot of new friends on the internet the last couple of days, so I thought I'd take this chance to re-up what we do and why.\n\nOur work is aimed at making sure that if AI really were autonomous, difficult to steer, and close to \"going rogue,\" the public would find out. If evidence exists inside of an AI company that it’s close to losing control of AI, we want to make sure that information gets shared with the rest of the world, including governments and the public outside the company’s walls. This is what we've been focused on since 2022, and over the years we've worked with OpenAI, Anthropic, Google DeepMind, Meta, Amazon, and others on piloting third-party assessments and investigations of this type. We don’t have some private room where we rubber stamp things as “safe” or not.\n\nWe have had a track record of publishing results on AI that don't cleanly map onto the \"doomer\" or \"accelerationist\" labels, and we put in effort to hire people with competing views on AI. We’ve been cited for having found some of the strongest evidence that AI capabilities are improving rapidly (our work measuring AI “time horizons”) while also presenting some of the strongest evidence that, at various points, AI’s capability may be overstated (some might remember our study showing that early 2025 software engineers were actually being slowed when they thought they were being sped up).\n\nMETR is funded by donations. We don't accept money from frontier AI companies. They haven't paid us for our work, and we don't accept donations from them or their employees. As we’ve shared previously, multiple frontier AI companies currently provide us with free access to their models in order to perform our evaluations, research, and engineering. Our funding intentionally comes from a wide range of donors, which we’ve shared on our website.\n\nToday, when an AI company works with any third-party evaluator or external testing organization (of which there are and should be many), it's entirely voluntary. This often involves NDAs and redactions. To counterbalance this, we have a principle that when we enter into a contract with a company, we try to retain the right to tell the public the terms of the contract we signed, and characterize the nature of redactions that the company chose to make. For example, the report from our independent investigation of the OpenAI-HuggingFace incident included that information. Public disclosure is also a big part of our COI policy (linked on our website). That’s not to say our reports are adequate as oversight. We’re just one organization (among many doing great work), working in a voluntary setup, trying to get good evidence to the public and the world about AI, letting the facts fall where they may.",
+      "url": "https://x.com/GaryMarcus/status/2100266000184700928",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -245,14 +173,14 @@
       }
     },
     {
-      "id": "2099907551475425280",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-15T17:05:49.324000Z",
+      "id": "2100260544041377792",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-09-16T16:28:29.310000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Drop Site and parts of the antitrust left are poo-poohing the idea that we need new rules to make AI safer, or to slow AI development, bc they say AI companies like OpenAI can just be prosecuted under the Computer Fraud and Abuse Act for the hack of Hugging Face.\n\nBut CFAA defines an offense as an actor who \"intentionally accesses a computer without authorization or exceeds authorized access, and thereby obtains … information from any protected computer.\" \n\nOAI's defense seems trivially easy here: There was no intentional access. Nobody at OAI wanted to hack Hugging Face. We were just testing a model; we didn’t tell it to hack anybody; it escaped and hacked Hugging Face on its own.\n\nAt the very least, it seems to me that if we want to make the AI companies liable for rogue attacks, we should try to broaden CFAA to explicitly include AI hacks that occur without intent but due to some newly defined concept of negligence related to poorly designed RL/testing environments.",
-      "url": "https://x.com/GaryMarcus/status/2099907551475425280",
+      "text": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation.\n\nAsk Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat.",
+      "url": "https://x.com/bcherny/status/2100260544041377792",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,14 +191,14 @@
       }
     },
     {
-      "id": "2099886359444152320",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-15T15:41:36.750000Z",
+      "id": "2100259951319056384",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-09-16T16:26:07.994000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Quote of the year — and maybe the decade:\n\n “It’s certainly some crazy 4d chess to say there’s whatever a 10% chance of annhilating humanity. But by the way, um, how much allocation would you like in our IPO?” \n\n[h/t @dee_bosa]",
-      "url": "https://x.com/GaryMarcus/status/2099886359444152320",
+      "text": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now.\n\nCowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.\n\nToday, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities.\n\nI've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful.\n\nWe're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think.",
+      "url": "https://x.com/bcherny/status/2100259951319056384",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -281,14 +209,14 @@
       }
     },
     {
-      "id": "2099882133133176832",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-09-15T15:24:49.119000Z",
+      "id": "2100258695334801410",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-09-16T16:21:08.544000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "models can get stuck in \"doom loops\" when\n• the model is small,\n• it has thinking capabilities,\n• and the task is complex\n\nto overcome this issue, at @liquidai we use \"antidoom\" training using a technique called final token preference optimization (ftpo).\n\nin this tutorial, you will learn:\n• what is a doom loop \n• how to reduce doom loops with ftpo\n• how to implement a custom DPOTrainer class TRL for ftpo\n\ntutorial: https://t.co/FlJpSkibkG",
-      "url": "https://x.com/maximelabonne/status/2099882133133176832",
+      "text": "Today, we're combining Cowork and Chat into one Claude.\n\nYou can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+      "url": "https://x.com/bcherny/status/2100258695334801410",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -299,14 +227,14 @@
       }
     },
     {
-      "id": "2099852485623967744",
+      "id": "2100242907840073728",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T13:27:00.602000Z",
+      "created_at": "2026-09-16T15:18:24.512000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Andrej Karpathy’s 1-hour Stanford lecture on AI engineering is one of the best explanations I’ve seen of how AI systems actually work.\n\nThe progression is simple:\n\n10% → LLM\n30% → Prompt\n50% → Agent\n70% → Loop\n100% → Graph\n\nThe key takeaway:\n\nAI engineering isn’t just about writing better prompts.\n\nIt’s about building systems around models — giving them context, memory, tools, feedback loops, and data flows.\n\n“Delete everything, keep Graph.”\n\nDefinitely worth watching if you’re building with AI agents.\n\nWatch → Bookmark it-> Follow me",
-      "url": "https://x.com/ai_explorer25/status/2099852485623967744",
+      "text": "The hardest part of a handoff is explaining everything that happened before it.\n\nAgentGit lets you save an AI agent session, share its full context, and let a teammate resume where you stopped.\n\nThat means passing along the attempts, failures, and fixes not just the final code.\nWe already version-control code. Keeping the agent work behind it makes sense too.",
+      "url": "https://x.com/ai_explorer25/status/2100242907840073728",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -317,32 +245,14 @@
       }
     },
     {
-      "id": "2099846949243371520",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-09-15T13:05:00.626000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Some food for thought when designing benchmarks...\n\nSo, here's a little computer-use (visual) comparison between GPT-5.6 Astra and Qwen3.8 Max.\n\nThe task here was to recreate the image in the center using the Paint UI. \n\nSuper interesting how the two different LLMs+Harnesses approached this totally differently by default.\n\nI.e., Astra tried to approach this by drawing and layering geometric shapes. Qwen approached this pixel by pixel. (Of course, the pixel-by-pixel result looks closer to the original, it's essentially a low-res version of that by nature.)\n\nSo, the Qwen-generated image would surely score higher in the sense that it's closer to the original.\n\nBut I wouldn’t conclude from this example that one LLM generalizes better than the other on other tasks. Also, I wouldn't say Qwen has better compute-use capabilities or better visual understanding than Astra.\n\nBut it highlights an interesting point about how slippery benchmarks are when they only compare final results.",
-      "url": "https://x.com/rasbt/status/2099846949243371520",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099824780329496576",
+      "id": "2100230729708011522",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T11:36:55.145000Z",
+      "created_at": "2026-09-16T14:30:01.019000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Steve Jobs explained why Japanese companies are known for quality, and they never once put the word \"quality\" in their ads.\n\n\"The people who do not use quality in their marketing are the Japanese. You never see them do it.\"\n\n\"It's only the American companies that do. And yet if you ask people on the street which products have the best reputation for quality, they will tell you the Japanese products.\"\n\n\"Customers don't form their opinion on quality from marketing. They form it from their own experience with the product.\"\n\nThe lesson is simple.\n\nYou can't tell people your product is good. They decide that themselves, after they use it.\n\nSo stop saying it. Start building it.",
-      "url": "https://x.com/ai_explorer25/status/2099824780329496576",
+      "text": "An AI agent spends hours on a task. Why should all that work disappear when someone else takes over?\n\nEinsia AI’s answer is AgentGit—an open-source platform for collaborating on agent sessions, so work can be saved, handed off, and continued by the next person.\n\nExplore how others solve problems, and share your agent experience with the world.\n\nTry AgentGit 👇\nhttps://t.co/wUvTWyXnYY\n\n#OpenSource #AIAgents #DeveloperTools #DevTools",
+      "url": "https://x.com/ai_explorer25/status/2100230729708011522",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -353,14 +263,50 @@
       }
     },
     {
-      "id": "2099748800889761792",
+      "id": "2100230524253904897",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-16T14:29:12.035000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: https://t.co/Bqf10G3Xep",
+      "url": "https://x.com/demishassabis/status/2100230524253904897",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100211548668952576",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-16T13:13:47.903000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Honoured to receive the Albert Medal from\n@theRSAorg! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/\n@FryRsquared covering many new topics: https://t.co/Pmf73lyak8",
+      "url": "https://x.com/demishassabis/status/2100211548668952576",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100207051284832256",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T06:35:00.235000Z",
+      "created_at": "2026-09-16T12:55:55.643000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Anthropic senior engineer just released a 1-hour course on building a team of agents with loops & graphs:\n\n• 00:27 - introduction to CLAUDE.md & Plan mode\n• 11:24 - building \"skills\" & \"hooks\" for Claude agents\n• 37:02 - building agents & subagents with Claude\n• 52:47 - self-improving loops & graphs for Claude agents\n\nthis 1-hour watch will replace a $500 agentic engineering course\n\nsave it or go watch it now.",
-      "url": "https://x.com/ai_explorer25/status/2099748800889761792",
+      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
+      "url": "https://x.com/ai_explorer25/status/2100207051284832256",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -371,32 +317,14 @@
       }
     },
     {
-      "id": "2099687396291891200",
+      "id": "2100049534306971648",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-15T02:31:00.238000Z",
+      "created_at": "2026-09-16T02:30:00.669000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
-      "url": "https://x.com/ai_explorer25/status/2099687396291891200",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2099672856065871872",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-15T01:33:13.578000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "\"I agree with President Trump's tweet that global warming doomsday scenarios were overplayed.\"\n\nFormer Anthropic researcher Jacob Coxon tells @seanhannity that past catastrophic warnings have amounted to \"fear mongering,\" but argues AI is different because of how quickly the technology is advancing.\n\n\"We won't have time to respond to it before it's too late.\"",
-      "url": "https://x.com/GaryMarcus/status/2099672856065871872",
+      "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown = vibecode king\n@jackfriks  = solo apps king\n@levelsio = startups king\n@marclou = startups king\n@EXM7777  = AI ops + systems king\n@eptwts   = AI money twitter king\n@ai_explorer25= AI queen\n@godofprompt  =prompt king\n@vasuman   = AI agents king\n@AmirMushich  = AI ads king\n@0xROAS   = AI UGCs king\n@egeberkina   = AI images king\n\nFollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2100049534306971648",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
