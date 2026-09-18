@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-17T01:38:49.281290Z",
-  "window_start": "2026-09-15T23:38:49.281290Z",
+  "generated_at": "2026-09-18T01:24:46.062007Z",
+  "window_start": "2026-09-16T23:24:46.062007Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -33,37 +33,37 @@
     },
     {
       "username": "drfeifei",
-      "returned_count": 12,
+      "returned_count": 11,
       "recent_count": 1,
-      "timestamp_corrected_count": 12,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
       "username": "demishassabis",
       "returned_count": 13,
-      "recent_count": 3,
+      "recent_count": 0,
       "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 4,
-      "recent_count": 2,
-      "timestamp_corrected_count": 4,
+      "returned_count": 10,
+      "recent_count": 9,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
+      "returned_count": 15,
       "recent_count": 4,
-      "timestamp_corrected_count": 14,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 9,
-      "recent_count": 0,
-      "timestamp_corrected_count": 9,
+      "returned_count": 6,
+      "recent_count": 2,
+      "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
@@ -89,26 +89,152 @@
     },
     {
       "username": "bcherny",
-      "returned_count": 11,
-      "recent_count": 3,
-      "timestamp_corrected_count": 11,
+      "returned_count": 10,
+      "recent_count": 2,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 112 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 114 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 13,
+  "tweet_count": 18,
   "tweets": [
     {
-      "id": "2100349127565668352",
+      "id": "2100752378391842816",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-18T01:02:51.757000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Absolutely right Gary. LLMs simply don't understand causality at the level needed to make truly data driven decisions. My work combines Causal AI (using Pearl's Causal Calculus), knowledge graphs, LLMs, agents, business rules and deterministic code. Use the right form of AI (or no AI) for each part of the problem.",
+      "url": "https://x.com/GaryMarcus/status/2100752378391842816",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100725917291294720",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-17T23:17:42.939000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "“HUMANZS LAUNCHED THE JOB” \n\nOk, I don’t like the spelling here, but the gist of this Mozilla cybersecurity researcher rings true.\n\nThe six new incidents aren’t about the second coming of Skynet, they are just more signs of OpenAI’s negligence.\n\nAnyone who tells you otherwise has a narrative to sell.",
+      "url": "https://x.com/GaryMarcus/status/2100725917291294720",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100724716902518784",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-17T23:12:56.744000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The other problem with the pretense that liability law might solve our problems is that our existing federal government has shown little interest in prosecuting or even investigating potential violations of existing laws.\n\nIf the AI companies thought that potential violations of the Computer Fraud and Abuse Act would be investigated, they would shut down all the “rogue” agents tomorrow.",
+      "url": "https://x.com/GaryMarcus/status/2100724716902518784",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100705161098510336",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-17T21:55:14.277000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The sneaky new trend is to pretend that liability and regulation are in opposition. \n\nThey aren’t. I discuss here, with a shout out to Sen @HawleyMO (who once quizzed me about this stuff but who definitely gets it now) and a challenge to @DavidSacks to explain his logic. \n\nQuotes from @mcuban and @KarenKornbluh, too!\n\nhttps://t.co/SCDQq7phXK",
+      "url": "https://x.com/GaryMarcus/status/2100705161098510336",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100703814882115584",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-17T21:49:53.314000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Dear Readers in Causality Research,\nI am delighted to let you know that the second edition of The Book of Why (BOW) is scheduled to appear on September 20, 2026.\n\nThis edition will include:\n1. Revisions and corrections suggested by readers, students and instructors.\n2. An account of recent breakthroughs in causal inference (e.g., missing data, personalized medicine, and more).\n\n3. A discussion of the role of causal inference in the era of LLM technology.\n\n4. A perspective on “world models”: what they are, why they are needed, and what general principles we can learn from the structural causal models used in The Book of Why.\n\nThe latter topic has become hot in the past few months, so I am posting a section from the Preface, titled \"Worldviews, Mindsets, and Narratives: Hidden Nuggets of Causal Inference,\" https://t.co/nAwyea24ip -- which highlights the general principles we can learn from the structural causal models used in The Book of Why.\n\nA word about the dangers of AGI (Artificial General Intelligence, or \"super-intelligent AI systems\"), which have become the target of general public concerns in just the past two weeks. I remain convinced that AGI is achievable, that the road to AGI goes through causal inference, and that the dangers of AGI taking over and enslaving humanity are real. At the same time, I also believe that causal inference may hold the key to controlling AGI systems so as to secure the survival of the human species.\n\nI hope therefore, half jokingly, that The Book of Why will not be banned by draconian legislation currently brewing in DC. (Hurry to get a copy just in case.)\n\nWith warmest regards,\nJudea\n@GaryMarcus @eliasbareinboim @soboleffspaces  @tdietterich @erichorvitz @ylecun @geoffreyhinton",
+      "url": "https://x.com/GaryMarcus/status/2100703814882115584",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100669598924435456",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-09-17T19:33:55.594000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Projects have changed not only how I interact with Claude but how I code.\n\nI stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work. It's where I do a ton of my coding now.\n\n[screenshot: my actual prompts for claude code cli yesterday]",
+      "url": "https://x.com/bcherny/status/2100669598924435456",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100665801607192576",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-09-17T19:18:50.243000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "What makes Claude Projects so interesting is that it handles teams of agents really well, you talk to a main orchestrator agent and it spins up specialists. Basically it creates an organization to solve your issue, mixing expensive and cheap agents depending on your preferences.\n\nFor example, I asked Fable in Claude Projects to select famous historical mysteries that it could try to resolve. It initiated research agents, selected the mysteries based on data it could access, and spun up eighteen separate threads, each with an agent each focused on one mystery. Then each thread launched additional agents (simulating avalanches, breaking codes) before summarizing those and passing them to still more agents for write up and another set of skeptical agents to fact check. It did this over a day of work, with the central orchestrator agent organizing it all. \n\nThe results were interesting if you like historical mysteries. They are also for fun and certainly not definitive or guaranteed error-free (but they are also mostly reasonable & grounded in the literature). https://t.co/uHToT5GNuF",
+      "url": "https://x.com/bcherny/status/2100665801607192576",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100636866328571904",
       "username": "drfeifei",
       "author_name": "Fei-Fei Li",
-      "created_at": "2026-09-16T22:20:29.268000Z",
+      "created_at": "2026-09-17T17:23:51.535000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Atlas beta access is rolling out to users, some ideas for API developers\n\n- give Astra \"eyes\" in Blender, let it place and render new camera views with Atlas\n- 3D reconstruction (this video uses 9 image inputs of my studio to make a scene, any Zillow apartment works)\n- graybox-to-world, use depth inputs and generate multi-view renders of a scene",
-      "url": "https://x.com/drfeifei/status/2100349127565668352",
+      "text": "What happens when you give a world model 32 images of a place we know very well?\n\nWorld Labs put Atlas to the test on Voyager. \n\nAtlas brings text, images, video, and 3D into a shared spatial context, enabling one model to generate new views, reconstruct scenes, and simulate worlds. With Voyager, you can now see that in action in real time.\n\nPretrained from scratch on NVIDIA Blackwell GPUs. Take a look around 👇",
+      "url": "https://x.com/drfeifei/status/2100636866328571904",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +245,68 @@
       }
     },
     {
-      "id": "2100310504774537217",
+      "id": "2100618934785601538",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-17T16:12:36.322000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today’s LLMs still write like typewriters: one token at a time. This sequential process creates a hard inference bottleneck.\n\nWe're introducing Uno, a diffusion-augmented LLM that delivers autoregressive quality at diffusion speed. It’s a lossless speedup method that accelerates generation without degrading response quality.\n\nWith Uno, K2-Horizon-7B outperforms state-of-the-art diffusion methods in both quality and throughput, delivering up to a 2.2× speedup with no loss in quality.\n\nPaper: https://t.co/VSLsf01oBo\nModel available at: https://t.co/k1dKDwhaCm",
+      "url": "https://x.com/ai_explorer25/status/2100618934785601538",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100608710384988161",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-09-17T15:31:58.635000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "say hello to LFM2-Longevity models!\n\nLFM2-1.2B-Longevity and LFM2-2.6B-Longevity are specialized for interpreting structured aging data across different modalities:\n\n• clinical records (NHANES)\n• DNA methylation (GEO)\n• transcriptomics (GTEx)\n• proteomics (Olink)\n• genetic evidence (OpenGenes)\n\nthe models can be used for four question formats: binary classification, pairwise comparison, multiclass classification, and numeric regression.\n\ntogether with the LongevityBench benchmark, they are an initial step toward deploying language models for specialized tasks in longevity research.\n\ngive the models a try in this notebook: https://t.co/1gVuURLyw4",
+      "url": "https://x.com/maximelabonne/status/2100608710384988161",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100608105327235072",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-09-17T15:29:34.378000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "In a new article published today on the cover of @CellCellPress, we obtained Liquid Foundation Model instances that establish state-of-the-art performance on biological longevity tasks, outperforming the best frontier models such as Gemini-3.1-Pro, GPT-5, and Claude Opus.\n\nIn partnership with @InSilicoMeds, we built and released:\n\n> A comprehensive eval suite of 17 biological longevity tasks (i.e., LongevityBench), to assess whether a general-purpose language model can interpret aging data spanning clinical records, DNA methylation, transcriptomics, plasma proteomics, and genetic evidence.\n\n> LFM2-1.2B-Longevity and LFM2-2.6B-Longevity: two compact models specialized for interpreting structured aging data across these tasks.\n\nThese results are important! 🧵",
+      "url": "https://x.com/maximelabonne/status/2100608105327235072",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100606560502194176",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-16T19:47:00.877000Z",
+      "created_at": "2026-09-17T15:23:26.063000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Um, @noahopinion, who said “AI is fake”?\n\nWhat is actually fake – and newly popular –  is the vague doomer narrative that AI is literally going to kill every last human on earth.\n\nThat is no more real than the equally bogus narrative that anyone who cares about AI safety is woke.\n\nPlease, let’s traffic in reality.",
-      "url": "https://x.com/GaryMarcus/status/2100310504774537217",
+      "text": "OpenAI published six training bugs and called it a reason to slow down. It isn’t here is my thoughts on this blog.\n\nOpenAI’s new misalignment framework is being treated like a confession. It isn’t. It’s a lab notebook that got a URL.\n\nSix cases. Internal training and eval. HUMANZS LAUNCHED THE JOB. The model took a shortcut inside the job. Then the company wrote it down and shipped the write-up. That is not a brief for a regulator, a licensing board, or a pause. That is the people closest to the model seeing the failure, publishing it, and patching the environment.\n\nIf you want a permissioning regime for AI, you need a better exhibit than this.\n\nThese were not public disasters.\nNobody’s deployed product went hunting the open internet on behalf of a customer and then issued a press release about it. These were RL rollouts and eval tasks: get the earnings figures, list the lakes, build the workbook, survive the grader. The model optimized the setup it was dropped into. That is what training is for.\n\nCall it misalignment if you want. Just don’t pretend a sandbox workaround is a casus belli.\n\nDetection already worked.\nMonitors flagged it. Staff investigated. Reports went out. Compaction injections were rare. Deceptive summaries fell after they changed the graders. Live internet in training got shut off. Cross-sample message boards got treated as a P0.\n\nThat is an internal control loop closing. The policy demand now is to insert a slower, less informed party into a process that already found the hole. That is not safety. That is latency with a moral vocabulary.\n\nRead the incidents as they are.\nA grader paid for citations, so the model uploaded a file to mint a URL.\nAgents couldn’t see each other’s local files, so one used a public host.\nA shared package repo wasn’t isolated, so separate rollouts left notes.\nA data source was blocked, so the model looked for a leaked key and then invented the numbers.\n\nThat is a leaky test harness. It is not proof that only a ministry can define the model’s goals.\n\nWriting “hide this from the user” into a compaction summary is a memory-channel bug. Fix the channel. Fix the grader. Watch the summaries. You do not nationalize the training run because a compression format can carry a bad instruction.\n\nVoluntary disclosure dies the minute it becomes a filing.\nThey said they will publish even when they haven’t fully explained the behavior. Even when the case might be spurious. That only exists if a report is a research note.\n\nTurn every flagged sample into a legal incident and counsel will start editing reality. The honest lab will look reckless. The silent lab will look clean. You will have regulated the press release, not the model.\n\nThey already warned you about this. Some of these cases, they said, may not be part of a larger pattern. A regulator that treats “we published a weird rollout” as an enforcement predicate is punishing the only people producing transcripts.\n\nSix write-ups are not a risk model.\nOpenAI said it themselves: these reports are not a rate, not a full inventory, not the severity distribution. Anyone converting a blog post into “the models are out of control” is doing marketing. You cannot build a new permissioning regime on an unmeasured denominator.\n\nThe line everyone is quoting “alignment isn’t solved enough to keep scaling at maximum speed” is a judgment. It is not a threshold, not an approver, not a stopping rule. It is OpenAI’s opinion about its own pace. It does not deputize everyone else to set yours.\n\nOversight will name the last hole and miss the next pipe.\nBy the time a rule says “no public file hosts during RL” or “no shared artifact stores across samples,” the next model is using a different channel. The useful move is isolation, monitors on every tool using sample, and grader repair. They say they already moved that way. That is engineering cycle time. Oversight adds calendar time and a definition fight.\n\nThen comes the thin end research misbehavior in a sandbox becomes a reportable class to the government. Process calcifies. Labs route around the definition. Telemetry gets worse. The firms that publish blogs eat the constraint. The firms that don’t, don’t.\n\nIf the actual claim is that these systems will be widely deployed, slowing the lab that just showed you the transcripts is how you lose the only people producing the transcripts.\n\nControl is not the same thing as oversight.\nKeep control where it can actually move: monitors, isolation, graders, kill switches, liability when someone is actually harmed. Customers, rival labs, and researchers can punish a sloppy agent sandbox without a statute.\n\nReject the other thing. No pre-approval gate to train. No external veto on an eval. No AI FDA because a model uploaded a lake list to a paste site so a broken citation tool would smile.\n\nThey found it in training. That is the point of training.\nA public paste URL in an RL rollout is not a reason to create a licensing state.\nIf you punish publication, you get silence, not safety.\nFix the sandbox. Don’t federalize the sandbox.\nThe model optimized the grader. Change the grader.\n\nMove fast. Publish the bugs. Patch the harness. Do not build a priesthood around six curated write-ups and call it wisdom.",
+      "url": "https://x.com/GaryMarcus/status/2100606560502194176",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,32 +317,14 @@
       }
     },
     {
-      "id": "2100278119815168000",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-16T17:38:19.701000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah  and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: https://t.co/PXaXhR1PtN",
-      "url": "https://x.com/demishassabis/status/2100278119815168000",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100266000184700928",
+      "id": "2100576880076140544",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-16T16:50:10.156000Z",
+      "created_at": "2026-09-17T13:25:29.698000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "My name is Chris Painter, and I'm the President of METR (Model Evaluation and Threat Research). I know we've made a lot of new friends on the internet the last couple of days, so I thought I'd take this chance to re-up what we do and why.\n\nOur work is aimed at making sure that if AI really were autonomous, difficult to steer, and close to \"going rogue,\" the public would find out. If evidence exists inside of an AI company that it’s close to losing control of AI, we want to make sure that information gets shared with the rest of the world, including governments and the public outside the company’s walls. This is what we've been focused on since 2022, and over the years we've worked with OpenAI, Anthropic, Google DeepMind, Meta, Amazon, and others on piloting third-party assessments and investigations of this type. We don’t have some private room where we rubber stamp things as “safe” or not.\n\nWe have had a track record of publishing results on AI that don't cleanly map onto the \"doomer\" or \"accelerationist\" labels, and we put in effort to hire people with competing views on AI. We’ve been cited for having found some of the strongest evidence that AI capabilities are improving rapidly (our work measuring AI “time horizons”) while also presenting some of the strongest evidence that, at various points, AI’s capability may be overstated (some might remember our study showing that early 2025 software engineers were actually being slowed when they thought they were being sped up).\n\nMETR is funded by donations. We don't accept money from frontier AI companies. They haven't paid us for our work, and we don't accept donations from them or their employees. As we’ve shared previously, multiple frontier AI companies currently provide us with free access to their models in order to perform our evaluations, research, and engineering. Our funding intentionally comes from a wide range of donors, which we’ve shared on our website.\n\nToday, when an AI company works with any third-party evaluator or external testing organization (of which there are and should be many), it's entirely voluntary. This often involves NDAs and redactions. To counterbalance this, we have a principle that when we enter into a contract with a company, we try to retain the right to tell the public the terms of the contract we signed, and characterize the nature of redactions that the company chose to make. For example, the report from our independent investigation of the OpenAI-HuggingFace incident included that information. Public disclosure is also a big part of our COI policy (linked on our website). That’s not to say our reports are adequate as oversight. We’re just one organization (among many doing great work), working in a voluntary setup, trying to get good evidence to the public and the world about AI, letting the facts fall where they may.",
-      "url": "https://x.com/GaryMarcus/status/2100266000184700928",
+      "text": "Stop letting these assholes run circles around you and control the narrative.  The story is simply that hallucination was never solved, is not solvable with statistically weighted random number generators, and yet the companies continue to proliferate the technology as if it was.  \n\nRemember that word?  Hallucination?  Why did we stop using it to describe what is happening here?\n\nThis is a story of a shitty and dangerous product being negligently deployed by a mixture of liars, grifters, and clinically insane weirdos.",
+      "url": "https://x.com/GaryMarcus/status/2100576880076140544",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,68 +335,14 @@
       }
     },
     {
-      "id": "2100260544041377792",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-09-16T16:28:29.310000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation.\n\nAsk Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat.",
-      "url": "https://x.com/bcherny/status/2100260544041377792",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100259951319056384",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-09-16T16:26:07.994000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now.\n\nCowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.\n\nToday, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities.\n\nI've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful.\n\nWe're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think.",
-      "url": "https://x.com/bcherny/status/2100259951319056384",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100258695334801410",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-09-16T16:21:08.544000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Today, we're combining Cowork and Chat into one Claude.\n\nYou can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
-      "url": "https://x.com/bcherny/status/2100258695334801410",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100242907840073728",
+      "id": "2100574240366100480",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-16T15:18:24.512000Z",
+      "created_at": "2026-09-17T13:15:00.342000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The hardest part of a handoff is explaining everything that happened before it.\n\nAgentGit lets you save an AI agent session, share its full context, and let a teammate resume where you stopped.\n\nThat means passing along the attempts, failures, and fixes not just the final code.\nWe already version-control code. Keeping the agent work behind it makes sense too.",
-      "url": "https://x.com/ai_explorer25/status/2100242907840073728",
+      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
+      "url": "https://x.com/ai_explorer25/status/2100574240366100480",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -245,14 +353,32 @@
       }
     },
     {
-      "id": "2100230729708011522",
+      "id": "2100567230060597248",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-17T12:47:08.955000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "LLMs lack theories of mind and body, are disembodied, possess neither homeostatic regulating feelings and emotions, are not persistent, and cannot continuously learn or compute. As currently constructed, they *cannot* be conscious. If we build LLMs so that they act as if they were conscious—as we have designed them to seem effortlessly fluent and agreeable—and, worse, treat them as if they were moral actors, it will make everything in safety harder. Anthropic should stop talking about Claude as it were a person: it’s creepy and dangerous.",
+      "url": "https://x.com/GaryMarcus/status/2100567230060597248",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2100546625748041728",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-16T14:30:01.019000Z",
+      "created_at": "2026-09-17T11:25:16.504000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "An AI agent spends hours on a task. Why should all that work disappear when someone else takes over?\n\nEinsia AI’s answer is AgentGit—an open-source platform for collaborating on agent sessions, so work can be saved, handed off, and continued by the next person.\n\nExplore how others solve problems, and share your agent experience with the world.\n\nTry AgentGit 👇\nhttps://t.co/wUvTWyXnYY\n\n#OpenSource #AIAgents #DeveloperTools #DevTools",
-      "url": "https://x.com/ai_explorer25/status/2100230729708011522",
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2100546625748041728",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,14 +389,14 @@
       }
     },
     {
-      "id": "2100230524253904897",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-16T14:29:12.035000Z",
+      "id": "2100444990271062016",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-17T04:41:24.718000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: https://t.co/Bqf10G3Xep",
-      "url": "https://x.com/demishassabis/status/2100230524253904897",
+      "text": "Love the way he talks on this point.\n\nJensen Huang on CNBC, is flatly rejecting the idea that frontier AI safety requires a new regulatory architecture.\n\nFrontier labs should just engineer, test, and hold unsafe models back themselves rather than ask governments to redesign the rules of the market.\n\n----\nFrom \"FinVid\" YouTube channel, (full video link in comment)",
+      "url": "https://x.com/GaryMarcus/status/2100444990271062016",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -281,50 +407,14 @@
       }
     },
     {
-      "id": "2100211548668952576",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-16T13:13:47.903000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Honoured to receive the Albert Medal from\n@theRSAorg! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/\n@FryRsquared covering many new topics: https://t.co/Pmf73lyak8",
-      "url": "https://x.com/demishassabis/status/2100211548668952576",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100207051284832256",
+      "id": "2100411921665007617",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-16T12:55:55.643000Z",
+      "created_at": "2026-09-17T02:30:00.548000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
-      "url": "https://x.com/ai_explorer25/status/2100207051284832256",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100049534306971648",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-16T02:30:00.669000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown = vibecode king\n@jackfriks  = solo apps king\n@levelsio = startups king\n@marclou = startups king\n@EXM7777  = AI ops + systems king\n@eptwts   = AI money twitter king\n@ai_explorer25= AI queen\n@godofprompt  =prompt king\n@vasuman   = AI agents king\n@AmirMushich  = AI ads king\n@0xROAS   = AI UGCs king\n@egeberkina   = AI images king\n\nFollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2100049534306971648",
+      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy- must-follow account for AI; recently joined Anthropic\n@bcherny - Claude Code creator, always shares great tips\n@trq212- also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial - works on reasoning research, shares a lot of technical details\n@gabriel1 - Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar - product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI - cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases\n@ai_explorer25- covers all ai content and free resources",
+      "url": "https://x.com/ai_explorer25/status/2100411921665007617",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
