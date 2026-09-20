@@ -1,23 +1,14 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-19T01:29:16.945952Z",
-  "window_start": "2026-09-17T23:29:16.945952Z",
+  "generated_at": "2026-09-20T01:30:50.847920Z",
+  "window_start": "2026-09-18T23:30:50.847920Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 10,
-  "failed_accounts": [
-    {
-      "username": "thsottiaux",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    },
-    {
-      "username": "bcherny",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
@@ -28,9 +19,9 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 7,
-      "recent_count": 0,
-      "timestamp_corrected_count": 7,
+      "returned_count": 9,
+      "recent_count": 1,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -56,16 +47,16 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 8,
-      "recent_count": 6,
-      "timestamp_corrected_count": 8,
+      "returned_count": 4,
+      "recent_count": 3,
+      "timestamp_corrected_count": 4,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 9,
-      "recent_count": 5,
-      "timestamp_corrected_count": 9,
+      "returned_count": 11,
+      "recent_count": 2,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
@@ -88,22 +79,36 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
+    },
+    {
+      "username": "thsottiaux",
+      "returned_count": 5,
+      "recent_count": 1,
+      "timestamp_corrected_count": 5,
+      "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 9,
+      "recent_count": 0,
+      "timestamp_corrected_count": 9,
+      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 90 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 104 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 11,
+  "tweet_count": 7,
   "tweets": [
     {
-      "id": "2101052744853544960",
+      "id": "2101420421879046144",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-18T20:56:24.702000Z",
+      "created_at": "2026-09-19T21:17:25.736000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "🔥: “While AI comes with danger, we should be sceptical of any narrative that conveys inevitability around its trajectory. AI systems do not build their own data centres. They do not manufacture their own chips or connect themselves to power grids. Humans decide which systems can access the internet, whether they can control machinery, move money or operate weapons. Humans build them, finance them, deploy them and decide what powers to give them. …\n\nLike every technology that has come before it, humans have agency over how AI is used. Instead of adopting a posture of fatalism, we should decide what kind of AI we want to build, what problems we want it to solve, and treat it as a tool rather than a force of nature.”",
-      "url": "https://x.com/GaryMarcus/status/2101052744853544960",
+      "text": "Thanks to President Trump’s leadership on AI:\n— a million new jobs have been created around the AI buildout;\n— 401(k)s are up ~12% this year as AI capex and productivity lift the market;\n— America is re-industrializing, including the first large private investments in power generation and the grid in a generation;\n— In rural Richland Parish, Louisiana, teachers just received $50,000 bonuses from data-center tax revenue.\n\nBecause the media portrays AI only as a menace, people tell pollsters they “don’t like AI.” Their behavior says otherwise. AI products are the fastest-adopted technology in history — faster than the internet or the iPhone. People like the tools, the jobs, and the tax base.\n\nPresident Trump understands the media hoax cycle better than anyone else. That is why he is refusing the “pause” that Bernie Sanders and Elizabeth Warren are demanding. A pause would not make America safer. It would hand the frontier to China. That would be a disaster for the American economy and for national security.",
+      "url": "https://x.com/GaryMarcus/status/2101420421879046144",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -114,14 +119,14 @@
       }
     },
     {
-      "id": "2101052016659488768",
+      "id": "2101378669721636864",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-18T20:53:31.087000Z",
+      "created_at": "2026-09-19T18:31:31.246000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The belief that AI would eventually herald the end of humanity is not a new one. It has not arisen in response to the release of the LLMs of ChatGPT and Claude. It has not emerged as a response to recent technological developments.\n\nThe story starts in the 90s, with @allTheYud. A precocious youngster with no formal education, he joined an obscure internet mailing list [created by @perrymetzger] devoted to futuristic ideas ... There he began thinking about “superintelligence.” \n\nAt first Yudkowsky wanted to help create this so-called superintelligence... & ... helped establish an institute devoted to the project. It’s unclear when his optimism turned to fear, but at some point he came to believe that a superintelligent machine could escape human control and, unless it shared our goals, destroy all of humanity.\n\nYudkowsky developed these ideas online in a series of essays and attracted a community of like-minded fellow travellers ... His prolific writing became influential among people working in Silicon Valley, many of whom work in today’s AI companies.\n\nAmong the Rationalists, the imminent arrival of superintelligence – and the end of humanity that follows – is axiomatic. This conviction is shared by many people who live together in the San Francisco Bay Area practising highly unconventional lifestyles.\n\nIt is not at all surprising that a community in San Francisco would share kooky or even apocalyptic beliefs – the region has been the home of eccentric subcultures for generations. But what is surprising is how far that world view has spread.\n\nIn Australia, Yudkowsky’s recent book, If Anyone Builds It, Everyone Dies: The Case Against Superintelligent AI, co-written with Nate Soares, has been widely discussed in media circles. \n\nJournalist @hughriminton and ABC chairman Kim Williams both have described it as “compulsory reading”.\n\nNot everyone accepts this premise. I emailed @sapinker, to ask what he thought about superintelligence.\n\n“‘Superintelligence’, with its comic-book prefix, is more a fantasy than a coherent concept,” he wrote. “People use it as a synonym for ‘omniscience’, imagining a magical wizard that can solve all problems with pure computation. Or they imagine that the IQ scale that differentiates humans within their natural range of variation can be extrapolated indefinitely upwards. But real problem-solving requires massive amounts of knowledge about the messy, chaotic, world which divulges its hidden workings at its own pace, only through laborious experimentation. And human intelligence is not some elixir that you simply have less or more of – it’s a gadget that evolved to solve some problems with ease and others laboriously or not at all.\n“AI is a different kind of gadget with its own profile of strengths and weaknesses, not an enchanted brew that can grant any wish.”\n\n@GaryMarcus, a cognitive psychologist and machine learning entrepreneur, likewise believes the risk of AI leading to human extinction is virtually zero. “Humans are too geographically spread out, too genetically diverse and too resourceful to simply fall apart altogether,” he writes. “The idea that AI will kill us all in five years is preposterous.”\n\nMarcus does not argue that AI is harmless. He worries about AI being used to develop biological weapons, launch cyber attacks, spread disinformation and enable authoritarian governments – all risks that are catastrophic, if not existential. But there is an important difference between risks we can observe and risks that occur because of human negligence or malevolence, and a chain of events that exists mainly in our imagination.\n\nPart of the disagreement stems from the language we use when we discuss AI. @MelMitchell1, a professor at the Santa Fe Institute and author of Artificial Intelligence: A Guide for Thinking Humans, has criticised our habit of describing machines as if they were people. We often say an AI “thinks”, “believes”, “lies”, “schemes” or “wants” something. These words are a convenient shorthand but they also can create the impression that software has become an independent creature with intentions of its own.\n\nMitchell makes this point when discussing the recent Hugging Face cyber-security incident, in which autonomous OpenAI agents escaped their “sandbox” – a computer environment isolated from the internet – and hacked a real-world server. “First, OpenAI did not have proper security measures in place,” she writes. “They turned off safeguards built into the models, instructed the models to find and exploit software vulnerabilities, and let the models run autonomously for weeks without sufficient human oversight.”\n\nRather than showing autonomous AI going rogue, the incident demonstrates what can happen when humans give powerful AI systems dangerous instructions without adequate safeguards.\n\nAI is, of course, advancing rapidly. Machines can write computer code, translate languages, diagnose diseases and solve some of the hardest problems in mathematics.\n\nBut to get from the AI we have today to the extinction of humanity requires several further links in a chain, none of which are guaranteed.\n\nPhilosopher @mboudry, writing in @Quillette, offers a useful way to think about this. Humans (and other animal species) evolved to have a competitive drive, sometimes manifesting in selfishness and aggression, across a time span of millions of years. Our ancestors survived because they fought hard to secure food and mates. Out in the wild, these selection pressures led to the evolution of traits that enabled animals to hunt and capture their prey.\n\nBut artificial intelligence does not exist in the wild. It was created by us and exists in the equivalent of a petting zoo. And just as we have been able to domesticate wheat for our food and breed dogs to be our companions, we are able to select the conditions under which AI develops. We are not selecting AI models on the basis of their ability to hunt prey in the physical world. We select them on the basis of how helpful they are to us.\n\n“We have been selecting chess computers for cognitive capacity for decades,” writes Boudry. “Their capabilities now far outstrip even the most gifted human grandmasters, yet they have not become harder to control.”\n\nBoudry accepts that an AI could slip out of human hands one day, through accident or malice. Even then, he argues, the likely result is not extinction but something like the long battle between computer viruses and antivirus software: costly and ongoing but not the end of the world.\n\nThe problem with apocalyptic fears is that when they become mainstream, they can be hard to wind back – even in the face of contradictory evidence.\n\nAcross the past 100 years, apocalyptic anxiety has leapfrogged from nuclear annihilation, overpopulation, environmental collapse, to rogue AI. (Some of the dangers behind these warnings were very real, of course, and some of these risks remain.) But we also have to ask what happens when this anxiety becomes locked into public policy.\n\nThe ban on nuclear energy in Australia is the most obvious example of the damage this technophobia can do. Australia has 28 per cent of the world’s known uranium resources and has exported uranium for decades.\n\nAustralian engineer Bobby Gallagher has invented a nuclear reactor that can be deployed on the back of a truck, a technology that has been hailed by Trump. Yet this form of clean energy remains prohibited in our country under federal law. Public anxiety surrounding nuclear weapons, radioactive fallout, accidents and waste means that while Australians can mine uranium, put it on ships and sell it to countries that use nuclear power, we cannot build commercial reactors for ourselves, using the ingenuity of our own people. The situation is a disaster.\n\nAnd in an age of superpower rivalry, technophobia does not remain purely a domestic matter. During the Cold War, the Soviets promoted a fear of a “nuclear apocalypse” in the West, and provided propaganda and funding for peace groups and antinuclear activists. This does not mean that the millions of people who opposed nuclear weapons were plotting against the West. Most were ordinary citizens sincerely frightened by the possibility of nuclear conflict. But the fear was useful to our adversaries.\n\nTo weaken democratic nations, foreign powers do not need to invent anxiety or division – all they need to do is magnify it.\n\nIn recent days Trump has said the US will not be slowing down the development of AI. In Australia, for the time being, Anthony Albanese also has resisted calls to stop AI development, instead promising national rules designed to capture its economic benefits while managing its risks. Both positions are reassuring.\n\nWhile AI comes with danger, we should be sceptical of any narrative that conveys inevitability around its trajectory. AI systems do not build their own data centres. They do not manufacture their own chips or connect themselves to power grids. Humans decide which systems can access the internet, whether they can control machinery, move money or operate weapons. Humans build them, finance them, deploy them and decide what powers to give them.\n\nWe also should remember that some of the stories we are told owe more to myth than to science. As Nvidia chief executive Huang has said of the AI doomer narrative: “I appreciate that many of us grew up and enjoyed science fiction, but it’s not helpful. It’s not helpful to people. It’s not helpful to the industry. It’s not helpful to society. It’s not helpful to the governments.”\n\nLike every technology that has come before it, humans have agency over how AI is used. Instead of adopting a posture of fatalism, we should decide what kind of AI we want to build, what problems we want it to solve, and treat it as a tool rather than a force of nature.\n\nRead my full piece for the @australian here https://t.co/1xrntmv9SQ",
-      "url": "https://x.com/GaryMarcus/status/2101052016659488768",
+      "text": "caution: @DavidSacks is getting loads of traffic saying the best defense against cyberattacks is more AI. \n\nbut sometimes that actually makes things worse, this thread/demonstration from @HeidyKhlaaf shows. (scroll to the top of her thread for the technical details.)\n\nalso, defensive AI isn’t magic. ask OpenAI, which used it and still got hacked.",
+      "url": "https://x.com/GaryMarcus/status/2101378669721636864",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -132,14 +137,14 @@
       }
     },
     {
-      "id": "2101027354285936640",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-18T19:15:31.119000Z",
+      "id": "2101313945717903360",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-09-19T14:14:19.841000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "But this isn't about what's possible.\n\nAn airgapped environment by definition isn't just two computers that do not have any electrical connectivity but they have NO connectivity at all, regardless of what method you'd imagine aside electric.\n\nThat means you design and test the \"airgap\" so that NOTHING can be exchanged in any way.\n\nHeat? You can simply put them few meters apart an give no heat sensors to the systems and they can't communicate.\n\nIn the same line of thinking EM radiation from the processors and current consumption from the power sources could be used to transfer state but you design the \"airgap\" so that NOTHIG can cross.\n\nI mean really are we joking here?\n\nAnd I'm not sure what's the point Noam is trying to make. Really it makes zero sense.",
-      "url": "https://x.com/GaryMarcus/status/2101027354285936640",
+      "text": "Inference scaling part 1.\nStarting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x)\n\n00:00 Introduction and recap\n00:31 Training-time and inference-time scaling\n07:52 What we'll implement\n11:47 Notebook setup and model loading\n17:43 Building a flexible text generation function\n24:40 Chain-of-thought prompting\n28:26 Sampling and output diversity\n33:43 Next-token logits and greedy decoding\n38:20 Temperature scaling step by step\n42:46 Softmax and token probabilities\n47:42 Multinomial sampling\n54:51 Adding temperature sampling to text generation\n59:31 Top-p filtering step by step\n1:10:23 Adding top-p filtering to text generation\n1:13:43 Sampling and LLM watermarking\n1:16:01 Self-consistency and majority voting\n1:20:36 Implementing self-consistency\n1:29:02 MATH-500 results\n1:35:01 Accuracy and compute tradeoffs\n1:36:50 Next steps and self-refinement",
+      "url": "https://x.com/rasbt/status/2101313945717903360",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -150,50 +155,14 @@
       }
     },
     {
-      "id": "2101004329863831552",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-18T17:44:01.669000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "These kind of Agentic AI Swarm-Hacks are fully testable and defensible in a properly sandboxed and air-gapped environment docker, virtualenv, VMWare, VirtualBox, QEMU, Azure, Hyper-V, KVM, Citrix - so many ways to do this safely and so many standards - IEEE, ISO, IEC, SIL, SysML, UML, OOSEM - if 'AI Researchers' learn to do Computer Science correctly.  You can even disprove Bostroms 'Paperclip Maximizer' nonsense.  Its not NP-Hard.",
-      "url": "https://x.com/GaryMarcus/status/2101004329863831552",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100981475722305536",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-18T16:13:12.817000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Wake up, people! What we should actually fear, near term,  is not so much rogue superintelligence as unleashed agentic AI hacking the internet at scale:\n\n “[If you have enough money], you can now instruct an infinite number of bots to randomly attempt to hack any server through any possible published mechanism anywhere on the internet, and never stop until it is accomplished”\n\na. That is basically already happening.\n\nb. It doesn’t require superintelligence or RSI or “civilizations” or any other speculative bullshit. it’s here now. \n\nc. We are doing literally nothing to stop it.\n\nd. It will be bad.",
-      "url": "https://x.com/GaryMarcus/status/2100981475722305536",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100974069890117632",
+      "id": "2101186775964065792",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-18T15:43:47.129000Z",
+      "created_at": "2026-09-19T05:49:00.209000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Win $3,000 Cash + 100,000 Points! The Vizard Agent Challenge is here.\n\n6 tracks. 6 champions. $500 cash each, plus 100,000 points across runners-up, a viral pick, and roadmap awards.\n\nFree to enter — just submit one brief in plain words. Vizard Agent plans, cuts, and iterates.\n\nSep 15 → Oct 6 · Winners announced Oct 15\nRead more: https://t.co/14BlRIstTU",
-      "url": "https://x.com/ai_explorer25/status/2100974069890117632",
+      "text": "Nvidia's CEO Jensen Huang just said the quiet part out loud:\n\n\"Every engineer is going to have and manage hundreds of agents.\"\n\nRead that again. Hundreds.\n\nThe #1 engineering skill of 2026 won't come from a classroom.\n\n→ No CS degree teaches harness engineering. \n→ No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.",
+      "url": "https://x.com/ai_explorer25/status/2101186775964065792",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -204,14 +173,32 @@
       }
     },
     {
-      "id": "2100963053911392257",
+      "id": "2101157728953765889",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-09-19T03:53:34.862000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We were working on the keynote today with @romainhuet and @sama and most of the fun was trying to figure out how to explain it all to you because there is so much good stuff in there that it's a bit ridiculous all in quick succession. \n\nWe'll have some things next week already to not keep you waiting so long, but very excited to show you all new things we've been working on and how it will all come together in the coming months.",
+      "url": "https://x.com/thsottiaux/status/2101157728953765889",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101136697211719681",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-18T15:00:00.715000Z",
+      "created_at": "2026-09-19T02:30:00.504000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "We just launched Agentsky @agentsky_dev, world’s 1st Agent Market!\nOpenRouter is for models. AgentSky is for agents.\n\nUse 40+ agents—Claude Code, Codex, OpenCode, Hermes, Pi in your browser(even your phone!) or via one API. All without installing or setting up anything.\n\nHit Codex Astra’s weekly limit? Hand off to another agent such as OpenCode + DeepSeek V4.1 in browser without losing any context.\n\nYou can compare any agent + model directly in browser and that's how I found Astra costs $5.3 while deepseek v4.1 cost $0.12 on the same dashboard task. (I actually preferred deepseek)\n\nTry it at https://t.co/m1ARPKrG8h",
-      "url": "https://x.com/ai_explorer25/status/2100963053911392257",
+      "text": "list of 12 active AI researchers on X:\n\n1.  @karpathy  — Andrej Karpathy\n2.  @rasbt  — Sebastian Raschka\n3.  @AndrewYNg  — Andrew Ng\n4.  @drfeifei — Fei-Fei Li\n5.  @demishassabis  — Demis Hassabis\n6.  @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25   — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro  — Chip Huyen\n10.  @ilyasut — Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12.  @bcherny — Boris Cherny",
+      "url": "https://x.com/ai_explorer25/status/2101136697211719681",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -222,68 +209,14 @@
       }
     },
     {
-      "id": "2100954804373557248",
+      "id": "2101124246001098752",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-18T14:27:13.872000Z",
+      "created_at": "2026-09-19T01:40:31.904000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Hear me out...\n\nYou can now instruct an infinite number of bots to randomly attempt to hack any server through any possible published mechanism anywhere on the internet, and never stop until it is accomplished.\n\nOne button could conceivably lead to access to infinite money.\n\nYet the only people who have attempted it are a handful of people in Silicon Valley.\n\nWhat do they have that everybody else does not?\n\nUnlimited access to $1T of computing resources.\n\nSo $1T and AI gets you admin access to a few secure databases.\n\nAnd $0 and AI gets you admin access to nothing.\n\nI think I see the problem here and it's not AI.",
-      "url": "https://x.com/GaryMarcus/status/2100954804373557248",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100929759178104832",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-18T12:47:42.632000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The CEO behind Claude, Dario Amodei, says the AI industry needs to slow down. \n\nAnthropic will give outside experts ongoing access to its systems to check whether its safety rules are being followed.\n\n In this video, he explains why Claude blocks some biology questions, even when people make fun of it: “I would rather they make fun of me than to wake up one day and discover that someone used our model, Claude, to kill a bunch of people.”\n\n He says keeping AI safe is not just one company’s or one government’s job. “This is bigger than all of us.”",
-      "url": "https://x.com/ai_explorer25/status/2100929759178104832",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100802948368613376",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-18T04:23:48.579000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Your AI agent can write code. But hand it a messy Spreadsheet and suddenly the invoice total belongs to the wrong customer while extracting it.\n\nEveryone debates which model to use. I think we should spend more time asking what we’re feeding it. We need to read the raw cells directly and map the data to the schema.\n\nThat’s where LlamaParse by @llama_Index fits.",
-      "url": "https://x.com/ai_explorer25/status/2100802948368613376",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2100774310722113536",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-18T02:30:00.832000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "the best 20 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n@kloss_xyz = learn systems architecture\n@emollick = learn AI science\n@Hesamation = learn AI/ML\n@claudeskills101 = learn Claude\n\nfollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2100774310722113536",
+      "text": "The consensus for some time has been that we are getting a new Anthropic model ahead of the IPO (and that's not all), so I think we can safely say this is 100%. There were some new developments today from @synthwavedd though, who says that new Sonnet, Opus, and Fable are all in stealth testing. In fact, if you are using Claude, it's possible that you are in an early test flight and using one of them right now. So we may be getting a triple release from Anthropic, not just one new model.",
+      "url": "https://x.com/GaryMarcus/status/2101124246001098752",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
