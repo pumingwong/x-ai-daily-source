@@ -1,14 +1,23 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-20T01:30:50.847920Z",
-  "window_start": "2026-09-18T23:30:50.847920Z",
+  "generated_at": "2026-09-21T01:30:21.150855Z",
+  "window_start": "2026-09-19T23:30:21.150855Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 10,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -19,9 +28,9 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 9,
-      "recent_count": 1,
-      "timestamp_corrected_count": 9,
+      "returned_count": 11,
+      "recent_count": 2,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
@@ -47,16 +56,16 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 4,
-      "recent_count": 3,
-      "timestamp_corrected_count": 4,
+      "returned_count": 10,
+      "recent_count": 8,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 11,
-      "recent_count": 2,
-      "timestamp_corrected_count": 11,
+      "returned_count": 13,
+      "recent_count": 4,
+      "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
@@ -79,36 +88,22 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "thsottiaux",
-      "returned_count": 5,
-      "recent_count": 1,
-      "timestamp_corrected_count": 5,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 9,
-      "recent_count": 0,
-      "timestamp_corrected_count": 9,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 104 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 100 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 7,
+  "tweet_count": 14,
   "tweets": [
     {
-      "id": "2101420421879046144",
+      "id": "2101814804797157376",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-19T21:17:25.736000Z",
+      "created_at": "2026-09-20T23:24:33.951000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Thanks to President Trump’s leadership on AI:\n— a million new jobs have been created around the AI buildout;\n— 401(k)s are up ~12% this year as AI capex and productivity lift the market;\n— America is re-industrializing, including the first large private investments in power generation and the grid in a generation;\n— In rural Richland Parish, Louisiana, teachers just received $50,000 bonuses from data-center tax revenue.\n\nBecause the media portrays AI only as a menace, people tell pollsters they “don’t like AI.” Their behavior says otherwise. AI products are the fastest-adopted technology in history — faster than the internet or the iPhone. People like the tools, the jobs, and the tax base.\n\nPresident Trump understands the media hoax cycle better than anyone else. That is why he is refusing the “pause” that Bernie Sanders and Elizabeth Warren are demanding. A pause would not make America safer. It would hand the frontier to China. That would be a disaster for the American economy and for national security.",
-      "url": "https://x.com/GaryMarcus/status/2101420421879046144",
+      "text": "Folks don't seem to grasp just how poorly these supposedly \"general\" models generalize out of distribution. The moment something deviates from training, the models start to behave like idiots. I suspect that explains a lot of seeming contradiction when some ppl on X \"one-host\" something impressive and then get surprised when machine does something dumb other times.",
+      "url": "https://x.com/GaryMarcus/status/2101814804797157376",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +114,14 @@
       }
     },
     {
-      "id": "2101378669721636864",
+      "id": "2101814572877287424",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-19T18:31:31.246000Z",
+      "created_at": "2026-09-20T23:23:38.657000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "caution: @DavidSacks is getting loads of traffic saying the best defense against cyberattacks is more AI. \n\nbut sometimes that actually makes things worse, this thread/demonstration from @HeidyKhlaaf shows. (scroll to the top of her thread for the technical details.)\n\nalso, defensive AI isn’t magic. ask OpenAI, which used it and still got hacked.",
-      "url": "https://x.com/GaryMarcus/status/2101378669721636864",
+      "text": "Wait, what? Are you listening to what you are writing @GavinSBaker?\n \nIf there are going to be ZERO profits at the model layer, as in your hypothetical, why would anyone value the providers at $2 trillion?\n \nIn fact, why would anyone hand them a dime?  If people realize that zero profits is a real possibility and cut them, off the providers will no longer be in a position to spend a trillions dollars on compute to begin with. Of course that would hurt infrastructure plays. Your verbal gymnastics won’t change that.\n \nAlso, Individual companies running open source, per your example, are unlikely make up for the lost demand from the frontier labs if they go bust. (Open AI and Anthropic account for a huge hunk of current demand and the backlog of business, as I am sure you know). \n\nIt’s just not clear that the compute providers could survive if the two frontier labs ran out of cash. (Remember what happened to Exodus Communications? Most people will have never heard of them but they were the largest webhosting company going into the dotcom bubble. And then … poof!)\n\nAnd of course survey after survey shows corporate users are not finding ROI from the product and Gen AI remains error prone and limited, so demand may not reach the heights you are imagining.\n\nFinally, you attribute to me the idea of wanting AI to be dominated by a single player, which is pretty much the opposite of what I actually have been arguing nonstop for the last three years. That’s just plain careless.\n \nTo quote yourself, “This is all really basic stuff. You seem smart. Think for maybe 5-10 seconds before you post a reply.”",
+      "url": "https://x.com/GaryMarcus/status/2101814572877287424",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +132,122 @@
       }
     },
     {
-      "id": "2101313945717903360",
+      "id": "2101812808417468417",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-20T23:16:37.977000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Perspective: People are so focused on the hacks they are missing the bigger picture.\n\nThe bigger picture is that (current) agents aren’t reliable, and as a consequence can do all kinds bad things if given too many permissions etc.\n\nHere’s a good example of this has nothing to do whatsoever with hacking servers or cybersecurity.",
+      "url": "https://x.com/GaryMarcus/status/2101812808417468417",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101809724534460416",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-20T23:04:22.722000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Was there a memo sent out in Silicon Valley to spend Sunday strawmanning and distorting my positions, in the most inaccurate yet condescending language possible?\n\nOr is it just coincidence?\n\nOften when this happens it is a sign that things aren’t going well over in the Bay… Just sayin’",
+      "url": "https://x.com/GaryMarcus/status/2101809724534460416",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101768396186558464",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-20T20:20:09.276000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "1 is just super obviously not true.  If there was one lab, and only one lab, with 99.999999% margins, that would be a disaster for the neoclouds and everyone who supplied that single lab.\n\nHow can this not be obvious to you?\n\nThere are somewhere between 1000 and 1 million case studies across a variety of industries showing that monopsonies exercise power over their suppliers.\n\nFragmentation and competition at the model layer is good for everyone who is not at the model layer.\n\nAt an extreme - a world where companies like Latham & Watkins run fine-tuned open-source models on their own GPUs and Nvidia funds the open-source training runs - it is possible for there to be zero profits at the model layer and yet high returns for AI infrastructure supplies (semiconductors, datacenters and power in this example).\n\nThis is all really basic stuff. You seem smart. Think for maybe 5-10 seconds before you post a reply.",
+      "url": "https://x.com/GaryMarcus/status/2101768396186558464",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101751683642781696",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-20T19:13:44.695000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "“Three days after Amodei, Anthropic’s CEO, wrote about being worried about swarms taking over the internet, he was smiling at Salesforce’s annual Dreamforce conference. As one X account pointed out, “If you truly believed in a 10% chance of human extinction in 3 years, you would not be spending your time selling and integrating it into a B2B CRM SaaS platform” - @cwarzel  \n https://t.co/m8W6eaJxUL",
+      "url": "https://x.com/GaryMarcus/status/2101751683642781696",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101722761789857792",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-20T17:18:49.188000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🦔The FAA is deploying an AI system called SMART in Washington DC airspace starting Monday. The $875 million contract over 12 years went to a Boston startup called Air Space Intelligence. SMART will advise controllers on routing at DCA, Dulles, and BWI. This is the same airspace where the American Airlines/Black Hawk collision killed 67 people in January 2025. \nThe FAA says the tool won't directly control planes but will generate alternative routes when traffic backs up. The FAA has not disclosed whether SMART uses deterministic models or generative AI. No success metrics have been published.\n\nMy Take\nI'm not against AI in aviation. Predictive tools for weather and traffic flow have existed for years and they work well because they're deterministic. Same input, same output, every time. The FAA won't say whether SMART works that way or whether it can give you a different answer to the same question depending on when you ask it. For $875 million over 12 years to a startup, the public deserves an answer to that before it goes live.\n\nSMART won't directly control planes. It will generate alternative routes when traffic backs up. But controllers will see those recommendations on their screens and act on them under pressure in the same corridor where 67 people died 20 months ago. If the recommendation is wrong and a controller follows it, \"the AI was only advisory\" isn't going to hold up. The FAA hasn't published a single metric for how they'll measure whether this works.\n\nHedgie🤗",
+      "url": "https://x.com/GaryMarcus/status/2101722761789857792",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101716250791395328",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-20T16:52:56.845000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Woah… a new report on Anthropic vs. White House negotiations over Fable says things got so heated that Trump apparently wanted them JAILED. (per Politico)\n\n> government tests Fable\n> Treasury approves its release\n> 2 days after launch Amazon does a jailbreak\n> White house tells Anthropic to take it down\n> Dario says jailbreaks happen for all models and it’s not catastrophic \n> tries to explain why\n> Bessent: “Well, I don’t think that’s really necessary, Dario”\n> Dario said he couldn’t just shut down Fable on an hour’s notice\n> a frustrated Trump reportedly says “I want to send them to jail”\n> White House blocks access for all foreign nationals, including Anthropic’s OWN employees\n> Dario asks if that means they have to take the model down\n> Lutnick: “Yes. That’s the point.”\n> Anthropic takes it offline worldwide\n> they negotiate \n> Fable returns after 19 days",
+      "url": "https://x.com/GaryMarcus/status/2101716250791395328",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101672304291811328",
       "username": "rasbt",
       "author_name": "Sebastian Raschka",
-      "created_at": "2026-09-19T14:14:19.841000Z",
+      "created_at": "2026-09-20T13:58:19.183000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Inference scaling part 1.\nStarting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x)\n\n00:00 Introduction and recap\n00:31 Training-time and inference-time scaling\n07:52 What we'll implement\n11:47 Notebook setup and model loading\n17:43 Building a flexible text generation function\n24:40 Chain-of-thought prompting\n28:26 Sampling and output diversity\n33:43 Next-token logits and greedy decoding\n38:20 Temperature scaling step by step\n42:46 Softmax and token probabilities\n47:42 Multinomial sampling\n54:51 Adding temperature sampling to text generation\n59:31 Top-p filtering step by step\n1:10:23 Adding top-p filtering to text generation\n1:13:43 Sampling and LLM watermarking\n1:16:01 Self-consistency and majority voting\n1:20:36 Implementing self-consistency\n1:29:02 MATH-500 results\n1:35:01 Accuracy and compute tradeoffs\n1:36:50 Next steps and self-refinement",
-      "url": "https://x.com/rasbt/status/2101313945717903360",
+      "text": "It’s easy to dismiss Jev it as “just a classifier”.\n\nBut people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way.\n\nThe breakthrough of Jev is that it generalizes well.\n\nAnd I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.)",
+      "url": "https://x.com/rasbt/status/2101672304291811328",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +258,14 @@
       }
     },
     {
-      "id": "2101186775964065792",
+      "id": "2101657376973570048",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-19T05:49:00.209000Z",
+      "created_at": "2026-09-20T12:59:00.233000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Nvidia's CEO Jensen Huang just said the quiet part out loud:\n\n\"Every engineer is going to have and manage hundreds of agents.\"\n\nRead that again. Hundreds.\n\nThe #1 engineering skill of 2026 won't come from a classroom.\n\n→ No CS degree teaches harness engineering. \n→ No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.",
-      "url": "https://x.com/ai_explorer25/status/2101186775964065792",
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2101657376973570048",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,32 +276,14 @@
       }
     },
     {
-      "id": "2101157728953765889",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-19T03:53:34.862000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We were working on the keynote today with @romainhuet and @sama and most of the fun was trying to figure out how to explain it all to you because there is so much good stuff in there that it's a bit ridiculous all in quick succession. \n\nWe'll have some things next week already to not keep you waiting so long, but very excited to show you all new things we've been working on and how it will all come together in the coming months.",
-      "url": "https://x.com/thsottiaux/status/2101157728953765889",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2101136697211719681",
+      "id": "2101612017220231168",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-19T02:30:00.504000Z",
+      "created_at": "2026-09-20T09:58:45.625000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "list of 12 active AI researchers on X:\n\n1.  @karpathy  — Andrej Karpathy\n2.  @rasbt  — Sebastian Raschka\n3.  @AndrewYNg  — Andrew Ng\n4.  @drfeifei — Fei-Fei Li\n5.  @demishassabis  — Demis Hassabis\n6.  @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25   — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro  — Chip Huyen\n10.  @ilyasut — Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12.  @bcherny — Boris Cherny",
-      "url": "https://x.com/ai_explorer25/status/2101136697211719681",
+      "text": "Anthropic just dropped a free 59-minute Claude Code course  \n\nFrom autocomplete to real AI agents:\n\n0% → 00:00 - move from autocomplete to agents \n20% → 04:50 - understand how the agentic loop works \n40% → 14:07 - use CLAUDE.md as project memory \n60% → 26:53 - learn why Plan Mode comes first \n80% → 33:31 - run a live task from brief to commit \n100% → 54:46 - understand Skills vs CLAUDE.md\n\nMost people still use Claude Code like a smarter autocomplete\n\nThis shows how Anthropic uses it to plan, call tools, test, and ship actual work\n\nWorth more than 99% of paid Claude Code tutorials\n\nBookmark it and watch later",
+      "url": "https://x.com/ai_explorer25/status/2101612017220231168",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,14 +294,50 @@
       }
     },
     {
-      "id": "2101124246001098752",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-19T01:40:31.904000Z",
+      "id": "2101544634250039296",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-20T05:31:00.273000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The consensus for some time has been that we are getting a new Anthropic model ahead of the IPO (and that's not all), so I think we can safely say this is 100%. There were some new developments today from @synthwavedd though, who says that new Sonnet, Opus, and Fable are all in stealth testing. In fact, if you are using Claude, it's possible that you are in an early test flight and using one of them right now. So we may be getting a triple release from Anthropic, not just one new model.",
-      "url": "https://x.com/GaryMarcus/status/2101124246001098752",
+      "text": "Your batchmate's offer: ₹32 LPA. Yours: ₹5 LPA.\n\nThat gap wasn't built in 4 years of college. It was built in the 14 weeks before placements. And it doesn't stay a gap, it compounds.\n\nYear 1: ₹27 LPA apart. By Year 3, he could be senior with stock while you move laterally. By Year 5, he could be building equity while you're still “restarting prep.”\n\nA bad placement doesn't cost one salary. It costs a trajectory.\n\nWhat closes that gap isn't more courses. It's building something real, with people who know more than you, on a deadline.\n\nWeMakeDevs, in collaboration with AWS Builder Center, is running Bharat Builds, September to December 2026.\n\nRegister: https://t.co/89YnCaz43K\n\nPrizes worth ₹1 crore. Top hackathon projects get fast-tracked hiring at Amazon for internship and full-time roles, skipping the screening round.\n\nBuild alongside AWS Developers. Solo or team of up to four. Runs fully online too, join from anywhere in India.\n\nOnce you register, make sure to generate your participant ticket and share it on your socials.\n\nRegister: https://t.co/89YnCaz43K",
+      "url": "https://x.com/ai_explorer25/status/2101544634250039296",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101534610530467840",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-09-20T04:51:10.432000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder\n\nmany people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here\n\ni just looked into this laya model https://t.co/8QWCGZqS43 and:\n\n- it only supports 512-1k context… a lot of use cases won’t fit at all\n\n- evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it\n\ni’m sorry, but that’s not Jev\n\nthere’s a massive gap between an interesting research and a useful product\n\nyou can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go\n\nJev is not completely new from an academic sense, just like how ChatGPT was not the first LLM\n\ndon’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference",
+      "url": "https://x.com/rasbt/status/2101534610530467840",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2101499084813246464",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-20T02:30:00.441000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Most noteworthy English accounts to follow in the AI field:\n\n@karpathy = King of Large Language Models\n@steipete = Founder of OpenClaw\n@gregisenberg = King of Startup Ideas\n@rileybrown = King of VibeCode\n@jackfriks = King of Solo App Development\n@levelsio = King of Entrepreneurship\n@ai_explorer25  = AI Gatekeeper & Tools\n@EXM7777  = King of AI Ops\n@aronhouyu = The AI Gatekeeper Slacker\n@eptwts  = King of AI Money-Making on Twitter\n@godofprompt  = King of Prompt Engineering\n@vasuman  = King of AI Agents\n@AmirMushich  = King of AI Advertising\n@0xROAS  = King of AI UGC\n@egeberkina  = King of AI Image Generation\n@MengTo  = King of AI Landing Pages\n@boringmarketer = AI Smart Marketing\n@kimmonismus = King of AI News\n@NorthstarBrain = King of Practical AI",
+      "url": "https://x.com/ai_explorer25/status/2101499084813246464",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
