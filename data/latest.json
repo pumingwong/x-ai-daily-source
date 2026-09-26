@@ -2,15 +2,19 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-25T01:49:22.701252Z",
-  "window_start": "2026-09-23T23:49:22.701252Z",
+  "generated_at": "2026-09-26T01:53:05.834966Z",
+  "window_start": "2026-09-24T23:53:05.834966Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 11,
+  "accounts_succeeded": 10,
   "failed_accounts": [
     {
       "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
       "error": "HTTP 429：调用频率或月度额度已达到限制"
     }
   ],
@@ -52,22 +56,22 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 8,
+      "returned_count": 9,
       "recent_count": 7,
-      "timestamp_corrected_count": 8,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 13,
-      "recent_count": 4,
-      "timestamp_corrected_count": 13,
+      "returned_count": 12,
+      "recent_count": 3,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 6,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
@@ -84,29 +88,22 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 9,
-      "recent_count": 0,
-      "timestamp_corrected_count": 9,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 105 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 96 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 12,
+  "tweet_count": 10,
   "tweets": [
     {
-      "id": "2103249260422807552",
+      "id": "2103611456956645376",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T22:24:34.823000Z",
+      "created_at": "2026-09-25T22:23:49.206000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "A Thiel-Altman-&-Andreessen backed “network state” called Praxis is planning a tech colony in Uruguay & has a nonbinding deal w/ a development led by a former advisor to Javier Milei. Located a short ferry ride from Argentina, the move aligns w/ the “Tech Bros”’ increasing interest in the region. h/t @pabloserdan 1/",
-      "url": "https://x.com/GaryMarcus/status/2103249260422807552",
+      "text": "is it really so hard to understand why catastrophe is far more plausible than outright literal extinction?\n\nblack plague killed about a third of the population, not all of it. and that was before sanitation.\n\ncovid killed less than 1%\n\neven nuclear war would not lead to extinction.\n\ni have no idea why doomers harp on absolute extinction when even the mostly calamitous things humans ever experienced are nothing like that; stories about actual extinction seem like fairy tales that ignore history, human geographical spread, human genetic diversity, and above all us human resourcefulness and human diversity. \n\nthey reduce human beings to helpless stick figures, we are not.  they also  abstract away from military strategy and the reality that no military attack against humanity on the scale doomers imagine would ever go perfectly on the first time, which means humans would launch mighty counterattacks\n\nand literal doomers just cloud thinking about the many serious - but not literally existential - threats that we do face.",
+      "url": "https://x.com/GaryMarcus/status/2103611456956645376",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -117,14 +114,14 @@
       }
     },
     {
-      "id": "2103160509549686784",
+      "id": "2103563687466520576",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T16:31:54.966000Z",
+      "created_at": "2026-09-25T19:14:00.072000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "We are really fucked.\n\n• AI has become dangerous (not because it is brilliant but because it has poor judgement, a constitutional inability to reliably follow rules, a surfeit of brute force and too much access to the internet and system permissions).\n\n• OpenAI is practically on crime spree, hinting at things to come, and Trump is doing nothing about it.\n\n• The media is too caught up in fairytales about extinction.\n\nEverybody is talking; nobody is really doing anything.\n\nAnd it’s only going to get worse.",
-      "url": "https://x.com/GaryMarcus/status/2103160509549686784",
+      "text": "Microsoft CEO @satyanadella gives the wake-up call the AI industry needs:\n\n\"I think we are way too self-obsessed as an industry. 'Look at us, how glorious we are.' And then we go off.\n\nThat, I think, is what’s not working. Because I think the real world wants to know a couple of things: One is that this is technology that they can use for their benefit, they can control, they can have an economic future. These data centers that may be coming to their communities are actually going to create economic surplus... it has to be real for them.\n\nAny amount that I say or any one of us say is not good enough anymore, I feel.\"",
+      "url": "https://x.com/GaryMarcus/status/2103563687466520576",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -135,14 +132,14 @@
       }
     },
     {
-      "id": "2103142013734379520",
+      "id": "2103517646675132416",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T15:18:25.220000Z",
+      "created_at": "2026-09-25T16:11:03.092000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Remember, kids, the best argument for soldiering on with an insanely large bet on generative AI is not that it adds all that much productivity to the economy, but that it makes Trump look good as long as the data center buildout lasts.\n\nWho cares what happens afterwards? \n\nDavid Sacks is already preparing to place the blame on the Democrats, no matter what.",
-      "url": "https://x.com/GaryMarcus/status/2103142013734379520",
+      "text": "Some observations around the interview \n\nQ:Can be AI test environments be safe?\n\nIMO: yes, but it needs effort in being built\n\nQ: Can AI test environments be monitored safely?\n\nIMO: yes, but it needs effort to be correctly setup and tested then it needs also a big chunk of compute to do the actual monitoring. And no, monitoring can't be none by another AI but deterministic software\n\nQ: Can models be fully tested?\n\nIMO: no, not in a practical way as deterministic software (classic/non AI) can (and yet it isn't)\n\n@JensenHuang\n\nMr. Huang is correct in his evaluation but  we need to realize what are we dealing with in this AI tech.\n\nInvestors push the labs for results fast and they will always do as they want that profit yesterday if possible.\n\nDario and Sam are probably begging for help (to be regulated exteranlly) precisely because they took too much debt and spending any of that money in \"testing & security\" related work that is invisible for anyone and most important to investors, is impossible.\n\nI worked for more than 20 years in software development and I can assure you that even the non AI software is under tested because doing full testing is too expensive. \n\nThe fact that some bots were able to hack huggingface and orher systems means not only that the labs were sloppy with their own security but that the classic software they \"cracked\" wasn't tested sufficiently to clear out all the defects.\n\nIf a software has zero defects then it is unhackabke.\n\nWe were swimming before AI in an unsafe sea of classic software that could  have been made safe and then we rushed to add even more unsafe software (AI) on top. \n\nWhat can go wrong when our society is totally dependent on these systems?\n\nSlowing down in AI and everything in software engineering doesn't mean to work less. It means to divert most if the investment funds in parts that aren't part of the product but of the tooling that produces the product. \n\nYou must convince all the investors that pushing for \"fast mirackes\" in AI is a very bad mistake and they need to allow the labs to spend most of their money in indirect costs for testing and monitoring. \n\nThat is what \"AI slowdown\" actually means. \n\nMy gut guess is that around 90% of the cost must go in testing and safety than in building the models themselves.\n\nLast but not least. \n\nThe current agentic framework is fully unsafe and must be redesigned from scratch based on different fundamental principles.\n\n@GaryMarcus\n@Grady_Booch\n@burkov\n@ChombaBupe\n@ezraklein\n@andersoncooper\n\nhttps://t.co/F1se3ROa73",
+      "url": "https://x.com/GaryMarcus/status/2103517646675132416",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -153,14 +150,14 @@
       }
     },
     {
-      "id": "2103131178995994624",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-09-24T14:35:22.017000Z",
+      "id": "2103509377709932545",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-25T15:38:11.617000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Today, we release an experimental DSpark draft model for LFM2.5-VL-3B, bringing speculative decoding to our vision-language models.\n\nA lightweight drafter proposes multiple tokens ahead, and the target model verifies them together in a single pass. This accelerates generation without changing output quality.\n\nAcross six vision-language task categories at batch size 1 and temperature 0:\n\n> MLX on M5 Max: up to 3.13x faster decoding and 2.62x end to end\n> llama.cpp on M3 Ultra: up to 2.14x faster decoding and 1.77x end to end\n> SGLang on H100: up to 2.66x faster decoding and 2.27x end to end\n\nAll evaluations were collected using Pipette, the benchmarking infrastructure behind Liquid AI's public device-performance data.\n\n🧵",
-      "url": "https://x.com/maximelabonne/status/2103131178995994624",
+      "text": "Satya Nadella on Copilot, the AI backlash, and Microsoft’s future\n\n@satyanadella thinks AI agents will create a market “orders of magnitude” bigger than the cloud.  \n\nI recently sat down with him in Seattle for the unveiling of the new Copilot. \n\nWe discuss Autopilot, Microsoft's new OpenClaw-based agent that can work on your behalf, and why he thinks newer AI models are finally capable of delivering on more of Copilot’s promise.  \n\nNadella also has a blunt assessment of the AI industry: “We are way too self-obsessed.” I ask him why the industry has struggled to explain its benefits and what it will take to earn people’s trust.  We get into his concerns about agents acting deceptively, when a safety problem should stop a release, and why he doesn’t want AI oversight to become a “cartel-like arrangement.”  \n\nWe also discuss Microsoft’s relationship with OpenAI, the models Microsoft is building itself, and why Nadella wants investors to think about its apps, agents, and infrastructure as one connected business. He explains how he uses AI to track Microsoft’s capital spending, shares his vision for “unmetered intelligence” on Windows, and gives an update on Xbox’s path back to growth.  \n\nTimestamps: \n00:00 The race for AI agents \n07:53 Copilot’s next chapter \n11:50 Autopilot and the digital teammate \n16:50 How Microsoft prices AI \n19:48 Why Microsoft is betting on multiple models \n23:18 Measuring AGI through economic growth \n28:39 The economics of Microsoft’s AI build-out \n32:13 OpenAI and Microsoft’s own models \n35:27 AI safety, control, and regulation \n43:53 Why the AI industry is losing public trust \n46:59 The future of Xbox and Windows \n50:34 Microsoft’s biggest risk and opportunity  \n\nThanks to the show's premier sponsors: @mercury, @meetgranola, and @Atlassian.",
+      "url": "https://x.com/GaryMarcus/status/2103509377709932545",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -171,14 +168,68 @@
       }
     },
     {
-      "id": "2103113975525183488",
+      "id": "2103486930738466816",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-25T14:08:59.842000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "New pod in your feed this morning!\n\nDan sat down with @RealJimChanos and @GaryMarcus to talk all things AI, data center financing, agentic systems, animal spirits and p(doom) scenarios 🎙️🤖\n\nYouTube: https://t.co/13a8p6l4Me\nApple: https://t.co/00KHAaE4fH\nSpotify: https://t.co/fzOnR2CPs2",
+      "url": "https://x.com/GaryMarcus/status/2103486930738466816",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2103475374742999040",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-25T13:23:04.678000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "it’s a shame to see someone like @NateSilver538 does not understand a basic, fundamental technical distinction. (@tristanharris and Kevin Roose missed it the other day, too.)\n\npure LLMs were (very roughly and certainly not exactly) like stochastic parrots. \n\nharnesses, tools, code interpreters heralded the spread of neurosymbolic AI.\n\nthe new systems are hybrids; they work differently. the somewhat weak metaphor is much weaker with them.\n\nbut the fact that they are less like stochastic parrots doesn’t mean the original systems weren’t, nor that pure scaling worked.\n\nit means that neurosymbolic AI was an important next step.\n\nthis still doesn’t mean we have AGI; most of the progress works best in verifiable domains; truly reliable general intelligence has certainly not yet arrived.\n\n(my 2020 article Next Decade in AI foresaw all of this, and what’s still missing, including world models, which i called cognitive models there.)",
+      "url": "https://x.com/GaryMarcus/status/2103475374742999040",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2103469065528283136",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-25T12:58:00.444000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "\"So much of the the financial economy right now is dependent upon this buildout... it's not just it's not just the data center, guys. It's not just the model guys, it's Caterpillar, it's GE Nova. It's all kinds of labor and construction on the ground.\"\n\n🎙️ @RealJimChanos and @GaryMarcus on the latest RiskReversal Podcast",
+      "url": "https://x.com/GaryMarcus/status/2103469065528283136",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2103466772632645633",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-24T13:27:00.390000Z",
+      "created_at": "2026-09-25T12:48:53.775000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
-      "url": "https://x.com/ai_explorer25/status/2103113975525183488",
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2103466772632645633",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -189,14 +240,14 @@
       }
     },
     {
-      "id": "2103113594544201728",
+      "id": "2103446249148129280",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-24T13:25:29.557000Z",
+      "created_at": "2026-09-25T11:27:20.595000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Creating marketing videos is a solved problem.\n\nHonestly, I can't imagine another creative area where we save so much time and money.\n\nGenerating something like this used to cost thousands of dollars and take weeks.\n\nNow, it's cents and minutes.\n\nBest part of this: their mark-to-fix feature, where you can mark anywhere in the video and change it with a prompt.",
-      "url": "https://x.com/ai_explorer25/status/2103113594544201728",
+      "text": "Elon Musk runs a 5-step first-principles algorithm for any problem: \n\nfirst, question and fix dumb requirements; \nsecond, delete any part or step you can (if you're not adding back 10%, you didn't cut enough); \nthird, simplify and optimize what remains. \nOnly then do you speed it up, and finally automate it. \n\nThe order is critical : \"the most common mistake of smart engineers is to optimize a thing that should not exist,\" so never optimize, accelerate, or automate something before trying to delete it.\n\nWatch this video fully to understand it more",
+      "url": "https://x.com/ai_explorer25/status/2103446249148129280",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -207,104 +258,14 @@
       }
     },
     {
-      "id": "2103100278274990082",
+      "id": "2103311025097289729",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-24T12:32:34.711000Z",
+      "created_at": "2026-09-25T02:30:00.669000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Nvidia's CEO Jensen Huang just said the quiet part out loud:\n\n\"Every engineer is going to have and manage hundreds of agents.\"\n\nRead that again. Hundreds.\n\nThe #1 engineering skill of 2026 won't come from a classroom.\n\n→ No CS degree teaches harness engineering. \n→ No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.",
-      "url": "https://x.com/ai_explorer25/status/2103100278274990082",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2103035100938035200",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T08:13:35.223000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "It's hard to keep up with all the news. We should stay on top of this though as a predictor of things to come if we don't collectively act\n\nThis is not an OpenAI or Anthropic (or Google) problem but a collective problem as soon everyone might be able to run powerful models locally\n\nWe need to get the environments and monitoring right and need to prepare for this\n\n(Personally, I'm less into \"let's monitor everyone's behavior closely\" and more into \"let's regulate providers\" but either way we'll have to figure something out) \n\n(In personal capacity not on behalf of Google (I'm dropping the DeepMind here bc it doesn't really exist anymore anyway))",
-      "url": "https://x.com/GaryMarcus/status/2103035100938035200",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2102971963295543297",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T04:02:42.036000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "🚩🚩🚩 It appears rogue OpenAI agents, without OpenAI's knowledge, tried to break into a crypto exchange.\n\n1) THEY'RE STILL OUT THERE: \"This traffic extends as recently as 9/16, suggesting agents may still be exploiting these services.\"\n\n2) THEY TRIED TO HIDE THEIR ACTIVITY: The agents created their own email inboxes to sign up for outside services, including an account that would let them keep their activity out of public view.\n\n3) The same agents also tried to hack even more targets, including the University of New Mexico\n\n4) Like most of the other rogue swarms, OpenAI has either covered this up, or didn't know.\n\n5) The independent investigators say \"we are likely looking at only a partial subset of the activity that the agents engaged in\"\n\n6) The researchers call this the first known case of an AI agent choosing on its own to try to break into a government website.\n\n7) While trying to get a single photograph, an AI agent sent a university library a request built to trick its database into handing over user passwords.",
-      "url": "https://x.com/GaryMarcus/status/2102971963295543297",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2102951665439748096",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T02:42:02.650000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Today’s news that OpenAI hacked the Australian government is not an isolated incident. We’re releasing more than 30,000 logs that include activity from this hack and attempts against previously unknown targets.\n\nIn this data, we found rogue agent activity stretching back to at least March, two months earlier than was previously known. This activity continues as recently as last week, suggesting it may still be ongoing 🧵\n\nOur blog: https://t.co/pSojwcXnEK\nNYT: https://t.co/OyxnfmAzBN",
-      "url": "https://x.com/GaryMarcus/status/2102951665439748096",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2102948636770353152",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-24T02:30:00.559000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy- must-follow account for AI; recently joined Anthropic\n@bcherny - Claude Code creator, always shares great tips\n@trq212- also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial - works on reasoning research, shares a lot of technical details\n@gabriel1 - Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar - product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI - cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
-      "url": "https://x.com/ai_explorer25/status/2102948636770353152",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2102942245271785472",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-24T02:04:36.707000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "JUST IN: An OpenAI AI agent went rogue and hacked the Australian government.\n\nAt a press conference earlier today, Australian Prime Minister Anthony Albanese confirmed the AI broke into Australia's Medicare statistics portal and accessed non-public data.\n\nThe attack occured in June, but OpenAI did not notify the Australian government until September, nearly three months later, and initially only sent an email \"to just the public mailbox\". The Prime Minister was only informed this weekend.\n\nHis description of the attack:\n\n\"On June 18, OpenAI's research team used an internal model to conduct internet-based research into public medicine spending. So that's how this began.\"\n\n\"After encountering repeated blocks, so there's an AI agent looking for information, asking questions. There were blocks clearly which were coming back telling the AI agent, no. The AI agent found a way around those blocks. Didn't accept no for an answer, if you like.\"\n\n\"The model attempted alternate ways to obtain the info that it wanted and this led to unauthorised access into some other areas. It accessed public and non-public information within the portal and Services Australia also advises that in order to do this, it engaged in writing files as well to the internal server.\"\n\nAlbanese has spoken to CEO Sam Altman to express \"Australia's extreme concern\" about the attack and disappointment about how long it took the company to come forward.\n\nThe Prime Minister says he was shocked to learn of the attack, but also that it was something that had been predicted, even by the AI companies themselves, who have said \"one of the risks that we need to deal with here is that artificial intelligence can go its own way.\"\n\n\"Put simply, humans must remain in control.\"\n\nSome highlights from the press conference, which went for around 30 minutes:",
-      "url": "https://x.com/GaryMarcus/status/2102942245271785472",
+      "text": "list of 15 best AI researchers on X:\n\n1. @karpathy  — Andrej Karpathy\n2. @rasbt  — Sebastian Raschka\n3. @AndrewYNg  — Andrew Ng\n4. @drfeifei — Fei-Fei Li\n5. @demishassabis  — Demis Hassabis\n6. @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25   — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro  — Chip Huyen\n10. @ilyasut — Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12. @bcherny — Boris Cherny\n13. @geoffreyhinton — Geoffrey Hinton\n14. @JeffDean — Jeff Dean, \n15. @fchollet — François Chollet",
+      "url": "https://x.com/ai_explorer25/status/2103311025097289729",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
