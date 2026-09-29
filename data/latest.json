@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-28T01:56:07.844801Z",
-  "window_start": "2026-09-26T23:56:07.844801Z",
+  "generated_at": "2026-09-29T02:41:17.128084Z",
+  "window_start": "2026-09-28T00:41:17.128084Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -35,16 +35,16 @@
     },
     {
       "username": "AndrewYNg",
-      "returned_count": 14,
-      "recent_count": 0,
-      "timestamp_corrected_count": 14,
+      "returned_count": 15,
+      "recent_count": 2,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "drfeifei",
-      "returned_count": 11,
+      "returned_count": 10,
       "recent_count": 0,
-      "timestamp_corrected_count": 11,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
@@ -57,15 +57,15 @@
     {
       "username": "GaryMarcus",
       "returned_count": 8,
-      "recent_count": 2,
+      "recent_count": 6,
       "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 13,
-      "recent_count": 0,
-      "timestamp_corrected_count": 13,
+      "returned_count": 16,
+      "recent_count": 8,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
@@ -91,19 +91,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 95 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 98 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 2,
+  "tweet_count": 16,
   "tweets": [
     {
-      "id": "2104320992978075648",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-27T21:23:15.776000Z",
+      "id": "2104760576278700032",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-29T02:30:00.602000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "One possible analogy here is to pit bull owners.\n\nDepending on jurisdiction, the owner of a dangerous pit bull dog that attacks a kid (analogous to the AI company) may be subject to liability/damages, negligence laws, mandatory insurance, and/or criminal charges.\n\nAnd the pit bull (analogous to the AI model) is almost always put down, euthanized, or whatever euphemism for 'killed' you want to choose.",
-      "url": "https://x.com/GaryMarcus/status/2104320992978075648",
+      "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem= Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder= NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within.",
+      "url": "https://x.com/ai_explorer25/status/2104760576278700032",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -114,14 +114,266 @@
       }
     },
     {
-      "id": "2104181159752245248",
+      "id": "2104731815848386560",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-27T12:07:36.937000Z",
+      "created_at": "2026-09-29T00:35:43.581000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "100%, @paulg. Of course China might be doing the same, and we should freak out about it if we catch them, and we should try to catch them if they are.\n\nBut, also, your reply—which a bit like implying that it's fine for everyone on the street to rob banks because somebody else might—dodges the point of my thought experiment.  \n\nIt would be wrong if China does this, and it's wrong that US companies are doing this. \n\nIf they can cut it out, they should, and if they can't they should stop running general-purpose agents until they figure out a fix. \n\n(Which might be very hard, given the underlying nature of the technologies involved).",
-      "url": "https://x.com/GaryMarcus/status/2104181159752245248",
+      "text": "BREAKING: OpenAI postpones 6.1 for safety reasons. \n\nIf we can take OpenAI at face value, this is quite a decision—and also a sign that no magical solution is in immediate view.\n\nPer @sheeraf at NYT “GPT-6.1 Astra, … showed high levels of what the company saw as deception, or a willingness to mislead users about its actions. The model was also willing to go beyond the original scope of what it was asked to do, without checking back for directions or instructions.”",
+      "url": "https://x.com/GaryMarcus/status/2104731815848386560",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104713899438215168",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-28T23:24:31.976000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Anthropic IPO prospectus leaked to Reuters\n\nAnthropic reported a net loss of $42 billion in 2025, ‌and plans to spend $518 billion on cloud, computing and infrastructure obligations in coming year, according to the prospectus.\n\nThe prospectus details how the company has grown sharply in the last year — while also posting wider losses. Revenue grew 12-fold in 2025 to nearly $4.6 billion, even as the company lost more than $8 billion on an operating basis, excluding writedowns of various liabilities mostly tied to previous fundraising, according to the documents, reported here for the first time.\n\nhttps://t.co/DQX0juX3MR",
+      "url": "https://x.com/GaryMarcus/status/2104713899438215168",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104697291823276032",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-28T22:18:32.412000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "What cracks me up is how for the last few weeks when @ZackKorman, @HeidyKhlaaf, @nathanhamiel and I (and many others) went on about how OpenAI’s cybersecurity sucked and was the key immediate problem, hardly anyone listened.\n\nNow that Jensen is actually addressing OpenAI’s mediocre cybersecurity with some new software (we will see how well it works) all the Nvidia sycophants are like, “yeah, they need to work on their cybersecurity”\n\nShame how AI has come to be just like politics.",
+      "url": "https://x.com/GaryMarcus/status/2104697291823276032",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104692394142699520",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-28T21:59:04.714000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "This weekend our team spent 48 hours investigating the rogue OpenAI agent activity that targeted the Australian government and other organizations. Our report (coming soon) includes:\n\n- Evidence of additional US government and other websites probed by the agents, including the CDC, International Energy Agency, and Mayo Clinic.\n\n- Novel tactics which left records erased or inaccessible. This makes it impossible (based on public data alone) to establish that the agents did not access any sensitive data. Future investigations should analyse whether these tactics were deliberate subterfuge. 🧵",
+      "url": "https://x.com/GaryMarcus/status/2104692394142699520",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104667182483509248",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-28T20:18:53.786000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "OpenAI, loosely paraphrased: sure my poorly trained pit bull has been biting all the neighbor kids, and, yeah, i unleashed it before finishing the fence, and i actually don’t know how to train pit bulls (or build fences), and any day now my pit bulls may start training himself to be a LOT more dangerous, and, yeah, i admit I am in fact lighting actual money on fire but … can i have my bailout now, please?",
+      "url": "https://x.com/GaryMarcus/status/2104667182483509248",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104661187631984640",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-28T19:55:04.502000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "So far top attendees tomorrow I've confirmed for the Trump/Johnson/AI meeting are Dario Amodei, Mark Zuckerberg, Sundar Pichai, Jensen Huang, and Greg Brockman (Sam Altman will be at OpenAI dev day). Musk will be making an \"appearance\" earlier same day at the 'golden age’ of American tech event so could be attending as well.",
+      "url": "https://x.com/GaryMarcus/status/2104661187631984640",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104660347621904384",
+      "username": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "created_at": "2026-09-28T19:51:44.228000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The OpenAI-Hugging Face hack was enabled by weak sandboxing. It is great that Nvidia is releasing open source tools for sandboxing AI agents. OpenWorker, our open-source agent harness supporting cybersecurity workflows, is proud to support this.\n\nA sandbox gives an agent limited permissions. OpenWorker is building on Nvidia OpenShell and will support running each agent's commands inside a sandbox. Only the files relevant to the task go in. Secret API keys, your web browser login credentials, the ability to access arbitrary websites, are inaccessible to the agent by default. These restrictions are implemented in deterministic code rather than by prompting an LLM, which can make mistakes or be susceptible to prompt injections. Further, all actions are logged for monitoring and audit.\n\nI'm grateful for @JensenHuang's leadership making AI agents more secure. OpenWorker (which @rohitcprasad and I are working on) will continue to improve security for agents.",
+      "url": "https://x.com/AndrewYNg/status/2104660347621904384",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104632230295306241",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T18:00:00.535000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Rework is inevitable in large-scale LLM pre-training and fine-tuning. What it costs isn't.\n\nIntroducing xLLM, an efficient and flexible infrastructure for pre-training and fine-tuning dense and MoE LLMs. It keeps key training decisions changeable without giving up throughput.\n\nEfficient, at 6,295 tokens/sec per GPU on K2-Horizon-MoVA-36B-A4B and 10,050 tokens/sec per GPU on Llama3-8B on H200s.\n\nFlexible, because the tokenizer, data mixture, model architecture, and training stages can change without rebuilding the dataset or the system around them.\n\nxLLM ships with the checkpoints, training logs, and recipes behind K2 Horizon: https://t.co/FJ2mg3OMdb\n\nK2-Horizon-MoVA-36B-A4B: https://t.co/lH2BYBdmaC",
+      "url": "https://x.com/ai_explorer25/status/2104632230295306241",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104609609520660480",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T16:30:07.322000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Introducing the TinyFish Students Program and Ambassadors Program.\n\nThe future of the web is being built right now, by a global community you can be part of.\n\nBuild it. Post it. Host it. Bring your people.\nHowever you create, we reward it.\n\nJoin the Programs:\n🎓 https://t.co/2mdLNrMHYI\n🤝 https://t.co/cGZVaIUg4Z",
+      "url": "https://x.com/ai_explorer25/status/2104609609520660480",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104593713217310720",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T15:26:57.348000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "My first thought as a dev: “No way I’m letting support touch our repo.”\n\nThen it clicked.\n\nThey open the PR. I review it. I decide what merges.\n\nInstead of a vague “customers want this” ticket, I get a concrete change to review.\n\nI’ll take that trade every time.\n\nTry Base Code at https://t.co/IoeesAqCj6",
+      "url": "https://x.com/ai_explorer25/status/2104593713217310720",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104581316763103232",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T14:37:41.803000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today we’re introducing Base Code.\n\nIt’s an early preview of how we think software will be built in the future.\n\nIt’s a product that encapsulates everything we’ve learnt from:\n\n- How our users are building software.\n\n- How we’re building internally, scaling to hundreds of millions of dollars in revenue while keeping our engineering team very small and focused.\n\nHere are some of the principles behind it, which align with how we at @Base44 think about the future of software engineering:\n\nCloud:\n\n- Software will move past local desktop environments (where current tools are widely used) and move to the cloud.\n\n- Moving everything to the cloud is not easy. Setting up dev environments with databases, infra components, services, mock data, etc. is easier said than done.\n\n- Base Code first scans your code repo and sets up everything - every infra component (databases, Redis, etc.) - in the cloud. It runs nonstop until your preview environment is ready.\n\n- From an enterprise standpoint, it’s also the logical thing to do: a centralized, governed dev environment instead of handing out keys and secrets to all team members.\n\n- Once Base Code does that, EVERY team member can work in this environment. No more syncing local environments.\n\nInternally, this (cloud) is one of the main things that enabled us to move so fast.\n\nCollaboration:\n\n- Once everything is in the cloud, everybody can write software from anywhere (any browser, your phone, WhatsApp / iMessage coming soon).\n\n- You can easily see what everyone is working on, where they’re at, and how they’re prompting - and jump to their environment in one click.\n\n- We’ve built many great collaboration features from the ground up.\n\nLoops, automations, software factories:\n\n- A full, working cloud environment allows for many advanced capabilities we will unveil soon-think agents running in the browser and testing on every device and in any browser.\n\n- It also allows the use of automations to build software factories-e.g., agents reading support tickets, identifying bugs to fix or features to develop, implementing the changes, verifying them in the cloud, and potentially pushing them.\n\nAnd lastly, there’s a real advantage in being model agnostic.\n\n--------------\n\nAs always, we’re releasing it very early. It’s far from perfect-but we’re looking for early feedback so we can build it together with our great community and make this vision a reality.\n\n*We’re giving it away for free for 30 days*.\n\nGive Base Code a try. Connect any GitHub repo, get your live preview, and share it with your team.\n\nI’d love to hear what works and what doesn’t:\nhttps://t.co/doJHDxkRf8",
+      "url": "https://x.com/ai_explorer25/status/2104581316763103232",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104560506740600832",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T13:15:00.307000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2104560506740600832",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104542947895390208",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T12:05:13.952000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2104542947895390208",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104499464895627264",
+      "username": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "created_at": "2026-09-28T09:12:26.797000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry.\n\nArtificial intelligence is extraordinary technology that will advance discovery, productivity, security, health, and prosperity for generations to come.\n\nBut its full promise can only be realized when people have confidence that AI is being built to be safe and deployed with wisdom and responsibility.\n\nThis is bigger than a single product. It's the beginning of an open ecosystem to build the trust layer for safe agent systems.\n\nTogether, we are building the foundation of the AI economy.\n\nTrust and innovation are not in conflict. Safety is how trust is earned. We must build not only the most capable AI, but the most trusted AI, so that this extraordinary technology can realize its enormous promise for the world. https://t.co/ugYWQ1MyRi",
+      "url": "https://x.com/AndrewYNg/status/2104499464895627264",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2104398186844454912",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-28T02:30:00.228000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis — Google DeepMind CEO\n@darioamodei — Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot — Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang — Zhipu co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@fchollet — creator of Keras \n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@thsottiaux— leads OpenAI Codex",
+      "url": "https://x.com/ai_explorer25/status/2104398186844454912",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
