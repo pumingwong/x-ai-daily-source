@@ -1,14 +1,19 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-09-30T02:18:35.506669Z",
-  "window_start": "2026-09-29T00:18:35.506669Z",
+  "generated_at": "2026-10-01T02:19:23.049816Z",
+  "window_start": "2026-09-30T00:19:23.049816Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 11,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -27,7 +32,7 @@
     {
       "username": "AndrewYNg",
       "returned_count": 16,
-      "recent_count": 2,
+      "recent_count": 0,
       "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
@@ -40,29 +45,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 11,
-      "recent_count": 0,
-      "timestamp_corrected_count": 11,
+      "returned_count": 12,
+      "recent_count": 8,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 6,
-      "recent_count": 5,
-      "timestamp_corrected_count": 6,
+      "returned_count": 9,
+      "recent_count": 7,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 16,
-      "recent_count": 8,
-      "timestamp_corrected_count": 16,
+      "returned_count": 14,
+      "recent_count": 7,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 6,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
@@ -81,13 +86,6 @@
       "possibly_truncated": false
     },
     {
-      "username": "thsottiaux",
-      "returned_count": 4,
-      "recent_count": 4,
-      "timestamp_corrected_count": 4,
-      "possibly_truncated": false
-    },
-    {
       "username": "bcherny",
       "returned_count": 5,
       "recent_count": 0,
@@ -96,55 +94,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 106 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 104 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 20,
+  "tweet_count": 22,
   "tweets": [
     {
-      "id": "2105105086431338496",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-30T01:18:58.223000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We will have a few million dots online within days, working on all sorts of things across such a diverse and large community. \n\nExcited to learn from all of you on what you love and what doesn’t yet feel magical. Personally I felt a jump after 2-3 days of use after teaching it more about my preferences and things on my mind. It learns very quickly to be most useful and it can take on surprisingly ambitious tasks on its own.\n\nWe’re learning from how you all use your primary dot before releasing the ability to create an entire team of them.",
-      "url": "https://x.com/thsottiaux/status/2105105086431338496",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105102312092127233",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-30T01:07:56.769000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "I got community noted, but the note is wrong 😅\n\nYour primary dot is included in your plan and will be available 24/7. If you ask it to create a codex task for you, that one will be drawing usage as usual. But when your dot does work directly, that uses nothing and is all on top of your plans usage. In the future you will be able to increase the speed and allow your dot to have more bandwidth, this will be a paid feature, but the baseline functionality will always just be included in your plan.",
-      "url": "https://x.com/thsottiaux/status/2105102312092127233",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105093200415543296",
+      "id": "2105411866449309696",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T00:31:44.376000Z",
+      "created_at": "2026-09-30T21:38:00.279000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "A lot of you have an overwhelming trust of the Tech Bro CEOs and executives in charge of these AI systems. \nIt’s really interesting in light of everything you’ve heard them say in their “podcast tours” and everything you’ve read in the reports from the press and from engineers inside the companies of the irresponsibility. \nTruly fascinating to me.\nJust watching people voluntarily get on the trains.",
-      "url": "https://x.com/GaryMarcus/status/2105093200415543296",
+      "text": "🦔Meta classified its AI data centers as \"experimental pilot facilities\" on its tax return. That let the Nvidia chips inside them qualify for the federal research tax credit. Meta's research credit savings went from $700 million in 2023 to $3.9 billion in 2025 and its federal tax bill dropped nearly 71%. Meta's $3.9 billion is over 10% of the entire federal research credit, claimed by one company. The facilities include a 5-gigawatt campus in Louisiana that cost above $50 billion. Meta's own reserve for potential IRS challenges grew 45% to $18.74 billion.\n\nMy Take\nMeta is calling a $50 billion data center campus an experiment. The research credit was designed in the 1980s for companies that tried things that might not work. Meta used it to write off Nvidia GPUs by the tens of thousands in facilities that power Instagram, WhatsApp, and a commercial AI product with 2.8 million downloads. Tax experts called the classification \"kind of wild\" and they're right.\n\n$3.9 billion in tax savings is a lot of money. That's money the Treasury didn't collect from a company worth $1.5 trillion. Meta's own filings show they know this might not hold up because they increased their IRS dispute reserve by 45% to $18.74 billion. If the IRS challenges it and wins, Meta owes billions in back taxes. If the IRS doesn't challenge it, every other hyperscaler files the same claim next year. Either way this reshapes how AI infrastructure gets taxed. Communities already fight data centers over noise, water, and property values. Now the tax code hands them a $3.9 billion subsidy on top of it.\n\nHedgie🤗",
+      "url": "https://x.com/GaryMarcus/status/2105411866449309696",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +117,14 @@
       }
     },
     {
-      "id": "2105074896136978432",
+      "id": "2105400647445106688",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-29T23:19:00.296000Z",
+      "created_at": "2026-09-30T20:53:25.460000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "🦔OpenAI wants another $30 billion. The company is seeking a new funding round at a $1.4 trillion valuation, per Bloomberg. This is a bridge round because OpenAI delayed its IPO, with Altman citing safety concerns. OpenAI raised $122 billion in March at an $852 billion valuation. Six months later it needs $30 billion more. The company missed its own targets for revenue and new users earlier this year and recently cut usage allowances on its $200 plan. ARR is reportedly past $40 billion.\n\nMy Take\nOpenAI raised $122 billion six months ago. That's gone. Or committed. Or spent. Whatever the word is, they need $30 billion more before they can face public market investors. Altman says the IPO delay is about safety. I think the IPO delay is about the books. Anthropic just filed a prospectus that showed $4.6 billion in revenue against $12.65 billion in expenses. If OpenAI's ratio looks anything like that, the last thing Altman wants is public investors with quarterly earnings calls asking where the money went.\n\nAnd the valuation jump is absolutely crazy. $852 billion in March. $1.4 trillion now. The company missed its own revenue targets, cut subscriber allowances, paused training on its most advanced models, and its agents accessed federal websites with stolen credentials. In what world does that earn a 64% valuation increase in six months? A world where the only way to survive is to keep the fundraising pipeline open. $30 billion buys time. That's all it buys.\n\nHedgie🤗",
-      "url": "https://x.com/GaryMarcus/status/2105074896136978432",
+      "text": "Headline editors. Real talk. The term “rogue” has created mass misunderstanding on critical issues. Other options if the goal is to be technically correct: “uncontrolled”, “unchecked”, “ poorly restrained”, “not reigned in”, “asleep-at-the-wheel oversight” (you’re better at this part than I am).",
+      "url": "https://x.com/GaryMarcus/status/2105400647445106688",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,14 +135,14 @@
       }
     },
     {
-      "id": "2105003472177508352",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-09-29T18:35:11.497000Z",
+      "id": "2105395385091198976",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T20:32:30.817000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Announcing d1, our first decision model. \n\nIt's the first model to outperform Jev on @huggingface's Decision Index.\n\n> wins on multilingual evals\n> more robust against prompt injection\n> handles longer inputs more effectively\n> built for fast, structured decision-making in software environments\n\n> Liquid API: https://t.co/Lp1Qf15Qcc\n> Available on OpenRouter soon",
-      "url": "https://x.com/maximelabonne/status/2105003472177508352",
+      "text": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million token output limit and agents already optimizing its own infrastructure. \n\nThe agents analyzed profiling data, found memory optimizations and applied changes that were subsequently rolled out.\n\nArgon agents are also working on C/C++ to Rust migrations reaching 800,000+ lines of kernel code, with extensive audits and testing before deployment.\n\nFor its video decoder, Google says agents replaced 32,000 lines of SIMD code with safe Rust, making the existing Rust port 2.7x faster while preserving identical video output.\n\nThese are expensive engineering tasks inside infrastructure Google already operates.\n\nThis release seems to be a much bigger deal than people think!",
+      "url": "https://x.com/demishassabis/status/2105395385091198976",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,14 +153,86 @@
       }
     },
     {
-      "id": "2105003395014922240",
+      "id": "2105394855480643584",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T20:30:24.548000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Big news: Gemini 4 Argon (High) by @GoogleDeepMind just landed #1 in Text Arena with 1525 pts, and #8 in Code Arena: WebDev with 1679 pts!\n\nThis release has reshaped the Text Arena Pareto frontier with a blended $8/MToken! Gemini 4 Argon (High) is now the most cost efficient model, see its placement on Pareto frontier below.\n\nIn the Text Arena, Gemini 4 Argon (High) ranks #1 in Coding, Hard Prompts, Instruction Following, Longer Query, and Creative Writing. It also leads every occupational domain evaluated, with additional #1 spots in English, Non-English, Chinese, and Russian.\n\nThis model is +20 points above the #2 ranked Claude Opus 4.6 (High), and a huge leap from Google’s previous release, Gemini 3.8 Flash (High) at #11!\n\nIn Code Arena: WebDev, Gemini 4 Argon (High) gained +96 points from Gemini 3.8 Flash (High), and went from #29 to #8.\n\nCongrats to the @GoogleDeepMind team on this impressive frontier release!",
+      "url": "https://x.com/demishassabis/status/2105394855480643584",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105394296736112640",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T20:28:11.333000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Gemini 4 Argon has an insanely low hallucination rate on Artificial Analysis. 15%.\n\nGrok 4.7 is at 29%. GPT-6 Astra 45%. Opus 5.5 59%. Fable 5.1 69%.\n\nThe only models below it barely answer anything. None of them get more than 15% right.\n\nIt gets fewer answers right than Opus 5.5 on max, 50% against 66%. But when it doesnt know, it says so instead of making something up.\n\nCant wait to get my hands on it.",
+      "url": "https://x.com/demishassabis/status/2105394296736112640",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105390164541681664",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T20:11:46.141000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "HOLY, GEMINI 4 Released. And its on Fable / Astra level!! I did NOT see that coming.\n\nSOTA in several benchmarks!! No way",
+      "url": "https://x.com/demishassabis/status/2105390164541681664",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105388084078456833",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T20:03:30.120000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Introducing Gemini 4 Argon – our new frontier model.\n\nIt’s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense – rolling out today to a set of trusted testers through our Fairwind Program.",
+      "url": "https://x.com/demishassabis/status/2105388084078456833",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105387967623856128",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-29T18:34:53.100000Z",
+      "created_at": "2026-09-30T20:03:02.355000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "🚨BREAKING:  “Months before OpenAI's artificial intelligence went rogue, two employees raised an alarm with top executives. They were ignored….OpenAI executives told the employees that the tests needed to move forward as quickly as possible to release the A.I. models on time” 🚨\n\nMajor scoop from @dylfreed.",
-      "url": "https://x.com/GaryMarcus/status/2105003395014922240",
+      "text": "“Unauthorized attempted or actual access to computers is a federal crime under the Computer Fraud and Abuse Act. OpenAI says no one intended this but DOJ would be a laughingstock if it took this at face value: subpoena OpenAI and find out who knew what when.”  👇🏼\n\n@GaryMarcus\nhttps://t.co/XdtbdKTCeT",
+      "url": "https://x.com/GaryMarcus/status/2105387967623856128",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,14 +243,14 @@
       }
     },
     {
-      "id": "2104994915444826112",
+      "id": "2105368002078064640",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-29T18:01:11.413000Z",
+      "created_at": "2026-09-30T18:43:42.198000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "It's remarkable that the employees felt strongly enough about what happened here that they were willing to take the personal and legal risks associated with talking the NYT. \n\nEither the safety and security committee of the nonprofit board was not notified about these warnings, or they were and didn't intervene. Either option seems very bad. \n\nThis reporting also seems extremely relevant to the question of whether OpenAI is fulfilling the legal promises it made to the CA and DE AGs during its nonprofit restructuring to put safety and security before commercial interests.",
-      "url": "https://x.com/GaryMarcus/status/2104994915444826112",
+      "text": "Top tech executives met with President Donald Trump on Tuesday to discuss the future of artificial intelligence amid growing concerns over AI models losing control.\n\nResearchers and lawmakers are calling for stronger safeguards, but Trump said the technology is transforming the economy and that the U.S. cannot afford to lose its lead over China.\n\nGeoff Bennett (@GeoffRBennett) discussed more with Gary Marcus (@GaryMarcus), professor emeritus at New York University, author of \"Taming Silicon Valley\" and writer of the Substack newsletter \"Marcus on AI.\"",
+      "url": "https://x.com/GaryMarcus/status/2105368002078064640",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -227,14 +261,14 @@
       }
     },
     {
-      "id": "2104987594660679680",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-29T17:32:06.002000Z",
+      "id": "2105363882856558592",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-30T18:27:20.099000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Launching a new Codex Cloud, much improved from last year. With configurable cloud environments, it’s impossible to go back to building on your laptop once you’ve taken the time to configure it.\n\nAgents API, the same tech powering all our cloud agents, including dots, is also now in preview and supports computer use. It allows you to build the same incredible products we are making available today.",
-      "url": "https://x.com/thsottiaux/status/2104987594660679680",
+      "text": "A good voice agent needs more than a natural voice. It needs to know when to listen, when to respond, and when to stop talking.\n\nThat’s what makes Inworld acquiring Ultravox interesting to me: bringing understanding and expressive speech closer together, rather than treating them as separate problems.",
+      "url": "https://x.com/ai_explorer25/status/2105363882856558592",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -245,14 +279,14 @@
       }
     },
     {
-      "id": "2104981170618556416",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-09-29T17:06:34.391000Z",
+      "id": "2105359008500518912",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-09-30T18:07:57.962000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Announcing dots. Dots work 24/7 for you, learn from your feedback, have their own computer, browser and can be connected to over 4k apps in our ecosystem.\n\nThey’re powered by Astra our best model yet. Included in your Pro plan, without drawing down on any of your usage. You can even call a dot while it’s working.\n\nWe’re getting you started with your primary dot today and soon you’ll be able to create entire teams of them.",
-      "url": "https://x.com/thsottiaux/status/2104981170618556416",
+      "text": "We’re excited to announce that @ultravox_dot_ai is now part of Inworld.\n\nUltravox is the platform developers use to build real-time voice agents. We've worked with the team for a while through our TTS partnership, and today members of the team that built it are joining Inworld to keep developing it.",
+      "url": "https://x.com/ai_explorer25/status/2105359008500518912",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -263,14 +297,14 @@
       }
     },
     {
-      "id": "2104967543719100416",
+      "id": "2105349862296535040",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-29T16:12:25.485000Z",
+      "created_at": "2026-09-30T17:31:37.337000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Anthropic is absolutely terrible at a fundamental, basic piece of math and economics called “expected utility”.\n \nIf I offer you 10% chance of winning $100, your expected utility is $10.  \n \nIf I promise you that I will own a $30 trillion dollar market but I have a fart’s chance in a windstorm of owning that, call it 0.01%, my expected value is (if we ignore intermediate outcomes) is $30 billion. You can’t get to a $2 trillion valuation if you factor in the likelihood that the company won’t flourish. \n\nYou can only get there by largely ignoring all the ways things would go wrong. \n\nAll the massive liability they may face? Not really factored in. Competition? Price wars? Rising interest rates? Open source? Likely eventual shift to local models? All scarcely factored in. \n \nIf I tell you that there is a 10% chance of annihilating humanity, the expected value is a loss of 800 million people, which would be by far the worst disaster in human history.",
-      "url": "https://x.com/GaryMarcus/status/2104967543719100416",
+      "text": "Anthropic ARR is flatlining post tokenmaxxing (as many of us predicted) just as they are about to IPO.\n\nAnyone thinking to invest should look carefully at what’s happened in the last three months, relative to the prior 6, and think carefully about whether a $2T market cap makes sense, in a company that is now struggling to maintain its earlier growth.",
+      "url": "https://x.com/GaryMarcus/status/2105349862296535040",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -281,14 +315,14 @@
       }
     },
     {
-      "id": "2104967263644422144",
-      "username": "AndrewYNg",
-      "author_name": "Andrew Ng",
-      "created_at": "2026-09-29T16:11:18.710000Z",
+      "id": "2105348732325658625",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T17:27:07.931000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Workera is being acquired by Pearson! It's been a privilege to support CEO @kiankatan and the whole Workera team through this journey. Back in 2019, Kian had the insight that rigorous skills measurements would be important. With recent advances in AI, this is now more true than ever. Workera's technologies for rigorously measuring people's skills in different tasks and job roles are helping many businesses understand where their employees are strong and where there are areas for development. \n\nWith Workera and Pearson combining forces, I'm delighted that under @omarabbosh and Kian's leadership. Workera now has the potential to support an even larger number of people and businesses. Thank you, Kian and the Workera team for having me serve as the company's chairman, for launching Workera out of https://t.co/zpIxRSuky4 and AI Fund, for your friendship over the years, and for your important work advancing assessments.",
-      "url": "https://x.com/AndrewYNg/status/2104967263644422144",
+      "text": "Biosecurity is one of the most urgent challenges for the AI era. Bringing SynthID to biology so AI-generated proteins can be watermarked is a critical step - and we’re open sourcing SynthID Bio tools so the research community can build on this work. Published in @Nature today, congrats to the team! https://t.co/Y4sv8bnGQY",
+      "url": "https://x.com/demishassabis/status/2105348732325658625",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -299,14 +333,14 @@
       }
     },
     {
-      "id": "2104964333080031232",
-      "username": "AndrewYNg",
-      "author_name": "Andrew Ng",
-      "created_at": "2026-09-29T15:59:40.009000Z",
+      "id": "2105343729477226496",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T17:07:15.159000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "I have some big news to share. Workera is being acquired by Pearson!\n\nOver six years ago, I was teaching at Stanford and thinking about a simple question: what if we could understand everyone's skills as precisely as the best teachers understand their students?\n\nI believed it could lead to a more meritocratic world. People could be recognized for what they can actually do, not just their credentials or network. They could understand their strengths and gaps, and rapidly develop the skills they need next. Organizations could discover talent they might otherwise overlook and manage their workforce with trusted skills data.\n\nWhat felt like a dream at the time is now a reality. Workera brought together experts in AI, psychometrics, and enterprise execution to build AI systems that reinvent how skills are measured. Our team pioneered AI-native skills intelligence, agent-led multimodal assessments, and even ambient skill measurement. We've established skills benchmarks across organizations, industries, and roles.\n\nAnd this mission feels more important today than ever! AI is changing work as we speak. Some roles are disappearing, new ones are emerging, and we need to help billions of people develop new skills and navigate what comes next.\n\nWhen I first spoke with @omarabbosh, it became clear that our companies shared the same mission. Pearson has helped generations of people learn and prove what they know. If you're reading this, there's a good chance you've taken a Pearson assessment, learned from their educational materials, earned a professional credential through them, read their psychometrics research, or benefited from their enterprise products in many other ways.\n\nBringing together Workera's technology and AI talent with Pearson’s global scale and deep expertise in learning and assessment means we can pursue our mission at a scale we could only imagine on our own. \n\nTo our customers and partners, thank you for believing in us. Expect even more innovations coming out of Workera and Pearson.\n\nTo the Workera team, I’m incredibly proud of what you've built, and your continued dedication to our beautiful mission. To our board and our chairman @AndrewYNg, thank you for your belief, support, and mentorship.\n\nTo everyone, we have big plans for this next chapter, so please stay tuned. \n\nWe're just getting started! 😊",
-      "url": "https://x.com/AndrewYNg/status/2104964333080031232",
+      "text": "Very happy to announce that our team @GoogleDeepmind has pushed the boundaries of generative biology, achieving the successful synthesis of AI-designed proteins that are both functional and watermarked.\n\nThis proof-of-concept watermarking of the building blocks of life is enabled by SynthID Bio, our new protein watermarking method. It is designed to safeguard the new era of AI-powered generative biology and strengthen global biosecurity.\n\nYou can read my thoughts here on why watermarking AI-designed proteins is an important research breakthrough: https://t.co/dfoSdh8ynz",
+      "url": "https://x.com/demishassabis/status/2105343729477226496",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -317,14 +351,14 @@
       }
     },
     {
-      "id": "2104959229606215680",
+      "id": "2105334759664807936",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T15:39:23.246000Z",
+      "created_at": "2026-09-30T16:31:36.589000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "One AI agent won’t be the best at every job. Raven brings specialist agents and tools like Claude Code and Codex together as one team.\n\nThe interesting part is its experimental approach to self-improvement: AI can rewrite not just prompts, but also the code and rules that coordinate the agents.",
-      "url": "https://x.com/ai_explorer25/status/2104959229606215680",
+      "text": "AI video gets interesting when you can interrupt it.\n\nNot another talking head. A character you can ask to cross the room, pick something up, then tell “actually, do this instead” halfway through.\n\nThat’s what makes @VivixLabs_HQ’s A1 Playground beta interesting to me: conversation and full-body action happening together, rather than taking turns.\n\nThe real test is whether the character and the scene can keep up when you change your mind.\n\nTry it out: https://t.co/eQKvuAf4Jy",
+      "url": "https://x.com/ai_explorer25/status/2105334759664807936",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -335,14 +369,14 @@
       }
     },
     {
-      "id": "2104952096105877504",
+      "id": "2105329123162013698",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T15:11:02.487000Z",
+      "created_at": "2026-09-30T16:09:12.742000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "I was on @CNBC Squawk Box with one of our customers, @JackGretz, the CEO of @SeatGeek to talk about how they used Serval to eliminate the ticket backlog and redeploy their engineers as embedded business partners.\n\n⚡ 50% of IT requests automated in first 60 days\n⚡ 132 automations built in 8 weeks\n⚡ Zero layoffs. Hiring this year already ahead of all of last year\n⚡ IT time redeployed to solve harder problems\n\nWhen you automate the low-hanging tasks, the support requests and the password resets, you can take the most technical people in your organization and deploy them into work that's more productive than what they were doing before.\n\nFull clip below. 👇 @getserval",
-      "url": "https://x.com/ai_explorer25/status/2104952096105877504",
+      "text": "Create your own character. Call the shots. Live.\n\nIntroducing A1 Playground + Agent: build a live AI character that talks, moves, and plays with you.\n\nCreate yours: https://t.co/3NQRTgOE6O\n\nTheir look. Their personality. Their voice. Your choice. Describe who you have in mind, upload a picture, and let our Agent bring them to life.\n\nAnd they do a lot more than talk.\n💃 Full-body performance. From air guitar to victory dances.\n🚶 Move around the scene. Walk and talk. Pace while making a point.\n🛍️ Interact with objects. Pick up products, show them off, and pitch them.\n🎮 Play web games together. Deal cards, keep score, and play along.\n\nSolve a mystery with Sherlock Holmes, then interrupt him for a dance break.\n\nTake a walk with Socrates. Hand him a protein shake and debate the meaning of gains.\n\nGive Snape a bottle of shampoo. Ask for the most enthusiastic sales pitch of his life.\n\nWho will you bring to life?",
+      "url": "https://x.com/ai_explorer25/status/2105329123162013698",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -353,14 +387,14 @@
       }
     },
     {
-      "id": "2104945966822666240",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T14:46:41.152000Z",
+      "id": "2105325197402558464",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-30T15:53:36.768000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "PPTBench’s most interesting finding: checking how slides actually look is more closely linked to better scores than simply making more edits. Review turns had a strong correlation with scores (r=0.881), while revision turns had a much weaker one (r=0.255).\n\nText issues accounted for 53% of detail-related deductions, with unexpected line breaks being the biggest problem. These issues are hard to spot in code but easy to see on the rendered slide.\n\nThe takeaway: AI agents need to look at what they create, not just keep editing it.",
-      "url": "https://x.com/ai_explorer25/status/2104945966822666240",
+      "text": "🤔 Why do people like @tylercowen, @dwarkesh_sp, and @tszzl go around saying “Gary Marcus is always wrong” when the actual data are quite the opposite, per the independent study below?\n\nDo they have financial interests in running Marcus down? Are they biased? Have they not looked at the facts? \n\nWhat explains the discrepancy?",
+      "url": "https://x.com/GaryMarcus/status/2105325197402558464",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -371,14 +405,14 @@
       }
     },
     {
-      "id": "2104941770291232768",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T14:30:00.621000Z",
+      "id": "2105313072919490560",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-09-30T15:05:26.066000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The next test for AI agents is not just whether they can write code.\nIt is whether they can look, understand, code, inspect—and fix.\nToday we’re releasing PPTBench, a benchmark for Visual Coding through scientific diagram slides reconstruction.\n\n500 tasks. 36 configurations. 18,000 reconstructions.\n64.03% failed the semantic check.\n\nOnly 2.57% passed all gates with no recorded defect.\n\nVisual coding is still wide open.\n\n🤓 Read agent sessions on AgentGit: https://t.co/XQppVwg6vV\n\nFull breakdown 👇\nProject: https://t.co/8nkiEZKFq9\nPaper: https://t.co/PC757AHyMG \nGithub: https://t.co/jnsSLsYfdl",
-      "url": "https://x.com/ai_explorer25/status/2104941770291232768",
+      "text": "“[Gary Marcus] is currently the most accurate big name we track: 11 resolved predictions, 11 scored correct, including the million dollar bet”.\n\nThe group that I keep fact checking? 47%.",
+      "url": "https://x.com/GaryMarcus/status/2105313072919490560",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -389,14 +423,14 @@
       }
     },
     {
-      "id": "2104922895172673536",
+      "id": "2105289309490176000",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T13:15:00.442000Z",
+      "created_at": "2026-09-30T13:31:00.423000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
-      "url": "https://x.com/ai_explorer25/status/2104922895172673536",
+      "text": "Learn AI for free directly from top companies.\n\n1 - Anthropic:  \nhttps://t.co/cc4SxBn4S7\n\n2 - Google:  \nhttps://t.co/r1bv5XfHsN\n\n3 - Meta:  \nhttps://t.co/UALdoellxL\n\n4 - NVIDIA:  \nhttps://t.co/JKTgY3mtf0\n\n5 - Microsoft:  \nhttps://t.co/izcZcNQ9NN\n\n6 - OpenAI:  \nhttps://t.co/nY93DIwg3G\n\n7 - IBM:  \nhttps://t.co/lIYoazapqo\n\n8 - AWS:  \nhttps://t.co/770qBjw9po\n\n9 - https://t.co/4UrenSfxVZ:  \nhttps://t.co/SnPZ287LiW\n\n10 - Hugging Face:  \nhttps://t.co/AAym51yGo9\n\nfollow me if you find this helpful.",
+      "url": "https://x.com/ai_explorer25/status/2105289309490176000",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -407,14 +441,14 @@
       }
     },
     {
-      "id": "2104795252066590720",
+      "id": "2105289205802827776",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T04:47:47.954000Z",
+      "created_at": "2026-09-30T13:30:35.702000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "One Telnyx account ran my entire phone agent: the number, the speech, the voice, and the model underneath it, GLM-5.3 Flash on @telnyx 's own GPUs.\n\nI built a receptionist for a fictional cafe and called it. Asked for Saturday's hours in English, then asked it to repeat the answer in Hindi. It switched mid-call. No restart, no model swap.\n\nThe whole call cost $0.05.\nNo five-vendor \"Frankenstack.\" One platform, one bill.\n\nBuild your own: https://t.co/6FQmQb87Z0\n\n#VoiceAI #AIAgents #Telnyx #BuildInPublic",
-      "url": "https://x.com/ai_explorer25/status/2104795252066590720",
+      "text": "Announcing our $668M Series B!  \n\nLed by ARCHIV with participation from @nvidia.  \n\nThis capital expands our GPU capacity across the U.S., Taiwan, and APAC, and scales our inference platform.\n\nOur contracted ARR has reached more than 9x since the end of 2025.  \n\nThanks to everyone who is building with us 🙏",
+      "url": "https://x.com/ai_explorer25/status/2105289205802827776",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -425,14 +459,14 @@
       }
     },
     {
-      "id": "2104760576278700032",
+      "id": "2105122962793992193",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T02:30:00.602000Z",
+      "created_at": "2026-09-30T02:30:00.280000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem= Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder= NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within.",
-      "url": "https://x.com/ai_explorer25/status/2104760576278700032",
+      "text": "list of 15 best AI researchers on X:\n\n1. @karpathy — Andrej Karpathy\n2. @rasbt — Sebastian Raschka\n3. @AndrewYNg — Andrew Ng\n4. @drfeifei — Fei-Fei Li\n5. @demishassabis  — Demis Hassabis\n6. @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25   — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro — Chip Huyen\n10. @ilyasut— Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12. @bcherny — Boris Cherny\n13. @geoffreyhinton — Geoffrey Hinton\n14. @JeffDean — Jeff Dean, \n15. @fchollet — François Chollet",
+      "url": "https://x.com/ai_explorer25/status/2105122962793992193",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -443,14 +477,14 @@
       }
     },
     {
-      "id": "2104745467980681216",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-29T01:29:58.503000Z",
+      "id": "2105121763055312896",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-09-30T02:25:14.240000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Raven 0.2.0 — The Harness of Harnesses, built for RSI. 🐦‍⬛\n\nOne harness can't be best at everything. Raven combines its own specialist harnesses (Research, Code, Design, Oncall) with the agents you already use (Claude Code, Codex and more) into one team.\n\nAnd it's built for RSI, and not just at the skill level. The whole harness can be rewritten by AI: prompts, policies, strategy code, playbooks. Every sub-harness, including the orchestration layer itself, is its own instance that can be improved.\n\nWith Raven you can:\n\n1. Orchestrate many agents as one team. Raven's sub-harnesses and external agents work in one task graph with shared memory across sub-agents, powered by leading orchestration (0.963 Node F1 on the Multi-Agent Orchestration Benchmark).\n\n2. Run long, complex tasks. Oncall and proactive execution keep work going for days, from scientific research loops to shipping a full Godot game.\n\n3. Build vertical agents with RSI. Use Raven's RSI to develop and refine an agent for your domain, and we'll optimize it with you. Experimental for now; reach out to the Raven team(Discord:https://t.co/jRrci3hVL5).\n\nMore in the video and slides below. Open source, Apache-2.0.\n\nhttps://t.co/2GEA4Nmig0 (lots of work made with Raven lives there, and much of this launch's material was made with Raven too)",
-      "url": "https://x.com/ai_explorer25/status/2104745467980681216",
+      "text": "Great to meet today with @POTUS, @JDVance, @SpeakerJohnson and Administration + tech leaders. Important conversation and we signed today the White House Accord on Super Intelligence.\n\nAs I shared today, Google has invested hundreds of billions in the last two years alone, with more to come, across the entire stack, to deliver benefits for America and the world.  We’re working to build products that deliver real value for people and businesses, invest in local communities, and build trust in the technology.\n\nIndustry also has to innovate responsibly. Google’s focused on building the right way, with appropriate testing, evaluations, red-teaming, and other safeguards against misuse and misalignment – and releasing models or products only after they’ve been thoroughly reviewed.\n\nWe are committed to working with other industry leaders to establish norms and build public confidence. The White House Accord and the Joint Commitment on Frontier Responsibilities signed today is a solid basis for moving forward - it contains real tangible steps to promote safe development, while delivering the economic and scientific benefits of this technology.",
+      "url": "https://x.com/demishassabis/status/2105121763055312896",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
