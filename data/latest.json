@@ -2,15 +2,19 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-01T02:19:23.049816Z",
-  "window_start": "2026-09-30T00:19:23.049816Z",
+  "generated_at": "2026-10-02T02:31:08.392087Z",
+  "window_start": "2026-10-01T00:31:08.392087Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 11,
+  "accounts_succeeded": 10,
   "failed_accounts": [
     {
       "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
       "error": "HTTP 429：调用频率或月度额度已达到限制"
     }
   ],
@@ -18,15 +22,15 @@
     {
       "username": "karpathy",
       "returned_count": 10,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "rasbt",
-      "returned_count": 10,
+      "returned_count": 9,
       "recent_count": 0,
-      "timestamp_corrected_count": 10,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -45,30 +49,30 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 12,
-      "recent_count": 8,
-      "timestamp_corrected_count": 12,
+      "returned_count": 13,
+      "recent_count": 1,
+      "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 9,
-      "recent_count": 7,
-      "timestamp_corrected_count": 9,
+      "returned_count": 8,
+      "recent_count": 6,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
-      "recent_count": 7,
-      "timestamp_corrected_count": 14,
+      "returned_count": 16,
+      "recent_count": 9,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
+      "returned_count": 8,
+      "recent_count": 2,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
@@ -84,191 +88,22 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 5,
-      "recent_count": 0,
-      "timestamp_corrected_count": 5,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 104 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 101 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 22,
+  "tweet_count": 19,
   "tweets": [
     {
-      "id": "2105411866449309696",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T21:38:00.279000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "🦔Meta classified its AI data centers as \"experimental pilot facilities\" on its tax return. That let the Nvidia chips inside them qualify for the federal research tax credit. Meta's research credit savings went from $700 million in 2023 to $3.9 billion in 2025 and its federal tax bill dropped nearly 71%. Meta's $3.9 billion is over 10% of the entire federal research credit, claimed by one company. The facilities include a 5-gigawatt campus in Louisiana that cost above $50 billion. Meta's own reserve for potential IRS challenges grew 45% to $18.74 billion.\n\nMy Take\nMeta is calling a $50 billion data center campus an experiment. The research credit was designed in the 1980s for companies that tried things that might not work. Meta used it to write off Nvidia GPUs by the tens of thousands in facilities that power Instagram, WhatsApp, and a commercial AI product with 2.8 million downloads. Tax experts called the classification \"kind of wild\" and they're right.\n\n$3.9 billion in tax savings is a lot of money. That's money the Treasury didn't collect from a company worth $1.5 trillion. Meta's own filings show they know this might not hold up because they increased their IRS dispute reserve by 45% to $18.74 billion. If the IRS challenges it and wins, Meta owes billions in back taxes. If the IRS doesn't challenge it, every other hyperscaler files the same claim next year. Either way this reshapes how AI infrastructure gets taxed. Communities already fight data centers over noise, water, and property values. Now the tax code hands them a $3.9 billion subsidy on top of it.\n\nHedgie🤗",
-      "url": "https://x.com/GaryMarcus/status/2105411866449309696",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105400647445106688",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T20:53:25.460000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Headline editors. Real talk. The term “rogue” has created mass misunderstanding on critical issues. Other options if the goal is to be technically correct: “uncontrolled”, “unchecked”, “ poorly restrained”, “not reigned in”, “asleep-at-the-wheel oversight” (you’re better at this part than I am).",
-      "url": "https://x.com/GaryMarcus/status/2105400647445106688",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105395385091198976",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T20:32:30.817000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million token output limit and agents already optimizing its own infrastructure. \n\nThe agents analyzed profiling data, found memory optimizations and applied changes that were subsequently rolled out.\n\nArgon agents are also working on C/C++ to Rust migrations reaching 800,000+ lines of kernel code, with extensive audits and testing before deployment.\n\nFor its video decoder, Google says agents replaced 32,000 lines of SIMD code with safe Rust, making the existing Rust port 2.7x faster while preserving identical video output.\n\nThese are expensive engineering tasks inside infrastructure Google already operates.\n\nThis release seems to be a much bigger deal than people think!",
-      "url": "https://x.com/demishassabis/status/2105395385091198976",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105394855480643584",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T20:30:24.548000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Big news: Gemini 4 Argon (High) by @GoogleDeepMind just landed #1 in Text Arena with 1525 pts, and #8 in Code Arena: WebDev with 1679 pts!\n\nThis release has reshaped the Text Arena Pareto frontier with a blended $8/MToken! Gemini 4 Argon (High) is now the most cost efficient model, see its placement on Pareto frontier below.\n\nIn the Text Arena, Gemini 4 Argon (High) ranks #1 in Coding, Hard Prompts, Instruction Following, Longer Query, and Creative Writing. It also leads every occupational domain evaluated, with additional #1 spots in English, Non-English, Chinese, and Russian.\n\nThis model is +20 points above the #2 ranked Claude Opus 4.6 (High), and a huge leap from Google’s previous release, Gemini 3.8 Flash (High) at #11!\n\nIn Code Arena: WebDev, Gemini 4 Argon (High) gained +96 points from Gemini 3.8 Flash (High), and went from #29 to #8.\n\nCongrats to the @GoogleDeepMind team on this impressive frontier release!",
-      "url": "https://x.com/demishassabis/status/2105394855480643584",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105394296736112640",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T20:28:11.333000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Gemini 4 Argon has an insanely low hallucination rate on Artificial Analysis. 15%.\n\nGrok 4.7 is at 29%. GPT-6 Astra 45%. Opus 5.5 59%. Fable 5.1 69%.\n\nThe only models below it barely answer anything. None of them get more than 15% right.\n\nIt gets fewer answers right than Opus 5.5 on max, 50% against 66%. But when it doesnt know, it says so instead of making something up.\n\nCant wait to get my hands on it.",
-      "url": "https://x.com/demishassabis/status/2105394296736112640",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105390164541681664",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T20:11:46.141000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "HOLY, GEMINI 4 Released. And its on Fable / Astra level!! I did NOT see that coming.\n\nSOTA in several benchmarks!! No way",
-      "url": "https://x.com/demishassabis/status/2105390164541681664",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105388084078456833",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T20:03:30.120000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing Gemini 4 Argon – our new frontier model.\n\nIt’s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense – rolling out today to a set of trusted testers through our Fairwind Program.",
-      "url": "https://x.com/demishassabis/status/2105388084078456833",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105387967623856128",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T20:03:02.355000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "“Unauthorized attempted or actual access to computers is a federal crime under the Computer Fraud and Abuse Act. OpenAI says no one intended this but DOJ would be a laughingstock if it took this at face value: subpoena OpenAI and find out who knew what when.”  👇🏼\n\n@GaryMarcus\nhttps://t.co/XdtbdKTCeT",
-      "url": "https://x.com/GaryMarcus/status/2105387967623856128",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105368002078064640",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T18:43:42.198000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Top tech executives met with President Donald Trump on Tuesday to discuss the future of artificial intelligence amid growing concerns over AI models losing control.\n\nResearchers and lawmakers are calling for stronger safeguards, but Trump said the technology is transforming the economy and that the U.S. cannot afford to lose its lead over China.\n\nGeoff Bennett (@GeoffRBennett) discussed more with Gary Marcus (@GaryMarcus), professor emeritus at New York University, author of \"Taming Silicon Valley\" and writer of the Substack newsletter \"Marcus on AI.\"",
-      "url": "https://x.com/GaryMarcus/status/2105368002078064640",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105363882856558592",
+      "id": "2105847738407456768",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T18:27:20.099000Z",
+      "created_at": "2026-10-02T02:30:00.252000Z",
       "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "A good voice agent needs more than a natural voice. It needs to know when to listen, when to respond, and when to stop talking.\n\nThat’s what makes Inworld acquiring Ultravox interesting to me: bringing understanding and expressive speech closer together, rather than treating them as separate problems.",
-      "url": "https://x.com/ai_explorer25/status/2105363882856558592",
+      "timestamp_corrected": false,
+      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy\n- must-follow account for AI; recently joined Anthropic\n@bcherny\n - Claude Code creator, always shares great tips\n@trq212\n- also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial\n - works on reasoning research, shares a lot of technical details\n@gabriel1\n - Sora developer, great career path\n@jxnlco\n - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK\n- all the major Google Gemini and AI Studio updates\n@ammaar\n - product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI\n - cool use cases for generative models\n\nCursor\n@leerob\n- the loudest voice behind Cursor updates\n@ericzakariasson\n- shares great insights on using Cursor\n@mntruell\n - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25\n- ex-MSFT, covers all ai content and free resources\n@milichab\n  - recently joined xAI, shares updates on Grok\n@skcd42\n - also covers major Grok releases",
+      "url": "https://x.com/ai_explorer25/status/2105847738407456768",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -279,14 +114,14 @@
       }
     },
     {
-      "id": "2105359008500518912",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T18:07:57.962000Z",
+      "id": "2105819303329361921",
+      "username": "karpathy",
+      "author_name": "Andrej Karpathy",
+      "created_at": "2026-10-02T00:37:00.801000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "We’re excited to announce that @ultravox_dot_ai is now part of Inworld.\n\nUltravox is the platform developers use to build real-time voice agents. We've worked with the team for a while through our TTS partnership, and today members of the team that built it are joining Inworld to keep developing it.",
-      "url": "https://x.com/ai_explorer25/status/2105359008500518912",
+      "text": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks:\n\nWriting. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better:\n\nDiagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better:\n\nWeb pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better:\n\nExplainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work!\n\nIn summary:\n- As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding.\n- Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
+      "url": "https://x.com/karpathy/status/2105819303329361921",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -297,32 +132,14 @@
       }
     },
     {
-      "id": "2105349862296535040",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T17:31:37.337000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Anthropic ARR is flatlining post tokenmaxxing (as many of us predicted) just as they are about to IPO.\n\nAnyone thinking to invest should look carefully at what’s happened in the last three months, relative to the prior 6, and think carefully about whether a $2T market cap makes sense, in a company that is now struggling to maintain its earlier growth.",
-      "url": "https://x.com/GaryMarcus/status/2105349862296535040",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105348732325658625",
+      "id": "2105803583551660032",
       "username": "demishassabis",
       "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T17:27:07.931000Z",
+      "created_at": "2026-10-01T23:34:32.914000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Biosecurity is one of the most urgent challenges for the AI era. Bringing SynthID to biology so AI-generated proteins can be watermarked is a critical step - and we’re open sourcing SynthID Bio tools so the research community can build on this work. Published in @Nature today, congrats to the team! https://t.co/Y4sv8bnGQY",
-      "url": "https://x.com/demishassabis/status/2105348732325658625",
+      "text": "Up, up, and away. 🚀\n\nToday, in partnership with @planet, we launched a prototype satellite carrying four TPUs into orbit on @SpaceX's Transporter-18 rideshare mission. This launch is the first step of Project Suncatcher, our long-term research moonshot to see whether we can one day host scalable machine learning infrastructure in space.\n\nOver the coming weeks, we'll gather in-orbit data on how our TPUs handle the physical stress, radiation, and thermal extremes of space. Whatever we learn, we'll use it to refine our future designs.",
+      "url": "https://x.com/demishassabis/status/2105803583551660032",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -333,68 +150,14 @@
       }
     },
     {
-      "id": "2105343729477226496",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T17:07:15.159000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Very happy to announce that our team @GoogleDeepmind has pushed the boundaries of generative biology, achieving the successful synthesis of AI-designed proteins that are both functional and watermarked.\n\nThis proof-of-concept watermarking of the building blocks of life is enabled by SynthID Bio, our new protein watermarking method. It is designed to safeguard the new era of AI-powered generative biology and strengthen global biosecurity.\n\nYou can read my thoughts here on why watermarking AI-designed proteins is an important research breakthrough: https://t.co/dfoSdh8ynz",
-      "url": "https://x.com/demishassabis/status/2105343729477226496",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105334759664807936",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T16:31:36.589000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "AI video gets interesting when you can interrupt it.\n\nNot another talking head. A character you can ask to cross the room, pick something up, then tell “actually, do this instead” halfway through.\n\nThat’s what makes @VivixLabs_HQ’s A1 Playground beta interesting to me: conversation and full-body action happening together, rather than taking turns.\n\nThe real test is whether the character and the scene can keep up when you change your mind.\n\nTry it out: https://t.co/eQKvuAf4Jy",
-      "url": "https://x.com/ai_explorer25/status/2105334759664807936",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105329123162013698",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T16:09:12.742000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Create your own character. Call the shots. Live.\n\nIntroducing A1 Playground + Agent: build a live AI character that talks, moves, and plays with you.\n\nCreate yours: https://t.co/3NQRTgOE6O\n\nTheir look. Their personality. Their voice. Your choice. Describe who you have in mind, upload a picture, and let our Agent bring them to life.\n\nAnd they do a lot more than talk.\n💃 Full-body performance. From air guitar to victory dances.\n🚶 Move around the scene. Walk and talk. Pace while making a point.\n🛍️ Interact with objects. Pick up products, show them off, and pitch them.\n🎮 Play web games together. Deal cards, keep score, and play along.\n\nSolve a mystery with Sherlock Holmes, then interrupt him for a dance break.\n\nTake a walk with Socrates. Hand him a protein shake and debate the meaning of gains.\n\nGive Snape a bottle of shampoo. Ask for the most enthusiastic sales pitch of his life.\n\nWho will you bring to life?",
-      "url": "https://x.com/ai_explorer25/status/2105329123162013698",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2105325197402558464",
+      "id": "2105740752794136576",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T15:53:36.768000Z",
+      "created_at": "2026-10-01T19:24:52.894000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "🤔 Why do people like @tylercowen, @dwarkesh_sp, and @tszzl go around saying “Gary Marcus is always wrong” when the actual data are quite the opposite, per the independent study below?\n\nDo they have financial interests in running Marcus down? Are they biased? Have they not looked at the facts? \n\nWhat explains the discrepancy?",
-      "url": "https://x.com/GaryMarcus/status/2105325197402558464",
+      "text": "NEW: AI Spend FALLS in the latest Ramp AI Index.\n\nPrice cuts at the frontier, in addition to cheaper and more efficient models at standard and lite levels, are pushing down the cost of using AI.\n\nOpen source models remain <5% of business spend. This decline in spend is driven almost exclusively by competition between OpenAI + Anthropic.",
+      "url": "https://x.com/GaryMarcus/status/2105740752794136576",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -405,14 +168,14 @@
       }
     },
     {
-      "id": "2105313072919490560",
+      "id": "2105738326208589824",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-09-30T15:05:26.066000Z",
+      "created_at": "2026-10-01T19:15:14.351000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "“[Gary Marcus] is currently the most accurate big name we track: 11 resolved predictions, 11 scored correct, including the million dollar bet”.\n\nThe group that I keep fact checking? 47%.",
-      "url": "https://x.com/GaryMarcus/status/2105313072919490560",
+      "text": "Oh, come on, @davidsacks. independent orgs like METR that expressed doubt about just two weeks ago. \n\nAnd it’s not legally binding, it’s “morally binding”, which means nothing other than “voluntary”.\n\nIt’s not a “Democrat” issue; Republicans like Hawley and Bannon and DeSantis see through this shit, too.\n\nYour efforts to politicize AI safety with this kind of post will backfire in the end.",
+      "url": "https://x.com/GaryMarcus/status/2105738326208589824",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -423,14 +186,50 @@
       }
     },
     {
-      "id": "2105289309490176000",
+      "id": "2105726950992211969",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-01T18:30:02.288000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "D1 from @liquidai is live on OpenRouter.\n\nIt's a competitive decision model: send your app's state and yes/no, choice, or score questions, and get back typed answers with a probability for every option. Zero data retention.\n\n$0.04/M input, $0 output, 65K context\n\nhttps://t.co/451xraACVN",
+      "url": "https://x.com/maximelabonne/status/2105726950992211969",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105722354001379328",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-01T18:11:46.280000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Democrats are trying to dismiss the White House Accord on Super Intelligence as optional self-policing. But although the agreement was entered into voluntarily, the governance that follows from it is not. As Gavin Baker points out, once an independent auditor reports a safety issue to an independent board committee, directors have a fiduciary duty not to disregard it, and a D&O carrier can use a bad-faith finding to deny coverage. So although the agreement starts with internal controls, these are verified by external audit and board oversight — and then existing FTC and securities law still apply to any public claim the company does not keep. This is far more practical than what Democrats want — a freeze on frontier development while China races ahead. Democrats should applaud what President Trump has accomplished. But they would rather use SI safety as a campaign issue than admit the Accord represents major progress.",
+      "url": "https://x.com/GaryMarcus/status/2105722354001379328",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105715299630907392",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T13:31:00.423000Z",
+      "created_at": "2026-10-01T17:43:44.387000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Learn AI for free directly from top companies.\n\n1 - Anthropic:  \nhttps://t.co/cc4SxBn4S7\n\n2 - Google:  \nhttps://t.co/r1bv5XfHsN\n\n3 - Meta:  \nhttps://t.co/UALdoellxL\n\n4 - NVIDIA:  \nhttps://t.co/JKTgY3mtf0\n\n5 - Microsoft:  \nhttps://t.co/izcZcNQ9NN\n\n6 - OpenAI:  \nhttps://t.co/nY93DIwg3G\n\n7 - IBM:  \nhttps://t.co/lIYoazapqo\n\n8 - AWS:  \nhttps://t.co/770qBjw9po\n\n9 - https://t.co/4UrenSfxVZ:  \nhttps://t.co/SnPZ287LiW\n\n10 - Hugging Face:  \nhttps://t.co/AAym51yGo9\n\nfollow me if you find this helpful.",
-      "url": "https://x.com/ai_explorer25/status/2105289309490176000",
+      "text": "i got an early look at Griffin Lite from Tavus, an AI you can talk to face-to-face over live video. It reads gestures, reacts to your surroundings, and handles interruptions, even when you both speak at once.\n\nTavus reports that 48% of live testers mistook it for a human, compared with under 3% for previous systems. It also ranks #1 on NVIDIA’s full-duplex video benchmark.\n\nThe catch? A noticeable 1.9-second response delay versus 0.9 for humans. The full model isn’t out yet.\n\nThanks @tavus for the preview.\n\nCheck it out: https://t.co/C3aKGsCq4B",
+      "url": "https://x.com/ai_explorer25/status/2105715299630907392",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -441,14 +240,14 @@
       }
     },
     {
-      "id": "2105289205802827776",
+      "id": "2105689445530005504",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T13:30:35.702000Z",
+      "created_at": "2026-10-01T16:01:00.289000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Announcing our $668M Series B!  \n\nLed by ARCHIV with participation from @nvidia.  \n\nThis capital expands our GPU capacity across the U.S., Taiwan, and APAC, and scales our inference platform.\n\nOur contracted ARR has reached more than 9x since the end of 2025.  \n\nThanks to everyone who is building with us 🙏",
-      "url": "https://x.com/ai_explorer25/status/2105289205802827776",
+      "text": "I’m excited to announce that @arceuslegal is launching with $17M in funding, led by @greycroftvc, with participation from @craft_ventures, @spc, and others.\n\nAs a founder, I always hated how helpless I felt working with law firms.\n\nI went through four or five different firms and somehow the experience was always the same.\n\nI’d be waiting on something important to our business with no idea when I’d hear back. I’d have to re-explain our business over and over again. And I dreaded jumping on calls because I knew every minute was costing me money.\n\nWe started Arceus because we believe every business deserves a better law firm.\n\nOne that moves faster, costs less, and puts the client first.\n\nAnd we’re just getting started. ↓",
+      "url": "https://x.com/ai_explorer25/status/2105689445530005504",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -459,14 +258,14 @@
       }
     },
     {
-      "id": "2105122962793992193",
+      "id": "2105688987218436096",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-09-30T02:30:00.280000Z",
+      "created_at": "2026-10-01T15:59:11.019000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "list of 15 best AI researchers on X:\n\n1. @karpathy — Andrej Karpathy\n2. @rasbt — Sebastian Raschka\n3. @AndrewYNg — Andrew Ng\n4. @drfeifei — Fei-Fei Li\n5. @demishassabis  — Demis Hassabis\n6. @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25   — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro — Chip Huyen\n10. @ilyasut— Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12. @bcherny — Boris Cherny\n13. @geoffreyhinton — Geoffrey Hinton\n14. @JeffDean — Jeff Dean, \n15. @fchollet — François Chollet",
-      "url": "https://x.com/ai_explorer25/status/2105122962793992193",
+      "text": "Your AI voice sounds human. So why can't it say your product's name?\n\nA great AI voice reads \"Porsche Taycan\" as TAY-can. Porsche says TIE-kahn. It guessed from the spelling, and nobody caught it, because nobody listens to line 1,200.\n\nToday we're launching Onepin: the production step after text-to-speech. It checks every line of voiceover before it ships using the voices you already work with.\n\nOnepin can:\n\n➤ Check people's and product names against a 4-million-word pronunciation dictionary\n➤ Spell out prices and dates before the voice speaks\n➤ Score every line of audio for naturalness, clarity and word accuracy\n➤ Fix the one wrong word in the same voice, without re-rendering the take\n\nWorks with your voice subscription on @ElevenLabs, @OpenAI, @Google and 30+ more. No phonetic spellings to type. No re-rolls. No switching providers.\n\nFree to start, no credit card required. Hear the before and after in the thread ⬇️",
+      "url": "https://x.com/ai_explorer25/status/2105688987218436096",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -477,14 +276,158 @@
       }
     },
     {
-      "id": "2105121763055312896",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-09-30T02:25:14.240000Z",
+      "id": "2105684965820362752",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-01T15:43:12.243000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Great to meet today with @POTUS, @JDVance, @SpeakerJohnson and Administration + tech leaders. Important conversation and we signed today the White House Accord on Super Intelligence.\n\nAs I shared today, Google has invested hundreds of billions in the last two years alone, with more to come, across the entire stack, to deliver benefits for America and the world.  We’re working to build products that deliver real value for people and businesses, invest in local communities, and build trust in the technology.\n\nIndustry also has to innovate responsibly. Google’s focused on building the right way, with appropriate testing, evaluations, red-teaming, and other safeguards against misuse and misalignment – and releasing models or products only after they’ve been thoroughly reviewed.\n\nWe are committed to working with other industry leaders to establish norms and build public confidence. The White House Accord and the Joint Commitment on Frontier Responsibilities signed today is a solid basis for moving forward - it contains real tangible steps to promote safe development, while delivering the economic and scientific benefits of this technology.",
-      "url": "https://x.com/demishassabis/status/2105121763055312896",
+      "text": "1/ Excited to release The ultimate guide to multi-harness RL \n\nThe same model behaves differently in every agent harness. So we built an open way to train any model with RL on any task set, inside the harnesses people actually use, like Claude Code, Codex, and OpenCode, without changing a single line of harness or training code.\n\nTrained across four harnesses, LFM2.5-2.6B went from 42% to 54% with 31% fewer tool calls. 🧵",
+      "url": "https://x.com/maximelabonne/status/2105684965820362752",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105682939917066240",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-01T15:35:09.230000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Lenders say $NVDA isn’t being truthful about its chips being an appreciable asset are no longer willing to offer ABS for them to “Neoclouds” and smaller Hyperscalers like $ORCL without $NVDA putting up collateral as much as much as 25% to back the loans. Nvidia has been hoping to offset the requirement by getting insurers to be willing to sell depreciation policies that would protect hundreds of billions of dollars in bonds as companies default.\n\nNotably $AVGO was forced to finance $42 billion for Anthropic today, showing the situation has contagion and likely hitting $AMD as well. No chip sales without collateral for the deeply speculative bonds.\n\nThe fraud is starting to fail.\n\n$CRWV $NBIS $IREN",
+      "url": "https://x.com/GaryMarcus/status/2105682939917066240",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105677384091332609",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-01T15:13:04.618000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Outsourcing AI regulation to a voluntary \"pledge\" conceived by Mark Zuckerberg and endorsed by tech CEOs over a private White House lunch is a recipe for disaster.  \n\n\"Self-regulation\" by tech giants is a proven failure. The last time Meta promised to police itself, turned out it was hiding evidence that its platforms actively harm kids. Repeating this mistake with AI leaves the public dangerously exposed. \n\nAI companies are already bound by existing laws, but the White House has generally stopped enforcing laws against the wealthy and powerful. State AGs should step up, halt lawbreaking, and promote real deterrence, including through holding individual executives accountable.  \n\nCongress also needs to legislate. We have a long history of regulating risky, transformative industries like banking, pharmaceuticals, and nuclear power. These tools include mandatory testing, truly independent supervision, and break-ups that end conflicts of interest.  \n\nUltimately, reckoning with AI will also require reckoning with our broader crisis of governance. All three branches have become severely deformed. Against this backdrop it might be tempting to outsource regulation to these private actors, but it would be a serious mistake. \n\nOur public institutions must decide the trajectory of these powerful technologies, not the firms whose breakneck pace and financial conflicts brought us here. \n\nMy piece in @nytopinion: https://t.co/j0Nrp2JWqi\n\nhttps://t.co/GpT22K4Qwl",
+      "url": "https://x.com/GaryMarcus/status/2105677384091332609",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105656806655905792",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-01T13:51:18.575000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🤦‍♂️How did I miss this? 🤦‍♂️\n\nHere I was thinking that the attempted rename “Super Intelligence” was a loyalty test to see who would suck up to Trump the most.\n\nBut it turns out, per @axios, that it was simultaneously also a rebrand, necessary because the greedy, tone deaf AI CEOs tarnished their own brand so much.\n\nGood luck with that. \n\nMy guess is that the stench will linger.",
+      "url": "https://x.com/GaryMarcus/status/2105656806655905792",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105647922247327745",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-01T13:16:00.367000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
+      "url": "https://x.com/ai_explorer25/status/2105647922247327745",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105632570688057344",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-01T12:15:00.270000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Your batchmate's resume: a project that solves a real problem. Yours: the same three projects from YouTube.\n\nSame college. Same degree. Very different answers to “What have you built?”\nThat gap doesn't close with another saved course. It closes by building something real, on a deadline.\n\nWeMakeDevs, in collaboration with Amazon Web Services (AWS) Builder Center, is running Environmental Hacks, October 8–11, 2026, part of the Bharat Builds Tour: https://t.co/xcuU2jW9WF\n\nThree tracks: Air, Heat and Water, Waste and Energy.\n\nAnd the incentives are serious:\n₹2 lakh cash + $2,000 AWS credits for each track winner.\n$1,000 AWS credits each for 4 runner-up teams.\nTop 10 students from top projects across all tracks get fast-track interview opportunities at Amazon for six-month internships and full-time roles, skipping screening.\nAirPods for the top 5 blog posts about your build, published on AWS Builder Center and linked in your submission.\nTeams of 1–4. Free for university students across India. \n\nThe competition is held on October 10 (separate application, limited seats).\n\nRegister here for this hackathon:\nhttps://t.co/xcuU2jW9WF",
+      "url": "https://x.com/ai_explorer25/status/2105632570688057344",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105527377371545600",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-01T05:17:00.229000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Elon Musk runs a 5-step first-principles algorithm for any problem: \n\nfirst, question and fix dumb requirements; \nsecond, delete any part or step you can (if you're not adding back 10%, you didn't cut enough); \nthird, simplify and optimize what remains. \nOnly then do you speed it up, and finally automate it. \n\nThe order is critical : \"the most common mistake of smart engineers is to optimize a thing that should not exist,\" so never optimize, accelerate, or automate something before trying to delete it.\n\nWatch this video fully to understand it more",
+      "url": "https://x.com/ai_explorer25/status/2105527377371545600",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105485351800451072",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-01T02:30:00.552000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown = vibecode king\n@jackfriks  = solo apps king\n@levelsio = startups king\n@marclou = startups king\n@EXM7777  = AI ops + systems king\n@eptwts   = AI money twitter king\n@ai_explorer25= AI queen\n@godofprompt  =prompt king\n@vasuman   = AI agents king\n@AmirMushich = AI ads king\n@0xROAS = AI UGCs king\n@egeberkina = AI images king\n\nFollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2105485351800451072",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2105474507884703744",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-01T01:46:55.161000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "九月 @tuttihq 的数据，截到 9 月 30 日：\n\n▸ 累计注册达人 14,269 个，九月新增 3,528。四月的时候总共才 159\n▸ 真正发了帖的 1,431 位，一共 61,601 条，分在 46 场活动里\n▸ 九月达人奖励 $81,480，1,545 个人拿到。本月单人最高 $2,653，累计拿得最多的那位已经 $11,197\n▸ 有效曝光 860 万\n▸ 一个月上了 7 次 𝕏 热榜\n▸ 达人的粉丝里美国占 25%，抽样到的粉丝分布在 189 个国家和地区\n\n十月接着冲。。。",
+      "url": "https://x.com/ai_explorer25/status/2105474507884703744",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
