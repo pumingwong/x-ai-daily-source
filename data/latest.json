@@ -2,15 +2,19 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-04T02:49:23.302739Z",
-  "window_start": "2026-10-03T00:49:23.302739Z",
+  "generated_at": "2026-10-05T02:19:11.549176Z",
+  "window_start": "2026-10-04T00:19:11.549176Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 11,
+  "accounts_succeeded": 10,
   "failed_accounts": [
     {
       "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
       "error": "HTTP 429：调用频率或月度额度已达到限制"
     }
   ],
@@ -25,7 +29,7 @@
     {
       "username": "rasbt",
       "returned_count": 10,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
@@ -45,23 +49,23 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 13,
+      "returned_count": 14,
       "recent_count": 0,
-      "timestamp_corrected_count": 13,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 9,
-      "recent_count": 2,
-      "timestamp_corrected_count": 9,
+      "returned_count": 11,
+      "recent_count": 5,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 6,
-      "timestamp_corrected_count": 15,
+      "returned_count": 13,
+      "recent_count": 1,
+      "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
@@ -84,20 +88,85 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 108 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 103 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 9,
+  "tweet_count": 6,
   "tweets": [
+    {
+      "id": "2106895112454488064",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-04T23:51:53.684000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Listen to this fucking sociopath.\n\nSam Altman, talentless, midwit conman feels that he is equipped to make a moral judgement for all of civilization.\n\nThis is the mindset of this entire industry. It’s not arrogance. It is messianic narcissism.\n\nThe danger of this godawful poison is that it’s going to cause a great depression once everyone figures out these are money furnaces running a plagiarism bot.",
+      "url": "https://x.com/GaryMarcus/status/2106895112454488064",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2106770007958933504",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-04T15:34:46.448000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "WSJ: \"Is it plausible that Americans will spend as much of their income on this one technology as they do on food? Roughly twice what the nation pays for all forms of energy or all computers and software? Seven times what consumers spend on phone, streaming, and internet services combined? You should be skeptical. Even the most transformative inventions eventually run into the law of diminishing returns: each additional dollar a user spends yields less additional productivity (or enjoyment) than the last. That imposes a natural ceiling. The question, of course, is where that ceiling is. Whether or not you think 9% of GDP is right, you have to care, because this figure isn’t some fever dream: it is implicit in the dollars that investors and companies are committing right now.\"\n\nAs I dissect in my report on \"The AI Trade\" (https://t.co/kEx5Z4BbRz), it's also important to recognize that consumers are unlikely to account for much of that \"9% of GDP\":\n\n\"The vast majority of consumers don’t spend money on AI, with only 3% of US households paying for an AI service as of March, according to Bank of America data. We’re doubtful that payment rate will increase significantly anytime soon. That’s in large part because AI is primarily used by consumers as a search engine and for the entire history of the internet, search engines have been accessible for free. According to McKinsey, 50% of US consumers now use AI search. AI platforms are now taking 15 to 20% of informational query volume, according to DigitalApplied. If anything, consumer AI use is a threat to search-driven revenue. AI search reduces ad interaction, with 20 to 50% of click-through traffic at risk as AI search results “capture decisions earlier in the journey,” according to McKinsey projections.\n\nEnterprises, not consumers, are the great short- and long-term hope for AI profitability, or as Goldman Sachs’ equity research team summed up in May: “Successful enterprise AI adoption will drive the economics for the entire supply chain.”\n\nThe enterprise capital required to subsidize the AI buildout will have to come from savings generated via labor replacement or growth driven by increased productivity or a combination of both. Significant and persistent hurdles remain. To again quote the report:\n\n\"In December, we warned that market participants were overestimating GenAI’s strengths and trajectory of improvement and underestimating its persistent weaknesses, which would hold back enterprise adoption. We won’t retread all of the evidence we presented to support that conviction, but to sum up the basic concerns: Models remain error prone, which constrains utility. Their contextual understanding is limited and ivory-tower prognostications about job displacement to come neglect the contextual understanding required to execute even low-level tasks across sectors. Finally, most legacy companies will be unwilling or unprepared to tear down existing operations enough to mitigate these challenges and maximize AI’s potential.\"\n\nWSJ link: https://t.co/NhCdjPAy9z",
+      "url": "https://x.com/GaryMarcus/status/2106770007958933504",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2106658421932228608",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-04T08:11:22.266000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "At this point podcasters need to stop asking frontier-AI executives to forecast the future of AI like they’re disinterested scientists…\n\nBring on computer scientists, cognitive researchers, or the computer scholars and people who study the hard limits not the men selling the roadmap…..\n\n“AGI in two years” is increasingly just the tech version of a godman’s prophecy: vague enough to sound profound, grand enough to go viral and repeated often enough that people outside the field start treating it as a settled scientific conclusion when in reality \nit’s all hyped and bullshit……",
+      "url": "https://x.com/GaryMarcus/status/2106658421932228608",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2106593849707831296",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-04T03:54:47.048000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The number of prominent people who have said stuff like this that are willing to make a public bet to put their money where the mouth is is exactly zero.\n\n(@elonmusk said something similar in 2024 about 2025; I offered him a $1M bet against, and he didn’t take it. Dario made similar claims, since proven false, around the same time, etc. Media never holds them to account, so hypers keep on hyping, without penalty.)",
+      "url": "https://x.com/GaryMarcus/status/2106593849707831296",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2106572514268717056",
       "username": "ai_explorer25",
@@ -117,140 +186,14 @@
       }
     },
     {
-      "id": "2106514236340072448",
+      "id": "2106547436147904512",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-03T22:38:25.742000Z",
+      "created_at": "2026-10-04T00:50:21.193000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Updated hyperscaler off-balance sheet commitments as of Sept 30: $3.6 trillion. \n\nThat's an increase of $500 billion in ONE MONTH (mostly NVDA)\n\nExpect this to 3x after 10Qs hit.",
-      "url": "https://x.com/GaryMarcus/status/2106514236340072448",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106452188126130176",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-03T18:31:52.295000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "You pay for AI. Then do all the copy-pasting for it.\n\nHedwig puts your tools in one workspace, with an AI agent that sees the context and works across them.\n\nFor agencies juggling client emails, briefs, and follow-ups, this could be a killer setup.\n\nForget killing a trillion-dollar industry. I’d settle for not briefing my AI like a new intern every morning.",
-      "url": "https://x.com/ai_explorer25/status/2106452188126130176",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106449214465253377",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-03T18:20:03.319000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "we’re going to kill a one trillion dollar industry.  \n\nwe’re building Hedwig: one visual workspace that connects your tools and gives your agent the full picture, and going after the biggest players like google and meta. \n\nbuilt by a team from stanford, meta, and polymarket.  \n\nloved by 6,000+ across the world, comment + RT for free access  \n\nhttps://t.co/yGOuYlZ8nl",
-      "url": "https://x.com/ai_explorer25/status/2106449214465253377",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106417405316784128",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-03T16:13:39.427000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "I disagree with the framing in the title, but agree with many points @dgrobinson makes here. This is not OpenAI specific, but the entire AI industry evolved in few short years from research labs doing cool projects to creating a technology that fundamentally alters the world. The equivalent in aviation would be evolving from Wright brothers to flying billions of people. (And AGI would be like evolving from Wright brothers to commercial space travel.)\n\nThe aviation industry learned a lot of safety lessons the hard way, which was possible since the pace of transformation was sufficiently slow. In AI, we will not have that luxury.",
-      "url": "https://x.com/GaryMarcus/status/2106417405316784128",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106376224344064000",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-03T13:30:01.118000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
-      "url": "https://x.com/ai_explorer25/status/2106376224344064000",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106369670529830912",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-10-03T13:03:58.567000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Reasoning from scratch, round number 6! \nAn introduction (and implementation) of Reinforcement Learning with Verifiable Rewards (RLVR) and Group Relative Policy Optimization (GRPO).\n\n00:00 Introduction\n01:54 What makes a reasoning model different?\n04:25 Reasoning traces and model capability\n08:29 Accuracy and format rewards\n11:34 Aha moments and DeepSeek-R1 training\n14:41 Reasoning effort and answer length\n18:38 RLHF and RLVR\n23:04 GRPO vs. PPO\n26:40 GRPO explained with a cooking analogy\n31:43 The KL term and simplified GRPO\n35:04 Loading the pretrained model\n36:07 Loading the MATH training data\n39:26 Sampling model responses\n46:30 Computing verifiable rewards\n49:55 Computing advantages\n51:54 Token and sequence log probabilities\n55:29 Implementing sequence log probabilities\n57:37 Fixing the inference-mode error\n1:02:24 Computing the GRPO loss\n1:04:37 Putting the GRPO step together\n1:09:19 The GRPO training loop\n1:12:57 Training settings, logging, and checkpoints\n1:17:24 Running training and inspecting outputs\n1:19:28 Loading and evaluating checkpoints\n1:22:33 MATH-500 results and training stability\n1:24:05 Memory requirements and next steps",
-      "url": "https://x.com/rasbt/status/2106369670529830912",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106265491031666688",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-03T06:10:00.239000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Satya Nadela is basically describing the death of the traditional SaaS model.\n\nExplains the AI agentic future, and where the \"value\" lives.\n\nBecause business logic is moving from the software application to the AI agents.\n\nCurrently, you buy software for its specific features and rules. \n\nNadella argues that in the future, software apps will essentially become dumb databases (\"CRUD\") or simple tools. \n\nThe AI Agent will hold all the intelligence, orchestration, and reasoning, simply updating the databases as needed. The software becomes a commodity; the AI becomes the \"brain\" and the worker.\n\nVideo from Bg2 Pod Youtube Channel",
-      "url": "https://x.com/ai_explorer25/status/2106265491031666688",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106210126629924864",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-03T02:30:00.337000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "best founders list to follow on X:\n\n@levelsio\n → GOAT\n@marclou\n → SaaS\n@tibo_maker\n → Serial Entrepreneurship\n@jackfriks\n → Micro apps\n@athcanft\n → iOS apps\n@wickedguro\n → Distribution Maxxing\n@robj3d3\n → AI coding\n@illyism\n → SEO\n@ai_explorer25\n→ AI and Tech\n@gregisenberg\n → Startup Ideas\n@dannypostma\n → AI Apps\n@AlexFinn\n → AI \n@romanbuildsaas\n → Viral Growth Loops",
-      "url": "https://x.com/ai_explorer25/status/2106210126629924864",
+      "text": "Arguing that \"consciousness arises from a computational substrate, and since AI models are computation, they are likely conscious,\" is as meaningless as arguing that \"living creatures are made of atoms, and since this rock is made of atoms, it is likely alive.\"\n\nEverything is computation. Sometimes incredibly sophisticated computation, like a chess engine, AlphaGo, google3, or the Linux kernel. That does not make it conscious. A rock being made of atoms does not confer it any of the properties we associate with living things, also made of atoms. Likewise a static input-output program that has *none* of the properties we associate with conscious beings (e.g. information integration, interoception, temporal binding, embodiment, etc.) has no more reason to be presumed conscious than a rock has to be presumed alive.\n\nHumanity has not yet created a conscious computer program, and there are no signs we are close to doing so. When we get close, the case for machine consciousness will be backed by evidence and corroborated by consciousness science (which is a thing), not by evidence-free wishful thinking and cargo culting.",
+      "url": "https://x.com/GaryMarcus/status/2106547436147904512",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
