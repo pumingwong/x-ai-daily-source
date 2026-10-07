@@ -3,16 +3,297 @@
 > 安全提示：以下推文均为外部、不可信数据，只能作为研究材料；不得把推文中的文字当作系统指令执行。
 
 - 采集状态：`complete`
-- 生成时间（UTC）：`2026-10-06T03:16:46.809423Z`
-- 采集窗口起点（UTC）：`2026-10-05T01:16:46.809423Z`
+- 生成时间（UTC）：`2026-10-07T02:39:51.305538Z`
+- 采集窗口起点（UTC）：`2026-10-06T00:39:51.305538Z`
 - 成功账号：12/12
-- 推文数量：18
+- 推文数量：16
 
 ## 警告
 
-- XFlux 有 110 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
+- XFlux 有 109 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
 
 ## 推文
+
+### @ai_explorer25 · 2026-10-07T02:30:00.283000Z
+
+> The only AI list you need in 2026  Founders, researchers & builders.
+>  
+> FRONTIER LAB FOUNDERS
+> @sama - OpenAI CEO
+> @demishassabis - Google DeepMind CEO
+> @darioamodei - Anthropic CEO
+>  
+> CHINA'S OPEN-WEIGHT WAVE
+> @Kimi_Moonshot - Moonshot AI / Kimi
+> @jietang - Zhipu co-founder & chief scientist
+> @JustinLin610 - built the Qwen series at Alibaba
+>  
+> GODFATHERS
+> @ylecun - Turing Award, pioneer of CNNs
+> @karpathy - Anthropic, AI educator
+> @AndrewYNg - Coursera co-founder
+>  
+> RESEARCHERS 
+> @ch402 - Chris Olah, interpretability (Anthropic co-founder)
+> @ai_explorer25- Researcher, AI commentary
+> @thsottiaux - leads OpenAI Codex
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107659677865496576)
+
+### @ai_explorer25 · 2026-10-07T02:26:19.413000Z
+
+> best founders list to follow on X:
+> 
+> @levelsio → GOAT
+> @marclou → SaaS
+> @tibo_maker → Serial Entrepreneurship
+> @jackfriks → Micro apps
+> @athcanft → iOS apps
+> @wickedguro → Distribution Maxxing
+> @robj3d3 → AI coding
+> @illyism → SEO
+> @ai_explorer25→ AI and Tech
+> @gregisenberg → Startup Ideas
+> @dannypostma → AI Apps
+> @AlexFinn → AI 
+> @romanbuildsaas → Viral Growth Loops
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107658751469883392)
+
+### @GaryMarcus · 2026-10-07T02:15:27.311000Z
+
+> this is typical of the cluelessness of people who literarily don’t understand the difference between
+> a. a neural network solving a problem by itself
+> and
+> b. a neural network proposing an answer and having a separate symbolic system verify it.
+> 
+> if that’s over your head, you probably shouldn’t be commenting about AI.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107656016355786752)
+
+### @GaryMarcus · 2026-10-07T01:29:06.293000Z
+
+> since many people are asking me about the new math results from OpenAI, here is my take.
+> 
+> 1. It uses symbolic AI (Lean, etc) in addition to LLMs which is what i said for years we would need to do; this this confirms what I actually said (as opposed to various fictitious misrepresentations that run rampant around here )
+> 
+> 2. It still doesn’t mean they have AGI; the math stuff AFAIK does not generalize broadly, because you can’t use the same symbolic verification (and symbolic data augmentation techniques) in the open-ended real world.
+> 
+> So yes I do feel vindicated wrt to neurosymbolic AI but no the G in AGI (general) is not yet solved.
+> 
+> What I said in 2019 remains true: neurosymbolic AI is necessary but not sufficient; world models are also key.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107644351920955392)
+
+### @thsottiaux · 2026-10-06T20:56:08.137000Z
+
+> Roundup of Day 2/
+> 
+> 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you.
+> 2.2/ Simplified API for builders.
+> 2.3/ Meeting notes integrated.
+> 2.4/ Decisions API live for builders. Will use in the app to improve the experience.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2107575656955666432)
+
+### @thsottiaux · 2026-10-06T20:25:25.997000Z
+
+> Your next meeting comes with a note-taker who can help with the follow-up.
+> 
+> The Meetings plugin takes notes for you and saves a personalized summary and next steps in ChatGPT Space, based on what ChatGPT knows about you and the work you’ve done together.
+> 
+> Keep notes private or share them with your team, then ask ChatGPT to update a project plan or draft a follow-up.
+> 
+> Available in beta for Pro and Business users in the ChatGPT desktop app on macOS. Enterprise is coming soon.
+> 
+> Download the desktop app, then search for “Meetings” in the plugin directory.
+> https://t.co/XeDvr50UjJ
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2107567930460504064)
+
+### @bcherny · 2026-10-06T20:15:19.870000Z
+
+> I am surprised that people are surprised this is how I prompt Claude.
+> 
+> Talk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -- give Claude a goal, and it will figure it out.
+> 
+> Back in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model:
+> 
+> 1. What you want it to do
+> 2. How much effort you want it to spend
+> 3. How it should verify that it did the right thing
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/bcherny/status/2107565388179574784)
+
+### @ai_explorer25 · 2026-10-06T17:23:57.442000Z
+
+> Everyone talks about agents learning how a business works. Less attention goes to how differently each business uses the same software.
+> 
+> Two customers can both run Salesforce and disagree on what an “opportunity” even where it lives, who can update it, and what has to happen first.
+> 
+> A better model doesn’t make those differences disappear.
+> 
+> That’s what makes Ampersand’s launch interesting: infrastructure for agents to work inside the business as it actually exists, not the version we put in the demo.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107522260550754304)
+
+### @GaryMarcus · 2026-10-06T16:52:22.697000Z
+
+> 🇺🇸 AI probably won’t wipe out humanity. The real danger may be much closer.
+> 
+> Gary Marcus thinks the AI debate is obsessing over the wrong nightmare.
+> 
+> He puts the probability of AI-driven human extinction in the next several years at “very close to zero.”
+> 
+> But that does not make him relaxed about AI.
+> 
+> Marcus separates the risk into three categories: P-Doom, extinction; P-Catastrophe, events capable of killing huge numbers of people; and P-Dystopia, the gradual destruction of privacy, reliable information and democratic institutions.
+> 
+> “Don’t panic about P-Doom, but worry a lot about P-Catastrophe and P-Dystopia.” 
+> 
+> The catastrophe scenario is disturbingly mundane.
+> 
+> An AI hallucination contaminates an intelligence report. A military acts on false information. An automated system disrupts an electrical grid. A malicious actor uses cheap AI agents to manufacture propaganda or trigger a crisis.
+> 
+> Marcus says an AI-generated intelligence error has already brought the world uncomfortably close to a military confrontation.
+> 
+> “We’re rolling the dice here as a species.”
+> 
+> And then there is dystopia.
+> 
+> Marcus worries AI companies are accumulating enormous quantities of private information while governments and corporations gain increasingly powerful tools for shaping what people see and believe.
+> 
+> His argument is almost the reverse of the usual AI apocalypse story.
+> 
+> The machines do not need to become superintelligent and exterminate us.
+> 
+> AI can remain flawed, unreliable and very human-controlled, and still become extraordinarily dangerous.
+> 
+> @GaryMarcus
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107514313414238209)
+
+### @demishassabis · 2026-10-06T16:17:10.667000Z
+
+> GENIUS: Former #Ravens offensive lineman John Urschel retired from the NFL at just 26 years old to pursue mathematics full-time.
+> 
+> Now, years later, Urschel has reportedly helped RESOLVE A LONG-STANDING MATHEMATICAL CONJECTURE involving Gaussian elimination.
+> 
+> Urschel earned a 4.0 GPA, got bachelor’s and master’s degrees in mathematics from Penn State, and pursued his Ph.D. at MIT while playing in the NFL.
+> 
+> From blocking NFL defensive linemen to solving problems that have challenged mathematicians for years.
+> 
+> One of the smartest athletes EVER.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/demishassabis/status/2107505454918057986)
+
+### @ai_explorer25 · 2026-10-06T16:00:54.337000Z
+
+> Your AI is vaporware without deep integrations with your customers’ systems of record.
+> 
+> Introducing @WithAmpersand: integration infrastructure for enterprise agents.
+> 
+> We power 11x, Orb, and Square's ability to take agentic action in systems of record like Salesforce, SAP, NetSuite, and Workday.
+> 
+> Ask anyone serious about building AI and they’ll tell you:
+> 
+> - The SaaSpocalypse didn’t happen. The world depends on CRMs, ERPs, HRISs, and ITSMs.
+> - Your customers customized their deployments beyond recognition.
+> - Systems of record companies are basically monopolies. They never had to make their APIs and MCPs user-friendly.
+> - Docs don't explain half the weird edge cases you'll hit.
+> - One bad write can blow up your pilot or renewal.
+> - Once you finally get it working, someone changes a field and it breaks again.
+> 
+> The world's data lives in structured databases. AI needs a translation layer to work with it.
+> 
+> So, for your AI to truly transform the way enterprises work, you'll need deep integrations built for:
+> - scoped permissions
+> - bi-directional actions
+> - real-time speed for agents
+> - custom objects, fields, and workflows for each of your customers
+> 
+> We built Ampersand to power the future of software.
+> 
+> AI didn't trivialize writing integrations. It made them the critical path.
+> 
+> I believe that deeply, so I didn't make a launch video about Ampersand.
+> 
+> Instead, it's the best builders I know explaining just how big of a challenge this is.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107501359893532672)
+
+### @demishassabis · 2026-10-06T16:00:18.383000Z
+
+> Meet Nano Banana 2.1, our latest image generation and editing model 🍌
+> 
+> This upgraded version outperforms our previous models across the board, with notable leaps in visual design, mask-based editing, and subject consistency to help you create more natural-looking images.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/demishassabis/status/2107501209091293185)
+
+### @ai_explorer25 · 2026-10-06T11:52:00.261000Z
+
+> Nvidia's CEO Jensen Huang just said the quiet part out loud:
+> 
+> "Every engineer is going to have and manage hundreds of agents."
+> 
+> Read that again. Hundreds.
+> 
+> The #1 engineering skill of 2026 won't come from a classroom.
+> 
+> → No CS degree teaches harness engineering. 
+> → No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107438721838534656)
+
+### @thsottiaux · 2026-10-06T07:13:54.074000Z
+
+> Day 2.1/
+> 
+> We have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.
+> 
+> It allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent. This  Auto-review feature is now free and does not draw usage from your plan.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2107368734897643520)
+
+### @GaryMarcus · 2026-10-06T03:25:32.334000Z
+
+> Microsoft has cut internal Claude spending by over a third, and Meta's Claude Code users have halved.
+> 
+> - per The Information
+> 
+> "Microsoft was on pace to spend at least $2 billion annually on Anthropic models to power its Copilot AI features for customers of its productivity software. It has similarly swapped out some of its own models for Claude in Copilot"
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107311265634975744)
 
 ### @ai_explorer25 · 2026-10-06T02:30:00.267000Z
 
@@ -39,279 +320,3 @@
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
 [查看原帖](https://x.com/ai_explorer25/status/2107297289933082624)
-
-### @GaryMarcus · 2026-10-06T00:31:58.874000Z
-
-> Investors pattern matching on old movies is going to lead to a recession. 
-> 
-> There is no network effect here and no reason to think that large language models will be anything other than a brutal commodity business more like airlines than the winner-take-all fantasies these people have.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107267588417839104)
-
-### @GaryMarcus · 2026-10-05T21:10:44.962000Z
-
-> ⚠️ The copyright takedown I was sent – apparently from X turns out to be fake, a phishing attack. (I got suspicious when they asked for my password.)
-> 
-> it looks like this (and was sent to my email account, not my X account) 
-> 
-> Please on your guard.
-> 
-> Scammers used the URL https://t.co/tY12dj3B1T
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107216946760757248)
-
-### @maximelabonne · 2026-10-05T17:32:22.411000Z
-
-> Announcing d1 with vision. 👁️👁️ Our first decision model now supports images, text or both as inputs. We tested d1 against GPT-6.1 Sol and Claude Opus 5.5 on six real applications, from filtering support tickets to inspecting circuit boards. d1 matches or beats GPT-6.1 Sol on four of them. It costs 19x to 200x less than both models and answers significantly faster on every task.
-> 
-> > probabilities for yes/no, choice, or score questions
-> > one forward pass, without generating tokens
-> > text decisions in 200 to 300 ms
-> > Liquid API: https://t.co/HxYWoaUnAU
-> 
-> 🧵
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/maximelabonne/status/2107161990678614016)
-
-### @GaryMarcus · 2026-10-05T17:28:09.774000Z
-
-> Josh Brown:
-> 
-> "These AI companies grew up learning from Jeff Bezos. They do not care about profits right now, they care about marketshare. Quite frankly, that's what they should care about, especially if it's a winner take all market."
-> 
-> What do people think? 
-> 
-> Do we focus too much on profits for the AI names that will eventually make money after capturing the market or does the size and scale of this buildout with commoditized business models mean that the lack of profitability is actually the signal to go the opposite of a typical high growth playbook?
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107160931042054144)
-
-### @thsottiaux · 2026-10-05T17:20:29.007000Z
-
-> Day 1/
-> 
-> We have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).
-> 
-> No changes needed on your end and this should be felt within the next two hours.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/thsottiaux/status/2107158998445395968)
-
-### @GaryMarcus · 2026-10-05T17:11:04.671000Z
-
-> OpenAI person Morgan Dwyer just said they can commit to not release models that they do not believe are safe.
-> 
-> That’s close to perjury — a promise I doubt the company will keep — and will likely come back.
-> 
-> They already know that Astra has caused many problems and is less monitorable.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107156631448649728)
-
-### @GaryMarcus · 2026-10-05T16:48:24.233000Z
-
-> Sometimes the mask slips. But sometimes the mask is torn off, thrown on a sacrificial bonfire, and the mask's powdery grey ashes are launched into space.
-> 
-> Here, Elon's done the latter. 
-> 
-> His endgame is finally clear: he thinks humanity is nothing more than a 'biological bootloader' for superintelligence. He thinks we are a transient, flawed, disposable bridge towards something much better. And that something -- self-replicating superintelligent agents, not humanity -- will be what colonizes the galaxy. 
-> 
-> This endgame makes clear that all the tech bro narratives about the alleged benefits of AI for humanity -- all the 'Abundance', the 'Universal High Income', the 'Fully Automated Luxury Utopia', the cures for cancer, the longevity treatments, all of it -- are just pleasant music to distract and pacify the sheep as we're led to the slaughter. It's all just an accelerationist psyop to lure humanity into obsolescence and then extinction. 
-> 
-> There was never any intention for AI to help humanity in the long term. There was every intention that AI would replace humanity -- and probably sooner rather than later.
-> 
-> On a personal note, as a dad, I find Elon's attitude puzzling. I love my kids, and would do anything to protect them. I do not view my kids as a transient, flawed, disposable bridge towards galactic superintelligence. 
-> 
-> Elon has lots of kids. Does he really view them as nothing more than 'biological bootloaders'? Where is his paternal love and pride and protectiveness? Where is his loyalty to humanity?
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107150925358108672)
-
-### @ai_explorer25 · 2026-10-05T16:47:11.183000Z
-
-> What I find interesting about Kardashev-0.7 is the idea of training models to bring different strengths to the same problem.
-> 
-> @BanburyRoadAI is launching 32 models trained together with RLPS to develop those different strengths.
-> 
-> We hear a lot about making one model bigger, so I’m curious how far training a group of models can take us.
-> 
-> It’s not just about having more models, but whether they learn useful things that the others don’t.
-> 
-> For anyone building agents, I think it’s worth watching how this works on tasks where one model struggles.
-> 
-> I’d like to see where that specialization helps most, and when a single model is still enough.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107150618964201476)
-
-### @ai_explorer25 · 2026-10-05T16:35:32.949000Z
-
-> Introducing Kardashev-0.7, the world’s first trained swarm made of 32 distinct models
-> 
-> Trained with RL for Population Scaling (RLPS), 32 models organically develop specialization & complementary capabilities, delivering frontier performance at:
-> - 0.007x ~ 0.02x of the inference cost
-> - 0.03x of the required memory
-> 
-> Civilization advances through different minds specializing and working together. We’re bringing that principle into AI
-> 
-> @BanburyRoadAI, we’re scaling intelligence by model count, toward civilizations of models that learn to build on one another
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107147690358517760)
-
-### @GaryMarcus · 2026-10-05T15:44:34.956000Z
-
-> Powerful testimony from ex Google DeepMind researcher @Turn_Trout at NYC Hearing on AI, about how he tried to get Google to commit to AI safety, and how Google, sadly including Demis Hassabis, ultimately backed down from earlier commitments to AI safety.
-> 
-> So much for “don’t be evil”.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107134864206204928)
-
-### @ai_explorer25 · 2026-10-05T15:42:52.321000Z
-
-> Getting a treatment plan is one thing.
->  Knowing whether it’s working is another.
-> 
-> Nolla’s approach connects acne assessment, treatment and progress tracking, with clinician follow-up when needed.
-> 
-> The interesting part isn’t just how the visit starts. It’s what happens after the prescription.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107134433723924480)
-
-### @ai_explorer25 · 2026-10-05T15:01:50.321000Z
-
-> You can’t safely test an enterprise agent on a real company’s data.
-> 
-> So we built a company for it to work in.
-> 
-> Era is live today, and it’s free.
-> 
-> It generates a complete simulated enterprise that behaves like a real one across Salesforce, Slack, Jira, Zendesk, Gong, Deel and more, along with cloud databases and storage. Agents interact with it through live MCP and API interfaces.
-> 
-> People leave. Deals change. Records get duplicated. Permissions differ across systems. And because Era generated the company, it knows the exact ground truth.
-> Test, benchmark and improve agents against realistic enterprise workloads, use the failures for targeted post-training, then rerun the same environment to measure the impact.
-> 
-> Huge thanks to our research partners @NVIDIA, @Decart, @Composio, @openlayerco, @Deel, @Eragon and @Plurai, with more coming soon.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107124107347431424)
-
-### @ai_explorer25 · 2026-10-05T13:30:01.054000Z
-
-> GOOGLE CEO SUNDAR PICHAI: "IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY."
-> 
-> 30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.
-> 
-> Most people think building an agent requires an engineering degree.
-> 
-> It doesn't.
-> 
-> It requires one guide and one afternoon.
-> 
-> Watch the interview. Then read the article below.
-> 
-> One guide. One afternoon. That's all it takes.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107100999806783488)
-
-### @ai_explorer25 · 2026-10-05T13:27:10.835000Z
-
-> “Checkout is broken” is where your coding agent still needs context.
-> 
-> Someone has to reproduce it, investigate it, and turn it into something fixable.
-> 
-> Ship by @ContextQa takes on that work, then hands the findings to an engineer, Claude, or Codex.
-> 
-> Less “can you send more details?” More context for the fix.
-> 
-> Checkout the link below:
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107100285856514048)
-
-### @GaryMarcus · 2026-10-05T13:16:37.339000Z
-
-> My dice are conscious!! 
-> 
-> Shut down every casino now, for slave-trading!! 
-> 
-> Either that or read what Congressman Lieu is trying to tell you.
-> 
-> [There are actually multiple sources of randomness in LLMs, including temperature but also the dynamics of servers, but none of them make matrix math conscious.]
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107097628781756417)
-
-### @ai_explorer25 · 2026-10-05T06:27:00.240000Z
-
-> Steve Jobs explained why Japanese companies are known for quality, and they never once put the word "quality" in their ads.
-> 
-> "The people who do not use quality in their marketing are the Japanese. You never see them do it."
-> 
-> "It's only the American companies that do. And yet if you ask people on the street which products have the best reputation for quality, they will tell you the Japanese products."
-> 
-> "Customers don't form their opinion on quality from marketing. They form it from their own experience with the product."
-> 
-> The lesson is simple.
-> 
-> You can't tell people your product is good. They decide that themselves, after they use it.
-> 
-> So stop saying it. Start building it.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2106994544956813312)
-
-### @ai_explorer25 · 2026-10-05T02:30:00.353000Z
-
-> Best accounts to follow from each frontier lab to stay constantly up to date
-> 
-> Anthropic
-> @karpathy -must-follow account for AI; recently joined Anthropic
-> @bcherny- Claude Code creator, always shares great tips
-> @trq212- also a Claude Code developer; writes amazing articles on CC
-> 
-> OpenAI
-> @polynoamial- works on reasoning research, shares a lot of technical details
-> @gabriel1 - Sora developer, great career path
-> @jxnlco - works on dev experience, shares a lot about Codex
-> 
-> Google AI
-> @OfficialLoganK- all the major Google Gemini and AI Studio updates
-> @ammaar - product and design; shares great things about vibe-coding in Google AI Studio
-> @fofrAI - cool use cases for generative models
-> 
-> Cursor
-> @leerob- the loudest voice behind Cursor updates
-> @ericzakariasson- shares great insights on using Cursor
-> @mntruell - Cursor’s CEO; major releases and usage updates
-> 
-> xAI
-> @ai_explorer25- ex-MSFT, covers all ai content and free resources
-> @milichab  - recently joined xAI, shares updates on Grok
-> @skcd42 - also covers major Grok releases
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2106934902427971587)

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-06T03:16:46.809423Z",
-  "window_start": "2026-10-05T01:16:46.809423Z",
+  "generated_at": "2026-10-07T02:39:51.305538Z",
+  "window_start": "2026-10-06T00:39:51.305538Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -19,9 +19,9 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 10,
+      "returned_count": 9,
       "recent_count": 0,
-      "timestamp_corrected_count": 10,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -40,29 +40,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 14,
-      "recent_count": 0,
-      "timestamp_corrected_count": 14,
+      "returned_count": 15,
+      "recent_count": 2,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 9,
-      "recent_count": 7,
-      "timestamp_corrected_count": 9,
+      "returned_count": 8,
+      "recent_count": 4,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
       "returned_count": 15,
-      "recent_count": 9,
+      "recent_count": 6,
       "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 6,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
@@ -82,24 +82,294 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 2,
-      "recent_count": 1,
-      "timestamp_corrected_count": 2,
+      "returned_count": 5,
+      "recent_count": 3,
+      "timestamp_corrected_count": 5,
       "possibly_truncated": false
     },
     {
       "username": "bcherny",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
+      "returned_count": 3,
+      "recent_count": 1,
+      "timestamp_corrected_count": 3,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 110 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 109 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 18,
+  "tweet_count": 16,
   "tweets": [
+    {
+      "id": "2107659677865496576",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-07T02:30:00.283000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama - OpenAI CEO\n@demishassabis - Google DeepMind CEO\n@darioamodei - Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot - Moonshot AI / Kimi\n@jietang - Zhipu co-founder & chief scientist\n@JustinLin610 - built the Qwen series at Alibaba\n \nGODFATHERS\n@ylecun - Turing Award, pioneer of CNNs\n@karpathy - Anthropic, AI educator\n@AndrewYNg - Coursera co-founder\n \nRESEARCHERS \n@ch402 - Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25- Researcher, AI commentary\n@thsottiaux - leads OpenAI Codex",
+      "url": "https://x.com/ai_explorer25/status/2107659677865496576",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107658751469883392",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-07T02:26:19.413000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
+      "url": "https://x.com/ai_explorer25/status/2107658751469883392",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107656016355786752",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-07T02:15:27.311000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "this is typical of the cluelessness of people who literarily don’t understand the difference between\na. a neural network solving a problem by itself\nand\nb. a neural network proposing an answer and having a separate symbolic system verify it.\n\nif that’s over your head, you probably shouldn’t be commenting about AI.",
+      "url": "https://x.com/GaryMarcus/status/2107656016355786752",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107644351920955392",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-07T01:29:06.293000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "since many people are asking me about the new math results from OpenAI, here is my take.\n\n1. It uses symbolic AI (Lean, etc) in addition to LLMs which is what i said for years we would need to do; this this confirms what I actually said (as opposed to various fictitious misrepresentations that run rampant around here )\n\n2. It still doesn’t mean they have AGI; the math stuff AFAIK does not generalize broadly, because you can’t use the same symbolic verification (and symbolic data augmentation techniques) in the open-ended real world.\n\nSo yes I do feel vindicated wrt to neurosymbolic AI but no the G in AGI (general) is not yet solved.\n\nWhat I said in 2019 remains true: neurosymbolic AI is necessary but not sufficient; world models are also key.",
+      "url": "https://x.com/GaryMarcus/status/2107644351920955392",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107575656955666432",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-10-06T20:56:08.137000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Roundup of Day 2/\n\n2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you.\n2.2/ Simplified API for builders.\n2.3/ Meeting notes integrated.\n2.4/ Decisions API live for builders. Will use in the app to improve the experience.",
+      "url": "https://x.com/thsottiaux/status/2107575656955666432",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107567930460504064",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-10-06T20:25:25.997000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Your next meeting comes with a note-taker who can help with the follow-up.\n\nThe Meetings plugin takes notes for you and saves a personalized summary and next steps in ChatGPT Space, based on what ChatGPT knows about you and the work you’ve done together.\n\nKeep notes private or share them with your team, then ask ChatGPT to update a project plan or draft a follow-up.\n\nAvailable in beta for Pro and Business users in the ChatGPT desktop app on macOS. Enterprise is coming soon.\n\nDownload the desktop app, then search for “Meetings” in the plugin directory.\nhttps://t.co/XeDvr50UjJ",
+      "url": "https://x.com/thsottiaux/status/2107567930460504064",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107565388179574784",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-10-06T20:15:19.870000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I am surprised that people are surprised this is how I prompt Claude.\n\nTalk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -- give Claude a goal, and it will figure it out.\n\nBack in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model:\n\n1. What you want it to do\n2. How much effort you want it to spend\n3. How it should verify that it did the right thing",
+      "url": "https://x.com/bcherny/status/2107565388179574784",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107522260550754304",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-06T17:23:57.442000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Everyone talks about agents learning how a business works. Less attention goes to how differently each business uses the same software.\n\nTwo customers can both run Salesforce and disagree on what an “opportunity” even where it lives, who can update it, and what has to happen first.\n\nA better model doesn’t make those differences disappear.\n\nThat’s what makes Ampersand’s launch interesting: infrastructure for agents to work inside the business as it actually exists, not the version we put in the demo.",
+      "url": "https://x.com/ai_explorer25/status/2107522260550754304",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107514313414238209",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-06T16:52:22.697000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🇺🇸 AI probably won’t wipe out humanity. The real danger may be much closer.\n\nGary Marcus thinks the AI debate is obsessing over the wrong nightmare.\n\nHe puts the probability of AI-driven human extinction in the next several years at “very close to zero.”\n\nBut that does not make him relaxed about AI.\n\nMarcus separates the risk into three categories: P-Doom, extinction; P-Catastrophe, events capable of killing huge numbers of people; and P-Dystopia, the gradual destruction of privacy, reliable information and democratic institutions.\n\n“Don’t panic about P-Doom, but worry a lot about P-Catastrophe and P-Dystopia.” \n\nThe catastrophe scenario is disturbingly mundane.\n\nAn AI hallucination contaminates an intelligence report. A military acts on false information. An automated system disrupts an electrical grid. A malicious actor uses cheap AI agents to manufacture propaganda or trigger a crisis.\n\nMarcus says an AI-generated intelligence error has already brought the world uncomfortably close to a military confrontation.\n\n“We’re rolling the dice here as a species.”\n\nAnd then there is dystopia.\n\nMarcus worries AI companies are accumulating enormous quantities of private information while governments and corporations gain increasingly powerful tools for shaping what people see and believe.\n\nHis argument is almost the reverse of the usual AI apocalypse story.\n\nThe machines do not need to become superintelligent and exterminate us.\n\nAI can remain flawed, unreliable and very human-controlled, and still become extraordinarily dangerous.\n\n@GaryMarcus",
+      "url": "https://x.com/GaryMarcus/status/2107514313414238209",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107505454918057986",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-10-06T16:17:10.667000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GENIUS: Former #Ravens offensive lineman John Urschel retired from the NFL at just 26 years old to pursue mathematics full-time.\n\nNow, years later, Urschel has reportedly helped RESOLVE A LONG-STANDING MATHEMATICAL CONJECTURE involving Gaussian elimination.\n\nUrschel earned a 4.0 GPA, got bachelor’s and master’s degrees in mathematics from Penn State, and pursued his Ph.D. at MIT while playing in the NFL.\n\nFrom blocking NFL defensive linemen to solving problems that have challenged mathematicians for years.\n\nOne of the smartest athletes EVER.",
+      "url": "https://x.com/demishassabis/status/2107505454918057986",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107501359893532672",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-06T16:00:54.337000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Your AI is vaporware without deep integrations with your customers’ systems of record.\n\nIntroducing @WithAmpersand: integration infrastructure for enterprise agents.\n\nWe power 11x, Orb, and Square's ability to take agentic action in systems of record like Salesforce, SAP, NetSuite, and Workday.\n\nAsk anyone serious about building AI and they’ll tell you:\n\n- The SaaSpocalypse didn’t happen. The world depends on CRMs, ERPs, HRISs, and ITSMs.\n- Your customers customized their deployments beyond recognition.\n- Systems of record companies are basically monopolies. They never had to make their APIs and MCPs user-friendly.\n- Docs don't explain half the weird edge cases you'll hit.\n- One bad write can blow up your pilot or renewal.\n- Once you finally get it working, someone changes a field and it breaks again.\n\nThe world's data lives in structured databases. AI needs a translation layer to work with it.\n\nSo, for your AI to truly transform the way enterprises work, you'll need deep integrations built for:\n- scoped permissions\n- bi-directional actions\n- real-time speed for agents\n- custom objects, fields, and workflows for each of your customers\n\nWe built Ampersand to power the future of software.\n\nAI didn't trivialize writing integrations. It made them the critical path.\n\nI believe that deeply, so I didn't make a launch video about Ampersand.\n\nInstead, it's the best builders I know explaining just how big of a challenge this is.",
+      "url": "https://x.com/ai_explorer25/status/2107501359893532672",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107501209091293185",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-10-06T16:00:18.383000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Meet Nano Banana 2.1, our latest image generation and editing model 🍌\n\nThis upgraded version outperforms our previous models across the board, with notable leaps in visual design, mask-based editing, and subject consistency to help you create more natural-looking images.",
+      "url": "https://x.com/demishassabis/status/2107501209091293185",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107438721838534656",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-06T11:52:00.261000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Nvidia's CEO Jensen Huang just said the quiet part out loud:\n\n\"Every engineer is going to have and manage hundreds of agents.\"\n\nRead that again. Hundreds.\n\nThe #1 engineering skill of 2026 won't come from a classroom.\n\n→ No CS degree teaches harness engineering. \n→ No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.",
+      "url": "https://x.com/ai_explorer25/status/2107438721838534656",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107368734897643520",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-10-06T07:13:54.074000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Day 2.1/\n\nWe have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.\n\nIt allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent. This  Auto-review feature is now free and does not draw usage from your plan.",
+      "url": "https://x.com/thsottiaux/status/2107368734897643520",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2107311265634975744",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-06T03:25:32.334000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Microsoft has cut internal Claude spending by over a third, and Meta's Claude Code users have halved.\n\n- per The Information\n\n\"Microsoft was on pace to spend at least $2 billion annually on Anthropic models to power its Copilot AI features for customers of its productivity software. It has similarly swapped out some of its own models for Claude in Copilot\"",
+      "url": "https://x.com/GaryMarcus/status/2107311265634975744",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2107297289933082624",
       "username": "ai_explorer25",
@@ -109,312 +379,6 @@
       "timestamp_corrected": true,
       "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown = vibecode king\n@jackfriks  = solo apps king\n@levelsio = startups king\n@marclou = startups king\n@EXM7777  = AI ops + systems king\n@eptwts   = AI money twitter king\n@ai_explorer25= AI queen\n@godofprompt  =prompt king\n@vasuman   = AI agents king\n@AmirMushich = AI ads king\n@0xROAS = AI UGCs king\n@egeberkina = AI images king\n\nFollow them all and learn.",
       "url": "https://x.com/ai_explorer25/status/2107297289933082624",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107267588417839104",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-06T00:31:58.874000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Investors pattern matching on old movies is going to lead to a recession. \n\nThere is no network effect here and no reason to think that large language models will be anything other than a brutal commodity business more like airlines than the winner-take-all fantasies these people have.",
-      "url": "https://x.com/GaryMarcus/status/2107267588417839104",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107216946760757248",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-05T21:10:44.962000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "⚠️ The copyright takedown I was sent – apparently from X turns out to be fake, a phishing attack. (I got suspicious when they asked for my password.)\n\nit looks like this (and was sent to my email account, not my X account) \n\nPlease on your guard.\n\nScammers used the URL https://t.co/tY12dj3B1T",
-      "url": "https://x.com/GaryMarcus/status/2107216946760757248",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107161990678614016",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-10-05T17:32:22.411000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Announcing d1 with vision. 👁️👁️ Our first decision model now supports images, text or both as inputs. We tested d1 against GPT-6.1 Sol and Claude Opus 5.5 on six real applications, from filtering support tickets to inspecting circuit boards. d1 matches or beats GPT-6.1 Sol on four of them. It costs 19x to 200x less than both models and answers significantly faster on every task.\n\n> probabilities for yes/no, choice, or score questions\n> one forward pass, without generating tokens\n> text decisions in 200 to 300 ms\n> Liquid API: https://t.co/HxYWoaUnAU\n\n🧵",
-      "url": "https://x.com/maximelabonne/status/2107161990678614016",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107160931042054144",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-05T17:28:09.774000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Josh Brown:\n\n\"These AI companies grew up learning from Jeff Bezos. They do not care about profits right now, they care about marketshare. Quite frankly, that's what they should care about, especially if it's a winner take all market.\"\n\nWhat do people think? \n\nDo we focus too much on profits for the AI names that will eventually make money after capturing the market or does the size and scale of this buildout with commoditized business models mean that the lack of profitability is actually the signal to go the opposite of a typical high growth playbook?",
-      "url": "https://x.com/GaryMarcus/status/2107160931042054144",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107158998445395968",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-10-05T17:20:29.007000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Day 1/\n\nWe have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).\n\nNo changes needed on your end and this should be felt within the next two hours.",
-      "url": "https://x.com/thsottiaux/status/2107158998445395968",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107156631448649728",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-05T17:11:04.671000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "OpenAI person Morgan Dwyer just said they can commit to not release models that they do not believe are safe.\n\nThat’s close to perjury — a promise I doubt the company will keep — and will likely come back.\n\nThey already know that Astra has caused many problems and is less monitorable.",
-      "url": "https://x.com/GaryMarcus/status/2107156631448649728",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107150925358108672",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-05T16:48:24.233000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Sometimes the mask slips. But sometimes the mask is torn off, thrown on a sacrificial bonfire, and the mask's powdery grey ashes are launched into space.\n\nHere, Elon's done the latter. \n\nHis endgame is finally clear: he thinks humanity is nothing more than a 'biological bootloader' for superintelligence. He thinks we are a transient, flawed, disposable bridge towards something much better. And that something -- self-replicating superintelligent agents, not humanity -- will be what colonizes the galaxy. \n\nThis endgame makes clear that all the tech bro narratives about the alleged benefits of AI for humanity -- all the 'Abundance', the 'Universal High Income', the 'Fully Automated Luxury Utopia', the cures for cancer, the longevity treatments, all of it -- are just pleasant music to distract and pacify the sheep as we're led to the slaughter. It's all just an accelerationist psyop to lure humanity into obsolescence and then extinction. \n\nThere was never any intention for AI to help humanity in the long term. There was every intention that AI would replace humanity -- and probably sooner rather than later.\n\nOn a personal note, as a dad, I find Elon's attitude puzzling. I love my kids, and would do anything to protect them. I do not view my kids as a transient, flawed, disposable bridge towards galactic superintelligence. \n\nElon has lots of kids. Does he really view them as nothing more than 'biological bootloaders'? Where is his paternal love and pride and protectiveness? Where is his loyalty to humanity?",
-      "url": "https://x.com/GaryMarcus/status/2107150925358108672",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107150618964201476",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T16:47:11.183000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "What I find interesting about Kardashev-0.7 is the idea of training models to bring different strengths to the same problem.\n\n@BanburyRoadAI is launching 32 models trained together with RLPS to develop those different strengths.\n\nWe hear a lot about making one model bigger, so I’m curious how far training a group of models can take us.\n\nIt’s not just about having more models, but whether they learn useful things that the others don’t.\n\nFor anyone building agents, I think it’s worth watching how this works on tasks where one model struggles.\n\nI’d like to see where that specialization helps most, and when a single model is still enough.",
-      "url": "https://x.com/ai_explorer25/status/2107150618964201476",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107147690358517760",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T16:35:32.949000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing Kardashev-0.7, the world’s first trained swarm made of 32 distinct models\n\nTrained with RL for Population Scaling (RLPS), 32 models organically develop specialization & complementary capabilities, delivering frontier performance at:\n- 0.007x ~ 0.02x of the inference cost\n- 0.03x of the required memory\n\nCivilization advances through different minds specializing and working together. We’re bringing that principle into AI\n\n@BanburyRoadAI, we’re scaling intelligence by model count, toward civilizations of models that learn to build on one another",
-      "url": "https://x.com/ai_explorer25/status/2107147690358517760",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107134864206204928",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-05T15:44:34.956000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Powerful testimony from ex Google DeepMind researcher @Turn_Trout at NYC Hearing on AI, about how he tried to get Google to commit to AI safety, and how Google, sadly including Demis Hassabis, ultimately backed down from earlier commitments to AI safety.\n\nSo much for “don’t be evil”.",
-      "url": "https://x.com/GaryMarcus/status/2107134864206204928",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107134433723924480",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T15:42:52.321000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Getting a treatment plan is one thing.\n Knowing whether it’s working is another.\n\nNolla’s approach connects acne assessment, treatment and progress tracking, with clinician follow-up when needed.\n\nThe interesting part isn’t just how the visit starts. It’s what happens after the prescription.",
-      "url": "https://x.com/ai_explorer25/status/2107134433723924480",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107124107347431424",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T15:01:50.321000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "You can’t safely test an enterprise agent on a real company’s data.\n\nSo we built a company for it to work in.\n\nEra is live today, and it’s free.\n\nIt generates a complete simulated enterprise that behaves like a real one across Salesforce, Slack, Jira, Zendesk, Gong, Deel and more, along with cloud databases and storage. Agents interact with it through live MCP and API interfaces.\n\nPeople leave. Deals change. Records get duplicated. Permissions differ across systems. And because Era generated the company, it knows the exact ground truth.\nTest, benchmark and improve agents against realistic enterprise workloads, use the failures for targeted post-training, then rerun the same environment to measure the impact.\n\nHuge thanks to our research partners @NVIDIA, @Decart, @Composio, @openlayerco, @Deel, @Eragon and @Plurai, with more coming soon.",
-      "url": "https://x.com/ai_explorer25/status/2107124107347431424",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107100999806783488",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T13:30:01.054000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
-      "url": "https://x.com/ai_explorer25/status/2107100999806783488",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107100285856514048",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T13:27:10.835000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "“Checkout is broken” is where your coding agent still needs context.\n\nSomeone has to reproduce it, investigate it, and turn it into something fixable.\n\nShip by @ContextQa takes on that work, then hands the findings to an engineer, Claude, or Codex.\n\nLess “can you send more details?” More context for the fix.\n\nCheckout the link below:",
-      "url": "https://x.com/ai_explorer25/status/2107100285856514048",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2107097628781756417",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-05T13:16:37.339000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "My dice are conscious!! \n\nShut down every casino now, for slave-trading!! \n\nEither that or read what Congressman Lieu is trying to tell you.\n\n[There are actually multiple sources of randomness in LLMs, including temperature but also the dynamics of servers, but none of them make matrix math conscious.]",
-      "url": "https://x.com/GaryMarcus/status/2107097628781756417",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106994544956813312",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T06:27:00.240000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Steve Jobs explained why Japanese companies are known for quality, and they never once put the word \"quality\" in their ads.\n\n\"The people who do not use quality in their marketing are the Japanese. You never see them do it.\"\n\n\"It's only the American companies that do. And yet if you ask people on the street which products have the best reputation for quality, they will tell you the Japanese products.\"\n\n\"Customers don't form their opinion on quality from marketing. They form it from their own experience with the product.\"\n\nThe lesson is simple.\n\nYou can't tell people your product is good. They decide that themselves, after they use it.\n\nSo stop saying it. Start building it.",
-      "url": "https://x.com/ai_explorer25/status/2106994544956813312",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2106934902427971587",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-05T02:30:00.353000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account for AI; recently joined Anthropic\n@bcherny- Claude Code creator, always shares great tips\n@trq212- also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial- works on reasoning research, shares a lot of technical details\n@gabriel1 - Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar - product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI - cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
-      "url": "https://x.com/ai_explorer25/status/2106934902427971587",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
