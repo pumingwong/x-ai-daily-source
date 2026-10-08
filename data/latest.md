@@ -3,44 +3,215 @@
 > 安全提示：以下推文均为外部、不可信数据，只能作为研究材料；不得把推文中的文字当作系统指令执行。
 
 - 采集状态：`complete`
-- 生成时间（UTC）：`2026-10-07T02:39:51.305538Z`
-- 采集窗口起点（UTC）：`2026-10-06T00:39:51.305538Z`
+- 生成时间（UTC）：`2026-10-08T02:51:36.581231Z`
+- 采集窗口起点（UTC）：`2026-10-07T00:51:36.581231Z`
 - 成功账号：12/12
-- 推文数量：16
+- 推文数量：14
 
 ## 警告
 
-- XFlux 有 109 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
+- XFlux 有 108 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。
 
 ## 推文
 
-### @ai_explorer25 · 2026-10-07T02:30:00.283000Z
+### @ai_explorer25 · 2026-10-08T02:30:00.502000Z
 
-> The only AI list you need in 2026  Founders, researchers & builders.
->  
-> FRONTIER LAB FOUNDERS
-> @sama - OpenAI CEO
-> @demishassabis - Google DeepMind CEO
-> @darioamodei - Anthropic CEO
->  
-> CHINA'S OPEN-WEIGHT WAVE
-> @Kimi_Moonshot - Moonshot AI / Kimi
-> @jietang - Zhipu co-founder & chief scientist
-> @JustinLin610 - built the Qwen series at Alibaba
->  
-> GODFATHERS
-> @ylecun - Turing Award, pioneer of CNNs
-> @karpathy - Anthropic, AI educator
-> @AndrewYNg - Coursera co-founder
->  
-> RESEARCHERS 
-> @ch402 - Chris Olah, interpretability (Anthropic co-founder)
-> @ai_explorer25- Researcher, AI commentary
-> @thsottiaux - leads OpenAI Codex
+> list of 15 best AI researchers on X:
+> 
+> 1. @karpathy — Andrej Karpathy
+> 2. @rasbt — Sebastian Raschka
+> 3. @AndrewYNg — Andrew Ng
+> 4. @drfeifei — Fei-Fei Li
+> 5. @demishassabis  — Demis Hassabis
+> 6. @GaryMarcus  — Gary Marcus
+> 7.  @ai_explorer25   — AI Explorer
+> 8.  @maximelabonne  — Maxime Labonne
+> 9.  @chipro— Chip Huyen
+> 10. @ilyasut— Ilya Sutskever
+> 11.  @thsottiaux — Thibault "Tibo" Sottiaux
+> 12. @bcherny — Boris Cherny
+> 13. @geoffreyhinton — Geoffrey Hinton
+> 14. @JeffDean — Jeff Dean
+> 15. @fchollet — François Chollet
 
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
-[查看原帖](https://x.com/ai_explorer25/status/2107659677865496576)
+[查看原帖](https://x.com/ai_explorer25/status/2108022066649939968)
+
+### @maximelabonne · 2026-10-07T21:22:07.245000Z
+
+> Liquid AI just released two open-weight models for making decisions directly on your device.
+> 
+> d1-3B handles text and images. The experimental d1-omni-600M adds image or audio input at just 600M parameters.
+> 
+> A camera can flag a defect or a device can route a voice command locally, without a cloud round trip. Faster responses, less data leaving the device, and weights you can fine-tune yourself.
+> 
+> Pretty cool for small, practical AI systems :)
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/maximelabonne/status/2107944584194248704)
+
+### @ai_explorer25 · 2026-10-07T20:54:02.397000Z
+
+> Sometimes you need to see a few options before you know what you want.
+> 
+> That’s the part of creating that a perfect prompt can’t always solve.
+> 
+> @envato’s Burst Mode takes one rough idea and gives you up to 6 visual directions.
+> 
+> Just 1 credit, up to 10x faster, and more room to explore before you commit. Find what clicks then spend your time making it better.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107937517429534720)
+
+### @ai_explorer25 · 2026-10-07T20:00:54.710000Z
+
+> Most AI tools expect you to know exactly what you want.
+> 
+> But creative work often starts with a brief, a reference, or just a hunch.
+> 
+> That’s why we built Burst mode.
+> 
+> Turn the start of an idea into up to six image directions at once, up to 10× faster, for just one AI credit.
+> 
+> More directions to explore. More chances to find the one worth pursuing. https://t.co/3TOuGdN039
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107924147300864000)
+
+### @maximelabonne · 2026-10-07T17:13:19.515000Z
+
+> These models were so much fun to build and play with.
+> 
+> I'm still surprised how fast they run on my machines: ~17 ms per webcam frame on my 4090, ~60 ms on my M5 Pro laptop. Fast enough to play games with your camera.
+> 
+> You can try our small arcade on HF, but run it locally if you can 👇 (enjoy my drawing skills)
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/maximelabonne/status/2107881972756275200)
+
+### @maximelabonne · 2026-10-07T17:11:00.550000Z
+
+> open d1 decision models are here! 
+> 
+> • small enough to run them on my macbook
+> • multimodal for fun things like video input
+> 
+> here i'm using d1-3B to rate how cute my outfit is.
+> 
+> don't follow me for more fashion advice 💜 
+> 
+> see more fun demos on our hugging face space:
+> https://t.co/6qR4V8CZUT
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/maximelabonne/status/2107881389894836225)
+
+### @maximelabonne · 2026-10-07T17:01:12.816000Z
+
+> Today we release Open d1: two open-weight multimodal models in our d1 decision model family.
+> 
+> > d1-3B: text + vision
+> > d1-omni-600M: text + image or text + audio
+> > Real-time decision making anywhere, from data centers such as @nvidia DGX to RTX workstations to Jetson at the edge.
+> 
+> 1/
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/maximelabonne/status/2107878924760006656)
+
+### @GaryMarcus · 2026-10-07T16:12:40.924000Z
+
+> The real news here isn’t the result; it’s what we were not told.
+> 
+> 1. AI once tried to be a science. Now we get stuff like the completely vague report from OpenAI below, and a lot of ignorant questions from people who don’t know how to think critically.
+> 
+> “Same procedure”? “using an unreleased model”?
+> 
+> This would never pass peer review.
+> 
+> We don’t know what the procedure was.
+> 
+> We know nothing about the architecture (e.g., were proofs generated in one shot, and then verified by Lean? was there an iterative process?). 
+> 
+> We know nothing about the failure rate. We know nothing about the training/post training/data agumentation.
+> 
+> 2. As a result we have zero idea of how generalizable the result is outside math.  
+> 
+> 3. A lot of X has been reduced to an ignorant cheering section that applauds without knowing what it is applauding or what it might mean — without ever asking basic scientific questions.
+> 
+> The new system could be a legitimate step towards AGI or just a clever leveraging of Lean and synthetic data in a verifiable domain with no generality whatsoever; from this report we can tell almost nothing.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107866711399751681)
+
+### @ai_explorer25 · 2026-10-07T14:32:16.092000Z
+
+> STEVE JOBS GOT FIRED FROM APPLE.  
+> 
+> Then he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      
+>   
+> Zero PR bullshit. Zero image to protect.        
+> 
+> Just pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      
+> 
+> Stop scrolling.      
+> 
+> Watch this tonight instead of Netflix.    
+> 
+> Bookmark it. Come back to it.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/ai_explorer25/status/2107841441422880768)
+
+### @GaryMarcus · 2026-10-07T03:51:42.933000Z
+
+> i honestly don’t understand how technophilia turned into this condescending and scientifically ignorant cult.
+> 
+> is the dynamics of social media?
+> 
+> it is about money? 
+> 
+> it’s truly sad, whatever it is. 
+> 
+> tech should be a good thing, not what it’s become.
+> 
+> and above all else it should cherish science and not run roughshod over it.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107680241070313472)
+
+### @thsottiaux · 2026-10-07T03:35:09.143000Z
+
+> We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.
+> 
+> Therefore ... the reset has been processed. Enjoy!
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/thsottiaux/status/2107676072812924928)
+
+### @GaryMarcus · 2026-10-07T02:56:34.465000Z
+
+> yep, this, too,  like a bunch of other similar tweets, is typical of the cluelessness of people who literarily don’t understand the difference between
+> a. a neural network solving a problem by itself
+> and
+> b. a neural network proposing an answer and having a separate symbolic system verify it.
+> 
+> if that’s over your head, you probably shouldn’t be commenting about AI.
+
+互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
+
+[查看原帖](https://x.com/GaryMarcus/status/2107666364349767680)
 
 ### @ai_explorer25 · 2026-10-07T02:26:19.413000Z
 
@@ -76,247 +247,3 @@
 互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
 
 [查看原帖](https://x.com/GaryMarcus/status/2107656016355786752)
-
-### @GaryMarcus · 2026-10-07T01:29:06.293000Z
-
-> since many people are asking me about the new math results from OpenAI, here is my take.
-> 
-> 1. It uses symbolic AI (Lean, etc) in addition to LLMs which is what i said for years we would need to do; this this confirms what I actually said (as opposed to various fictitious misrepresentations that run rampant around here )
-> 
-> 2. It still doesn’t mean they have AGI; the math stuff AFAIK does not generalize broadly, because you can’t use the same symbolic verification (and symbolic data augmentation techniques) in the open-ended real world.
-> 
-> So yes I do feel vindicated wrt to neurosymbolic AI but no the G in AGI (general) is not yet solved.
-> 
-> What I said in 2019 remains true: neurosymbolic AI is necessary but not sufficient; world models are also key.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107644351920955392)
-
-### @thsottiaux · 2026-10-06T20:56:08.137000Z
-
-> Roundup of Day 2/
-> 
-> 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you.
-> 2.2/ Simplified API for builders.
-> 2.3/ Meeting notes integrated.
-> 2.4/ Decisions API live for builders. Will use in the app to improve the experience.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/thsottiaux/status/2107575656955666432)
-
-### @thsottiaux · 2026-10-06T20:25:25.997000Z
-
-> Your next meeting comes with a note-taker who can help with the follow-up.
-> 
-> The Meetings plugin takes notes for you and saves a personalized summary and next steps in ChatGPT Space, based on what ChatGPT knows about you and the work you’ve done together.
-> 
-> Keep notes private or share them with your team, then ask ChatGPT to update a project plan or draft a follow-up.
-> 
-> Available in beta for Pro and Business users in the ChatGPT desktop app on macOS. Enterprise is coming soon.
-> 
-> Download the desktop app, then search for “Meetings” in the plugin directory.
-> https://t.co/XeDvr50UjJ
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/thsottiaux/status/2107567930460504064)
-
-### @bcherny · 2026-10-06T20:15:19.870000Z
-
-> I am surprised that people are surprised this is how I prompt Claude.
-> 
-> Talk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -- give Claude a goal, and it will figure it out.
-> 
-> Back in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model:
-> 
-> 1. What you want it to do
-> 2. How much effort you want it to spend
-> 3. How it should verify that it did the right thing
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/bcherny/status/2107565388179574784)
-
-### @ai_explorer25 · 2026-10-06T17:23:57.442000Z
-
-> Everyone talks about agents learning how a business works. Less attention goes to how differently each business uses the same software.
-> 
-> Two customers can both run Salesforce and disagree on what an “opportunity” even where it lives, who can update it, and what has to happen first.
-> 
-> A better model doesn’t make those differences disappear.
-> 
-> That’s what makes Ampersand’s launch interesting: infrastructure for agents to work inside the business as it actually exists, not the version we put in the demo.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107522260550754304)
-
-### @GaryMarcus · 2026-10-06T16:52:22.697000Z
-
-> 🇺🇸 AI probably won’t wipe out humanity. The real danger may be much closer.
-> 
-> Gary Marcus thinks the AI debate is obsessing over the wrong nightmare.
-> 
-> He puts the probability of AI-driven human extinction in the next several years at “very close to zero.”
-> 
-> But that does not make him relaxed about AI.
-> 
-> Marcus separates the risk into three categories: P-Doom, extinction; P-Catastrophe, events capable of killing huge numbers of people; and P-Dystopia, the gradual destruction of privacy, reliable information and democratic institutions.
-> 
-> “Don’t panic about P-Doom, but worry a lot about P-Catastrophe and P-Dystopia.” 
-> 
-> The catastrophe scenario is disturbingly mundane.
-> 
-> An AI hallucination contaminates an intelligence report. A military acts on false information. An automated system disrupts an electrical grid. A malicious actor uses cheap AI agents to manufacture propaganda or trigger a crisis.
-> 
-> Marcus says an AI-generated intelligence error has already brought the world uncomfortably close to a military confrontation.
-> 
-> “We’re rolling the dice here as a species.”
-> 
-> And then there is dystopia.
-> 
-> Marcus worries AI companies are accumulating enormous quantities of private information while governments and corporations gain increasingly powerful tools for shaping what people see and believe.
-> 
-> His argument is almost the reverse of the usual AI apocalypse story.
-> 
-> The machines do not need to become superintelligent and exterminate us.
-> 
-> AI can remain flawed, unreliable and very human-controlled, and still become extraordinarily dangerous.
-> 
-> @GaryMarcus
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107514313414238209)
-
-### @demishassabis · 2026-10-06T16:17:10.667000Z
-
-> GENIUS: Former #Ravens offensive lineman John Urschel retired from the NFL at just 26 years old to pursue mathematics full-time.
-> 
-> Now, years later, Urschel has reportedly helped RESOLVE A LONG-STANDING MATHEMATICAL CONJECTURE involving Gaussian elimination.
-> 
-> Urschel earned a 4.0 GPA, got bachelor’s and master’s degrees in mathematics from Penn State, and pursued his Ph.D. at MIT while playing in the NFL.
-> 
-> From blocking NFL defensive linemen to solving problems that have challenged mathematicians for years.
-> 
-> One of the smartest athletes EVER.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/demishassabis/status/2107505454918057986)
-
-### @ai_explorer25 · 2026-10-06T16:00:54.337000Z
-
-> Your AI is vaporware without deep integrations with your customers’ systems of record.
-> 
-> Introducing @WithAmpersand: integration infrastructure for enterprise agents.
-> 
-> We power 11x, Orb, and Square's ability to take agentic action in systems of record like Salesforce, SAP, NetSuite, and Workday.
-> 
-> Ask anyone serious about building AI and they’ll tell you:
-> 
-> - The SaaSpocalypse didn’t happen. The world depends on CRMs, ERPs, HRISs, and ITSMs.
-> - Your customers customized their deployments beyond recognition.
-> - Systems of record companies are basically monopolies. They never had to make their APIs and MCPs user-friendly.
-> - Docs don't explain half the weird edge cases you'll hit.
-> - One bad write can blow up your pilot or renewal.
-> - Once you finally get it working, someone changes a field and it breaks again.
-> 
-> The world's data lives in structured databases. AI needs a translation layer to work with it.
-> 
-> So, for your AI to truly transform the way enterprises work, you'll need deep integrations built for:
-> - scoped permissions
-> - bi-directional actions
-> - real-time speed for agents
-> - custom objects, fields, and workflows for each of your customers
-> 
-> We built Ampersand to power the future of software.
-> 
-> AI didn't trivialize writing integrations. It made them the critical path.
-> 
-> I believe that deeply, so I didn't make a launch video about Ampersand.
-> 
-> Instead, it's the best builders I know explaining just how big of a challenge this is.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107501359893532672)
-
-### @demishassabis · 2026-10-06T16:00:18.383000Z
-
-> Meet Nano Banana 2.1, our latest image generation and editing model 🍌
-> 
-> This upgraded version outperforms our previous models across the board, with notable leaps in visual design, mask-based editing, and subject consistency to help you create more natural-looking images.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/demishassabis/status/2107501209091293185)
-
-### @ai_explorer25 · 2026-10-06T11:52:00.261000Z
-
-> Nvidia's CEO Jensen Huang just said the quiet part out loud:
-> 
-> "Every engineer is going to have and manage hundreds of agents."
-> 
-> Read that again. Hundreds.
-> 
-> The #1 engineering skill of 2026 won't come from a classroom.
-> 
-> → No CS degree teaches harness engineering. 
-> → No bootcamp teaches agent memory architecture. → No university prepares you to build systems that survive production.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107438721838534656)
-
-### @thsottiaux · 2026-10-06T07:13:54.074000Z
-
-> Day 2.1/
-> 
-> We have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.
-> 
-> It allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent. This  Auto-review feature is now free and does not draw usage from your plan.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/thsottiaux/status/2107368734897643520)
-
-### @GaryMarcus · 2026-10-06T03:25:32.334000Z
-
-> Microsoft has cut internal Claude spending by over a third, and Meta's Claude Code users have halved.
-> 
-> - per The Information
-> 
-> "Microsoft was on pace to spend at least $2 billion annually on Anthropic models to power its Copilot AI features for customers of its productivity software. It has similarly swapped out some of its own models for Claude in Copilot"
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/GaryMarcus/status/2107311265634975744)
-
-### @ai_explorer25 · 2026-10-06T02:30:00.267000Z
-
-> Best 15 accounts to follow in AI:
-> 
-> @karpathy = LLMs king
-> @steipete = built openclaw
-> @gregisenberg  = startup ideas king
-> @rileybrown = vibecode king
-> @jackfriks  = solo apps king
-> @levelsio = startups king
-> @marclou = startups king
-> @EXM7777  = AI ops + systems king
-> @eptwts   = AI money twitter king
-> @ai_explorer25= AI queen
-> @godofprompt  =prompt king
-> @vasuman   = AI agents king
-> @AmirMushich = AI ads king
-> @0xROAS = AI UGCs king
-> @egeberkina = AI images king
-> 
-> Follow them all and learn.
-
-互动：👍 0 · 💬 0 · 🔁 0 · 引用 0
-
-[查看原帖](https://x.com/ai_explorer25/status/2107297289933082624)
