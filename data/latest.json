@@ -1,26 +1,31 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-11T02:06:34.830685Z",
-  "window_start": "2026-10-10T00:06:34.830685Z",
+  "generated_at": "2026-10-12T02:36:22.263471Z",
+  "window_start": "2026-10-11T00:36:22.263471Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 11,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
       "returned_count": 10,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "rasbt",
       "returned_count": 8,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
@@ -48,15 +53,15 @@
     {
       "username": "GaryMarcus",
       "returned_count": 8,
-      "recent_count": 2,
+      "recent_count": 0,
       "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 17,
-      "recent_count": 1,
-      "timestamp_corrected_count": 17,
+      "returned_count": 16,
+      "recent_count": 3,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
@@ -81,13 +86,6 @@
       "possibly_truncated": false
     },
     {
-      "username": "thsottiaux",
-      "returned_count": 4,
-      "recent_count": 0,
-      "timestamp_corrected_count": 4,
-      "possibly_truncated": false
-    },
-    {
       "username": "bcherny",
       "returned_count": 2,
       "recent_count": 0,
@@ -96,37 +94,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 110 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 105 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
   "tweet_count": 4,
   "tweets": [
     {
-      "id": "2108908657664765952",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-10-10T13:13:00.272000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2.\nCovering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks.\n\n00:00 Introduction and recap\n01:52 Interpreting basic GRPO training metrics\n06:34 Planned improvements to GRPO\n08:58 Running longer training jobs with Python scripts\n13:39 Running the baseline GRPO training script\n17:29 Loading and plotting training logs\n19:29 Diagnosing unstable training\n23:55 Evaluating checkpoints on MATH-500\n26:26 Downloading existing checkpoints\n30:09 Tracking advantage statistics\n34:53 Understanding entropy\n40:32 Computing entropy in PyTorch\n44:17 Interpreting entropy values\n48:58 Adding entropy tracking to GRPO\n53:36 Analyzing advantage and entropy metrics\n56:18 Stabilizing GRPO with clipped policy ratios\n1:03:27 Implementing the clipped policy loss\n1:09:39 Analyzing clipped policy training results\n1:11:25 KL divergence and reward hacking\n1:15:12 Adding a KL loss term\n1:20:34 Limitations of the simplified KL loss\n1:23:04 Format rewards and think tags\n1:25:47 Adding special tokens to the tokenizer\n1:30:29 Implementing the format reward\n1:35:56 Analyzing format reward training\n1:38:25 Rewarding format only for correct answers\n1:40:48 Further GRPO improvements from research\n1:45:43 Next steps and distillation",
-      "url": "https://x.com/rasbt/status/2108908657664765952",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2108746842544414720",
+      "id": "2109471617323843586",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-10T02:30:00.541000Z",
+      "created_at": "2026-10-12T02:30:00.314000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown= vibecode king\n@jackfriks = solo apps king\n@levelsio= startups king\n@marclou = startups king\n@EXM7777  = AI ops + systems king\n@eptwts   = AI money twitter king\n@ai_explorer25= AI queen\n@godofprompt  =prompt king\n@vasuman   = AI agents king\n@AmirMushich = AI ads king\n@0xROAS = AI UGCs king\n@egeberkina = AI images king\n\nFollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2108746842544414720",
+      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account for AI; recently joined Anthropic\n@bcherny- Claude Code creator, always shares great tips\n@trq212 also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial- works on reasoning research, shares a lot of technical details\n@gabriel1- Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar- product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI- cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
+      "url": "https://x.com/ai_explorer25/status/2109471617323843586",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +117,14 @@
       }
     },
     {
-      "id": "2108715805836021760",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-10T00:26:40.813000Z",
+      "id": "2109361546283622400",
+      "username": "karpathy",
+      "author_name": "Andrej Karpathy",
+      "created_at": "2026-10-11T19:12:37.333000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Noah Smith (@noahopinion) has become deeply intellectually dishonest. \n\nIf he actually followed the field he would \n\na. understand the difference between pure LLMs and LLMs with neurosymbolic harnesses, code intepreters, verifiiers\n\nb. realize that a central point of my entire career, in work spanning 30 years, was advocating for neurosymbolic hybrids, (generally against great hostility from the field).\n\nc. realize that the great leap forward in math came from adding neurosymbolic components (harnesses and especially Lean) to neural networks.\n\nd. realize that that great leap forward in math actually *vindicated* my central claim.\n\nInstead he completely ignored all that to take a cheap shot, out of context.  (Though I acknowledge I was off the timing of math.)\n—-\n*As Terence Tao has noted there are still lots of things that (some) world-class mathematicians can do, like invent new principles, and write clear proofs, that as far as I know AI has not done, though of the course the results are very impressive.",
-      "url": "https://x.com/GaryMarcus/status/2108715805836021760",
+      "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
+      "url": "https://x.com/karpathy/status/2109361546283622400",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +135,32 @@
       }
     },
     {
-      "id": "2108712626708787200",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-10T00:14:02.850000Z",
+      "id": "2109256846775296001",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-11T12:16:35.025000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "So yeah, I did (arguably) get the  timing on math* wrong, but also sadly, Noah Smith has become deeply intellectually dishonest.\n\nIf he actually followed the field he would \n\na. understand the difference between pure LLMs and LLMs with neurosymbolic harnesses, code intepreters, verifiiers\n\nb. realize that a central point of my entire career, in work spanning 30 years, was advocating for neurosymbolic hybrids, (generally against great hostility from the field).\n\nc. realize that the great leap forward in math came from adding neurosymbolic components to neural networks.\n\nd. realize that that great leap forward actually *vindicated* my central claim.\n\nInstead he completely ignored all that to take a cheap shot, out of context. \n—-\n*As Terence Tao has noted there are still lots of things that (some) world-class mathematicians can do, like invent new principles, and write clear proofs, that as far as I know AI has not done",
-      "url": "https://x.com/GaryMarcus/status/2108712626708787200",
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2109256846775296001",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109109232234856448",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-11T02:30:00.976000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem =Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder =NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within.",
+      "url": "https://x.com/ai_explorer25/status/2109109232234856448",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
