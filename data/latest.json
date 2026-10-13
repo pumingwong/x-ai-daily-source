@@ -1,24 +1,19 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-12T02:36:22.263471Z",
-  "window_start": "2026-10-11T00:36:22.263471Z",
+  "generated_at": "2026-10-13T03:46:26.298121Z",
+  "window_start": "2026-10-12T01:46:26.298121Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 11,
-  "failed_accounts": [
-    {
-      "username": "thsottiaux",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
       "returned_count": 10,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
@@ -45,30 +40,30 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 16,
+      "returned_count": 17,
       "recent_count": 0,
-      "timestamp_corrected_count": 16,
+      "timestamp_corrected_count": 17,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 8,
-      "recent_count": 0,
-      "timestamp_corrected_count": 8,
+      "returned_count": 6,
+      "recent_count": 3,
+      "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 16,
-      "recent_count": 3,
-      "timestamp_corrected_count": 16,
+      "returned_count": 14,
+      "recent_count": 5,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 9,
+      "returned_count": 8,
       "recent_count": 0,
-      "timestamp_corrected_count": 9,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
@@ -86,6 +81,13 @@
       "possibly_truncated": false
     },
     {
+      "username": "thsottiaux",
+      "returned_count": 3,
+      "recent_count": 0,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
+    },
+    {
       "username": "bcherny",
       "returned_count": 2,
       "recent_count": 0,
@@ -94,10 +96,136 @@
     }
   ],
   "warnings": [
-    "XFlux 有 105 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 104 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 4,
+  "tweet_count": 8,
   "tweets": [
+    {
+      "id": "2109836816874430464",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-13T02:41:10.672000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Another vibe from the past that feels too close to the AI tech comfort. I'm not suggesting they are the same. This AI is useful compared to the Theranos test machine. I wonder what would be the story of Theranos if they would have started today and use AI in that machine. (I suspect way scarier)\n\nThe Theranos story\nhttps://t.co/toBRstp0UL",
+      "url": "https://x.com/GaryMarcus/status/2109836816874430464",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109834004773974016",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-13T02:30:00.215000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
+      "url": "https://x.com/ai_explorer25/status/2109834004773974016",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109679661827452929",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-12T16:16:41.989000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "It’s 2026, and AI is moving beyond the idea that one model should do everything.\n\nA lot of agent workflows are simply making structured decisions - route this, classify that, prioritize something else.\n\nThat’s where decision models like SubQ Snap get interesting.\n\n61.6 on the Hugging Face Decision Index vs 57.9 for Jev, with a 384K multimodal context window.\n\nLet the right model handle the right job → faster decisions, lower cost, better agentic workflows.\n\nMakes a lot of sense.",
+      "url": "https://x.com/ai_explorer25/status/2109679661827452929",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109676361212477442",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-12T16:03:35.061000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Introducing SubQ Snap, the first long-context decision model for real enterprise work.\n\nSnap is the only decision model or LLM where compute per token stays constant as context grows.\n\n• 384K tokens of multimodal context, 12x larger than Jev.\n• 61.7 on Decision Index v0.2.1 vs Jev’s 57.9, outperforming on 13 of 16 enterprise benchmarks.\n•Processes 100K tokens and returns a decision in under one second.\n•$0.05/MM input tokens. Output is free.\n\nAvailable today to anyone.\n\nThe first 10,000 sign-ups get 100M free input tokens.\n\nWe’ll likely hit capacity fast and will add users as we add compute. Compute offers welcome 🙂.\n\nLatency will be variable as we tune the platform to this new model and category of users. \n\nModel speeds are 80ms for minimal context, 250ms for 32k, 660ms for 100k, and 2.5 seconds for 384k.\n\nVisit: https://t.co/Nc76iJF2a8",
+      "url": "https://x.com/ai_explorer25/status/2109676361212477442",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109580870960951296",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-12T09:44:08.411000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Even for the coding harness, the more accurate picture today is that the model and harness are a co-designed system rather than an engine plus a detachable wrapper.\n\nBenchmarks like the SWE-bench show the same model scoring very differently depending on the harness.\n\nOr take symbolic verifiers like automated theorem provers… how on earth are they basic?\n\nThey are the crowning achievement of 20th-century mathematical formalization. It needed Frege's quantifier logic, Russell's types, the formalist program and Gödel's criticism of it, Church's lambda calculus, Curry–Howard, Martin-Löf, Coquand and Huet's Calculus of Constructions, etc.\n\nAll of that had to happen so that “Is this proof correct?” could collapse into a compact, mechanical type-checking procedure that a computer could do.",
+      "url": "https://x.com/GaryMarcus/status/2109580870960951296",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109544001225535488",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-12T07:17:37.981000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We need a name for the kind of people that conflate 2022 pure LLMs that were in fact a tiny bit like stochastic parrots (not my phrase, and not one I ever endorsed) with 2026 systems that couple those LLMs together with symbolic harnesses, code interpreters, and symbolic verification, typically to make a slippery rhetorical point.\n\nAside from being unfair to people who made a metaphor that applied (to some degree) to the technology of that time, it disrespects the innovations that were subsequently made and disrespects the critical contributions that neurosymbolic AI made to progress. \n\nWhat I hate most about this site is that so many people talk about AI yet few take any time to understand how the different underlying technologies work. Most prefer to make cheap rhetorical points instead.\n\nWhich is exactly why we are in the mess we are in.",
+      "url": "https://x.com/GaryMarcus/status/2109544001225535488",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109531008299409408",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-12T06:26:00.226000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Steve Jobs explained why Japanese companies are known for quality, and they never once put the word \"quality\" in their ads.\n\n\"The people who do not use quality in their marketing are the Japanese. You never see them do it.\"\n\n\"It's only the American companies that do. And yet if you ask people on the street which products have the best reputation for quality, they will tell you the Japanese products.\"\n\n\"Customers don't form their opinion on quality from marketing. They form it from their own experience with the product.\"\n\nThe lesson is simple.\n\nYou can't tell people your product is good. They decide that themselves, after they use it.\n\nSo stop saying it. Start building it.",
+      "url": "https://x.com/ai_explorer25/status/2109531008299409408",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2109471617323843586",
       "username": "ai_explorer25",
@@ -107,60 +235,6 @@
       "timestamp_corrected": true,
       "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account for AI; recently joined Anthropic\n@bcherny- Claude Code creator, always shares great tips\n@trq212 also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial- works on reasoning research, shares a lot of technical details\n@gabriel1- Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar- product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI- cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
       "url": "https://x.com/ai_explorer25/status/2109471617323843586",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109361546283622400",
-      "username": "karpathy",
-      "author_name": "Andrej Karpathy",
-      "created_at": "2026-10-11T19:12:37.333000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
-      "url": "https://x.com/karpathy/status/2109361546283622400",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109256846775296001",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-11T12:16:35.025000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
-      "url": "https://x.com/ai_explorer25/status/2109256846775296001",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109109232234856448",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-11T02:30:00.976000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem =Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder =NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within.",
-      "url": "https://x.com/ai_explorer25/status/2109109232234856448",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
