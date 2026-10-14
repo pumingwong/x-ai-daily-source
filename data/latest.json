@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-13T03:46:26.298121Z",
-  "window_start": "2026-10-12T01:46:26.298121Z",
+  "generated_at": "2026-10-14T02:06:38.051407Z",
+  "window_start": "2026-10-13T00:06:38.051407Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -40,30 +40,30 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 17,
-      "recent_count": 0,
-      "timestamp_corrected_count": 17,
+      "returned_count": 13,
+      "recent_count": 1,
+      "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 6,
+      "returned_count": 5,
       "recent_count": 3,
-      "timestamp_corrected_count": 6,
+      "timestamp_corrected_count": 5,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
       "returned_count": 14,
-      "recent_count": 5,
+      "recent_count": 3,
       "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 8,
-      "recent_count": 0,
-      "timestamp_corrected_count": 8,
+      "returned_count": 7,
+      "recent_count": 1,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
@@ -82,24 +82,150 @@
     },
     {
       "username": "thsottiaux",
-      "returned_count": 3,
-      "recent_count": 0,
-      "timestamp_corrected_count": 3,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
       "returned_count": 2,
       "recent_count": 0,
       "timestamp_corrected_count": 2,
       "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 3,
+      "recent_count": 1,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 104 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 98 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 8,
+  "tweet_count": 9,
   "tweets": [
+    {
+      "id": "2110055807085887488",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-13T17:11:22.007000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today we release 𝙻𝙵𝙼𝟸.𝟻-𝟸𝟺𝙱-𝙰𝟸𝙱, the largest 𝙻𝙵𝙼𝟸.𝟻 family member. It is an efficient local model for laptops and PCs to work through multi-step tasks inside popular agent harnesses.\n\n> 24B total parameters, 2B active per token\n> Context expanded to 131K tokens\n> A 128K-token vocabulary\n> 33T pretraining tokens\n> It is a reasoning model\n> Very easy to fine-tune and customize\n> Performs competitively with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks.\n> Open base and post-trained weights on @huggingface  🤗\n\n1/",
+      "url": "https://x.com/maximelabonne/status/2110055807085887488",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110047081280770048",
+      "username": "bcherny",
+      "author_name": "Boris Cherny",
+      "created_at": "2026-10-13T16:36:41.613000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "New on our Engineering blog: Creating in-house source control. \n\nIn May, we merged around 2,500 code changes per day. In September, we merged more than 30,000 per day. As a result, we became bottlenecked by developer infrastructure built for human (rather than agent) scale.  \n\nHere, we share how we built a new version control system—and fully migrated our monorepo from git—in five months: https://t.co/wzNkwHs7IN",
+      "url": "https://x.com/bcherny/status/2110047081280770048",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110041007933042688",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-10-13T16:12:33.614000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Gemini 4 Argon is amazing for knowledge work and coding - and it’s super fun to build with! We asked it to create this wizard chess game and it's so cool to see Argon's physics understanding & 3D modelling capabilities, makes me nostalgic for Battlechess on the Amiga - fun times!\n\nArgon is rolling out today to Google Ultra and Pro subscribers in the @GeminiApp and Search, and Ultra subscribers in @antigravity! More info & full availability in the blog: https://t.co/7d3791mRNH",
+      "url": "https://x.com/demishassabis/status/2110041007933042688",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110014929075937280",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-13T14:28:55.930000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
+      "url": "https://x.com/ai_explorer25/status/2110014929075937280",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110005206826287104",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-13T13:50:17.965000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Gary Marcus (@GaryMarcus) says AI doomers are practically a marketing arm for the AI companies, and without them Dario Amodei and Sam Altman wouldn't have the kind of funding they do:\n\n\"The so-called doomers who are most concerned that we might literally go extinct, I didn't fully spell out the argument for why I don't believe it, but those guys are practically like a marketing arm for the AI companies.\"\n\n\"Each time the doomers run around and say, oh my God, this technology is so powerful, we're all going to die, a whole bunch of investors are like, powerful?\"\n\n\"How much can my allocation be?\"\n\n\"Remember, the doomers need to raise money too, right?\"\n\n\"And the more that they can terrify people, the more money they raise.\"\n\n\"And that falls into the hands of people like Dario and Sam.\"\n\n\"If we hadn't had the doomers, I don't think that Dario and Sam would have the kind of funding they do. I really don't.\"\n\n\"If there's a continuum between like people like me who are pretty cynical about the current technology and people who really hype it up, the doomers are always on the hype it up side, always.\"\n\n- Gary Marcus, AI critic and author of Taming Silicon Valley, on The Real Eisman Playbook, published October 12.",
+      "url": "https://x.com/GaryMarcus/status/2110005206826287104",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109992635272486912",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-13T13:00:20.673000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Same shot. New character.\n\nWith Recast in ElevenCreative, swap the character in any shot. Everything else stays exactly as it was: lighting, composition, motion, camera movement, cuts, and even the original audio.\n\nUpload your video and a reference photo of the new character. Recast does the rest.",
+      "url": "https://x.com/ai_explorer25/status/2109992635272486912",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2109925749247348736",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-13T08:34:33.802000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🚨 @AnthropicAI: AI “MAY BE” capable of self-replicating!\n\nNow read the actual research:\n\n• No fully autonomous rogue replicator demonstrated.\n• Cyber exploitation deliberately simplified.\n• Real-world replication remains unproven.\n\nSo we’re turning controlled experiments and speculative projections into alarming headlines now?\n\nAI safety deserves rigorous science, not fear mongering driven marketing dressed up as a breakthrough.\n\nhttps://t.co/HNyaGoVAn7",
+      "url": "https://x.com/GaryMarcus/status/2109925749247348736",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2109836816874430464",
       "username": "GaryMarcus",
@@ -127,114 +253,6 @@
       "timestamp_corrected": true,
       "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
       "url": "https://x.com/ai_explorer25/status/2109834004773974016",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109679661827452929",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-12T16:16:41.989000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "It’s 2026, and AI is moving beyond the idea that one model should do everything.\n\nA lot of agent workflows are simply making structured decisions - route this, classify that, prioritize something else.\n\nThat’s where decision models like SubQ Snap get interesting.\n\n61.6 on the Hugging Face Decision Index vs 57.9 for Jev, with a 384K multimodal context window.\n\nLet the right model handle the right job → faster decisions, lower cost, better agentic workflows.\n\nMakes a lot of sense.",
-      "url": "https://x.com/ai_explorer25/status/2109679661827452929",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109676361212477442",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-12T16:03:35.061000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing SubQ Snap, the first long-context decision model for real enterprise work.\n\nSnap is the only decision model or LLM where compute per token stays constant as context grows.\n\n• 384K tokens of multimodal context, 12x larger than Jev.\n• 61.7 on Decision Index v0.2.1 vs Jev’s 57.9, outperforming on 13 of 16 enterprise benchmarks.\n•Processes 100K tokens and returns a decision in under one second.\n•$0.05/MM input tokens. Output is free.\n\nAvailable today to anyone.\n\nThe first 10,000 sign-ups get 100M free input tokens.\n\nWe’ll likely hit capacity fast and will add users as we add compute. Compute offers welcome 🙂.\n\nLatency will be variable as we tune the platform to this new model and category of users. \n\nModel speeds are 80ms for minimal context, 250ms for 32k, 660ms for 100k, and 2.5 seconds for 384k.\n\nVisit: https://t.co/Nc76iJF2a8",
-      "url": "https://x.com/ai_explorer25/status/2109676361212477442",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109580870960951296",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-12T09:44:08.411000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Even for the coding harness, the more accurate picture today is that the model and harness are a co-designed system rather than an engine plus a detachable wrapper.\n\nBenchmarks like the SWE-bench show the same model scoring very differently depending on the harness.\n\nOr take symbolic verifiers like automated theorem provers… how on earth are they basic?\n\nThey are the crowning achievement of 20th-century mathematical formalization. It needed Frege's quantifier logic, Russell's types, the formalist program and Gödel's criticism of it, Church's lambda calculus, Curry–Howard, Martin-Löf, Coquand and Huet's Calculus of Constructions, etc.\n\nAll of that had to happen so that “Is this proof correct?” could collapse into a compact, mechanical type-checking procedure that a computer could do.",
-      "url": "https://x.com/GaryMarcus/status/2109580870960951296",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109544001225535488",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-12T07:17:37.981000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We need a name for the kind of people that conflate 2022 pure LLMs that were in fact a tiny bit like stochastic parrots (not my phrase, and not one I ever endorsed) with 2026 systems that couple those LLMs together with symbolic harnesses, code interpreters, and symbolic verification, typically to make a slippery rhetorical point.\n\nAside from being unfair to people who made a metaphor that applied (to some degree) to the technology of that time, it disrespects the innovations that were subsequently made and disrespects the critical contributions that neurosymbolic AI made to progress. \n\nWhat I hate most about this site is that so many people talk about AI yet few take any time to understand how the different underlying technologies work. Most prefer to make cheap rhetorical points instead.\n\nWhich is exactly why we are in the mess we are in.",
-      "url": "https://x.com/GaryMarcus/status/2109544001225535488",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109531008299409408",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-12T06:26:00.226000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Steve Jobs explained why Japanese companies are known for quality, and they never once put the word \"quality\" in their ads.\n\n\"The people who do not use quality in their marketing are the Japanese. You never see them do it.\"\n\n\"It's only the American companies that do. And yet if you ask people on the street which products have the best reputation for quality, they will tell you the Japanese products.\"\n\n\"Customers don't form their opinion on quality from marketing. They form it from their own experience with the product.\"\n\nThe lesson is simple.\n\nYou can't tell people your product is good. They decide that themselves, after they use it.\n\nSo stop saying it. Start building it.",
-      "url": "https://x.com/ai_explorer25/status/2109531008299409408",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109471617323843586",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-12T02:30:00.314000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account for AI; recently joined Anthropic\n@bcherny- Claude Code creator, always shares great tips\n@trq212 also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial- works on reasoning research, shares a lot of technical details\n@gabriel1- Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar- product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI- cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
-      "url": "https://x.com/ai_explorer25/status/2109471617323843586",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
