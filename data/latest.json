@@ -1,14 +1,23 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-14T02:06:38.051407Z",
-  "window_start": "2026-10-13T00:06:38.051407Z",
+  "generated_at": "2026-10-15T01:44:03.648069Z",
+  "window_start": "2026-10-13T23:44:03.648069Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 10,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -40,29 +49,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 13,
+      "returned_count": 10,
       "recent_count": 1,
-      "timestamp_corrected_count": 13,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 5,
-      "recent_count": 3,
-      "timestamp_corrected_count": 5,
+      "returned_count": 4,
+      "recent_count": 2,
+      "timestamp_corrected_count": 4,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
-      "recent_count": 3,
-      "timestamp_corrected_count": 14,
+      "returned_count": 15,
+      "recent_count": 6,
+      "timestamp_corrected_count": 15,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 7,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
@@ -79,36 +88,22 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "thsottiaux",
-      "returned_count": 2,
-      "recent_count": 0,
-      "timestamp_corrected_count": 2,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 3,
-      "recent_count": 1,
-      "timestamp_corrected_count": 3,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 98 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 90 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
   "tweet_count": 9,
   "tweets": [
     {
-      "id": "2110055807085887488",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-10-13T17:11:22.007000Z",
+      "id": "2110527758485094400",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-15T00:26:43.989000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Today we release 𝙻𝙵𝙼𝟸.𝟻-𝟸𝟺𝙱-𝙰𝟸𝙱, the largest 𝙻𝙵𝙼𝟸.𝟻 family member. It is an efficient local model for laptops and PCs to work through multi-step tasks inside popular agent harnesses.\n\n> 24B total parameters, 2B active per token\n> Context expanded to 131K tokens\n> A 128K-token vocabulary\n> 33T pretraining tokens\n> It is a reasoning model\n> Very easy to fine-tune and customize\n> Performs competitively with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks.\n> Open base and post-trained weights on @huggingface  🤗\n\n1/",
-      "url": "https://x.com/maximelabonne/status/2110055807085887488",
+      "text": "I have receipts *explicitly* advocating hybrids of symbol-manipulation and neural networks going back to my first publication in 1992,  and also in 2001, 2012, 2018, 2019, 2020, 2022, and so on.\n\nAnd still twits who have not done three seconds of homework make memes like this.  \n\nUnbelievable intellectual dishonesty.",
+      "url": "https://x.com/GaryMarcus/status/2110527758485094400",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +114,14 @@
       }
     },
     {
-      "id": "2110047081280770048",
-      "username": "bcherny",
-      "author_name": "Boris Cherny",
-      "created_at": "2026-10-13T16:36:41.613000Z",
+      "id": "2110492383720980480",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-14T22:06:09.988000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "New on our Engineering blog: Creating in-house source control. \n\nIn May, we merged around 2,500 code changes per day. In September, we merged more than 30,000 per day. As a result, we became bottlenecked by developer infrastructure built for human (rather than agent) scale.  \n\nHere, we share how we built a new version control system—and fully migrated our monorepo from git—in five months: https://t.co/wzNkwHs7IN",
-      "url": "https://x.com/bcherny/status/2110047081280770048",
+      "text": "Our full lineup is here! We’re back in Baltimore on October 27 to debate: Will Generative AI Enhance or Stunt College Learning?\n\nArguing “Enhance”: Rumman Chowdhury and @RaviPendse \n\nArguing “Stunt”: @mathbabedotorg  and @GaryMarcus \n\nJoin all four debaters and Moderator-in-Chief @JohnDonvan, as they explore what generative AI means for the future of higher education.\n\nReserve your FREE tickets here: https://t.co/bWMZNOA66H\n\nPresented by @SNFAgora and @OpentoDebateOrg",
+      "url": "https://x.com/GaryMarcus/status/2110492383720980480",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +132,14 @@
       }
     },
     {
-      "id": "2110041007933042688",
+      "id": "2110455008361840640",
       "username": "demishassabis",
       "author_name": "Demis Hassabis",
-      "created_at": "2026-10-13T16:12:33.614000Z",
+      "created_at": "2026-10-14T19:37:39.008000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Gemini 4 Argon is amazing for knowledge work and coding - and it’s super fun to build with! We asked it to create this wizard chess game and it's so cool to see Argon's physics understanding & 3D modelling capabilities, makes me nostalgic for Battlechess on the Amiga - fun times!\n\nArgon is rolling out today to Google Ultra and Pro subscribers in the @GeminiApp and Search, and Ultra subscribers in @antigravity! More info & full availability in the blog: https://t.co/7d3791mRNH",
-      "url": "https://x.com/demishassabis/status/2110041007933042688",
+      "text": "Congrats to @GoogleAI's Gemini 4 Argon for taking the top spot of our Humanity's Sixth Sense (HSS) benchmark with a score of 55.4%, edging out GPT-6-Astra at 53.6%. 🥇\n\nHSS tests AI’s ability to reason beyond what’s visible, from hidden objects to predicting what happens next and understanding human behavior.\n\nWe took a closer look at performance across categories, and that’s where things get interesting. 👀🧵",
+      "url": "https://x.com/demishassabis/status/2110455008361840640",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +150,14 @@
       }
     },
     {
-      "id": "2110014929075937280",
+      "id": "2110432317105930240",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-13T14:28:55.930000Z",
+      "created_at": "2026-10-14T18:07:28.991000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
-      "url": "https://x.com/ai_explorer25/status/2110014929075937280",
+      "text": "I’d want to know who actually pays for data before taking a licensing call.\n\nWho Sells Data is a free, sourced directory of who sells AI training data and who pays.\n\nThe useful bit for me: it separates direct buyers from referral programs.\nWould your company’s data qualify?\n\n https://t.co/8voRb0yIWV",
+      "url": "https://x.com/ai_explorer25/status/2110432317105930240",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -173,32 +168,14 @@
       }
     },
     {
-      "id": "2110005206826287104",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-13T13:50:17.965000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Gary Marcus (@GaryMarcus) says AI doomers are practically a marketing arm for the AI companies, and without them Dario Amodei and Sam Altman wouldn't have the kind of funding they do:\n\n\"The so-called doomers who are most concerned that we might literally go extinct, I didn't fully spell out the argument for why I don't believe it, but those guys are practically like a marketing arm for the AI companies.\"\n\n\"Each time the doomers run around and say, oh my God, this technology is so powerful, we're all going to die, a whole bunch of investors are like, powerful?\"\n\n\"How much can my allocation be?\"\n\n\"Remember, the doomers need to raise money too, right?\"\n\n\"And the more that they can terrify people, the more money they raise.\"\n\n\"And that falls into the hands of people like Dario and Sam.\"\n\n\"If we hadn't had the doomers, I don't think that Dario and Sam would have the kind of funding they do. I really don't.\"\n\n\"If there's a continuum between like people like me who are pretty cynical about the current technology and people who really hype it up, the doomers are always on the hype it up side, always.\"\n\n- Gary Marcus, AI critic and author of Taming Silicon Valley, on The Real Eisman Playbook, published October 12.",
-      "url": "https://x.com/GaryMarcus/status/2110005206826287104",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109992635272486912",
+      "id": "2110430274094010369",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-13T13:00:20.673000Z",
+      "created_at": "2026-10-14T17:59:21.899000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Same shot. New character.\n\nWith Recast in ElevenCreative, swap the character in any shot. Everything else stays exactly as it was: lighting, composition, motion, camera movement, cuts, and even the original audio.\n\nUpload your video and a reference photo of the new character. Recast does the rest.",
-      "url": "https://x.com/ai_explorer25/status/2109992635272486912",
+      "text": "if you sell AI training data, see how you compare: we found 159 companies selling data, RL envs and evals, every fact sourced\n\nplus 38 programs that pay companies for their data: https://t.co/a3U4qcTvKz\n\n8 of the 14 that pay companies directly publish a dollar range. most of the rest set terms per deal. unknowns are marked and nothing is ranked\n\nthe other page: what each program wants, who qualifies and what it offers: https://t.co/FVD3vdqUS3\n\nmissing something, or something wrong? fix it on the site, a person reviews every change\n\nwe built this at @Secludy. if you buy, broker or license company data and need the names out before it reaches a lab, dm me",
+      "url": "https://x.com/ai_explorer25/status/2110430274094010369",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -209,50 +186,68 @@
       }
     },
     {
-      "id": "2109925749247348736",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-13T08:34:33.802000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "🚨 @AnthropicAI: AI “MAY BE” capable of self-replicating!\n\nNow read the actual research:\n\n• No fully autonomous rogue replicator demonstrated.\n• Cyber exploitation deliberately simplified.\n• Real-world replication remains unproven.\n\nSo we’re turning controlled experiments and speculative projections into alarming headlines now?\n\nAI safety deserves rigorous science, not fear mongering driven marketing dressed up as a breakthrough.\n\nhttps://t.co/HNyaGoVAn7",
-      "url": "https://x.com/GaryMarcus/status/2109925749247348736",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109836816874430464",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-13T02:41:10.672000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Another vibe from the past that feels too close to the AI tech comfort. I'm not suggesting they are the same. This AI is useful compared to the Theranos test machine. I wonder what would be the story of Theranos if they would have started today and use AI in that machine. (I suspect way scarier)\n\nThe Theranos story\nhttps://t.co/toBRstp0UL",
-      "url": "https://x.com/GaryMarcus/status/2109836816874430464",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2109834004773974016",
+      "id": "2110424939178151936",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-13T02:30:00.215000Z",
+      "created_at": "2026-10-14T17:38:09.956000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
-      "url": "https://x.com/ai_explorer25/status/2109834004773974016",
+      "text": "The “no additional training” detail is what I keep coming back to. If readily available models can find ways around these safeguards, labs can’t assume that probing them requires specialist resources.\n\nTo me, that makes safety less about whether a model passes a fixed set of tests and more about whether its defenses hold up as people find new ways to challenge them.\n\nOpen-sourcing RISE gives others a way to scrutinize those defenses too. As image models improve, I’d want evidence that their safeguards are keeping pace, rather than assuming progress on one means progress on the other.",
+      "url": "https://x.com/ai_explorer25/status/2110424939178151936",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110352270126731264",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-14T12:49:24.304000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
+      "url": "https://x.com/ai_explorer25/status/2110352270126731264",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110272645216264192",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-14T07:33:00.246000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
+      "url": "https://x.com/ai_explorer25/status/2110272645216264192",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110206962315018240",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-14T03:12:00.222000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis— Google DeepMind CEO\n@darioamodei— Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot— Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang — Zhipu co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@fchollet — creator of Keras \n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@thsottiaux— leads OpenAI Codex",
+      "url": "https://x.com/ai_explorer25/status/2110206962315018240",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
