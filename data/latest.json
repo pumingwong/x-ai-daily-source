@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-16T01:36:06.805227Z",
-  "window_start": "2026-10-14T23:36:06.805227Z",
+  "generated_at": "2026-10-17T01:28:08.852632Z",
+  "window_start": "2026-10-15T23:28:08.852632Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -50,29 +50,29 @@
     {
       "username": "demishassabis",
       "returned_count": 9,
-      "recent_count": 2,
+      "recent_count": 1,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 3,
-      "recent_count": 1,
-      "timestamp_corrected_count": 3,
+      "returned_count": 8,
+      "recent_count": 3,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 18,
-      "recent_count": 9,
-      "timestamp_corrected_count": 18,
+      "returned_count": 16,
+      "recent_count": 1,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 7,
-      "recent_count": 0,
-      "timestamp_corrected_count": 7,
+      "returned_count": 10,
+      "recent_count": 3,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
@@ -91,145 +91,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 91 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 97 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 12,
+  "tweet_count": 8,
   "tweets": [
     {
-      "id": "2110866531840139265",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-10-15T22:52:53.851000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We’re rolling out Gemini 4 Argon in Antigravity to paid Google AI Pro subscribers today. Demand has been incredible and we've scaled capacity deliberately to get here. We’ve rolled out a separate weekly-only Argon quota for Pro on top of the existing Gemini bucket for 3.8 Flash so you have the best of Gemini for all your tasks.",
-      "url": "https://x.com/demishassabis/status/2110866531840139265",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110801660088127488",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T18:35:07.220000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "EmbodiedEvo from Einsia AI’s Navers Lab lets coding agents carry robot experience into new scenes by reusing frozen Skills & Lessons, with no model weight updates.\n\nIt ranks #1 on the RoboDojo leaderboard with a 45.08 average score and 38.95% success rate, turning physical interaction into reusable experience.",
-      "url": "https://x.com/ai_explorer25/status/2110801660088127488",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110762631812333568",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T16:00:02.154000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Qoder (@qoder_ai_ide) by @alibaba_cloud has officially adopted the Unified Harness Protocol (UHP).\n\nYou can now run Qoder as your product’s agent backend through the HarnessRouter API.\n\nNo agent loop, sandbox, orchestration, or tracing to build. Let Qoder handle your users’ tasks and deliver finished work, from generated files to completed actions, out of the box.\n\nSpec: https://t.co/MRK8X9zmmB\n\nOpen Source (Apache 2.0): https://t.co/C4Ub8E1blZ\n\nHarnessRouter cloud: https://t.co/3keqp1pefZ",
-      "url": "https://x.com/ai_explorer25/status/2110762631812333568",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110756359536869378",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T15:35:06.727000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing Inbox Zero Mail.\n\nThe open-source Superhuman alternative.\n\n- Fast and keyboard-first\n- Unified inbox across Gmail and Outlook\n- Split inboxes\n- AI categorization and drafts\n- Bulk unsubscribe\n- Team collaboration\n\nRuns on web, desktop, and native iOS.\n\nFree to use. AI is $20/mo, half Superhuman’s price. Open source, so you can self-host for free too.\n\nThis isn't an overnight vibe-coded project. I've been running Inbox Zero for 3 years: 12k GitHub stars, 25k+ sign-ups, and enterprise customers.\n\nUntil today, Inbox Zero was an AI assistant for Gmail and Outlook. It still is. But now we have our own email app too.\n\nWe're SOC 2 compliant, and have undergone multiple pentests, including recent ones from OpenAI and Snyk using unreleased cyber models.\n\nTry it: https://t.co/w49gRW2FK4",
-      "url": "https://x.com/ai_explorer25/status/2110756359536869378",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110739976904196096",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T14:30:00.803000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Coding agents are entering the physical world.\nZero-shot is only the starting point.\nWhat if we gave them practice—and let the next agent inherit what they learned?\n\nEmbodiedEvo: one Playground  → reusable Skills & Lessons → unseen layouts. No model-weight updates.\n\n45.08 average score. 38.95% success. \n#1 on the RoboDojo leaderboard.\n\nProject: https://t.co/oIQmpkqcel\nPaper: https://t.co/2YgblnSKoI\nGithub：https://t.co/wh2aO43CT3",
-      "url": "https://x.com/ai_explorer25/status/2110739976904196096",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110737805739790336",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T14:21:23.157000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "For 30 years, technology has moved in one direction: turning information into intuitive interfaces\n\nSomehow, the smartest software we’ve ever built took us back to a textbox\n\nWe’ve spent the last 2 years at @openuidev trying to fix that. 6 months ago we open-sourced it: 10K+ GitHub stars, 6M+ downloads\n\nChatGPT shipped Intelligent UI and showed everyone what it looks like\n\nToday we’re releasing OpenUI 1.0 bringing it to every other agent",
-      "url": "https://x.com/ai_explorer25/status/2110737805739790336",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110721709925978112",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-10-15T13:17:25.616000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "I am proud to share that SynthID has been recognised by @TIME as one of the Best Inventions of 2026.\n\nWhen we first began developing this technology @GoogleDeepMind, the goal was to find a robust, imperceptible way to watermark AI-generated media directly at the moment of creation, without compromising content quality.\n\nIt was no small research challenge. But three years into its use, SynthID has already watermarked over 180 billion images and videos, alongside 240,000 years of audio. We’ve also recently extended these watermarking principles to biology with SynthID Bio.\n\nSynthID isn't a silver bullet for misinformation and this isn't a challenge any one company can solve alone; but it does represent a step toward a more transparent information ecosystem.\n\nA sincere thank you to the teams across @Google for their contributions to making SynthID a reality, and also for the support the team has received from @demishassabis, @sundarpichai  and the rest of the Google leadership on this journey. \n\nYou can try the SynthID Universal Detector at https://t.co/DLhzDIJ2wS.\n\nRead more: https://t.co/g4f888rLh1",
-      "url": "https://x.com/demishassabis/status/2110721709925978112",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2110664978407608320",
+      "id": "2111218880349704192",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-15T09:31:59.768000Z",
+      "created_at": "2026-10-16T22:13:00.282000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Scoop: The Federal Trade Commission on Wednesday sent civil investigative demands to Anthropic and OpenAI. \n\n-Each CID is more than 50 pages long.\n-The FTC is seeking documents related to security incidents and safeguarding practices.\n-The agency also requests marketing materials and documents detailing company privacy policies.\n-Investigative demands to third-party AI organizations will be issued at a later date.\n\nhttps://t.co/05nfrFTYg3",
-      "url": "https://x.com/GaryMarcus/status/2110664978407608320",
+      "text": "🦔Research firm New Constructs called Anthropic “the most ridiculous IPO of 2026.” Its report puts the company’s value as low as $144 billion, about 93% under the roughly $2 trillion Anthropic is reportedly aiming for. By the firm’s math, the higher price would need a 10% profit margin starting now and held for ten years, plus revenue of $3.6 trillion a year by 2035. It estimates Anthropic’s operating margin last year at about minus 175%.\n\nMy Take\nI’m mostly with New Constructs here. Revenue growth is the one piece Anthropic has shown, about $33 billion through September versus $4.6 billion in all of 2025, and on that test it’s close to where the bear case says it needs to be. I just can’t see the margins getting there. That kind of swing needs big customers to pay premium prices for years while cheaper models get better every few months, and Accenture already started capping how much Claude it pays for this month.\n\nRight now no one outside the company can put an exact number on it without full costs, me included. Still, that price asks buyers to pay up front for a decade of profits Anthropic has never shown (and the founders keep 50.1% of the votes, so outside shareholders get little say). My bet is the S-1 shows a much bigger loss than the adjusted figures, and the $2 trillion target shrinks once people see it.\n\nHedgie🤗\nhttps://t.co/20qJfQo6ml",
+      "url": "https://x.com/GaryMarcus/status/2111218880349704192",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -240,14 +114,14 @@
       }
     },
     {
-      "id": "2110641871760261120",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T08:00:10.714000Z",
+      "id": "2111084400158937088",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-16T13:18:37.706000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "BREAKING-FREAKING NEWS: @tryholo_ai raised $5M 🌎\n\nWe’re going all in on marketing on autopilot. 20,000+ businesses across 100 countries already use it.\n\nHolo is your AI CMO and the whole marketing department in one.\n\nTo celebrate - we're giving you 24h of unlimited content creation.\n\nrt + reply “holo” and I’ll dm you the code.\n\nShow us some love ❤️ https://t.co/iGfI2YBanY",
-      "url": "https://x.com/ai_explorer25/status/2110641871760261120",
+      "text": "JevBench v1.7.46 (API offerings only) is live!\n\nNotable changes:\n\n- 🥇 Brand new d1-ultra is leading the pack at Composite Score.\n- Lots of strong new model versions in the Top 10.\n- Very cheap with good capability: Instinct Dual 4B\n- Very fast with good capability: attest-31B-v1.0",
+      "url": "https://x.com/maximelabonne/status/2111084400158937088",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -258,14 +132,14 @@
       }
     },
     {
-      "id": "2110641857281531905",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T08:00:07.262000Z",
+      "id": "2111052530973380608",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-16T11:11:59.500000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "🎉 Today we make it official: we raised €5M to build the marketing department for businesses that can’t afford one.\n\nI’ve been helping businesses do marketing since I was 17, starting at an agency.\n\nMost of them couldn’t afford us, but they didn’t have many other choices.\n\nMarketing was the only way they could grow.\n\nMany businesses don’t even have that option. They do marketing themselves on top of everything else, or they don’t do it at all.\n\nFor the past 6 months, we’ve been working to change that.\n\nHolo learns the brand, plans what to do and when, creates the ads, social posts, emails, and SEO content, publishes them, and suggests where to put the budget.\n\nBasically: your marketing, on autopilot :)\n\nNone of this happens without @deividaskovger, @arnieep, @CharlesVaiginis and everyone at @tryholo_ai working behind the scenes. \n\nAnd thank you to our investors, @MarketOneCapital, @SiliconGardens, @Firstpick, @LeonisCapital, @NGL and @tektonventures, for backing us.\n\nTo celebrate, reply HOLO and we’ll send you a code for 24 hours of unlimited access.",
-      "url": "https://x.com/ai_explorer25/status/2110641857281531905",
+      "text": "Liquid AI has released d1-ultra, taking the #1 position on the Artificial Analysis Decision Index v1.0, supported by a reduction in hallucinations\n\nd1-ultra is the new decision model from @liquidai and follows on from their release of d1 earlier this month. It is priced at $0.042 per 1M input tokens compared to $0.02 per 1M input tokens for d1. Like d1, d1-ultra is billed only on input tokens.\n\nKey takeaways:\n\n➤ d1-ultra leads the Artificial Analysis Decision Index v1.0 with a score of 65: d1-ultra scores 65, ahead of the recently released Jev 1.14 at 57 and GLiDE and Microsoft-Decision-1 at 54\n\n➤ d1-ultra’s score of 65 is driven by a much lower hallucination rate on AA-Omniscience-Decision: d1-ultra’s non-hallucination rate on AA-Omniscience-Decision is 85%, up substantially compared to d1 at 2%. The non-hallucination rate is the share of questions not answered correctly where the model chose \"I don't know\" and measures how well a decision model can judge its own knowledge in knowing when not to answer. While d1-ultra’s hallucination rate decreases, so does its accuracy (% questions correct). It achieves an accuracy of 32%, down 9 points compared to d1 (41%)\n\n➤ d1-ultra has the third lowest Time per Task of any decision model: d1-ultra achieves a Time per Task of 92 ms, the third lowest of decision models measured, behind Jev 1.14 at 78 ms per task and Celeris-1 Decision at 63 ms per task\n\n➤ d1-ultra offers comparable pricing to other decision models at $32 per 1M tasks: At $32 per 1M tasks, d1-ultra is comparably priced to Celeris-1 Decision ($32 per 1M tasks) and Microsoft-Decision-1 ($31 per 1M tasks), more than double the price of d1 and Mercury Decide at $15 per 1M tasks but less than half the price of GPT-6 Luna (Decisions) at $79 per 1M tasks",
+      "url": "https://x.com/maximelabonne/status/2111052530973380608",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -276,14 +150,14 @@
       }
     },
     {
-      "id": "2110604081639153664",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T05:30:00.847000Z",
+      "id": "2111038207110344706",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-10-16T10:15:04.425000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Few questions have split developers this year like this one: CLI or MCP?\n\nOne camp says bash beats MCP, for developers and agents alike. The other says MCP is the better way for agents to work with tools.\n\nAfter endless discussions, a quiet consensus seems to be emerging: it’s probably both.\n⚙️ CLI for batch jobs, scheduled scripts and repeatable workflows\n🤖 MCP for on-demand, conversational requests from agents (no terminal)\n\nEvery business deals with documents, and document extraction shows why you need both, CLI and MCP. While working on an extraction project recently, I came across Unstract, an open-source tool that uses LLMs to turn unstructured documents into structured JSON.\n\nWhat stood out was how naturally it handles each. You build an extraction project once, then run it as a CLI batch job or call it on demand through MCP.\n\nUnstract is covering exactly this in a live webinar:\n\n• How to choose between CLI and MCP for real extraction jobs\n• A walkthrough of Unstract itself: preparing messy documents, defining extraction prompts, and keeping accuracy, cost and human review in check\n• A live demo of one project run both ways\n• Q&A with their experts\n\nIf you’re working on document extraction or setting up these workflows, it’s worth checking out.\n\n📅 Oct 21, 2026 | 9 AM PT\n👉 Register & Details: https://t.co/1D87ZBlR1O\n\nMore on Unstract: https://t.co/uRRAU6f00k\n\n#MCP #CLI #AIAgents #DevTools #DocumentExtraction",
-      "url": "https://x.com/ai_explorer25/status/2110604081639153664",
+      "text": "Together with scientists around the world, our models and tools are helping make disease more detectable, treatable, and preventable. 🧬\n\nFrom pinpointing rare genetic variants to speeding up drug discovery, here’s how we’re helping turn lab breakthroughs into real-world care → https://t.co/sM5G0CLcKJ",
+      "url": "https://x.com/demishassabis/status/2111038207110344706",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -294,14 +168,68 @@
       }
     },
     {
-      "id": "2110559283972800512",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-15T02:32:00.251000Z",
+      "id": "2110994738664865793",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-16T07:22:20.740000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "list of 15 best AI researchers on X:\n\n1. @karpathy  — Andrej Karpathy\n2. @rasbt  — Sebastian Raschka\n3. @AndrewYNg — Andrew Ng\n4. @drfeifei — Fei-Fei Li\n5. @demishassabis — Demis Hassabis\n6. @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25  — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro — Chip Huyen\n10. @ilyasut — Ilya Sutskever\n11.  @thsottiaux— Thibault \"Tibo\" Sottiaux\n12. @bcherny— Boris Cherny\n13. @geoffreyhinton — Geoffrey Hinton\n14. @JeffDean — Jeff Dean, \n15. @fchollet — François Chollet",
-      "url": "https://x.com/ai_explorer25/status/2110559283972800512",
+      "text": "how do you fine-tune a decision model on your own data?\n\nin these two notebooks, you'll learn:\n• how to prepare the training data\n• how to fine-tune our d1-3B decision model \n• using @UnslothAI and @huggingface TRL\n\nall within 30 minutes on a free-tier GPU.\n\nunsloth: https://t.co/VxwfzlwHXP\n\nTRL: https://t.co/yqzvFwVoZ5\n\nps: how adorable are these halloween kitties? 👻",
+      "url": "https://x.com/maximelabonne/status/2110994738664865793",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110945561985642496",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-16T04:06:56.106000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Houston: we have a slop problem.\n\nThis is a problem at every scale. Even inside our company we see we can produce lots of things, but can't verify those things are correct/useful. And looking to use agents to verify makes the problem worse. Verification is the bottleneck. We can't trust that the agent actually did the correct thing.\n\nWe all want to rush to say AGI or SI is here. But this is a real problem. Where the human can choose or verify the output, AI is a game changer. But when the output becomes too much or too broad to verify, you end up with a heap of slop. This is what's happening to math proofs. And what happens with an open ended task in a company.",
+      "url": "https://x.com/GaryMarcus/status/2110945561985642496",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110924691527417856",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-16T02:44:00.201000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Best 15 accounts to follow in AI:\n\n@karpathy\n = LLMs king\n@steipete\n = built openclaw\n@gregisenberg\n  = startup ideas king\n@rileybrown\n= vibecode king\n@jackfriks\n = solo apps king\n@levelsio\n= startups king\n@marclou\n = startups king\n@EXM7777\n  = AI ops + systems king\n@eptwts\n   = AI money twitter king\n@ai_explorer25\n= AI queen\n@godofprompt\n  =prompt king\n@vasuman\n   = AI agents king\n@AmirMushich\n = AI ads king\n@0xROAS\n = AI UGCs king\n@egeberkina\n = AI images king\n\nFollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2110924691527417856",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2110911955280273409",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-16T01:53:23.643000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Brad Gerstner says the mood in the room among Anthropic’s largest investors was “9 or 10 out of 10” bullish and the company’s IPO process made him more positive, not less\n\n“Well, I can’t get into anything that was said in the room yesterday, but what I will share is this.\n\n“If I had to do a vibe check coming out of the room, I found it very fascinating. You had a lot of the most important investors in the world in the room, and I would say the vibe check was a nine or a 10 out of 10, very bullish in terms of how they feel about this company.\n\n“Now, they’re probably looking at it over a one-, two- or three-year time horizon, not over the next 30 days. \n\n“If you look at what was reported that was said in the room, the reaction in the market to that was quite negative--or at least my interpretation of it was quite negative.\n\n“So you had this asymmetry between, I think, how people feel about it.\n\n“Certainly, from an Altimeter perspective, the information I’ve gathered over the last few weeks, including yesterday, makes me more bullish on Anthropic, their IPO and the road ahead--not less bullish.\n\n“But they’re going to have to wait until they flip the S-1 and can share some of that information with the world and do their roadshow.\n\n“I can’t wait for this company to get public because retail investors are going to be excited about this, and long-only funds, mutual funds, sovereigns and lots of folks should get the chance to invest in this business.”",
+      "url": "https://x.com/GaryMarcus/status/2110911955280273409",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
