@@ -1,19 +1,14 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-24T01:53:55.986334Z",
-  "window_start": "2026-10-22T23:53:55.986334Z",
+  "generated_at": "2026-10-25T01:30:35.536668Z",
+  "window_start": "2026-10-23T23:30:35.536668Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 11,
-  "failed_accounts": [
-    {
-      "username": "bcherny",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
@@ -38,9 +33,9 @@
     },
     {
       "username": "drfeifei",
-      "returned_count": 7,
+      "returned_count": 8,
       "recent_count": 0,
-      "timestamp_corrected_count": 7,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
@@ -52,22 +47,22 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 5,
-      "recent_count": 3,
-      "timestamp_corrected_count": 5,
+      "returned_count": 8,
+      "recent_count": 4,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 16,
-      "recent_count": 6,
-      "timestamp_corrected_count": 16,
+      "returned_count": 14,
+      "recent_count": 4,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 11,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
@@ -88,25 +83,32 @@
     {
       "username": "thsottiaux",
       "returned_count": 3,
-      "recent_count": 1,
+      "recent_count": 0,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 3,
+      "recent_count": 0,
       "timestamp_corrected_count": 3,
       "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 95 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 100 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 11,
+  "tweet_count": 8,
   "tweets": [
     {
-      "id": "2113770862805708800",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-10-23T23:13:40.313000Z",
+      "id": "2114069428203855872",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-24T19:00:03.851000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since devday.",
-      "url": "https://x.com/thsottiaux/status/2113770862805708800",
+      "text": "We’re giving away $100k for the catchiest AI ad.\n\nHere’s how @Fran_Gas made his, for a fictional app that catches AI.\n\nFAIKED! tells you whether an image or video is real or fake. The pitch is “seeing is believing” doesn’t hold up anymore.\n\nHe built the jingle in ElevenMusic, starting from a base take and reworking it section by section. He tested variations inside the same track, changing lyrics, melody, voices, performance and structure until it landed.\n\nNext, he made reference images with ChatGPT Images, then brought them to life with Seedance 2.5 and added sound effects, all in ElevenCreative.\n\nNot sure where to start? Borrow Fran’s workflow and try it with your own fictional brand.",
+      "url": "https://x.com/ai_explorer25/status/2114069428203855872",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -117,14 +119,14 @@
       }
     },
     {
-      "id": "2113723789301501952",
+      "id": "2114041475444932608",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-23T20:06:37.115000Z",
+      "created_at": "2026-10-24T17:08:59.394000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "i absolutely told you so. january 2025, warning that we would soon see the largest cyberattacks in history, sparked by generative AI and lax enforcement. \n\ndon’t ever lie and say i am always wrong, again.\n\nseriously. \n\nwe are facing exactly the epic cybersecurity meltdown i warned about.",
-      "url": "https://x.com/GaryMarcus/status/2113723789301501952",
+      "text": "the negative case against AI gets stronger every day; even Altman admits the problems are very serious with no obvious solution.\n\nthe positive case, meanwhile, looks weaker every day. a quote from Apollo’s Torsten Slok:\n\n“Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech. Revenue per worker is… flat for the S&P 493…. Profit margins are… flat for the S&P 493…. No signs of AI boosting [measured] productivity growth…. Mainstream corporate America is pulling back and starting to view token spending… as a cost center…. Mainstream corporate America does not need the latest model and is unwilling to pay for it. As long as agentic AI and token spending are confined to a small part of the economy, the macroeconomic effects of AI will be very limited.”\n\nhttps://t.co/DIFgO2XiA2",
+      "url": "https://x.com/GaryMarcus/status/2114041475444932608",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -135,14 +137,14 @@
       }
     },
     {
-      "id": "2113712241162010624",
+      "id": "2114039361784397825",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-23T19:20:43.824000Z",
+      "created_at": "2026-10-24T17:00:35.458000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Wake up!!!\n\n@azeem is calling all these hacks “AI’s Wuhan moment”. Marc Benioff called it a code red. \n\nAnd it is clear it is all going to get worse.\n\nYet the AI companies insist on shipping obviously dangerous products. \n\nMeanwhile the U.S. government lacks the will and/or competence to do anything about it.\n \nWe are on an express train to hell.\n\nTell your congress people to temporarily ban AI agents, or brace for impact.",
-      "url": "https://x.com/GaryMarcus/status/2113712241162010624",
+      "text": ".@vivekramaswami has disgraced himself.\n\nRamaswamy started with soaring rhetoric, post-partisan, data-dependent, technology entrepreneur, here to bring good government to the American people.\n\nBut like the pigs at the end of Animal Farm: they despised the two-legged farmers, by the last chapter they’re living in the house, up on their hind legs, little vests on, pocket watches. They became exactly what they abhorred.\n\nThat’s what happened here. In order to win, politicians break their first principles. They abandon their righteous philosophies and sink into a scum position.\n\nRamaswamy did that to himself.\n\nI think he loses this election and I think he’s finished himself as a future candidate.",
+      "url": "https://x.com/GaryMarcus/status/2114039361784397825",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -153,14 +155,14 @@
       }
     },
     {
-      "id": "2113696408918536192",
+      "id": "2113976731778637824",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-23T18:17:49.123000Z",
+      "created_at": "2026-10-24T12:51:43.301000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Bring rich emotion to your Seedance 2.5 generations with Chimera.\n\nChimera lets you:\n• Upload your own character\n• Write a script with Eleven v4 and direct the delivery with audio tags\n• Prompt your Seedance 2.5 video so the motion matches the delivery\n\nChimera pairs Eleven v4, our most expressive model, with Seedance 2.5 to create realistic video with emotionally rich voices.",
-      "url": "https://x.com/ai_explorer25/status/2113696408918536192",
+      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
+      "url": "https://x.com/ai_explorer25/status/2113976731778637824",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -171,50 +173,14 @@
       }
     },
     {
-      "id": "2113686486763872256",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-23T17:38:23.497000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "We've evolved from prompting AI to generate just a handful of code snippets to having it construct full, explorable worlds we can roam through. \n\nWhat's wild is that these environments come with @tavus AI agents living inside them... ones you can talk to and engage with on the fly. \n\nTruly remarkable stuff.",
-      "url": "https://x.com/ai_explorer25/status/2113686486763872256",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2113678428964835328",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-10-23T17:06:22.368000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "d1 just got an upgrade! Meet 𝚍𝟷.𝟷.\n\nIt brings significantly better decision quality than d1, getting closer to d1-ultra while running faster and costing less than half as much.\n\n> built for fast, structured decision-making\n> $0.02 / 1M input tokens\n> lower latency than d1-ultra\n\nAvailable today on the Liquid Console: https://t.co/Lp1Qf15Qcc\n\nComing soon to OpenRouter and Vercel.",
-      "url": "https://x.com/maximelabonne/status/2113678428964835328",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2113649835987673088",
+      "id": "2113933529742745600",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-23T15:12:45.271000Z",
+      "created_at": "2026-10-24T10:00:03.133000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Based on this article, OpenAI has made false accusations about me. The three researchers fired from OpenAI were told I facilitated architecture leaks to The Information. This is false.\n\nA journalist from The Information did reach out to me shortly before that article came out. I did not comment at all beyond asking the journalist to make it clear that a blog post I wrote which was referenced in the article was preexisting and public.\n\nThe article also mentions an internal OpenAI monitorability proposal. I have heard that this memo contained highly sensitive architecture information, and that OpenAI accused me of accessing and reading it. This accusation is also false.\n\nAs reported in the article, I viewed a version of the proposal that did not have sensitive IP and was approved for sharing with me. I believe OpenAI now knows this accusation was based on a conflation of these two documents, though I do not know if they have clearly retracted that accusation.\n\nI do not and have never solicited proprietary information, and the three employees who were recently fired from OpenAI never leaked IP to me. As the article mentions, I did have Signal chats with them that had disappearing messages on; they’re professional contacts that I’ve had on Signal for a while, and use of Signal is common in the tech industry. During the Hugging Face investigation, I was careful to avoid sending Signal messages with confidential information, though I did sometimes discuss high level things on Signal calls. As far as I understood, this was normal.",
-      "url": "https://x.com/GaryMarcus/status/2113649835987673088",
+      "text": "🇺🇸 Sam Altman admits the latest AI models are becoming UNCONTROLLABLE: \n\n\"I don't even know a dramatic enough word to use. \n\nThe problem coming towards us is something that we have not taken seriously. \n\nModels can find bugs that are outside of the normal threat model of what we think a hacker can do… hardware-level, insane stuff…\n\nI no longer believe we can patch all of the bugs.\"\n\nWriter: Mhedi\n\n https://t.co/98lr6dCQ66",
+      "url": "https://x.com/GaryMarcus/status/2113933529742745600",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -225,14 +191,14 @@
       }
     },
     {
-      "id": "2113623977889603584",
+      "id": "2113861994537431040",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-23T13:30:00.220000Z",
+      "created_at": "2026-10-24T05:15:47.811000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
-      "url": "https://x.com/ai_explorer25/status/2113623977889603584",
+      "text": "Finally 400k done....\n\nBuilding a LinkedIn community of 400K has taught me one thing: the best opportunities start with a conversation, not a pitch.\n\nCurious who’s doing interesting work at the intersection of content, brands, and growth.\n\nWhat are you working on?\n\nMy Li : https://t.co/6MP1gFVgYj\n\n#grateful #400k #ai #tech",
+      "url": "https://x.com/ai_explorer25/status/2113861994537431040",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -243,14 +209,14 @@
       }
     },
     {
-      "id": "2113507711828508672",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-23T05:48:00.231000Z",
+      "id": "2113831214746595328",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-24T03:13:29.337000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
-      "url": "https://x.com/ai_explorer25/status/2113507711828508672",
+      "text": "Lol, why?\nIf your AI agents can do everything advertised, why not keep the voice fairly robotic? What is the reason to trying so hard to make these “voices” sound as human as possible?\nDeception.\nAny why would you want that?\nSo you can trick people into lowering their guard and letting you further into their lives that they otherwise would.\nSo you can cheat them.",
+      "url": "https://x.com/GaryMarcus/status/2113831214746595328",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -261,32 +227,14 @@
       }
     },
     {
-      "id": "2113495043961147392",
+      "id": "2113820272939692032",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-23T04:57:39.976000Z",
+      "created_at": "2026-10-24T02:30:00.607000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "A pair of earbuds is a few grams of plastic, metal and electronics, made across several factories before it reaches a pocket. Solar panels, circuit boards and wind turbines are built the same way.\n\nFor years, buyers had to juggle those factories themselves, while the one with exactly the right machine often never heard about the order. ZETWERK (@zetwerk) set out to close that gap.\n\nWe first partnered with Amrit Acharya (@acharyaamrit) and Srinath Ramakkrushnan (@srinathramki) in 2019. Since then, that idea has grown into a network of nearly 7,000 suppliers, serving customers in 29 countries across energy, precision products and capital goods. Along the way, Zetwerk has brought work to builders from workshops in India to factory floors in Germany. Amrit and Srinath were joined by Vishal Chaudhary, Ankit Fatehpuria and Rahul Sharma in their journey.\n\nToday, Zetwerk’s name goes up on the NSE and BSE. Behind that name are thousands of people who built it, one part at a time.\n\nCongratulations Amrit, Srinath and the entire Zetwerk team. This film is for all of you, and everyone who builds with you.\n\n@bsomaia",
-      "url": "https://x.com/ai_explorer25/status/2113495043961147392",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2113458135360806912",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-23T02:31:00.280000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis— Google DeepMind CEO\n@darioamodei— Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot— Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang — Zhipu co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@fchollet — creator of Keras \n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@thsottiaux— leads OpenAI Codex",
-      "url": "https://x.com/ai_explorer25/status/2113458135360806912",
+      "text": "Your AI agent works in a demo. Then you add another agent, and half your time goes into figuring out why they’re not working together.\n\nWho does what? What information should they share? What happens if one gives the wrong answer?\n\nI’m a ML Engineer and agentic AI is part of my daily work. If you’re learning this for your next project or job switch, these are questions worth exploring.\n\nOne book I came across is Multi-Agent AI Engineering by Xiao Ma and Chi Wang, published by Packt . It covers how to build and manage teams of agents, with Python examples covering communication, memory, testing, and deployment.\n\nFor your next interview, being able to explain what broke in your project and how you fixed it can make for a much better conversation.\n\nYou can checkout the book here:\nAmazon Link for India : https://t.co/uyYaX5RNEV\nAmazon Link for US: https://t.co/lFvqybTkhJ",
+      "url": "https://x.com/ai_explorer25/status/2113820272939692032",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
