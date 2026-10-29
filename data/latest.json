@@ -1,23 +1,14 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-28T02:32:07.610393Z",
-  "window_start": "2026-10-27T00:32:07.610393Z",
+  "generated_at": "2026-10-29T02:43:46.885646Z",
+  "window_start": "2026-10-28T00:43:46.885646Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 10,
-  "failed_accounts": [
-    {
-      "username": "thsottiaux",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    },
-    {
-      "username": "bcherny",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
@@ -49,29 +40,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 9,
-      "recent_count": 1,
-      "timestamp_corrected_count": 9,
+      "returned_count": 8,
+      "recent_count": 0,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 7,
-      "recent_count": 2,
-      "timestamp_corrected_count": 7,
+      "returned_count": 9,
+      "recent_count": 3,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 6,
-      "timestamp_corrected_count": 15,
+      "returned_count": 14,
+      "recent_count": 3,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 8,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
@@ -88,22 +79,54 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
+    },
+    {
+      "username": "thsottiaux",
+      "returned_count": 2,
+      "recent_count": 1,
+      "timestamp_corrected_count": 2,
+      "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 3,
+      "recent_count": 0,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 91 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 96 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 10,
+  "tweet_count": 7,
   "tweets": [
     {
-      "id": "2115142357649707008",
+      "id": "2115519054714904576",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-28T19:00:21.744000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "This mistake makes your content look AI.\n\nWhen you generate with text prompts alone, the model fills in the blanks with the patterns it was trained on, so your content ends up looking generic.\n\nThankfully, the fix is easy.\n\nAdd 2 references to each generation in Flows, a character reference and a location reference, to fill in the gaps the AI was guessing at and get more consistent, higher-quality results.",
+      "url": "https://x.com/ai_explorer25/status/2115519054714904576",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115506189148540928",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-27T18:03:30.165000Z",
+      "created_at": "2026-10-28T18:09:14.354000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Meta had an internal PR plan to try and discredit Jon Haidt because he was a critic of social media.\n\nMeta was going to recruit academics, like Andrew Gelman, to write take down pieces. They were trying to turn academics against one another through a \"whisper strategy\".\n\nThis is a very serious problem for open academic debate. If academics who share negative evidence about a platform are targeted by campaigns to smear our credibility, we are in deep, deep trouble.\n\nThis creates a very serious conflict of interest for anyone who is paid to do this.\n\nhttps://t.co/5Zxfm1h8Db",
-      "url": "https://x.com/GaryMarcus/status/2115142357649707008",
+      "text": "“With non-GAAP earnings metrics lacking a common standard and recurring costs routinely excluded from calculations, investors risk being presented with a DISTORTED picture of profitability just as the AI frenzy spread across public markets.\n\nThe 'AI boom' may be far less profitable than headline growth suggests.”",
+      "url": "https://x.com/GaryMarcus/status/2115506189148540928",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -114,14 +137,14 @@
       }
     },
     {
-      "id": "2115132367719567360",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-27T17:23:48.380000Z",
+      "id": "2115496387534012416",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-10-28T17:30:17.467000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "My desktop is already full of the stuff I need help with. Open apps, accounts I’m signed into, tasks I haven’t finished.\n\nThat’s where I want an AI agent to work.\n\nInstead, I keep seeing demos in a separate cloud browser, using a test account to book a pretend dinner. Impressive enough, but it doesn’t get anything off my plate.\n\nThen someone showed me Sentient’s Sidekick. It moved my cursor, worked in the apps I already had open, and finished the task. No copying everything somewhere else or handing over passwords first.\n\n@aditya_vellanki this is the first one I actually want to keep using. Appreciate it, man!\n\nDownload for your computer at https://t.co/ksyahucJc5 (https://t.co/wFm4zgZB5a). First 1,000 users are free for life with the code FINAL_1000.",
-      "url": "https://x.com/ai_explorer25/status/2115132367719567360",
+      "text": "By popular request, you can now text your dot.\n\nGive it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates.\n\nSafe, secure texting via iMessage or RCS. You’re the only one who can text your dot, and your dot can only text you. Rolling out now as a preview for Pro users in the US.",
+      "url": "https://x.com/thsottiaux/status/2115496387534012416",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -132,140 +155,68 @@
       }
     },
     {
-      "id": "2115128328814530560",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-10-27T17:07:45.430000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing 𝙻𝙵𝙼𝟹: our new generation of Liquid Foundation Models. With a new tri-hybrid architecture and new multimodal encoders, the LFM3 family is the ideal model suite for specialized intelligence.\n\n> 6 model instances, across text, audio, vision, and omni modalities, generative and decision models.\n> 𝙻𝙵𝙼𝟹-𝟷.𝟽𝙱: text, 256k context window.\n> 𝙻𝙵𝙼𝟹-𝚅𝙻-𝟸𝙱: vision-language model with video-input support for spatial understanding\n> 𝙻𝙵𝙼𝟹-𝙰𝚞𝚍𝚒𝚘-𝟸𝙱: tool calls, voice chat, reasoning in 18 languages.\n> 𝙻𝙵𝙼𝟹-𝙾𝚖𝚗𝚒-𝟸𝙱: an omni model combines vision, audio, and language.\n> 𝚍𝟷-𝟸𝙱 and 𝚍𝟷-𝙾𝚖𝚗𝚒-𝟸𝙱: decision models with typed outputs and calibrated probabilities in a single pass. Omni adds audio input.\n> fine-tune on 1 GPU.\n> a new tri-hybrid architecture\n> architecture optimized for 14 processor classes across GPUs, CPUs, and NPUs.\n> 𝙻𝙵𝙼𝟹-𝚅𝙻-𝟸𝙱 is a beast. It performs competitively with Gemma 4 12B (6x larger), and Gemini 3.5 Flash Lite, and GPT-5.6 Luna, with 1.9B parameters.\n> 𝙻𝙵𝙼𝟹-𝟷.𝟽𝙱 is #1 on the Pareto frontier of device intelligence 𝚙𝚒𝚙𝚎𝚝𝚝𝚎.𝚕𝚒𝚚𝚞𝚒𝚍.𝚊𝚒\n\nEvery modality for specialized intelligence. Pick the one that fits your use case, customize it, and run it on-device.\n\n1/ 🧵",
-      "url": "https://x.com/maximelabonne/status/2115128328814530560",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115127637584781312",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-27T17:05:00.628000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Learning a new language is hard enough without AI getting your words wrong.\n\nFluently’s test looks at how well speech AI understands people with different accents.\nThese tools need to work with the way people actually speak.\n\nYou shouldn’t have to change your accent just to be understood.",
-      "url": "https://x.com/ai_explorer25/status/2115127637584781312",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115126244702621696",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-27T16:59:28.539000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Speech-to-text is solved. Unless you have an accent.\n\nOver 1 million people from 180 countries have spent 580,000 hours speaking with Fluently AI tutors while learning a new language.\n\nNearly all of them have an accent, and transcribing their speech is still hard.\n\nSo we benchmarked streaming speech-to-text systems on spontaneous, accented English from our learners. Leaderboard and methodology in the thread.\n\nEnglish is the easy one. Our learners study 14 other languages too.\n\nWorking on tough speech problems? DMs are open.",
-      "url": "https://x.com/ai_explorer25/status/2115126244702621696",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115114028280291328",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-10-27T16:10:55.917000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "This is Genie 4, our most realistic and interactive world model yet. 🌐\n\nExplore dynamic environments in real time to see how the scene responds, sounds, and how the people in it move, react, and speak.",
-      "url": "https://x.com/demishassabis/status/2115114028280291328",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115081039882452993",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-27T13:59:50.870000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Today we're launching @tryAlanAI so developers can stop babysitting their coding agents.\n\nWe kept running into the same problem ourselves. \n\nEven as agents got better at writing code, we were becoming glorified button-pushers for our own AI: starting every run, feeding them context, unblocking failures, and checking their work.\n\nWe built Alan to change that.",
-      "url": "https://x.com/ai_explorer25/status/2115081039882452993",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2114954415178416128",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-27T05:36:41.188000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
-      "url": "https://x.com/ai_explorer25/status/2114954415178416128",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2114912468086722560",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-27T02:50:00.222000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "the best 20 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n@kloss_xyz = learn systems architecture\n@emollick = learn AI science\n@Hesamation = learn AI/ML\n@claudeskills101 = learn Claude\n\nfollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2114912468086722560",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2114899717436182528",
+      "id": "2115443389676068864",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-10-27T01:59:20.230000Z",
+      "created_at": "2026-10-28T13:59:41.793000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Anthropic spent $7.2 billion for 1.4 GW of compute in 2025 (based on reports from investor presentation).\n\nAnthropic told investors in presentation they were tracking 5 GW in 2026. They are tracking $20 billion spent.\n\nAnthropic spent $5.14 billion / GW in 2025\n\nAnthropic is tracking $4.0 billion / GW in 2026 spent (4x lower than industry standard of $16-$22 billion / GW)\n\nAnthropic just signed a contract with N-Scale at $16 billion / GW in 2026, 4x higher than its reporting in its S-1.\n\nThe magic of $AMZN deal. 75% off compute.\n\nTheir true compute cost would have been closer to $80 billion in 2026 vs $20 billion.",
-      "url": "https://x.com/GaryMarcus/status/2114899717436182528",
+      "text": "The AI EARNINGS ILLUSION is getting harder to defend:\n\nAnthropic reported an -$80.7 billion net LOSS in H1 2026, yet its nonstandard adjusted metric showed a +$2.7 billion profit.\n\nThat adjusted figure excludes -$72 billion in liability valuation losses, -$9 billion in losses on other financial instruments, and -$2 billion in stock-based compensation.\n\nThe -$72 billion charge largely reflects the increased accounting value of convertible notes as Anthropic's valuation soared.\n\nMeanwhile, Amazon, $AMZN, booked ~$63 billion in equity investment gains, primarily from Anthropic, accounting for most of its pretax profit, while Alphabet, $GOOGL, recorded $136 billion in investment gains, also representing most of its pretax profit.\n\nNotably, Wall Street applies these inconsistent rules by excluding Anthropic's paper losses from its adjusted earnings while counting the corresponding paper gains from the same financing deals in Amazon and Alphabet earnings.\n\nIn Q2 2026 alone, gains at Amazon and Alphabet represented ~15% of S&P 500 earnings, raising serious questions about how much reported corporate profitability reflects actual operating performance.\n\nWith non-GAAP earnings metrics lacking a common standard and recurring costs routinely excluded from calculations, investors risk being presented with a DISTORTED picture of profitability just as the AI frenzy spread across public markets.\n\nThe 'AI boom' may be far less profitable than headline growth suggests.",
+      "url": "https://x.com/GaryMarcus/status/2115443389676068864",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115424940128350208",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-28T12:46:23.078000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
+      "url": "https://x.com/ai_explorer25/status/2115424940128350208",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115402924356505600",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-28T11:18:54.109000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "⚠️ RESEARCH: LLM token prices down 55% from the May top and now below where they started the year. Great for anyone using AI but not so great for the companies spending $165B a quarter on capex.",
+      "url": "https://x.com/GaryMarcus/status/2115402924356505600",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115274856027856897",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-28T02:50:00.240000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis— Google DeepMind CEO\n@darioamodei— Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot— Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang — Zhipu co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@fchollet — creator of Keras \n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@thsottiaux— leads OpenAI Codex",
+      "url": "https://x.com/ai_explorer25/status/2115274856027856897",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
