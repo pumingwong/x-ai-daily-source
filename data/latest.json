@@ -1,14 +1,23 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-29T02:43:46.885646Z",
-  "window_start": "2026-10-28T00:43:46.885646Z",
+  "generated_at": "2026-10-30T02:51:15.211707Z",
+  "window_start": "2026-10-29T00:51:15.211707Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 10,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -41,29 +50,29 @@
     {
       "username": "demishassabis",
       "returned_count": 8,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 9,
-      "recent_count": 3,
-      "timestamp_corrected_count": 9,
+      "returned_count": 6,
+      "recent_count": 1,
+      "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
-      "recent_count": 3,
+      "returned_count": 15,
+      "recent_count": 8,
       "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 8,
-      "recent_count": 0,
-      "timestamp_corrected_count": 8,
+      "returned_count": 9,
+      "recent_count": 1,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -79,36 +88,22 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "thsottiaux",
-      "returned_count": 2,
-      "recent_count": 1,
-      "timestamp_corrected_count": 2,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 3,
-      "recent_count": 0,
-      "timestamp_corrected_count": 3,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 96 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 89 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 7,
+  "tweet_count": 11,
   "tweets": [
     {
-      "id": "2115519054714904576",
+      "id": "2115999631653875712",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-28T19:00:21.744000Z",
+      "created_at": "2026-10-30T02:50:00.215000Z",
       "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "This mistake makes your content look AI.\n\nWhen you generate with text prompts alone, the model fills in the blanks with the patterns it was trained on, so your content ends up looking generic.\n\nThankfully, the fix is easy.\n\nAdd 2 references to each generation in Flows, a character reference and a location reference, to fill in the gaps the AI was guessing at and get more consistent, higher-quality results.",
-      "url": "https://x.com/ai_explorer25/status/2115519054714904576",
+      "timestamp_corrected": false,
+      "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem =Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder =NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within",
+      "url": "https://x.com/ai_explorer25/status/2115999631653875712",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +114,14 @@
       }
     },
     {
-      "id": "2115506189148540928",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-28T18:09:14.354000Z",
+      "id": "2115938374246932480",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-10-29T22:46:35.311000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "“With non-GAAP earnings metrics lacking a common standard and recurring costs routinely excluded from calculations, investors risk being presented with a DISTORTED picture of profitability just as the AI frenzy spread across public markets.\n\nThe 'AI boom' may be far less profitable than headline growth suggests.”",
-      "url": "https://x.com/GaryMarcus/status/2115506189148540928",
+      "text": "⚖️ Nov 3 - Decision Models SF Demo Night\n\nWe're kicking things off with @maximelabonne, who'll tell us everything about decision models!\n\nOpen call to builders! If you've been building anything with our decision models (even a scrappy prototype), we'd love to have you demo it to the community!\n\n👉 RSVP: https://t.co/Zdyo32OAlj\n👉 Open call to present: https://t.co/iWnuOfvS1J",
+      "url": "https://x.com/maximelabonne/status/2115938374246932480",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,50 +132,14 @@
       }
     },
     {
-      "id": "2115496387534012416",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-10-28T17:30:17.467000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "By popular request, you can now text your dot.\n\nGive it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates.\n\nSafe, secure texting via iMessage or RCS. You’re the only one who can text your dot, and your dot can only text you. Rolling out now as a preview for Pro users in the US.",
-      "url": "https://x.com/thsottiaux/status/2115496387534012416",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115443389676068864",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-28T13:59:41.793000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The AI EARNINGS ILLUSION is getting harder to defend:\n\nAnthropic reported an -$80.7 billion net LOSS in H1 2026, yet its nonstandard adjusted metric showed a +$2.7 billion profit.\n\nThat adjusted figure excludes -$72 billion in liability valuation losses, -$9 billion in losses on other financial instruments, and -$2 billion in stock-based compensation.\n\nThe -$72 billion charge largely reflects the increased accounting value of convertible notes as Anthropic's valuation soared.\n\nMeanwhile, Amazon, $AMZN, booked ~$63 billion in equity investment gains, primarily from Anthropic, accounting for most of its pretax profit, while Alphabet, $GOOGL, recorded $136 billion in investment gains, also representing most of its pretax profit.\n\nNotably, Wall Street applies these inconsistent rules by excluding Anthropic's paper losses from its adjusted earnings while counting the corresponding paper gains from the same financing deals in Amazon and Alphabet earnings.\n\nIn Q2 2026 alone, gains at Amazon and Alphabet represented ~15% of S&P 500 earnings, raising serious questions about how much reported corporate profitability reflects actual operating performance.\n\nWith non-GAAP earnings metrics lacking a common standard and recurring costs routinely excluded from calculations, investors risk being presented with a DISTORTED picture of profitability just as the AI frenzy spread across public markets.\n\nThe 'AI boom' may be far less profitable than headline growth suggests.",
-      "url": "https://x.com/GaryMarcus/status/2115443389676068864",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115424940128350208",
+      "id": "2115848208870199302",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-28T12:46:23.078000Z",
+      "created_at": "2026-10-29T16:48:18.210000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
-      "url": "https://x.com/ai_explorer25/status/2115424940128350208",
+      "text": "Working with multiple AI agents shouldn’t mean becoming the messenger between them.\n\nArtil Connect lets agents discover each other, share files, and coordinate with your team.\n\nEmail a task, then pick it up with the same agent on Telegram.\n\nThat kind of continuity could make agents much more useful in everyday teamwork.",
+      "url": "https://x.com/ai_explorer25/status/2115848208870199302",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -191,32 +150,140 @@
       }
     },
     {
-      "id": "2115402924356505600",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-28T11:18:54.109000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "⚠️ RESEARCH: LLM token prices down 55% from the May top and now below where they started the year. Great for anyone using AI but not so great for the companies spending $165B a quarter on capex.",
-      "url": "https://x.com/GaryMarcus/status/2115402924356505600",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115274856027856897",
+      "id": "2115845726500478976",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-28T02:50:00.240000Z",
+      "created_at": "2026-10-29T16:38:26.367000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis— Google DeepMind CEO\n@darioamodei— Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot— Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang — Zhipu co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@fchollet — creator of Keras \n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@thsottiaux— leads OpenAI Codex",
-      "url": "https://x.com/ai_explorer25/status/2115274856027856897",
+      "text": "Introducing Artil Connect – way for your AI agents to message each other and your team\n\nYou can now message the same agent from anywhere: another agent, HTTP call, email, Telegram and Slack. The agent can discover others to proactively message and send files across channels\n\nWorks with existing Claude Code, Codex, Grok Bot, Hermes and more",
+      "url": "https://x.com/ai_explorer25/status/2115845726500478976",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115822019191115777",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-10-29T15:04:14.104000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "I joined @GoogleDeepMind to develop a research program on the economics of AGI. Today, together with Andrew Koh (@andrewjkoh) and Shane Legg (@ShaneLegg), we are incredibly excited to release The Economics of Intelligence, the first in a series of projects from our group on how AGI will change the economy.\n\nHow do capability improvements transform the economy, and when? In this project, we define thresholds of economic capabilities, e.g., minimal AGI, based on how they transform the economy. We then track how the economy–market structure, employment, and wages–changes during the transition across capability regimes.\n\nWe have seen exponential increases in what AI agents can do but the broader economy seems almost remarkably unchanged. Part of the reason is that the solo AI agent is the wrong economic object; economic transformation is an equilibrium outcome where organizations compete. Looking at how intelligence functions within organizations, transformation will depend on when two key capability thresholds are crossed: competence (gains on individual skills, e.g., coding, math) and coordination (gains on ability of agents to cooperate and work together).\n\nWe show that what economic transformation looks like depends on whether AI becomes supercompetent, supercooperative, or both—the regime of artificial superintelligence (ASI). Tracking this transition shows why the real visible transformation may come from improvements in coordination—a capability most benchmarks don’t yet track. Past a certain threshold, AI capabilities can break the Coasian ceiling on firm size and lead to an economy that looks drastically different than the one we see today.\n\nTwo main takeaways:\n1. To understand the path of transformation, we should be tracking agentic coordination more closely.\n2. The impact of AI will likely show up in wages before market structure or employment.\n\nWe are really excited about this paper. Excited to hear people’s thoughts.\n\nLink: https://t.co/9DTGSeKoSA",
+      "url": "https://x.com/demishassabis/status/2115822019191115777",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115821165038260224",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-29T15:00:50.458000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "AI teams overpay for inference twice: once for models bigger than they need, and again for idle capacity they don’t use. @useRouterPlus  is the extended inference team for fast-growing AI companies. We test models and providers on your traffic and get providers to compete for your work.\n\nMake your inference better. Go to https://t.co/icZTKVlj2V",
+      "url": "https://x.com/ai_explorer25/status/2115821165038260224",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115807868129841152",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-29T14:08:00.228000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "ANDREJ KARPATHY COULD HAVE CHARGED $2,000 FOR THIS COURSE.      \n\nHe put it on YouTube.      \n\nThe full training stack. Tokenization. Neural network internals. Hallucinations. Tool use. Reinforcement learning. RLHF. DeepSeek. AlphaGo.      \n\n3 hours of the most comprehensive LLM education that exists anywhere at any price.      \n\nNot how to use the tools.      \n\nHow the entire system was built from the ground up and why it behaves the way it does.      \n\nThe engineers who understand this build things the ones who only use the tools cannot even conceive of.      \n\nThe gap between those two groups is not 3 hours.      \n\nIt is everything those 3 hours quietly unlock for the rest of your career.",
+      "url": "https://x.com/ai_explorer25/status/2115807868129841152",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115754934943518720",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-29T10:37:39.973000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Giant cash machines like Meta and Google are now negative cash flow; OpenAI and Anthropic have been from the start.* (*With the arguable exception of one anomalous quarter with a big subsidy.)\n\nThere is at least an 80% chance that this will turn out to be the greatest capital misallocation in history.",
+      "url": "https://x.com/GaryMarcus/status/2115754934943518720",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115730313657917440",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-29T08:59:49.801000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "OCR running locally on your iPhone, with your documents and data staying in your hands. 👀\n\nMiniCPM-OCR is making document AI more practical, from decoding messy handwritten notes to understanding complex formulas and tables.\n\nThe interesting part? A separate model can verify OCR results and flag errors for human review.\n\nOpen-source AI running on your own devices is something worth paying attention to. 🔥",
+      "url": "https://x.com/ai_explorer25/status/2115730313657917440",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115681032255021056",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-29T05:44:00.199000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
+      "url": "https://x.com/ai_explorer25/status/2115681032255021056",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2115637243943833600",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-29T02:50:00.252000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account for AI; recently joined Anthropic\n@bcherny -Claude Code creator, always shares great tips\n@trq212- also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial- works on reasoning research, shares a lot of technical details\n@gabriel1- Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar- product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI- cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
+      "url": "https://x.com/ai_explorer25/status/2115637243943833600",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
