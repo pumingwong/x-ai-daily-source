@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-30T02:51:15.211707Z",
-  "window_start": "2026-10-29T00:51:15.211707Z",
+  "generated_at": "2026-10-31T02:40:03.717630Z",
+  "window_start": "2026-10-30T00:40:03.717630Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -49,29 +49,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 8,
-      "recent_count": 1,
-      "timestamp_corrected_count": 8,
+      "returned_count": 9,
+      "recent_count": 0,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 6,
-      "recent_count": 1,
-      "timestamp_corrected_count": 6,
+      "returned_count": 7,
+      "recent_count": 4,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 8,
-      "timestamp_corrected_count": 14,
+      "returned_count": 16,
+      "recent_count": 7,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 9,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
@@ -91,199 +91,199 @@
     }
   ],
   "warnings": [
-    "XFlux 有 89 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 93 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
   "tweet_count": 11,
   "tweets": [
+    {
+      "id": "2116239145903497216",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-30T18:41:44.862000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "AI making research cheaper is a real win. Whether that research leads to better investments is a separate question.\n\nIn Mento’s benchmark, a simple hiring-growth rule beat all 14 models at predicting startup growth.\n\nThat’s the comparison I’d want to see before trusting an AI’s investment recommendations.",
+      "url": "https://x.com/ai_explorer25/status/2116239145903497216",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116228723074605056",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-30T18:00:19.866000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Remember The Big Short scene where Margot Robbie explains mortgage bonds from a bubble bath?\n\nMortgage bonds started as a good, boring idea. Then Wall Street ran out of good loans, stuffed in bad ones, and the safe product blew up.\n\nThe same thing is happening to prediction markets\n\nThe original idea was good. People put money behind what they think will happen, and with enough people the price becomes the odds.\n\nThen came sports and parlays. Sports were ~85% of June volume, and Bloomberg reported a net $294M in customer losses on parlays just this year.\n\nPrediction markets on Aries stick to the original idea: elections, the economy, etc. No gambling slop.",
+      "url": "https://x.com/ai_explorer25/status/2116228723074605056",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116207538924597255",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-30T16:36:09.171000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Giving an AI agent a buy tool opens up a lot more than better recommendations.\n\nopencommerce by Agentcard is “OpenRouter for commerce”: one API connecting agents to 5,000+ online stores.\n\nAgents can search, buy and track orders through one endpoint.\n\nBuilding an agent? Take a look at what @keyserfaty and the team are launching.",
+      "url": "https://x.com/ai_explorer25/status/2116207538924597255",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116207498726191104",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-30T16:35:59.587000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Was the OAI Navier-Stokes solution a result of specification gaming?\n\nClaim: OAI did satisfy the letter of statements with a mathematically valid construction, but it relies on an artificial force so extreme that it tells us nothing about whether the equations remain well-behaved under the conditions that occur in our universe. If so, then you might be able to say that the solution does not satisfy the intended scientific question.",
+      "url": "https://x.com/GaryMarcus/status/2116207498726191104",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116205805511028738",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-30T16:29:15.893000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "today we are announcing openrouter for commerce: https://t.co/qLbYqziMtG\n\na single endpoint that integrates 5k stores, including Doordash, Amazon and most shopify stores, with payments using Agentcard (Stripe Link and Shop coming soon).\n\nwe built opencommerce to solve 3 problems:\n* coverage: one endpoint to integrate 5k stores. agentic purchasing is a core feature for most personal assistants, but not their main business. searching for products and buying on behalf of users shouldn’t be as painful as it is today (e.g. it shouldn’t involve browser automations or dealing with PSPs). opencommerce solves that: 1 tool, every online store.\n\n* reliability: 100% uptime. the challenge with browser automations is that they fail (e.g. captchas, bot-detection, etc). we run thousands of tests every couple of hours on every one of the stores to guarantee that the integration works when your user tries to buy something.\n\n* speed: responses in under 10s. consumers are used to Amazon speed, and agentic purchases have so far felt like a downgrade. most agents spend minutes finding products before they come back with results. we monitor speed and improve it constantly.",
+      "url": "https://x.com/ai_explorer25/status/2116205805511028738",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116173273767534592",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-30T14:19:59.721000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "In this new paper, we make a strong point:\n\nHuman imitation is a misplaced goal for AI.\n\nToo much of AI development is based on human imitation, as exemplified by the Turing test: the more a machine resembles us, the more successful it is.\n\nBut there are two major problems.\n\nThe first is conceptual. Imitating human outputs does not tell us much about the capacities behind them:\n\nThe same answer can emerge from different processes. A plausible response does not tell us whether a system can reason reliably, generalize to unfamiliar situations, or recognize when it should say “I don’t know”. \n\nThe second is ethical. Why should we want AI that imitates humans?\n\nHumans are biased. Our attention is limited. Our judgment is fallible. Reproducing these limitations is hardly an ambitious vision for AI.\n\nEven worse:\n\nA system that impersonates a person can exploit human trust.\n\nAnd an industry focused on replicating humans can fall in the “Turing’s trap”: favour human replacement over augmentation. \n\nInstead, we argue that AI should aim to improve human welfare.\n\nTo this end, we propose three coordinated changes:\n\nFor developers: Build systems that strengthen human capabilities and independent judgment.\n\nFor funders: Require projects to assess benefits, costs, and who receives or bears them.\n\nFor institutions: Base procurement and renewal on demonstrated benefits.\n\nThe goal should be to help people know more, suffer less, and exercise greater control over their lives.\n\n*\n\nFull paper in the first reply.\n\nWith @GaryMarcus & @Walter4C",
+      "url": "https://x.com/GaryMarcus/status/2116173273767534592",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116148876738797568",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-30T12:43:03.016000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2116148876738797568",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116146977146552320",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-30T12:35:30.118000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The future of #ArtificialIntelligence is not pre-determined. As a technology developed by human beings, its future depends on the choices we make. We therefore have the responsibility to guide, change and, when necessary, reject its applications. A reliable system that serves the human person is of greater value than one that is exceptionally powerful but whose consequences cannot be adequately foreseen or controlled.",
+      "url": "https://x.com/GaryMarcus/status/2116146977146552320",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116083067228192768",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-10-30T08:21:32.806000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Different teams have different problems to solve, so why should they all have to build in exactly the same way?\n\nOne team might need a straightforward appointment assistant. Another might need a more detailed workflow with specific actions and controls.\n\nGood technology provides a foundation without forcing everyone into the same approach.\n\nThat’s why flexibility matters at Vaani. The goal is to make building easier while leaving room for teams to create an experience that fits their needs.",
+      "url": "https://x.com/ai_explorer25/status/2116083067228192768",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116039632643035136",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-10-30T05:28:57.194000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "My biggest concern is that if there is a clean sweep by Democrats of the House, Senate and Presidency in 2028, they will:\n\n1. Make DC and Puerto Rico states to gain a strong majority in the Senate. \n\n2. Open the borders and legalize everyone living in America illegally to cement a permanent majority.\n\n3. Increase the size of the Supreme Court to gain an immediate majority. \n\nThis would result in America becoming a permanent one-party state and the end of democracy in any meaningful sense of the word.\n\nAll that is needed to ensure this doesn’t happen is 51 Republican senators in 2029. That is why you should vote for Republican senators this election. Other reasons are irrelevant compared to this one.",
+      "url": "https://x.com/GaryMarcus/status/2116039632643035136",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2115999631653875712",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
       "created_at": "2026-10-30T02:50:00.215000Z",
       "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
+      "timestamp_corrected": true,
       "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem =Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder =NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within",
       "url": "https://x.com/ai_explorer25/status/2115999631653875712",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115938374246932480",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-10-29T22:46:35.311000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "⚖️ Nov 3 - Decision Models SF Demo Night\n\nWe're kicking things off with @maximelabonne, who'll tell us everything about decision models!\n\nOpen call to builders! If you've been building anything with our decision models (even a scrappy prototype), we'd love to have you demo it to the community!\n\n👉 RSVP: https://t.co/Zdyo32OAlj\n👉 Open call to present: https://t.co/iWnuOfvS1J",
-      "url": "https://x.com/maximelabonne/status/2115938374246932480",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115848208870199302",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T16:48:18.210000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Working with multiple AI agents shouldn’t mean becoming the messenger between them.\n\nArtil Connect lets agents discover each other, share files, and coordinate with your team.\n\nEmail a task, then pick it up with the same agent on Telegram.\n\nThat kind of continuity could make agents much more useful in everyday teamwork.",
-      "url": "https://x.com/ai_explorer25/status/2115848208870199302",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115845726500478976",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T16:38:26.367000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing Artil Connect – way for your AI agents to message each other and your team\n\nYou can now message the same agent from anywhere: another agent, HTTP call, email, Telegram and Slack. The agent can discover others to proactively message and send files across channels\n\nWorks with existing Claude Code, Codex, Grok Bot, Hermes and more",
-      "url": "https://x.com/ai_explorer25/status/2115845726500478976",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115822019191115777",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-10-29T15:04:14.104000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "I joined @GoogleDeepMind to develop a research program on the economics of AGI. Today, together with Andrew Koh (@andrewjkoh) and Shane Legg (@ShaneLegg), we are incredibly excited to release The Economics of Intelligence, the first in a series of projects from our group on how AGI will change the economy.\n\nHow do capability improvements transform the economy, and when? In this project, we define thresholds of economic capabilities, e.g., minimal AGI, based on how they transform the economy. We then track how the economy–market structure, employment, and wages–changes during the transition across capability regimes.\n\nWe have seen exponential increases in what AI agents can do but the broader economy seems almost remarkably unchanged. Part of the reason is that the solo AI agent is the wrong economic object; economic transformation is an equilibrium outcome where organizations compete. Looking at how intelligence functions within organizations, transformation will depend on when two key capability thresholds are crossed: competence (gains on individual skills, e.g., coding, math) and coordination (gains on ability of agents to cooperate and work together).\n\nWe show that what economic transformation looks like depends on whether AI becomes supercompetent, supercooperative, or both—the regime of artificial superintelligence (ASI). Tracking this transition shows why the real visible transformation may come from improvements in coordination—a capability most benchmarks don’t yet track. Past a certain threshold, AI capabilities can break the Coasian ceiling on firm size and lead to an economy that looks drastically different than the one we see today.\n\nTwo main takeaways:\n1. To understand the path of transformation, we should be tracking agentic coordination more closely.\n2. The impact of AI will likely show up in wages before market structure or employment.\n\nWe are really excited about this paper. Excited to hear people’s thoughts.\n\nLink: https://t.co/9DTGSeKoSA",
-      "url": "https://x.com/demishassabis/status/2115822019191115777",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115821165038260224",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T15:00:50.458000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "AI teams overpay for inference twice: once for models bigger than they need, and again for idle capacity they don’t use. @useRouterPlus  is the extended inference team for fast-growing AI companies. We test models and providers on your traffic and get providers to compete for your work.\n\nMake your inference better. Go to https://t.co/icZTKVlj2V",
-      "url": "https://x.com/ai_explorer25/status/2115821165038260224",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115807868129841152",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T14:08:00.228000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "ANDREJ KARPATHY COULD HAVE CHARGED $2,000 FOR THIS COURSE.      \n\nHe put it on YouTube.      \n\nThe full training stack. Tokenization. Neural network internals. Hallucinations. Tool use. Reinforcement learning. RLHF. DeepSeek. AlphaGo.      \n\n3 hours of the most comprehensive LLM education that exists anywhere at any price.      \n\nNot how to use the tools.      \n\nHow the entire system was built from the ground up and why it behaves the way it does.      \n\nThe engineers who understand this build things the ones who only use the tools cannot even conceive of.      \n\nThe gap between those two groups is not 3 hours.      \n\nIt is everything those 3 hours quietly unlock for the rest of your career.",
-      "url": "https://x.com/ai_explorer25/status/2115807868129841152",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115754934943518720",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-29T10:37:39.973000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Giant cash machines like Meta and Google are now negative cash flow; OpenAI and Anthropic have been from the start.* (*With the arguable exception of one anomalous quarter with a big subsidy.)\n\nThere is at least an 80% chance that this will turn out to be the greatest capital misallocation in history.",
-      "url": "https://x.com/GaryMarcus/status/2115754934943518720",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115730313657917440",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T08:59:49.801000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "OCR running locally on your iPhone, with your documents and data staying in your hands. 👀\n\nMiniCPM-OCR is making document AI more practical, from decoding messy handwritten notes to understanding complex formulas and tables.\n\nThe interesting part? A separate model can verify OCR results and flag errors for human review.\n\nOpen-source AI running on your own devices is something worth paying attention to. 🔥",
-      "url": "https://x.com/ai_explorer25/status/2115730313657917440",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115681032255021056",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T05:44:00.199000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
-      "url": "https://x.com/ai_explorer25/status/2115681032255021056",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115637243943833600",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-29T02:50:00.252000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account for AI; recently joined Anthropic\n@bcherny -Claude Code creator, always shares great tips\n@trq212- also a Claude Code developer; writes amazing articles on CC\n\nOpenAI\n@polynoamial- works on reasoning research, shares a lot of technical details\n@gabriel1- Sora developer, great career path\n@jxnlco - works on dev experience, shares a lot about Codex\n\nGoogle AI\n@OfficialLoganK- all the major Google Gemini and AI Studio updates\n@ammaar- product and design; shares great things about vibe-coding in Google AI Studio\n@fofrAI- cool use cases for generative models\n\nCursor\n@leerob- the loudest voice behind Cursor updates\n@ericzakariasson- shares great insights on using Cursor\n@mntruell - Cursor’s CEO; major releases and usage updates\n\nxAI\n@ai_explorer25- ex-MSFT, covers all ai content and free resources\n@milichab  - recently joined xAI, shares updates on Grok\n@skcd42 - also covers major Grok releases",
-      "url": "https://x.com/ai_explorer25/status/2115637243943833600",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
