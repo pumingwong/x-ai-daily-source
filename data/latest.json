@@ -1,23 +1,14 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-10-31T02:40:03.717630Z",
-  "window_start": "2026-10-30T00:40:03.717630Z",
+  "generated_at": "2026-11-01T02:29:49.185453Z",
+  "window_start": "2026-10-31T00:29:49.185453Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 10,
-  "failed_accounts": [
-    {
-      "username": "thsottiaux",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    },
-    {
-      "username": "bcherny",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
@@ -49,23 +40,23 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 9,
-      "recent_count": 0,
-      "timestamp_corrected_count": 9,
+      "returned_count": 10,
+      "recent_count": 1,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
       "returned_count": 7,
-      "recent_count": 4,
+      "recent_count": 0,
       "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 16,
-      "recent_count": 7,
-      "timestamp_corrected_count": 16,
+      "returned_count": 14,
+      "recent_count": 3,
+      "timestamp_corrected_count": 14,
       "possibly_truncated": false
     },
     {
@@ -88,22 +79,54 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
+    },
+    {
+      "username": "thsottiaux",
+      "returned_count": 3,
+      "recent_count": 0,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 4,
+      "recent_count": 0,
+      "timestamp_corrected_count": 4,
+      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 93 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 99 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 11,
+  "tweet_count": 4,
   "tweets": [
     {
-      "id": "2116239145903497216",
+      "id": "2116524000859807744",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-10-31T13:33:39.576000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country.\n\nBuilt with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → https://t.co/L3tGJNtiAC",
+      "url": "https://x.com/demishassabis/status/2116524000859807744",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2116523836388872192",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T18:41:44.862000Z",
+      "created_at": "2026-10-31T13:33:00.363000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "AI making research cheaper is a real win. Whether that research leads to better investments is a separate question.\n\nIn Mento’s benchmark, a simple hiring-growth rule beat all 14 models at predicting startup growth.\n\nThat’s the comparison I’d want to see before trusting an AI’s investment recommendations.",
-      "url": "https://x.com/ai_explorer25/status/2116239145903497216",
+      "text": "Satya Nadela is basically describing the death of the traditional SaaS model.\n\nExplains the AI agentic future, and where the \"value\" lives.\n\nBecause business logic is moving from the software application to the AI agents.\n\nCurrently, you buy software for its specific features and rules. \n\nNadella argues that in the future, software apps will essentially become dumb databases (\"CRUD\") or simple tools. \n\nThe AI Agent will hold all the intelligence, orchestration, and reasoning, simply updating the databases as needed. The software becomes a commodity; the AI becomes the \"brain\" and the worker.\n\nVideo from Bg2 Pod Youtube Channel",
+      "url": "https://x.com/ai_explorer25/status/2116523836388872192",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -114,14 +137,14 @@
       }
     },
     {
-      "id": "2116228723074605056",
+      "id": "2116407914659483648",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T18:00:19.866000Z",
+      "created_at": "2026-10-31T05:52:22.469000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Remember The Big Short scene where Margot Robbie explains mortgage bonds from a bubble bath?\n\nMortgage bonds started as a good, boring idea. Then Wall Street ran out of good loans, stuffed in bad ones, and the safe product blew up.\n\nThe same thing is happening to prediction markets\n\nThe original idea was good. People put money behind what they think will happen, and with enough people the price becomes the odds.\n\nThen came sports and parlays. Sports were ~85% of June volume, and Bloomberg reported a net $294M in customer losses on parlays just this year.\n\nPrediction markets on Aries stick to the original idea: elections, the economy, etc. No gambling slop.",
-      "url": "https://x.com/ai_explorer25/status/2116228723074605056",
+      "text": "Learn Coding by playing games \n\n1. Kubernetes\nhttps://t.co/asmX2e63Va\n\n2. DevOps\nhttps://t.co/5d9UZmCLKm\n\n3. Linux\nhttps://t.co/5lykebIy4w\n\n4. Git\nhttps://t.co/ffznxkA17X\n\n5. Python\nhttps://t.co/2nprnaayRU\n\n6. CSS & HTML\nhttps://t.co/1hOf8oa8Kk\n\n7. Cybersecurity\nhttps://t.co/kD2US36n4R\n\n8. Mobile Coding (like Duolingo)\nhttps://t.co/aXsdDAR7PR\n\n9. For Complete Beginners\nhttps://t.co/XoxpHQwCZM\n\n10. 25+ Programming Languages\nhttps://t.co/c5uulSTTeW",
+      "url": "https://x.com/ai_explorer25/status/2116407914659483648",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -132,158 +155,14 @@
       }
     },
     {
-      "id": "2116207538924597255",
+      "id": "2116362019553329152",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T16:36:09.171000Z",
+      "created_at": "2026-10-31T02:50:00.223000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Giving an AI agent a buy tool opens up a lot more than better recommendations.\n\nopencommerce by Agentcard is “OpenRouter for commerce”: one API connecting agents to 5,000+ online stores.\n\nAgents can search, buy and track orders through one endpoint.\n\nBuilding an agent? Take a look at what @keyserfaty and the team are launching.",
-      "url": "https://x.com/ai_explorer25/status/2116207538924597255",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116207498726191104",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-30T16:35:59.587000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Was the OAI Navier-Stokes solution a result of specification gaming?\n\nClaim: OAI did satisfy the letter of statements with a mathematically valid construction, but it relies on an artificial force so extreme that it tells us nothing about whether the equations remain well-behaved under the conditions that occur in our universe. If so, then you might be able to say that the solution does not satisfy the intended scientific question.",
-      "url": "https://x.com/GaryMarcus/status/2116207498726191104",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116205805511028738",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T16:29:15.893000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "today we are announcing openrouter for commerce: https://t.co/qLbYqziMtG\n\na single endpoint that integrates 5k stores, including Doordash, Amazon and most shopify stores, with payments using Agentcard (Stripe Link and Shop coming soon).\n\nwe built opencommerce to solve 3 problems:\n* coverage: one endpoint to integrate 5k stores. agentic purchasing is a core feature for most personal assistants, but not their main business. searching for products and buying on behalf of users shouldn’t be as painful as it is today (e.g. it shouldn’t involve browser automations or dealing with PSPs). opencommerce solves that: 1 tool, every online store.\n\n* reliability: 100% uptime. the challenge with browser automations is that they fail (e.g. captchas, bot-detection, etc). we run thousands of tests every couple of hours on every one of the stores to guarantee that the integration works when your user tries to buy something.\n\n* speed: responses in under 10s. consumers are used to Amazon speed, and agentic purchases have so far felt like a downgrade. most agents spend minutes finding products before they come back with results. we monitor speed and improve it constantly.",
-      "url": "https://x.com/ai_explorer25/status/2116205805511028738",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116173273767534592",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-30T14:19:59.721000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "In this new paper, we make a strong point:\n\nHuman imitation is a misplaced goal for AI.\n\nToo much of AI development is based on human imitation, as exemplified by the Turing test: the more a machine resembles us, the more successful it is.\n\nBut there are two major problems.\n\nThe first is conceptual. Imitating human outputs does not tell us much about the capacities behind them:\n\nThe same answer can emerge from different processes. A plausible response does not tell us whether a system can reason reliably, generalize to unfamiliar situations, or recognize when it should say “I don’t know”. \n\nThe second is ethical. Why should we want AI that imitates humans?\n\nHumans are biased. Our attention is limited. Our judgment is fallible. Reproducing these limitations is hardly an ambitious vision for AI.\n\nEven worse:\n\nA system that impersonates a person can exploit human trust.\n\nAnd an industry focused on replicating humans can fall in the “Turing’s trap”: favour human replacement over augmentation. \n\nInstead, we argue that AI should aim to improve human welfare.\n\nTo this end, we propose three coordinated changes:\n\nFor developers: Build systems that strengthen human capabilities and independent judgment.\n\nFor funders: Require projects to assess benefits, costs, and who receives or bears them.\n\nFor institutions: Base procurement and renewal on demonstrated benefits.\n\nThe goal should be to help people know more, suffer less, and exercise greater control over their lives.\n\n*\n\nFull paper in the first reply.\n\nWith @GaryMarcus & @Walter4C",
-      "url": "https://x.com/GaryMarcus/status/2116173273767534592",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116148876738797568",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T12:43:03.016000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
-      "url": "https://x.com/ai_explorer25/status/2116148876738797568",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116146977146552320",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-30T12:35:30.118000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The future of #ArtificialIntelligence is not pre-determined. As a technology developed by human beings, its future depends on the choices we make. We therefore have the responsibility to guide, change and, when necessary, reject its applications. A reliable system that serves the human person is of greater value than one that is exceptionally powerful but whose consequences cannot be adequately foreseen or controlled.",
-      "url": "https://x.com/GaryMarcus/status/2116146977146552320",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116083067228192768",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T08:21:32.806000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Different teams have different problems to solve, so why should they all have to build in exactly the same way?\n\nOne team might need a straightforward appointment assistant. Another might need a more detailed workflow with specific actions and controls.\n\nGood technology provides a foundation without forcing everyone into the same approach.\n\nThat’s why flexibility matters at Vaani. The goal is to make building easier while leaving room for teams to create an experience that fits their needs.",
-      "url": "https://x.com/ai_explorer25/status/2116083067228192768",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2116039632643035136",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-10-30T05:28:57.194000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "My biggest concern is that if there is a clean sweep by Democrats of the House, Senate and Presidency in 2028, they will:\n\n1. Make DC and Puerto Rico states to gain a strong majority in the Senate. \n\n2. Open the borders and legalize everyone living in America illegally to cement a permanent majority.\n\n3. Increase the size of the Supreme Court to gain an immediate majority. \n\nThis would result in America becoming a permanent one-party state and the end of democracy in any meaningful sense of the word.\n\nAll that is needed to ensure this doesn’t happen is 51 Republican senators in 2029. That is why you should vote for Republican senators this election. Other reasons are irrelevant compared to this one.",
-      "url": "https://x.com/GaryMarcus/status/2116039632643035136",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2115999631653875712",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-10-30T02:50:00.215000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "15 AI Research Voices on X\n\n@amaarora= AI papers explained through code.\n@cwolferesearch= Clear, in-depth LLM research breakdowns.\n@sedielem =Diffusion models explained deeply.\n@MaartenGr= Complex AI made visual.\n@seb_ruder =NLP and multilingual AI insights.\n@Tim_Dettmers= Quantization and efficient LLMs demystified.\n@arankomatsuzaki= Research papers distilled into takeaways.\n@srush_nlp= Transformers explained with hands-on code.\n@ai_explorer25= New AI tools, peoples and ai commentary\n@rasbt= LLM research translated into practical code.\n@natolambert= RLHF and post-training unpacked.\n@eugeneyan= AI research meets real-world systems.\n@sh_reya= AI evaluation beyond benchmark scores.\n@HamelHusain= Practical, no-nonsense AI evaluation.\n@ch402= Neural networks decoded from within",
-      "url": "https://x.com/ai_explorer25/status/2115999631653875712",
+      "text": "Most noteworthy English accounts to follow in the AI field:\n\n@karpathy = King of Large Language Models\n@steipete = Founder of OpenClaw\n@gregisenberg = King of Startup Ideas\n@rileybrown = King of VibeCode\n@jackfriks = King of Solo App Development\n@levelsio = King of Entrepreneurship\n@ai_explorer25  = AI Gatekeeper & Tools\n@EXM7777  = King of AI Ops\n@aronhouyu = The AI Gatekeeper Slacker\n@eptwts  = King of AI Money-Making on Twitter\n@godofprompt  = King of Prompt Engineering\n@vasuman  = King of AI Agents\n@AmirMushich  = King of AI Advertising\n@0xROAS  = King of AI UGC\n@egeberkina  = King of AI Image Generation\n@MengTo  = King of AI Landing Pages\n@boringmarketer = AI Smart Marketing\n@kimmonismus = King of AI News\n@NorthstarBrain = King of Practical AI",
+      "url": "https://x.com/ai_explorer25/status/2116362019553329152",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
