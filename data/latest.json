@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-01T02:29:49.185453Z",
-  "window_start": "2026-10-31T00:29:49.185453Z",
+  "generated_at": "2026-11-02T02:41:45.118368Z",
+  "window_start": "2026-11-01T00:41:45.118368Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -12,9 +12,9 @@
   "account_results": [
     {
       "username": "karpathy",
-      "returned_count": 10,
-      "recent_count": 0,
-      "timestamp_corrected_count": 10,
+      "returned_count": 11,
+      "recent_count": 1,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
@@ -41,22 +41,22 @@
     {
       "username": "demishassabis",
       "returned_count": 10,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 7,
+      "returned_count": 6,
       "recent_count": 0,
-      "timestamp_corrected_count": 7,
+      "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 14,
+      "returned_count": 16,
       "recent_count": 3,
-      "timestamp_corrected_count": 14,
+      "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
     {
@@ -96,19 +96,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 99 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 101 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
   "tweet_count": 4,
   "tweets": [
     {
-      "id": "2116524000859807744",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-10-31T13:33:39.576000Z",
+      "id": "2116957135460540416",
+      "username": "karpathy",
+      "author_name": "Andrej Karpathy",
+      "created_at": "2026-11-01T18:14:46.912000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country.\n\nBuilt with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → https://t.co/L3tGJNtiAC",
-      "url": "https://x.com/demishassabis/status/2116524000859807744",
+      "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
+      "url": "https://x.com/karpathy/status/2116957135460540416",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +119,14 @@
       }
     },
     {
-      "id": "2116523836388872192",
+      "id": "2116809973669732352",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-31T13:33:00.363000Z",
+      "created_at": "2026-11-01T08:30:00.807000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Satya Nadela is basically describing the death of the traditional SaaS model.\n\nExplains the AI agentic future, and where the \"value\" lives.\n\nBecause business logic is moving from the software application to the AI agents.\n\nCurrently, you buy software for its specific features and rules. \n\nNadella argues that in the future, software apps will essentially become dumb databases (\"CRUD\") or simple tools. \n\nThe AI Agent will hold all the intelligence, orchestration, and reasoning, simply updating the databases as needed. The software becomes a commodity; the AI becomes the \"brain\" and the worker.\n\nVideo from Bg2 Pod Youtube Channel",
-      "url": "https://x.com/ai_explorer25/status/2116523836388872192",
+      "text": "52 websites worth more than most college degrees:\n\n1. Coursera. org – University courses completely free to audit\n2. Brilliant. org – Interactive math and science learning\n3. Wolfram Alpha – Answers any mathematical or factual question\n4. GitHub. com – Learn coding from real world projects\n5. Investopedia. com – Finance and investing explained simply\n6. Archive. org – Access millions of free books and old websites\n7. Project Gutenberg – 70000 free classic books\n8. Duolingo. com – Learn any language for free\n9. Notion. so – Organise your entire life and learning\n10. Our World in Data – Every global statistic visualised\n11. Statista. com – Data and statistics on everything\n12. OpenLibrary. org – Borrow millions of books online free\n13. Hemingwayapp. com – Write clearer and simpler instantly\n14. NASA. gov – Space science and research for free\n15. PubMed. gov – Access real scientific research papers\n16. Edx. org – Free courses from Harvard MIT and more\n17. TED. com – Best ideas from the world's best thinkers\n18. Anki – The most powerful memory tool ever built\n19. Canva. com – Design anything without being a designer\n20. Skillshare. com – Creative and practical skill learning\n21. Readwise. io – Remember everything you ever read\n22. Google Scholar – Search real academic papers\n23. Codecademy. com – Learn to code completely free\n24. ChatGPT – AI tutor available 24 hours a day\n25. Figma. com – Learn professional design for free\n26. Replit. com – Code anything from your browser\n27. Huberman Lab Podcast – Science based health education\n28. Mindmeister. com – Mind mapping for better thinking\n29. NerdWallet. com – Personal finance made simple\n30. Quizlet. com – Study smarter with flashcards\n31. Gapminder. org – See the real state of the world\n32. PhET Simulations – Interactive science experiments online\n33. Numbeo. com – Cost of living data for every city on earth\n34. 23andMe. com – Understand your own genetics\n35. Zapier. com – Automate your work without coding\n36. Lesswrong. com – Deep rational thinking and decision making\n37. Documentaryheaven. com – Thousands of free documentaries\n38. Trading Economics – Economic data for every country\n39. Perplexity. ai – AI powered research tool\n40. Stanford Encyclopedia of Philosophy – Every philosophical idea explained\n41. Librivox. org – Free audiobooks of classic literature\n42. Zooniverse. org – Participate in real scientific research\n43. Futurelearn. com – Free short courses from top universities\n44. Typing. com – Learn to type properly and fast\n45. Drawabox. com – Learn to draw from absolute scratch\n46. Grammarly. com – Write better in every situation\n47. Khanacademy. org – Free world class education for everyone\n48. Desmos. com – The most powerful free graphing calculator\n49. Stellarium. org – Explore the night sky from your screen\n50. Psychologytoday. com – Mental health and psychology explained\n51. Worldometers. info – Real time global statistics on everything\n52. Notion. so/ templates – Free templates to organise your entire life",
+      "url": "https://x.com/ai_explorer25/status/2116809973669732352",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +137,14 @@
       }
     },
     {
-      "id": "2116407914659483648",
+      "id": "2116762141441089536",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-31T05:52:22.469000Z",
+      "created_at": "2026-11-01T05:19:56.715000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Learn Coding by playing games \n\n1. Kubernetes\nhttps://t.co/asmX2e63Va\n\n2. DevOps\nhttps://t.co/5d9UZmCLKm\n\n3. Linux\nhttps://t.co/5lykebIy4w\n\n4. Git\nhttps://t.co/ffznxkA17X\n\n5. Python\nhttps://t.co/2nprnaayRU\n\n6. CSS & HTML\nhttps://t.co/1hOf8oa8Kk\n\n7. Cybersecurity\nhttps://t.co/kD2US36n4R\n\n8. Mobile Coding (like Duolingo)\nhttps://t.co/aXsdDAR7PR\n\n9. For Complete Beginners\nhttps://t.co/XoxpHQwCZM\n\n10. 25+ Programming Languages\nhttps://t.co/c5uulSTTeW",
-      "url": "https://x.com/ai_explorer25/status/2116407914659483648",
+      "text": "Andrej Karpathy revealed what survives after prompting\n\n\"Prompting is fading away\n\nDelete everything else and keep the graph\"\n\nIn a 1-hour lecture, he explains how to build graphs and why they are the layer everything ends up becoming\n\nLLMs → Prompts → Agents → Graphs\n\nMost people are still trying to perfect prompts\n\nThe graph is the part that survives\n\nEverything before it is just a step in the process\n\nThis free lecture is worth more than most $500 graph engineering courses",
+      "url": "https://x.com/ai_explorer25/status/2116762141441089536",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +155,14 @@
       }
     },
     {
-      "id": "2116362019553329152",
+      "id": "2116724407540367360",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-10-31T02:50:00.223000Z",
+      "created_at": "2026-11-01T02:50:00.252000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Most noteworthy English accounts to follow in the AI field:\n\n@karpathy = King of Large Language Models\n@steipete = Founder of OpenClaw\n@gregisenberg = King of Startup Ideas\n@rileybrown = King of VibeCode\n@jackfriks = King of Solo App Development\n@levelsio = King of Entrepreneurship\n@ai_explorer25  = AI Gatekeeper & Tools\n@EXM7777  = King of AI Ops\n@aronhouyu = The AI Gatekeeper Slacker\n@eptwts  = King of AI Money-Making on Twitter\n@godofprompt  = King of Prompt Engineering\n@vasuman  = King of AI Agents\n@AmirMushich  = King of AI Advertising\n@0xROAS  = King of AI UGC\n@egeberkina  = King of AI Image Generation\n@MengTo  = King of AI Landing Pages\n@boringmarketer = AI Smart Marketing\n@kimmonismus = King of AI News\n@NorthstarBrain = King of Practical AI",
-      "url": "https://x.com/ai_explorer25/status/2116362019553329152",
+      "text": "Must follow founder accounts in X\n\n@dhh (David Heinemeier Hansson) → Ruby on Rails, 37signals \n@jasonfried → Basecamp/37signals, bootstrapping \n@Suhail → Mixpanel, Playground AI \n@amasad (Amjad Masad) → Replit \n@rauchg (Guillermo Rauch) → Vercel \n@noahkagan → AppSumo, marketing\n@gregisenberg → startup ideas (already on your list, huge)\n@thejustinwelsh (Justin Welsh)\n@sweatystartup (Nick Huber) → SMB/real business\n@thedankoe (Dan Koe) → creator business \n@rowancheung → AI news \n@mckaywrigley → AI coding/education \n@nutlope (Hassan El Mghari) → AI apps \n@ai_explorer25 → AI news\n@arvidkahl → bootstrapping \n@tdinh_me (Tony Dinh) → bootstrapped SaaS",
+      "url": "https://x.com/ai_explorer25/status/2116724407540367360",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
