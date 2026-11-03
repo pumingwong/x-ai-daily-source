@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-02T02:41:45.118368Z",
-  "window_start": "2026-11-01T00:41:45.118368Z",
+  "generated_at": "2026-11-03T03:59:27.390594Z",
+  "window_start": "2026-11-02T01:59:27.390594Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -13,7 +13,7 @@
     {
       "username": "karpathy",
       "returned_count": 11,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
@@ -47,23 +47,23 @@
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
+      "returned_count": 4,
+      "recent_count": 2,
+      "timestamp_corrected_count": 4,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 16,
-      "recent_count": 3,
-      "timestamp_corrected_count": 16,
+      "returned_count": 17,
+      "recent_count": 6,
+      "timestamp_corrected_count": 17,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 9,
-      "recent_count": 0,
-      "timestamp_corrected_count": 9,
+      "returned_count": 12,
+      "recent_count": 1,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
@@ -96,19 +96,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 101 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 103 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 4,
+  "tweet_count": 9,
   "tweets": [
     {
-      "id": "2116957135460540416",
-      "username": "karpathy",
-      "author_name": "Andrej Karpathy",
-      "created_at": "2026-11-01T18:14:46.912000Z",
+      "id": "2117447925190262784",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-03T02:45:00.302000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
-      "url": "https://x.com/karpathy/status/2116957135460540416",
+      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
+      "url": "https://x.com/ai_explorer25/status/2117447925190262784",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -119,14 +119,14 @@
       }
     },
     {
-      "id": "2116809973669732352",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-01T08:30:00.807000Z",
+      "id": "2117313742736113664",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-11-02T17:51:48.712000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "52 websites worth more than most college degrees:\n\n1. Coursera. org – University courses completely free to audit\n2. Brilliant. org – Interactive math and science learning\n3. Wolfram Alpha – Answers any mathematical or factual question\n4. GitHub. com – Learn coding from real world projects\n5. Investopedia. com – Finance and investing explained simply\n6. Archive. org – Access millions of free books and old websites\n7. Project Gutenberg – 70000 free classic books\n8. Duolingo. com – Learn any language for free\n9. Notion. so – Organise your entire life and learning\n10. Our World in Data – Every global statistic visualised\n11. Statista. com – Data and statistics on everything\n12. OpenLibrary. org – Borrow millions of books online free\n13. Hemingwayapp. com – Write clearer and simpler instantly\n14. NASA. gov – Space science and research for free\n15. PubMed. gov – Access real scientific research papers\n16. Edx. org – Free courses from Harvard MIT and more\n17. TED. com – Best ideas from the world's best thinkers\n18. Anki – The most powerful memory tool ever built\n19. Canva. com – Design anything without being a designer\n20. Skillshare. com – Creative and practical skill learning\n21. Readwise. io – Remember everything you ever read\n22. Google Scholar – Search real academic papers\n23. Codecademy. com – Learn to code completely free\n24. ChatGPT – AI tutor available 24 hours a day\n25. Figma. com – Learn professional design for free\n26. Replit. com – Code anything from your browser\n27. Huberman Lab Podcast – Science based health education\n28. Mindmeister. com – Mind mapping for better thinking\n29. NerdWallet. com – Personal finance made simple\n30. Quizlet. com – Study smarter with flashcards\n31. Gapminder. org – See the real state of the world\n32. PhET Simulations – Interactive science experiments online\n33. Numbeo. com – Cost of living data for every city on earth\n34. 23andMe. com – Understand your own genetics\n35. Zapier. com – Automate your work without coding\n36. Lesswrong. com – Deep rational thinking and decision making\n37. Documentaryheaven. com – Thousands of free documentaries\n38. Trading Economics – Economic data for every country\n39. Perplexity. ai – AI powered research tool\n40. Stanford Encyclopedia of Philosophy – Every philosophical idea explained\n41. Librivox. org – Free audiobooks of classic literature\n42. Zooniverse. org – Participate in real scientific research\n43. Futurelearn. com – Free short courses from top universities\n44. Typing. com – Learn to type properly and fast\n45. Drawabox. com – Learn to draw from absolute scratch\n46. Grammarly. com – Write better in every situation\n47. Khanacademy. org – Free world class education for everyone\n48. Desmos. com – The most powerful free graphing calculator\n49. Stellarium. org – Explore the night sky from your screen\n50. Psychologytoday. com – Mental health and psychology explained\n51. Worldometers. info – Real time global statistics on everything\n52. Notion. so/ templates – Free templates to organise your entire life",
-      "url": "https://x.com/ai_explorer25/status/2116809973669732352",
+      "text": "We asked GPT-6 Astra to edit Qwen3.5-0.8B weights to improve math.\nIt directly changed only 0.016% of weights, fixing 0.8B's reasoning loops & improving math up to 6x and even instruction following 3x, without gradients or training.\n\nWe call this Weight-Space Programming: frontier LLMs can now natively read/write neural network weights! 🧵\nBlog: https://t.co/bOWCcFhCVq",
+      "url": "https://x.com/maximelabonne/status/2117313742736113664",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -137,14 +137,14 @@
       }
     },
     {
-      "id": "2116762141441089536",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-01T05:19:56.715000Z",
+      "id": "2117273364905529345",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-02T15:11:21.887000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Andrej Karpathy revealed what survives after prompting\n\n\"Prompting is fading away\n\nDelete everything else and keep the graph\"\n\nIn a 1-hour lecture, he explains how to build graphs and why they are the layer everything ends up becoming\n\nLLMs → Prompts → Agents → Graphs\n\nMost people are still trying to perfect prompts\n\nThe graph is the part that survives\n\nEverything before it is just a step in the process\n\nThis free lecture is worth more than most $500 graph engineering courses",
-      "url": "https://x.com/ai_explorer25/status/2116762141441089536",
+      "text": "Anthropic's updated IPO filing shows spending commitments surge to nearly $900 billion while Q3 rev surged to nearly $17 billion. \n\n$70 billion of that $900b is due over the next 12 months. \n\nThis comes after the FT reported that Anthropic may not receive an investment grade rating on its debt. \n\nMore here: https://t.co/Y1bj8iYhQL",
+      "url": "https://x.com/GaryMarcus/status/2117273364905529345",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -155,14 +155,104 @@
       }
     },
     {
-      "id": "2116724407540367360",
+      "id": "2117264717714702336",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-11-01T02:50:00.252000Z",
+      "created_at": "2026-11-02T14:37:00.236000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Must follow founder accounts in X\n\n@dhh (David Heinemeier Hansson) → Ruby on Rails, 37signals \n@jasonfried → Basecamp/37signals, bootstrapping \n@Suhail → Mixpanel, Playground AI \n@amasad (Amjad Masad) → Replit \n@rauchg (Guillermo Rauch) → Vercel \n@noahkagan → AppSumo, marketing\n@gregisenberg → startup ideas (already on your list, huge)\n@thejustinwelsh (Justin Welsh)\n@sweatystartup (Nick Huber) → SMB/real business\n@thedankoe (Dan Koe) → creator business \n@rowancheung → AI news \n@mckaywrigley → AI coding/education \n@nutlope (Hassan El Mghari) → AI apps \n@ai_explorer25 → AI news\n@arvidkahl → bootstrapping \n@tdinh_me (Tony Dinh) → bootstrapped SaaS",
-      "url": "https://x.com/ai_explorer25/status/2116724407540367360",
+      "text": "Elon Musk offered $97.4 billion to buy OpenAI.. and Sam Altman responded with one sentence! \n\n\"No thanks, but we'll buy Twitter for $9.74 billion if you want.\" Exactly one-tenth of the offer. \n\nThe two founded OpenAI together in 2015 as a non-profit organization. Musk left the board in 2018, and the legal battles between them continued.\n\nThe offer came in February 2025 during OpenAI's attempt to transition to a for-profit company. The board rejected the offer unanimously. Altman considered Musk \"probably just trying to slow us down.\"",
+      "url": "https://x.com/ai_explorer25/status/2117264717714702336",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117249160265318400",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-02T13:35:11.051000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "OpenAI CEO Sam Altman:\n\n\"We're roughly six months away from a world where a future version of ChatGPT could watch your screen, record every meeting and call, and hold complete context of your entire life.\n\nWe're just one model generation away from this becoming remarkably useful.\"",
+      "url": "https://x.com/ai_explorer25/status/2117249160265318400",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117205075051343874",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-02T10:40:00.317000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "My team is hiring a Data Analyst with 3+ years of experience, and we’ve been receiving plenty of resumes. Finding time to personally call every candidate has been a challenge.\n\nWith day-to-day work going on, finding time to call every candidate has been difficult. Even a quick screening call needs coordination and follow-ups.\n\nSo I built a voice AI agent using @VaaniHQ AI to help with the first conversation.\n\nIt introduces the role and asks a few basic questions about:\n- Past experience, tools used and a relevant project\n- Expected CTC\n- Notice period and availability to join\n\nHaving these details upfront has made shortlisting easier for our team. We review the responses and decide whom to take forward.\nAI agents could change how teams handle hiring at scale. They can help more candidates get an initial conversation sooner, while giving recruiters more time for detailed interviews. For a small team handling a lot of applications, that could make a real difference.\n\nMy biggest takeaway: keep the conversation simple. Candidates should know who’s calling, why they’re calling and what happens next. A short, clear conversation can make the process smoother for everyone.\n\nWhat I appreciate about Vaani is being able to turn an idea into a voice agent that serves a practical purpose. This experience has also made me think about where else it could help, from customer enquiries to appointment bookings and routine follow-ups.\n\nWould you be comfortable taking an initial screening call with an AI agent?\n\n🚀 Explore Vaani AI: https://t.co/8Hke8AzcLk\n\n#VaaniAI #VoiceAI #Hiring #Recruitment #AIAgents",
+      "url": "https://x.com/ai_explorer25/status/2117205075051343874",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117127061517266944",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-02T05:30:00.441000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Tim Cook: \"Despite this table being so small, you could put every Apple product on it. Every single one that we ship today.\"\n         \n\"Most companies begin to do larger and larger and larger portfolios because it's so easy to add. It's hard to edit. It's hard to stay focused. \n\nYet we know we'll only do our best work if we stay focused.\n\nThe hardest decisions we make are all the things not to work on. There are lots of things we'd like to work on, that we have interest in, but we know that we can't do everything great.\"\n\n(Charlie Rose || 2014)",
+      "url": "https://x.com/ai_explorer25/status/2117127061517266944",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117086795322044416",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-02T02:50:00.232000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "the best 20 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n@kloss_xyz = learn systems architecture\n@emollick = learn AI science\n@Hesamation = learn AI/ML\n@claudeskills101 = learn Claude\n\nfollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2117086795322044416",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117084801597362176",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-02T02:42:04.891000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "My views on AI have radically shifted over the past few weeks, after spending way too much time reading about it and watching interviews of industry leaders and experts.\n\nFirst, I really love the tools. I spend $200 on Claude every month and the product is worth every penny for me. Probably even more. I think the existing tools can deliver significant increase to future GDP and help us solve major global challenges faced by humanity.\n\nHowever, I just cannot comprehend why the industry is not much more regulated, as its leaders and employees seem to request themselves. I meet a lot of people who have heard of the hugging face incident but don’t know the actual chain of events. If you don’t, you definitely should spend a least an hour reading about it.\n\nI also do not know why we need to follow the path that frontier labs are following, to develop ever more powerful models. It seems to me that they are enormous gains that are readily available if we deploy the current technology in economic and scientific organizations without pursuing a super intelligence that they say might kill us and more likely wreak havoc in society. I know a lot of people think these warnings are marketing tricks, and that’s a reasonable assumption. But I don’t see the point of taking such risks.\n\nMy median scenario is that of many economists: AI will diffuse slowly and lift gdp growth by a percentage point or so, will cause some economic disruption on the way, but ultimately people will get new jobs and maybe work less.\n\nHowever, I am deeply uncomfortable with the absolutely wild level of uncertainty around this prediction. And to be honest, even setting the doom scenarios aside, I find the utopia scenarios of some industry leaders actually dystopian. And I think a large majority of the public would agree if they paid attention to what they’re saying. To their credit, they themselves agree publicly that they should not be the ones making these choices. A large majority of the public is now very skeptical of AI as a source of human progress, in particular among younger adults who use it the most. They should have a say.\n\nI don’t want to convince you of anything but to get informed about this topic, express yourself and vote accordingly.",
+      "url": "https://x.com/GaryMarcus/status/2117084801597362176",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
