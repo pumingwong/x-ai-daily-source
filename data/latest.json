@@ -1,14 +1,23 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-04T03:08:47.159773Z",
-  "window_start": "2026-11-03T01:08:47.159773Z",
+  "generated_at": "2026-11-05T03:40:07.393046Z",
+  "window_start": "2026-11-04T01:40:07.393046Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 10,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -20,14 +29,14 @@
     {
       "username": "rasbt",
       "returned_count": 6,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
       "username": "AndrewYNg",
       "returned_count": 16,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 16,
       "possibly_truncated": false
     },
@@ -40,30 +49,30 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 10,
+      "returned_count": 9,
       "recent_count": 0,
-      "timestamp_corrected_count": 10,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 3,
-      "recent_count": 1,
-      "timestamp_corrected_count": 3,
+      "returned_count": 5,
+      "recent_count": 3,
+      "timestamp_corrected_count": 5,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 4,
-      "timestamp_corrected_count": 15,
+      "returned_count": 17,
+      "recent_count": 9,
+      "timestamp_corrected_count": 17,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 11,
-      "recent_count": 1,
-      "timestamp_corrected_count": 11,
+      "returned_count": 6,
+      "recent_count": 0,
+      "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
     {
@@ -79,27 +88,229 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "thsottiaux",
-      "returned_count": 3,
-      "recent_count": 0,
-      "timestamp_corrected_count": 3,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 4,
-      "recent_count": 0,
-      "timestamp_corrected_count": 4,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 99 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 90 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 7,
+  "tweet_count": 13,
   "tweets": [
+    {
+      "id": "2118172701303209984",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-05T02:45:00.393000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The only AI list you need in 2026  Founders, researchers & builders.\n \nFRONTIER LAB FOUNDERS\n@sama— OpenAI CEO\n@demishassabis— Google DeepMind CEO\n@darioamodei— Anthropic CEO\n \nCHINA'S OPEN-WEIGHT WAVE\n@Kimi_Moonshot— Moonshot AI / Kimi (Yang Zhilin's lab)\n@jietang — Zhipu co-founder & chief scientist\n@JustinLin610 — built the Qwen series at Alibaba\n \nTHE PIONEERS / GODFATHERS\n@ylecun — Turing Award, pioneer of CNNs\n@fchollet — creator of Keras \n@karpathy — Anthropic, AI educator\n@AndrewYNg — Coursera co-founder\n \nRESEARCHERS WORTH READING\n@ch402 — Chris Olah, interpretability (Anthropic co-founder)\n@ai_explorer25— Researcher, AI commentary\n@leopoldasch— \"Situational Awareness,\" ex-OpenAI Superalignment\n@thsottiaux— leads OpenAI Codex",
+      "url": "https://x.com/ai_explorer25/status/2118172701303209984",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2118085542139363329",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-04T20:58:40.029000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "A lot of private equity and data center developer bankruptcies are about to hit like a hurricane in coming months.\n\nInstitutions are going to recall debt from PE in coming days. Projects will immediately fail. Bankruptcies will follow. A major issue of PE secretly leveraging debt in data centers, is the recall.",
+      "url": "https://x.com/GaryMarcus/status/2118085542139363329",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2118069848999874560",
+      "username": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "created_at": "2026-11-04T19:56:18.493000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Join me and 2000 other AI engineers and builders at AI Dev in New York City, Nov 30-Dec 1!\n\nA LinkedIn study found that over July-September, the job title AI Engineer has been one of the 10 fastest-growing occupations in seven major economies. AI engineering has become a core skill for all software work, and AI Dev is designed to help you develop it.\n\nOur sessions give you hands-on practice with:\n- Coding agents and harness design: Harness tuning, repository context, autonomous coding\n- Agent memory and knowledge graphs: GraphRAG, vector search, persistent memory, hybrid retrieval\n- Agents in production: Evals, observability, simulated testing, browser and voice agents\n\n@ylecun and I will also talk about what’s next in world models and physical AI.\n\nI hope to see you there!\n\nTickets: https://t.co/i4bQevDG4i",
+      "url": "https://x.com/AndrewYNg/status/2118069848999874560",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2118030533255102464",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-04T17:20:04.889000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Over 3 years ago I said that companies like OpenAI would struggle to profit from LLMs; that there was no technical moat; thst other companies would catch up, that there would be price wars. \n\nI was afaik the first to say it, all of it was correct.\n\n I also anticipated for 25 years both hallucinations and that we would need to add (neuro)symbolic elements to neural networks, which is now routine throughout the field.\n\npeople like this still run around lying about me, constantly, claiming i was “correct on nothing”.\n\nmakes you wonder if they are merely ignorant or actually getting paid to lie about me.",
+      "url": "https://x.com/GaryMarcus/status/2118030533255102464",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2118013357789958145",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T16:11:49.939000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Getting discovered used to mean showing up in search results.\n\nNow, it increasingly means being a product someone’s AI agent recommends.\n\nUnderstanding how those recommendations happen could give brands an early advantage.\n\nThat’s what makes Enrich Labs’ ACO worth watching\n\nCheck it out: https://t.co/52B7x2SCWt",
+      "url": "https://x.com/ai_explorer25/status/2118013357789958145",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2118010633677426690",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T16:01:00.460000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today, we're introducing Agent Conversion Optimization → https://t.co/dKGRta1xuk\n\nMuse, Instinct, Grok Bot already process $10B+ a year in GMV via agentic commerce. No GEO tool today tracks who they recommend.\n\nSo we built it.\n\nEach agent behaves very differently from typical LLMs, so we track them separately, then Helena deploys the fixes.\n\n1/ Daily tracking of who Muse, Instinct, Dots recommend, and why\n2/ Share of recommendations vs your competitors\n3/ Agent path to check out audit\n4/ Fixes deployed by Helena to improve your discoverability\n\nThis is hard to do reliably with little bias given how these agents behave, so we're starting with only 100 initial customers.\n\nDemo:",
+      "url": "https://x.com/ai_explorer25/status/2118010633677426690",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2118009939126108160",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-04T15:58:14.866000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Let me say this as a conservative:\n\nOne big reason the Republicans were utterly slaughtered yesterday is that Republican leadership decided it was fun to simp for Silicon Valley, and it was not important to protect humanity from AI.\n\nEvery time Republicans mocked legitimate concerns about AI safety, they lost voters. \n\nEvery time they sided with hyperscalers building AI data centers over local communities, they lost voters. \n\nEvery time they repeated the AI accelerationist promises about 'Abundance', 'Universal Basic Income', and the 'Post-Singularity', they sounded like economically illiterate fools and charlatans.\n\nAnd every time they promised that 'AI will radically transform society in ways that we can't predict, but that will be wonderful beyond your wildest dreams', they sounded like juvenile communist revolutionaries, rather than genuine conservatives who understand tradition, stability, continuity, and Chesterton's Fence.\n\nHere's the choice Republicans face now: either \n(1) learn the bitter lesson from this election, and take seriously the public's intense, growing, and valid concern about the risks of AI, or \n(2) stay locked out of any effective political power for the next several election cycles.",
+      "url": "https://x.com/GaryMarcus/status/2118009939126108160",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117977282040188928",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T13:48:28.810000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today, I'm launching Clivo: https://t.co/u0ae0gU7VL\n\n- Create a private client portal with one link for projects, messages, files and invoices.\n- Keep all client updates organised in one place instead of juggling WhatsApp, email and Drive.\n- No client signup or password required. Just share their private link.\n- Track project progress and let clients see what's completed and what's next.\n- Chat with clients directly and get email alerts when they reply.\n- Share files up to 25 MB each including designs, briefs and contracts.\n- Create invoices with line items, taxes and due dates. Track sent, overdue and paid invoices.\n- Customize your client portal with your own logo and brand colours.\n- Invite up to 15 team members with role based permissions.\n- Add your first client for free and try every feature with them.",
+      "url": "https://x.com/ai_explorer25/status/2117977282040188928",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117968965456510976",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T13:15:25.982000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2117968965456510976",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117899855083515904",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T08:40:48.785000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Choosing an AI model means comparing more than benchmark scores.\n\nI asked Well in WhatsApp to compare models, pick one for a $20 budget, and estimate the cost of 1,000 requests.\n\nIt handled the follow-ups really well clear comparisons, concise reasoning, and a useful cost breakdown.\n\nWhat I liked most: each answer helped me get closer to deciding what to test.\n\nA developer research side quest, handled in the chat I already use.\n\nHere’s how the conversation went 👇\n\n@getwellapp @ChampouxMaxime @kairevicius #ad",
+      "url": "https://x.com/ai_explorer25/status/2117899855083515904",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117889654523383808",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T08:00:16.782000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Aujourd'hui, on lance Well en France 🇫🇷\nUn assistant IA qui prépare l'administratif de ton entreprise, directement sur WhatsApp.\n\nÊtre entrepreneur en France, c'est aussi avoir un deuxième métier à plein temps : gérer l'administratif.\n\nEt ça ressemble souvent à ça :\n📥 245 emails à gérer entre clients, fournisseurs, URSSAF, impôts, banque et comptable\n🤝 56 engagements pris en réunion : relances, devis, rappels, rendez-vous\n🔐 37 outils entre lesquels jongler : Qonto, Pennylane, Stripe, HubSpot, Google Agenda, impots.gouv, URSSAF…\n📚 10 400 pages de lois et de règlements que nul n'est censé ignorer :\nCode du travail, Code général des impôts, Livre des procédures fiscales, CIBS, Code de commerce, Code de la sécurité sociale\n\nEt tout ça avant même de commencer à travailler sur ton vrai métier.\n\nC'est exactement pour ça qu'on a créé Well.\n\nPas de nouveau logiciel à apprendre.\nPas de tableau de bord à consulter.\nJuste un message à envoyer.\n\n☀️ Avec Well, tu prends ton café, tu envoies un message et tu reprends le contrôle de ta journée.\n\nToi, tu fais ton métier.\nWell prépare le reste.\n\nEssaie Well aujourd'hui 👇\nhttps://t.co/oHTMypIYfT",
+      "url": "https://x.com/ai_explorer25/status/2117889654523383808",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2117864670983782400",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-04T06:21:00.242000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Andrej Karpathy revealed what survives after prompting\n\n\"Prompting is fading away\n\nDelete everything else and keep the graph\"\n\nIn a 1-hour lecture, he explains how to build graphs and why they are the layer everything ends up becoming\n\nLLMs → Prompts → Agents → Graphs\n\nMost people are still trying to perfect prompts\n\nThe graph is the part that survives\n\nEverything before it is just a step in the process\n\nThis free lecture is worth more than most $500 graph engineering courses",
+      "url": "https://x.com/ai_explorer25/status/2117864670983782400",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2117810816179122177",
       "username": "ai_explorer25",
@@ -109,114 +320,6 @@
       "timestamp_corrected": true,
       "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown= vibecode king\n@jackfriks = solo apps king\n@levelsio= startups king\n@marclou = startups king\n@EXM7777 = AI ops + systems king\n@eptwts = AI money twitter king\n@ai_explorer25 = AI queen\n@godofprompt  =prompt king\n@vasuman   = AI agents king\n@AmirMushich = AI ads king\n@0xROAS = AI UGCs king\n@egeberkina = AI images king\n\nFollow them all and learn.",
       "url": "https://x.com/ai_explorer25/status/2117810816179122177",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2117678263518760960",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-11-03T18:00:17.239000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "LFM3 1.7B 1 GB GGUF + EAR98 GGUF\n\nI used RCO and GSQ to produce two improved GGUF checkpoints.\n\nRCO directly optimized EAR as its objective. All reported EAR scores were computed on a held-out dataset.\n\nBoth GGUFs significantly outperform their respective donor GGUFs of similar size from LiquidAI and AtomicChat.\n\nI also computed EAR in French, Japanese, and Hindi, where the impact of quantization is more pronounced. Good reminder that quantization typically causes greater performance degradation on non-English tasks.\n\nCheckpoints and results:\nhttps://t.co/euD5bSSAq4",
-      "url": "https://x.com/maximelabonne/status/2117678263518760960",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2117637894122680320",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-11-03T15:19:52.425000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Catching up on the 10 (!) open LLM architecture releases from the past month. Quite a lot happened in October. \nI guess we can call it \"Open October\"!\n\n1. Kolibri-1 (78B): A notable model from Germany. Features classic Grouped Query Attention (GQA) and Sliding Window Attention (SWA) attention module.\n\n2. Ling 3.1 Flash (560B): Uses Kimi Delta Attention and the eighth uses gated Multi-head Latent Attention (MLA) inspired by DeepSeek.\n\n3. Muse Spark Open (816B): Besides Musse Glimmer, the first major open weight release from Meta (since Llama). Uses classic GQA + SWA but adds a LatentMoE.\n\n4. Nemotron 3.5 Super VL (120B): Combines Mamba-2 layers with just eight attention layers. Also LatentMoE \n\n5. Dory1.0 (4B): A looped transformer design.\n\n6. Reflection Beam (501B): GQA+SWA architecture.\n\n7. Recursive Flint (40B): Note that \"Recursive\" is the company name; the architecture is a fairly standard MoE with GQA and SWA.\n\n8. MiniMax M3.1-Flash (428B): Uses their own MiniMax Sparse Attention module.\n\n9. LFM3 (1.7B): Hybrid architecture that mixes short convolutions and attention.\n\n10. Mistral Large 4 (1T) combines MLA with sparse attention.\n\nWill probably cover/discuss things in more depth in the coming weeks!",
-      "url": "https://x.com/rasbt/status/2117637894122680320",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2117632775368957952",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-03T14:59:32.019000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Anthropic's finances are deteriorating ahead of its IPO:\n\nAnthropic reported +$16.96 billion in Q3 2026 revenue, up +47% QoQ.\n\nHowever, quarterly revenue growth slowed sharply from +144% in Q2, as price reductions and contractual discounts offset revenue by ~$600 million.\n\nMeanwhile, Anthropic's operating profitability lasted just ONE quarter as the company swung back to a GAAP operating loss of -$567 million in Q3, following operating income of +$974 million in Q2.\n\nThis comes as compute and infrastructure expenses surged +77% QoQ to $9.9 billion, accounting for 58% of revenue, up from 48% in Q2. \n\nIn effect, every $1 spent on computing infrastructure generated just $1.72 in revenue, down from $2.08 in Q2, marking the first quarterly deterioration in this key efficiency metric.\n\nOverall, Anthropic's net loss reached -$23.3 billion in Q3, bringing its cumulative net loss for the first 9 months of 2026 to a staggering -$104 billion.\n\nWhile most of the quarterly net loss came from non-cash valuation adjustments, the underlying operating business also slipped back into the red.\n\nExcluding the $21.9 billion in non-cash valuation adjustments, Anthropic's Q3 net loss was -$1.4 billion.\n\nAnthropic's trillion-dollar AI ambitions are increasingly colliding with the financial reality of an infrastructure race where computing costs are rising faster than revenue.",
-      "url": "https://x.com/GaryMarcus/status/2117632775368957952",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2117607868623138816",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-03T13:20:33.788000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
-      "url": "https://x.com/ai_explorer25/status/2117607868623138816",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2117586671537700864",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-03T11:56:20.009000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
-      "url": "https://x.com/ai_explorer25/status/2117586671537700864",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2117447925190262784",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-03T02:45:00.302000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
-      "url": "https://x.com/ai_explorer25/status/2117447925190262784",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
