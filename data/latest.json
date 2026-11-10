@@ -1,23 +1,14 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-09T02:55:17.947222Z",
-  "window_start": "2026-11-08T00:55:17.947222Z",
+  "generated_at": "2026-11-10T04:44:46.941653Z",
+  "window_start": "2026-11-09T02:44:46.941653Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 10,
-  "failed_accounts": [
-    {
-      "username": "thsottiaux",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    },
-    {
-      "username": "bcherny",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
@@ -50,22 +41,22 @@
     {
       "username": "demishassabis",
       "returned_count": 9,
-      "recent_count": 0,
+      "recent_count": 1,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 6,
-      "recent_count": 5,
-      "timestamp_corrected_count": 5,
+      "returned_count": 7,
+      "recent_count": 6,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 15,
-      "recent_count": 2,
-      "timestamp_corrected_count": 15,
+      "returned_count": 9,
+      "recent_count": 7,
+      "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
     {
@@ -88,112 +79,36 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
+    },
+    {
+      "username": "thsottiaux",
+      "returned_count": 4,
+      "recent_count": 0,
+      "timestamp_corrected_count": 4,
+      "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 3,
+      "recent_count": 0,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 87 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 90 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 7,
+  "tweet_count": 14,
   "tweets": [
     {
-      "id": "2119624303343796225",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-09T02:53:09.289000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Breaking: Between the Huang affair, the Blue Wave, continued results showing lack of clear productivity improvements, increases in the cost of credit, and this startling new result showing just how expensive incremental improvements in generative AI have become, the bursting of the bubble may well be near.",
-      "url": "https://x.com/GaryMarcus/status/2119624303343796225",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2119610104592891904",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-09T01:56:44.043000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "OMG the Netflix AI reality series really outdid themselves this year. \n\nFirst season it was Sam getting fired and rehired (amazing!), then Season 2 it was Elon vs Sam (lame, copout ending, though, with that statute of limitations thing).\n\nThen there was the Season 3 with Anthropic versus the U.S. government \n\nAnd now, in season IV, the Nvidia CEO sleeping with a Chinese spy.\n\nAbsolutely did not see that coming. \n\nBest show on television.",
-      "url": "https://x.com/GaryMarcus/status/2119610104592891904",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2119580867576176641",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-09T00:00:33.395000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Trump was briefed on the Jensen Huang situation a year ago \n- chose to do nothing about it\n- he was close to Huang\n- Jensen Huang might have passed state secrets from Trump to Alice Huang \n- Congress is sure to investigate \n- Trump probably just made things worse for himself by pretending everything is totally fine.",
-      "url": "https://x.com/GaryMarcus/status/2119580867576176641",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2119568698453237760",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-08T23:12:12.050000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Anthropic is gaining exponentially less capability per billion dollars spent over time. It's now 8x as expensive to boost AI capabilities as it was 2 years ago, getting worse on a log scale. This includes METR report & internal models. \n\nCredit to @alexolegimas, @sebkrier, and @michael_wiebe for inspiration.",
-      "url": "https://x.com/GaryMarcus/status/2119568698453237760",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2119524795247431680",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-08T20:17:44.710000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Jensen was conducting an AI safety master plan all along.\n\n1. Make the entire AI economy dependent on Nvidia’s stock price\n\n2. Have an affair with a Chinese spy\n\n3. Resign, tanking Nvidia’s stock price because you have no successor\n\n4. The AI investment bubble implodes, slowing down the datacenter buildouts and lengthening timelines to AGI by a decade \n\nthank you jensen I never should have doubted you",
-      "url": "https://x.com/GaryMarcus/status/2119524795247431680",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2119305917800108032",
+      "id": "2119985898309988352",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-11-08T05:48:00.260000Z",
+      "created_at": "2026-11-10T02:50:00.247000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Andrej Karpathy revealed what survives after prompting\n\n\"Prompting is fading away\n\nDelete everything else and keep the graph\"\n\nIn a 1-hour lecture, he explains how to build graphs and why they are the layer everything ends up becoming\n\nLLMs → Prompts → Agents → Graphs\n\nMost people are still trying to perfect prompts\n\nThe graph is the part that survives\n\nEverything before it is just a step in the process\n\nThis free lecture is worth more than most $500 graph engineering courses",
-      "url": "https://x.com/ai_explorer25/status/2119305917800108032",
+      "text": "the best 15 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n\nfollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2119985898309988352",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -204,14 +119,230 @@
       }
     },
     {
-      "id": "2119260619304239104",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-08T02:48:00.257000Z",
+      "id": "2119936717423812609",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-09T23:34:34.610000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "list of 15 best AI researchers on X:\n\n1. @karpathy — Andrej Karpathy\n2. @rasbt — Sebastian Raschka\n3. @AndrewYNg — Andrew Ng\n4. @drfeifei — Fei-Fei Li\n5. @demishassabis  — Demis Hassabis\n6. @GaryMarcus  — Gary Marcus\n7.  @ai_explorer25   — AI Explorer\n8.  @maximelabonne  — Maxime Labonne\n9.  @chipro— Chip Huyen\n10. @ilyasut— Ilya Sutskever\n11.  @thsottiaux — Thibault \"Tibo\" Sottiaux\n12. @bcherny — Boris Cherny\n13. @geoffreyhinton — Geoffrey Hinton\n14. @JeffDean — Jeff Dean\n15. @fchollet — François Chollet",
-      "url": "https://x.com/ai_explorer25/status/2119260619304239104",
+      "text": "I kinda never want to hear the “what about China?” argument about AI regulation again, now that I know Trump was giving Jensen a free pass for the last year.\n\nThe truth is that has always been about money, never really about national security.",
+      "url": "https://x.com/GaryMarcus/status/2119936717423812609",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119887613800935424",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-09T20:19:27.394000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Another story just dropped in the FT.\n\nSome people are overestimating the odds Jensen can survive this because they're taking a static view of the information that was publicly available last night.\n\nBut as the stories this morning show (and upcoming Congressional hearings are likely to find) this is a dynamic situation and new information is much likelier to break against Jensen than in his favor.\n\nExpect it to keep getting worse.",
+      "url": "https://x.com/GaryMarcus/status/2119887613800935424",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119852902135037952",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-09T18:01:31.488000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "This is why IMHO @JensenHuang resigns. This will be a closed-door hearings; watch when the Dems take charge. The scrutiny will be unrelenting because of his ties to Trump. True, the @nvidia board is weak by corporate governance standards but it will have no choice but to act because even if you take the most innocent explanation for his affair it’s a huge issue from a fiduciary standpoint given the company’s national security importance. How can the government continue to deal with a company whose CEO is this reckless?",
+      "url": "https://x.com/GaryMarcus/status/2119852902135037952",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119852391629803521",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-09T17:59:29.774000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "🚨 CNBC’s Eamon Javers Says the U.S. Government is Trying to Push Jensen Huang Out\n\n“There seems to be a real commitment on the part of somebody inside the U.S. government to push Jensen Huang out of this position. And presumably, given that there was surveillance of Alice Huang, they have a lot more details here on what happened than we do.”",
+      "url": "https://x.com/GaryMarcus/status/2119852391629803521",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119806643118489600",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-09T14:57:42.479000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "ICYMI: Chairman @RepMoolenaar, Chairman @RepBrianMast, and Chairman @RepRickCrawford have sent a letter to NVIDIA CEO @JensenHuang asking him to appear before their three committees this month. The letter expresses concerns over NVIDIA’s security protocols against foreign adversary espionage and Mr. Huang’s reported ties to a Chinese intelligence-linked executive of a Singapore-based data center company.",
+      "url": "https://x.com/GaryMarcus/status/2119806643118489600",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119791870125469696",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-09T13:59:00.323000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building an agent requires an engineering degree.\n\nIt doesn't.\n\nIt requires one guide and one afternoon.\n\nWatch the interview. Then read the article below.\n\nOne guide. One afternoon. That's all it takes.",
+      "url": "https://x.com/ai_explorer25/status/2119791870125469696",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119786757919305728",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-09T13:38:41.478000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Thrilled to share a big milestone from our AI & Infrastructure team at @Google.\n\nToday we’re expanding our 8th generation TPU portfolio with:\n• TPU 8i Max: Built for massive context windows and the highest compute density per rack\n• TPU 8tx: Purpose-built for secure, confidential inference\n\nThis marks the first time we’ve introduced four distinct TPU systems in a single generation, in one year.\n\nFor developers, hardware is only as good as the software stack. And we want you to be able to build with TPUs as easily and efficiently as we do at Google. You can now:\n↳ Run native PyTorch & Hugging Face models via TorchTPU (zero code rewrites)\n↳ Cut KV transfer latency >90% with open-source TPU Sync\n↳ Eliminate idle compute waste with Agent Compute Engine\n\nRead more about our newest TPUs on our blog: https://t.co/8eaFhq3jhi\n\nI look forward to connecting with builders, researchers, engineers and organizations pushing the boundaries of AI and computing!",
+      "url": "https://x.com/demishassabis/status/2119786757919305728",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119786235371610112",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-09T13:36:36.893000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "The question is no longer whether the financial bubble will burst, but when.\n\n• Valuations will be crushed\n• Bailouts will be sought\n• Pure scaling is done.\n• Neurosymbolic AI won.  More or more focus will be on harnesses, loops, tools, and other techniques that leverage ideas from classical AI. Giant neural nets are on their own are not enough.\n• LLMs will remain, but the search for better tech (largely neurosymbolic) will intensify.",
+      "url": "https://x.com/GaryMarcus/status/2119786235371610112",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119776047273316352",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-09T12:56:07.861000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
+      "url": "https://x.com/ai_explorer25/status/2119776047273316352",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119675744993660928",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-09T06:17:33.934000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "More than just content creation\n\nMigoo also brings AI-powered assistance into your workflow, with tools for research, data analysis, email, meetings, and more.\n\nIf you're looking to simplify the way you create and work, it's worth exploring.\n\nCheck it out 👇\n🔗 https://t.co/BX0ODU29h4",
+      "url": "https://x.com/ai_explorer25/status/2119675744993660928",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119675729457954816",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-09T06:17:30.230000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "This AI tool could change your whole video editing workflow. 🤯\n\nThe best video agent that gets the job done\n\nGenerate clips. Edit specific parts of a scene. Extend the footage beyond its original ending.\n\nMeet @MigooAI and take a look at the before-and-after below. \n\nYou can also do this via Migoo AI, check it here: https://t.co/BX0ODU29h4  \n\nMigoo lets you select a specific area of your video and change it with AI. See what changed in the comparison below then imagine what you could do with your own footage.\n\nHere’s how it works. Thread below 👇",
+      "url": "https://x.com/ai_explorer25/status/2119675729457954816",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119664279091568640",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-09T05:32:00.250000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Most noteworthy English accounts to follow in the AI field:\n\n@karpathy = King of Large Language Models\n@steipete = Founder of OpenClaw\n@gregisenberg = King of Startup Ideas\n@rileybrown = King of VibeCode\n@jackfriks = King of Solo App Development\n@levelsio = King of Entrepreneurship\n@ai_explorer25  = AI Gatekeeper & Tools\n@EXM7777  = King of AI Ops\n@aronhouyu = The AI Gatekeeper Slacker\n@eptwts  = King of AI Money-Making on Twitter\n@godofprompt  = King of Prompt Engineering\n@vasuman  = King of AI Agents\n@AmirMushich  = King of AI Advertising\n@0xROAS  = King of AI UGC\n@egeberkina  = King of AI Image Generation\n@MengTo  = King of AI Landing Pages\n@boringmarketer = AI Smart Marketing\n@kimmonismus = King of AI News\n@NorthstarBrain = King of Practical AI",
+      "url": "https://x.com/ai_explorer25/status/2119664279091568640",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2119636111140225024",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-09T03:40:04.487000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "More than just content creation\n\nMigoo also brings AI-powered assistance into your workflow, with tools for research, data analysis, email, meetings, and more.\n\nIf you're looking to simplify the way you create and work, it's worth exploring.\n\nCheck it out 👇\n🔗 https://t.co/BX0ODU29h4",
+      "url": "https://x.com/ai_explorer25/status/2119636111140225024",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
