@@ -1,23 +1,14 @@
 {
   "schema_version": 1,
-  "status": "partial",
+  "status": "complete",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-12T04:04:01.536975Z",
-  "window_start": "2026-11-11T02:04:01.536975Z",
+  "generated_at": "2026-11-13T03:31:49.210994Z",
+  "window_start": "2026-11-12T01:31:49.210994Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 10,
-  "failed_accounts": [
-    {
-      "username": "thsottiaux",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    },
-    {
-      "username": "bcherny",
-      "error": "HTTP 429：调用频率或月度额度已达到限制"
-    }
-  ],
+  "accounts_succeeded": 12,
+  "failed_accounts": [],
   "account_results": [
     {
       "username": "karpathy",
@@ -28,9 +19,9 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
+      "returned_count": 8,
+      "recent_count": 1,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
@@ -43,15 +34,15 @@
     {
       "username": "drfeifei",
       "returned_count": 8,
-      "recent_count": 0,
+      "recent_count": 2,
       "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
       "username": "demishassabis",
-      "returned_count": 9,
-      "recent_count": 1,
-      "timestamp_corrected_count": 9,
+      "returned_count": 11,
+      "recent_count": 4,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
@@ -63,16 +54,16 @@
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 11,
+      "returned_count": 10,
       "recent_count": 7,
-      "timestamp_corrected_count": 11,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
-      "returned_count": 6,
-      "recent_count": 0,
-      "timestamp_corrected_count": 6,
+      "returned_count": 5,
+      "recent_count": 1,
+      "timestamp_corrected_count": 5,
       "possibly_truncated": false
     },
     {
@@ -88,13 +79,351 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
+    },
+    {
+      "username": "thsottiaux",
+      "returned_count": 2,
+      "recent_count": 1,
+      "timestamp_corrected_count": 2,
+      "possibly_truncated": false
+    },
+    {
+      "username": "bcherny",
+      "returned_count": 3,
+      "recent_count": 0,
+      "timestamp_corrected_count": 3,
+      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 83 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 90 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 11,
+  "tweet_count": 19,
   "tweets": [
+    {
+      "id": "2121073565227274241",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-13T02:52:00.248000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "the best 20 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n@kloss_xyz = learn systems architecture\n@emollick = learn AI science\n@Hesamation = learn AI/ML\n@claudeskills101 = learn Claude\n\nfollow them all and learn.",
+      "url": "https://x.com/ai_explorer25/status/2121073565227274241",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121063114129244160",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-13T02:10:28.512000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "NEW: In a tense late-summer meeting, Jensen Huang called his Chief Financial Officer Colette Kress a â€œdeer in the headlights.â€�\n\nHis concern: Nvidiaâ€™s plans to fund the AI boom with its balance sheet were running into problems. He needed to figure it out. \n\nHe called her a â€œreporting CFO,â€� not someone who could help him define a strategy or make decisions.\n\nWith @RWhelanWSJ for @WSJ \n\nhttps://t.co/V0gmpNYD2z",
+      "url": "https://x.com/GaryMarcus/status/2121063114129244160",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120983929457094656",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-12T20:55:49.415000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "SEO used to be sooo hard. Hundreds of signals. Six-month feedback loops. Agency retainers. \n\nA Monid user handed the whole loop to an agent: pick the keyword, write the page, check it like a crawler, ship every day. \n\nSix months later: 8.39M impressions, 49K clicks. Data cost: under $1/day.",
+      "url": "https://x.com/ai_explorer25/status/2120983929457094656",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120970988708069376",
+      "username": "thsottiaux",
+      "author_name": "Tibo",
+      "created_at": "2026-11-12T20:04:24.100000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Your dot now hasâ€¦\n\nâš¡ï¸� Faster replies\nðŸ’¬ Less jargon\nðŸ«¡ Better follow-through\n\nAnd, they can now follow your custom instructions. Tell your dot in the thread things like how to behave or which actions need your go-ahead.\n\nâ€œalways talk in lowercase.â€�\nâ€œShow me a draft before sending any emails.â€�\n\nYou can also set custom instructions and rules in Customize > Behavior on mobile, or through your dotâ€™s menu on web and desktop.",
+      "url": "https://x.com/thsottiaux/status/2120970988708069376",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120966712254513152",
+      "username": "drfeifei",
+      "author_name": "Fei-Fei Li",
+      "created_at": "2026-11-12T19:47:24.514000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Thereâ€™s been massive progress in agentic 3D world creation in the past year, but producing polished, high fidelity pixels purely procedurally via code is still orders of magnitude more expensive than generating them directly.\n\nI view these strategies as complementary â€“ in our Atlas release today, both the Chisel web app and Codex/Claude Code integrations are designed for using an agent to build out coarse geometry in 3D and control precise final pixel generation through Atlas model endpoints.\n\nThis demo showcases the Chisel variant of Atlas we finetuned for flexible control, capable of taking in any combination of partial RGB and partial depth frames. We can take masked depth renders of the car model and use text prompting to control both stylistic appearance and what fills in the rest of the scene.",
+      "url": "https://x.com/drfeifei/status/2120966712254513152",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120947988038324224",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-12T18:33:00.313000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Ok this is a big deal. Weâ€™ve been testing Gemini 4 Hydrogen in early access with the Box AI Complex Work Eval, and itâ€™s a serious jump for fast models. \n\nHydrogen is 5 percentage points better in accuracy than Gemini 3.8 Flash. That alone would be a great boost in capability, but possibly more importantly it did the tasks in less than half the time with about 12% fewer tokens on a typical task.\n\nFor this eval, we give the Box Agent Hydrogen as a model for a series of complex tasks that represent real world work with enterprise documents across finance, consulting, life sciences, and other industries. Hydrogen will be a great model for a lot of efficient but complex tasks across these fields.\n\nGemini team is definitely cooking. Hydrogen will be rolling out in the Box AI Studio shortly so any customer can build a custom agent with it.",
+      "url": "https://x.com/demishassabis/status/2120947988038324224",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120947649910370304",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-11-12T18:31:39.697000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Introducing ð�™»ð�š’ð�ššð�šžð�š’ð�š�ð�™²ð�š˜ð�š�ð�šŽð�šŒ, our ~74M-parameter streaming audio codec powering LFM3-Audio-2B and LFM3-Omni-2B.\n\nAn audio codec turns speech into tokens a language model can predict, then converts those tokens back into audio. We built ours around two requirements: tokens that are easy to predict and fast conversion back into speech.\n\nOn a single CPU thread on an Apple M4 Max, LiquidCodec runs at approximately:\n> 361Ã— real time for encoding\n> 87Ã— real time for decoding\n\nBoth measurements use FP32 precision.\n\n1/ ðŸ§µ",
+      "url": "https://x.com/maximelabonne/status/2120947649910370304",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120942632566403072",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-12T18:11:43.469000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Today, Search is getting a massive upgrade with Gemini 4 Hydrogen!  Itâ€™s the biggest model improvement to Search yet.  And itâ€™s available now for all users, globally.\n\nWhy itâ€™s awesome:\n- Crazy fast\n- Cutting-edge intelligence, with advanced reasoning, more precise instruction following, and better tool calling\n- More visual responses, including images and custom tables, charts, and simulations\n- More scannable response layout\n- Better understanding of intent (including for long multi-part queries with ambiguous typos)\n- Broader range of links to the web (improved reasoning -> more query fan-outs)\n\nTL;DR: powerful and fast.  Take Hydrogen for a spin in Search and let me know what you think!",
+      "url": "https://x.com/demishassabis/status/2120942632566403072",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120924733688676352",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-12T17:00:36.044000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "10ms. Unlimited for $20/month. Now multimodal.\n\nToday, @OctenAI is launching:\n\n1. Octen Pulse: Open-source search at the speed of a single token.\n2. Unlimited Search: $20/month. No more counting API calls.\n3. Multimodal Search: Text and images. Platform.\n\nHumans search with Google. Machines search with Octen.",
+      "url": "https://x.com/ai_explorer25/status/2120924733688676352",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120924589295325184",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-12T17:00:01.618000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Introducing Fish Agent: a no-code platform to build custom AI voice agents that can make & take calls for you (median deploy time: 32s).\n\nClaim your free custom voice agent: https://t.co/UrMR2mwfh1\n\nWith Fish Agent, you can:\n> Build any voice agent by simply describing it.\n> Get a phone number or connect your own.\n> Power your agent with leading LLMs or integrate your custom LLM.\n> Connect tools, webhooks, knowledge, and more with full API access.\n> Enable natural, interruption-aware conversations with Fish Live 3 full-duplex voice model.\n\nFrom a personal AI assistant to a receptionist or customer support, build any voice agent you need.\n\nIf you're an enterprise, book a demo and get a dedicated engineer to build with Fish: https://t.co/i4Kd9a4OlU\n\nAs part of the launch, we're giving away Fish agent platform credits for the next 48hrs. Just like, retweet , bookmark and reply \"Live 3\" to get yours.",
+      "url": "https://x.com/ai_explorer25/status/2120924589295325184",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120914166802153474",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-12T16:18:36.702000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Exclusive: As Nvidia's finance chief, Colette Kress pushed back on a proposed $250 billion credit backstop for OpenAI that Jensen Huang had championed. \n\nNow she's interim CEO of a company that has poured more than $100 billion into its customers and supply partners.\n\nFull story: https://t.co/ZgxTTyhXJI",
+      "url": "https://x.com/GaryMarcus/status/2120914166802153474",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120895036942401536",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-11-12T15:02:35.788000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "In reasoning model development, it's always been this interesting tension between training/optimizing chain-of-thoughts (CoTs) vs not touching them to preserve monitorability.\n\nCoTs are cool because we can check what the model is up to (e.g., whether it cheats or not) as long as it spells out its thought process. And we risk losing that if we explicitly optimize CoTs.\n\nTwo caveats:\n\n1) I.e., the catch of CoT and monitorability is that this only works if the written thinking reflects what the model is actually doing.\n\n2) Also, when models become more capable, they spell out less in the CoT (like a cleverer math student needs less note-taking when solving problems during an exam).\n\nNothing new on that front, but an interesting thread below on how to measure \"harder to monitor\", with some interesting results that confirm the existing intuitions:\n\n1) no-CoT capability (meaning how much reasoning the model can do in a single forward pass without writing anything down)\n\n- Better pretraining (lower perplexity) raises this no-CoT capability\n- Architecture mostly doesn't matter\n2) CoT controllability (meaning how well the model can change its written reasoning when asked to add, remove, or change parts of it)\n\n- RL alone raises controllability a lot\n- Controllability is passed on through distillation\n\n* Higher no-CoT capability and higher controllability both make monitoring harder.\n\nPS: Perhaps the good news is that it seems that process supervision wasn't the main culprit.",
+      "url": "https://x.com/rasbt/status/2120895036942401536",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120880837625511936",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-12T14:06:10.407000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Intelligent eyewear pre-orders are officially open! âœ¨\n\nIâ€™m immensely proud and humbled working with teams at @Google, @SamsungMobile, @_GentleMonster_ and @WarbyParker to bring these beautiful eyewear collections to life.\n\nThese lightweight glasses bring you hands-free help from @GeminiApp throughout your day. And these glasses are eyewear first, so @WarbyParker and @_GentleMonster_ have brought their iconic styles with a collection of designs, colorways, and sizes so thereâ€™s a style thatâ€™s perfect for you!\n\nPre-order your pair today: https://t.co/NURZ98RWZY and experience them in select Warby Parker, Gentle Monster and Google stores starting today. Shipping Dec 10th!\n\nRead more about the full design collection that and how we are bringing helpful experiences to your everyday life: https://t.co/nYyERM3U9X\n\nAlong with our privacy protections for you and those around you:  https://t.co/zsK739MLOS\n\n#Gemini #IntelligentEyewear #AndroidXR",
+      "url": "https://x.com/demishassabis/status/2120880837625511936",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120874755335012352",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-12T13:42:00.276000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Learn AI for free directly from top companies.\n\n1 - Anthropic:  \nhttps://t.co/cc4SxBn4S7\n\n2 - Google:  \nhttps://t.co/r1bv5XfHsN\n\n3 - Meta:  \nhttps://t.co/UALdoellxL\n\n4 - NVIDIA:  \nhttps://t.co/JKTgY3mtf0\n\n5 - Microsoft:  \nhttps://t.co/izcZcNQ9NN\n\n6 - OpenAI:  \nhttps://t.co/nY93DIwg3G\n\n7 - IBM:  \nhttps://t.co/lIYoazapqo\n\n8 - AWS:  \nhttps://t.co/770qBjw9po\n\n9 - DeepLearning. AI:  \nhttps://t.co/SnPZ287LiW\n\n10 - Hugging Face:  \nhttps://t.co/AAym51yGo9\n\nfollow me if you find this helpful.",
+      "url": "https://x.com/ai_explorer25/status/2120874755335012352",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120865153621360640",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-12T13:03:51.049000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Follow the money. Then follow the policy.\n\nJensen Huang lobbied Trump to open Chinaâ€™s market to Nvidiaâ€™s advanced AI chips. After a $1 million-a-seat Mar-a-Lago dinner attended by Huang, the administration backed away from planned chip restrictions. Trump later authorized H200 sales to China in exchange for a 25% government cut.\n\nThen Nvidia pledged $25 million toward Trumpâ€™s White House ballroom. Trump also disclosed trading Nvidia stock during the same summer his administration was making decisions affecting the company.\n\nHuang got extraordinary access to the president. Nvidia got favorable policy decisions and a potentially lucrative opening in China. Trumpâ€™s personal project got a $25 million commitment.\n\nThis is pay-to-play and Trump is in the middle of it.\n\n https://t.co/70i08gIKTH",
+      "url": "https://x.com/GaryMarcus/status/2120865153621360640",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120856887671353344",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-12T12:31:00.293000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Sam Altman (CEO of OpenAI):\n\n\"You no longer need to write prompts.\"\n\nIn just 38 minutes, he explains how to use ChatGPT at a level that most people can't even imagine.\n\nIt's a talk he gave to Stanford students. A friend sent me the recording last night.\n\nAfter watching it, I realized I was only taking advantage of about 15% of what this tool can really do.\n\nWatch it in full and then follow me for more such insightful content",
+      "url": "https://x.com/ai_explorer25/status/2120856887671353344",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120831522853052416",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-12T10:50:12.849000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "well damn google is having one of its craziest release weeks ever:\n\nnov 9 â€” tpu 8tx and 8i max\nnov 10 â€” gemini robotics 2.5\nnov 10 â€” alphaproof code\nnov 10 â€” gemini 4 carbon\nnov 11 â€” gemini decision 1\nnov 11 â€” alphagenome 2\n\nand today we might get either Hydrogen (Flash model) or a surprise early release of Krypton which is expected to surpass Fable 5.2",
+      "url": "https://x.com/demishassabis/status/2120831522853052416",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2120726045145927680",
+      "username": "drfeifei",
+      "author_name": "Fei-Fei Li",
+      "created_at": "2026-11-12T03:51:05.004000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Great to be at #CoRL2026 in Austin today! Enjoyed the conversation with @drfeifei about the exciting advances in robotics, physical AI, and the opportunities ahead.\n\nThanks to @PeterStone_TX, @yukez, and the @corl_conf team for the invite and the opportunity to connect with so many brilliant students and researchers!",
+      "url": "https://x.com/drfeifei/status/2120726045145927680",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2120714890512072704",
       "username": "ai_explorer25",
@@ -104,186 +433,6 @@
       "timestamp_corrected": true,
       "text": "Most noteworthy English accounts to follow in the AI field:\n\n@karpathy = King of Large Language Models\n@steipete = Founder of OpenClaw\n@gregisenberg = King of Startup Ideas\n@rileybrown = King of VibeCode\n@jackfriks = King of Solo App Development\n@levelsio = King of Entrepreneurship\n@ai_explorer25  = AI Gatekeeper & Tools\n@EXM7777  = King of AI Ops\n@aronhouyu = The AI Gatekeeper Slacker\n@eptwts  = King of AI Money-Making on Twitter\n@godofprompt  = King of Prompt Engineering\n@vasuman  = King of AI Agents\n@AmirMushich  = King of AI Advertising\n@0xROAS  = King of AI UGC\n@egeberkina  = King of AI Image Generation\n@MengTo  = King of AI Landing Pages\n@boringmarketer = AI Smart Marketing\n@kimmonismus = King of AI News\n@NorthstarBrain = King of Practical AI",
       "url": "https://x.com/ai_explorer25/status/2120714890512072704",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120699809489096704",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-12T02:06:49.936000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "WSJ: \"As recently as the summer of last year, Singapore was officially one of Nvidiaâ€™s biggest markets, generating 22% of the chip makerâ€™s revenue. Then, practically overnight, it disappeared from the companyâ€™s financial disclosures. Investors deserve to know why, and Nvidia needs to start explaining, with or without Jensen Huang at the helm. The timeline indicates that Nvidia altered its methodology for reporting the geographic breakdown of its revenue shortly after placing Megaspeed International on an internal block list. It isnâ€™t clear if the two are related, but the shift had the effect of removing visibility into Nvidiaâ€™s sales tied to Singapore. That is the home to Megaspeed, the cloud-computing company embroiled in a sex-and-espionage scandal that has engulfed Nvidia and its chief executive.\"\nhttps://t.co/4dsm45tsAN",
-      "url": "https://x.com/GaryMarcus/status/2120699809489096704",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120691191490494464",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-12T01:32:35.245000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Nvidiaâ€™s board is right to act. No one in DC should spike the ball on the 20-yard line.\n\nTheir corporate board has shown more accountability and courage in a matter of days than anyone in the Trump Administration.\n\nFrom the CIA Director to the FBI Director to the Commerce Secretary, they have known all of this for over a year and have refused to act.\n\nBut like any Don, when it comes to the Trump White House and money, their only question is whatâ€™s my cut? \n\nIn the Trump White House, the sign on the Resolute Desk says â€œthe buck stops hereâ€� â€” and itâ€™s clear they mean it literally. For Truman it was about accountability. For Trump itâ€™s all cash and carry.\n\nItâ€™s time for Congress to hold the Trump Administration accountable for selling Americaâ€™s security to the highest bidder.\n\nhttps://t.co/F0WMDu8Jlm",
-      "url": "https://x.com/GaryMarcus/status/2120691191490494464",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120631969109479424",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-11T21:37:15.529000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Stunning report. At this point it seems like Howard Lutnick and Jeff Kessler are just outright defying the President's orders on export controls. The President apparently ordered Secretary Lutnick to crack down on China's access to controlled AI chips in Southeast Asia--and reportedly has ordered this three separate times--and they're just...not doing it. \n\nWhy is Lutnick refusing to act? Why is he allowing China to continue to get AI chips via Southeast Asia? At this point, Lutnick isn't just protecting Nvidia, he's  straight up protecting Chinese companies--reportedly against the wishes of the President and the entire rest of the Cabinet. Is Lutnick personally benefitting from China getting access to AI chips? \n\nThis is a total breakdown inside the administration on a major national security issue. There has to be accountability for this. Congress obviously will investigate, but how is it that the President's own appointees are just refusing to execute the President's orders? I've never seen anything like this.",
-      "url": "https://x.com/GaryMarcus/status/2120631969109479424",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120560401314463746",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-11T16:52:52.437000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "The only reason I gave YouArt Desktop a shot was because it works directly with my existing editing setup, without having to change years of customisations.\n\nTried it with my own presets and templates, and it got the job done in minutes. Now I'm planning to test it on my next video project.",
-      "url": "https://x.com/ai_explorer25/status/2120560401314463746",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120532824394518528",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-11T15:03:17.587000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Your heart, brain, and immune system share the same DNA sequence. So how can a single-letter change affect disease in some cells, while sparing the rest?\n\nAlphaGenome 2 is our new AI model that zooms in on specific cells to help scientists understand what drives disease. ðŸ§µ",
-      "url": "https://x.com/demishassabis/status/2120532824394518528",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120532611798044672",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-11T15:02:26.900000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Pluraiâ€™s new plugin lets you put your agent through a stress test without leaving Claude Code.\n\nPoint it at your repo, and it builds a digital twin:\n\nyour actual agent, unchanged its tools and records recreated from your code each run isolated in its own sandbox, with no side effects\n\nThen it tries to break your agent.",
-      "url": "https://x.com/ai_explorer25/status/2120532611798044672",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120524450617528320",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-11T14:30:01.123000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Big day for us at @pluraiAI ! Plurai Simulation is live and free for every AI engineer.\n\nAI agents look great in demos. Until real users break them.\n\nSo we built a world where your agent can fail, learn, and get fixed before your users ever see it.\n\nâ†’ Digital twin: Your real agent, its tools, and environment recreated from your code\n\nâ†’ Simulated users & tasks: Realistic users, tasks, and workflows that push your agent into the edge cases that matter\n\nâ†’ Auto evals: Check what your agent actually did, not just what it said\n\nâ†’ Verified fixes: Every failure comes with the run that exposed it and a fix you can verify\n\nâ†’ Replays: Turn any production failure into a simulation and replay it against every new version of your agent\n\nAll inside the coding agent you already use: @claudeai code, @OpenAICodexCli , or @GitHubCopilot .\n\nStart simulating for free: https://t.co/1PNPQdW29S",
-      "url": "https://x.com/ai_explorer25/status/2120524450617528320",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120518103893413888",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-11T14:04:47.946000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing the YouArt Desktop App: your AI creative teammate on your computer.\n\nIt uses the best LLMs like Fable 5.2 to make creatives. It can operate creative software on your computer, including CapCut, DaVinci Resolve, Adobe Premiere and many more.\n\nIt brings client feedback onto a native canvas, and you can ask agents to address all the comments while you have a coffee.\n\nItâ€™s the most cost-efficient video agent. It supports all third-party API keys and uses smart routing to send every clip to the cheapest provider.\n\nHave fun!",
-      "url": "https://x.com/ai_explorer25/status/2120518103893413888",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120492928745492481",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-11T12:24:45.723000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "ðŸš¨ BREAKING: the team behind Backdrop just shipped the tool every founder has been begging for.  \n\nBackdrop guides your call through proven sales frameworks like MEDDPICC and SPIN, helping you ask the right questions and handle tough objections in real time.  \n\nYour go-to tool for winning more deals this Q4.",
-      "url": "https://x.com/ai_explorer25/status/2120492928745492481",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2120348286225633280",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-11T02:50:00.259000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Must follow founder accounts in X\n\n@dhh (David Heinemeier Hansson) â†’ Ruby on Rails, 37signals \n@jasonfried â†’ Basecamp/37signals, bootstrapping \n@Suhail â†’ Mixpanel, Playground AI \n@amasad (Amjad Masad) â†’ Replit \n@rauchg (Guillermo Rauch) â†’ Vercel \n@noahkagan â†’ AppSumo, marketing\n@gregisenberg â†’ startup ideas (already on your list, huge)\n@thejustinwelsh (Justin Welsh)\n@sweatystartup (Nick Huber) â†’ SMB/real business\n@thedankoe (Dan Koe) â†’ creator business \n@rowancheung â†’ AI news \n@mckaywrigley â†’ AI coding/education \n@nutlope (Hassan El Mghari) â†’ AI apps \n@ai_explorer25 â†’ AI news\n@arvidkahl â†’ bootstrapping \n@tdinh_me (Tony Dinh) â†’ bootstrapped SaaS",
-      "url": "https://x.com/ai_explorer25/status/2120348286225633280",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
