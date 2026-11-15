@@ -1,14 +1,23 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-14T03:29:29.367165Z",
-  "window_start": "2026-11-13T01:29:29.367165Z",
+  "generated_at": "2026-11-15T02:59:07.612197Z",
+  "window_start": "2026-11-14T00:59:07.612197Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 10,
+  "failed_accounts": [
+    {
+      "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -20,7 +29,7 @@
     {
       "username": "rasbt",
       "returned_count": 9,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 9,
       "possibly_truncated": false
     },
@@ -40,29 +49,29 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 12,
-      "recent_count": 1,
-      "timestamp_corrected_count": 12,
+      "returned_count": 13,
+      "recent_count": 0,
+      "timestamp_corrected_count": 13,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
-      "returned_count": 5,
-      "recent_count": 3,
-      "timestamp_corrected_count": 5,
+      "returned_count": 7,
+      "recent_count": 4,
+      "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 13,
-      "recent_count": 7,
-      "timestamp_corrected_count": 13,
+      "returned_count": 11,
+      "recent_count": 4,
+      "timestamp_corrected_count": 11,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 6,
-      "recent_count": 1,
+      "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
     },
@@ -79,27 +88,121 @@
       "recent_count": 0,
       "timestamp_corrected_count": 6,
       "possibly_truncated": false
-    },
-    {
-      "username": "thsottiaux",
-      "returned_count": 2,
-      "recent_count": 0,
-      "timestamp_corrected_count": 2,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 3,
-      "recent_count": 0,
-      "timestamp_corrected_count": 3,
-      "possibly_truncated": false
     }
   ],
   "warnings": [
-    "XFlux 有 97 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 93 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 13,
+  "tweet_count": 8,
   "tweets": [
+    {
+      "id": "2121651310659620865",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-14T17:07:45.493000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Help me out.\n\nSome elements of the far right wanted export controls and are probably thrilled that Jensen went down.  Of course Dario wanted export control, too. (Though a crash hardly helps his IPO).  And so did the Biden administration for that matter. \n\nOthers on the far right wanted to sell chips and data centers in Asia and now their plans may be foiled. \n\nHardly seems in China’s interest to lose Jensen, who wanted to sell his chips to any and all.\n\nHelp me understand this mess? Who turned the NYT onto Megaspeed?  Why?  \n\n(Or, alternatively, was it one of Lutnick’s enemies that fingered Megaspeed?)",
+      "url": "https://x.com/GaryMarcus/status/2121651310659620865",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121603785361375232",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-14T13:58:54.579000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "So smuggling chips = OK\n\nLeaking it so people get caught = crime.\n\nI mean can we please stop giving Ds this kind of ridiculous layup? \n\nFirst AI guardrails was a psyop. Now chip smuggling is a psyop. \n\nMaybe the American people just don’t want your values or policy? \n\nWe need America First not Big Tech and their besties first. \n\nCorruption isn’t a psyop. It has to go. Now. So we can turn this around.",
+      "url": "https://x.com/GaryMarcus/status/2121603785361375232",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121602550801596416",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-14T13:54:00.237000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
+      "url": "https://x.com/ai_explorer25/status/2121602550801596416",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121592950333267968",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-14T13:15:51.307000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "This has been a pretty eye-opening week for me. Not so much because of the revelations about certain people in tech and business but the reactions to them.\n\nIt's surprising how quickly people want to overlook some pretty serious ethical questions because of what someone has achieved.\n\nI'm a naturally optimistic person, but I increasingly feel the US has lost its way. And I don't think this is a left or right issue. We've become so obsessed with individual success that moral responsibility seems to have become optional.. and we're trying hard (with some success) at exporting this thinking abroad.\n\nIndividualism is one of America's greatest strengths, but somewhere along the way we've confused personal freedom with freedom from responsibility to others. I don't think a society can flourish for long when success becomes an excuse for anything.\n\nMaybe there's something more fundamentally positive at play here than I understand, but I recently read Simon Blackburn's Think and this part felt particularly relevant:\n\n\"A society in which people were incapable of recognizing the others as having a complaint, whatever they do, would be one without an ethic -- but for that very reason it would be hard to recognize it as a society at all.\"",
+      "url": "https://x.com/GaryMarcus/status/2121592950333267968",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121583676643221504",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-14T12:39:00.287000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Tim Cook: \"Despite this table being so small, you could put every Apple product on it. Every single one that we ship today.\"\n         \n\"Most companies begin to do larger and larger and larger portfolios because it's so easy to add. It's hard to edit. It's hard to stay focused. \n\nYet we know we'll only do our best work if we stay focused.\n\nThe hardest decisions we make are all the things not to work on. There are lots of things we'd like to work on, that we have interest in, but we know that we can't do everything great.\"\n\n(Charlie Rose || 2014)",
+      "url": "https://x.com/ai_explorer25/status/2121583676643221504",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121446038393495552",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-14T03:32:04.771000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "David Sacks says whoever leaked the classified memo on Nvidia and Megaspeed was committing a serious crime and should be investigated\n\n\"There's a second op here, and it began when somebody or multiple people leaked a highly classified memo, or the contents of it, to the New York Times.\"\n\n\"I think it's really important to understand that that's a crime. Leaking classified intelligence is a crime, and many people have been prosecuted for it.\" \n\n\"In fact, we've had multiple former presidents and current presidents, President Trump and President Biden, their homes were raided because supposedly they had classified documents in their possession. Remember, there was a raid on Mar-a-Lago, there was a raid on Joe Biden's garage,Mike Pence got caught.\"\n\n\"It's a serious crime. And because of that fact, I don't believe that the New York Times just got this by overhearing people talking about it at a bar. Somebody made the calculated decision that they're willing to risk going to jail, they're willing to risk committing a crime, to let the New York Times know about this story.\" \n\n\"I have a series of questions about that. First, who did that and why? What was their motivation? Why did they feel so strongly about taking Jensen down, that they're willing to break the law?\"",
+      "url": "https://x.com/GaryMarcus/status/2121446038393495552",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
     {
       "id": "2121439775668441088",
       "username": "ai_explorer25",
@@ -127,204 +230,6 @@
       "timestamp_corrected": true,
       "text": "Tech accounts actually worth following 👇\n\n1. Growth & Marketing\n@hectorserrranoo\n@MitcheIl\n@orenmeetsworld\n@masonwarner\n@boringmarketer\n\n2. AI & Building\n@gregisenberg\n@EXM7777 \n@ai_explorer25 \n\n3. Builders & Operators\n@oliverbrocato\n@victorcardenas\n@denk_tweets\n@OisinO\n@ayushswrites\n@hnshah",
       "url": "https://x.com/ai_explorer25/status/2121435701325512706",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121397041402138626",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-14T00:17:22.978000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "One of the most nauseating letters I’ve seen in my investment career.  Just pathetic.  Have some fucking standards for God’s sake you podcasting tech punks.  He has already resigned lol.  Even he knows he doesnt deserve to be there anymore.  But you need him there to keep irresponsibly financing this AI buildout that is crashing and burning before our very eyes bc it is one of the greatest misallocations of  capital I’ve ever studied.  Oy.",
-      "url": "https://x.com/GaryMarcus/status/2121397041402138626",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121374359722012672",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-13T22:47:15.244000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "\"We have zero people unaccounted for, which truly is a miracle on the Mississippi.\"\n\nMore than 30 people were injured after a tanker collided with a docked riverboat on the Mississippi River near the Port of New Orleans, officials said.\n\nMore than 120 passengers and crew were on board the cruise ship. All have been accounted for, according to the mayor of New Orleans.\n\nhttps://t.co/xRvfrPdJgi",
-      "url": "https://x.com/GaryMarcus/status/2121374359722012672",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121355054821322752",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-13T21:30:32.597000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Schiavo: What's interesting to me about the ground stop is the FAA had also announced that it was about to deploy their new tool called SMART, to assist in managing air traffic across the entire national airspace system… \n\nI don't know if they're linked, but it's just too much coincidence that they were trying to start that moving today. And now we have problems with the system. \n\nAnd that would be my guess that they are having computer issues by putting the new software in with the old",
-      "url": "https://x.com/GaryMarcus/status/2121355054821322752",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121342633268199424",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-13T20:41:11.068000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "In 11 weeks, we:\n\n1. Ran 99 launches\n2. Helped clients get 4,671 demos\n3. Generated $1,1m\n\nToday, we’re open-sourcing our entire business: https://t.co/x7F9DIJ7AP\n\nLaunch checklists, prompts, and even our employees: 50% of our team are Grok @bot agents (thank you, @elonmusk!)",
-      "url": "https://x.com/ai_explorer25/status/2121342633268199424",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121338095589314560",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-13T20:23:09.201000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "What we shipped this week @google \n\nMonday: Two new 8th-gen TPUs\nTuesday: Gemini 4 Carbon\n- AlphaProof Code verified Signal protocol\n- Gemini Robotics 2.5\nWednesday: AlphaGenome 2 for disease research\n- Gemini Decisions API in AI Studio\nThursday: Gemini 4 Hydrogen\n- intelligent eyewear pre-orders\nFriday: U2 new album (ok not us but exciting!)\n\nonwards!",
-      "url": "https://x.com/demishassabis/status/2121338095589314560",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121320349694619648",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-11-13T19:12:38.250000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Wow that escalated quickly. Was gone for a few weeks and now pretty much everyone launched their own decision model copycats:\n\n- Sep 23: Together AI, Tev1-4B\n- Sep 24: Alibaba Cloud, decision-model\n- Sep 29: Liquid AI, d1\n- Sep 30: Databricks, ai_decide\n- Oct 1: Amazon AWS, Strands Decider 2B\n- Oct 1: Cloudflare, Clef and Clef-flash (Clef-omni on Oct 9)\n- Oct 1: Perplexity, Decider (v1.3 on Nov 12)\n- Oct 6: OpenAI, Decisions API (GPT-6 Luna)\n- Oct 7: https://t.co/s8O5rwbq5z, H2O-Lightning-4B\n- Oct 7: Snowflake, Snowflake Decision\n- Oct 9: Microsoft, Microsoft-Decision-1\n- Oct 15: IBM, Granite Switch 4.1 with Decision adapter\n- Oct 21: Baseten, Mammoth-1 and Elephant-1\n- Nov 6: Salesforce, Koa Decisions\n- Nov 11: Google DeepMind, Gemini Decision 1\n\nAccording to a Vercel report, 26% of requests are now routed through decision models 📈",
-      "url": "https://x.com/rasbt/status/2121320349694619648",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121309337431752704",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-11-13T18:28:52.722000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Why aren't language learning apps like Duolingo investing more in local/on-device AI?\n\nUsers get a better product (free \"premium\" features), companies get lower infrastructure costs, and it all works offline with no voice recordings sent to a server!\n\nFable 5.2 cooked up this pop-up book game that runs LFM3-Omni from @LiquidAI locally in your browser w/ our custom WebGPU kernels. The same model does speech recognition, image understanding, conversation, and text-to-speech. Pretty wild.\n\nIt also uses the new html-in-canvas API to make the entire experience more interactive and accessible!",
-      "url": "https://x.com/maximelabonne/status/2121309337431752704",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121302080782479360",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-13T18:00:02.602000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "AI can write your cold email. It can’t make someone vouch for you.\n\nThe investor meeting. The first customer. The great hire.\n\nTrust opens doors.\n\nAfter years at Google Brain, I’m building DeepVista to find the people you need to know—and warm paths to reach them.\n\nAt its core is a Dynamic Trust Graph that connects people, shared history, and relationship context to help AI turn understanding into action.\n\nDeepVista 1.0 is live.\n\nExplore the interactive graph in the first reply.",
-      "url": "https://x.com/ai_explorer25/status/2121302080782479360",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121295657164222464",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-13T17:34:31.092000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Introducing Nexus\n\nThe agentic workforce for deployment teams that helps deliver and deploy for customers faster\n\nForward deployed teams build the best AI for others, but  there's no AI to help them 10x. We just built that!\n\nNexus functions as a proactive context layer across your deployments to codify playbooks, surface and ship product signal, and reliably handoff more complex deployment work to agents.\n\nWe just made the most important motion in AI today faster and more agentic!",
-      "url": "https://x.com/ai_explorer25/status/2121295657164222464",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121118360242884608",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-13T05:50:00.212000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Andrej Karpathy revealed what survives after prompting\n\n\"Prompting is fading away\n\nDelete everything else and keep the graph\"\n\nIn a 1-hour lecture, he explains how to build graphs and why they are the layer everything ends up becoming\n\nLLMs → Prompts → Agents → Graphs\n\nMost people are still trying to perfect prompts\n\nThe graph is the part that survives\n\nEverything before it is just a step in the process\n\nThis free lecture is worth more than most $500 graph engineering courses",
-      "url": "https://x.com/ai_explorer25/status/2121118360242884608",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121073565227274241",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-13T02:52:00.248000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "the best 20 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups\n@EXM7777 = learn AI ops + systems\n@eptwts = learn AI money\n@ai_explorer25  = learn about ai tools\n@mardehaym = learn enterprise AI\n@vasuman = learn AI agents\n@AmirMushich = learn AI ads\n@0xROAS = learn AI UGC\n@AndrewYNg = learn AI engineering\n@kloss_xyz = learn systems architecture\n@emollick = learn AI science\n@Hesamation = learn AI/ML\n@claudeskills101 = learn Claude\n\nfollow them all and learn.",
-      "url": "https://x.com/ai_explorer25/status/2121073565227274241",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
