@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-15T02:59:07.612197Z",
-  "window_start": "2026-11-14T00:59:07.612197Z",
+  "generated_at": "2026-11-16T02:58:19.593890Z",
+  "window_start": "2026-11-15T00:58:19.593890Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
@@ -28,9 +28,9 @@
     },
     {
       "username": "rasbt",
-      "returned_count": 9,
+      "returned_count": 8,
       "recent_count": 0,
-      "timestamp_corrected_count": 9,
+      "timestamp_corrected_count": 8,
       "possibly_truncated": false
     },
     {
@@ -49,23 +49,23 @@
     },
     {
       "username": "demishassabis",
-      "returned_count": 13,
+      "returned_count": 10,
       "recent_count": 0,
-      "timestamp_corrected_count": 13,
+      "timestamp_corrected_count": 10,
       "possibly_truncated": false
     },
     {
       "username": "GaryMarcus",
       "returned_count": 7,
-      "recent_count": 4,
+      "recent_count": 6,
       "timestamp_corrected_count": 7,
       "possibly_truncated": false
     },
     {
       "username": "ai_explorer25",
-      "returned_count": 11,
-      "recent_count": 4,
-      "timestamp_corrected_count": 11,
+      "returned_count": 12,
+      "recent_count": 3,
+      "timestamp_corrected_count": 12,
       "possibly_truncated": false
     },
     {
@@ -91,55 +91,19 @@
     }
   ],
   "warnings": [
-    "XFlux 有 93 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
+    "XFlux 有 90 条记录的 created_at 与推文 ID 不一致；已使用 X/Twitter Snowflake ID 中编码的真实发布时间修正。"
   ],
-  "tweet_count": 8,
+  "tweet_count": 9,
   "tweets": [
     {
-      "id": "2121651310659620865",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-14T17:07:45.493000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Help me out.\n\nSome elements of the far right wanted export controls and are probably thrilled that Jensen went down.  Of course Dario wanted export control, too. (Though a crash hardly helps his IPO).  And so did the Biden administration for that matter. \n\nOthers on the far right wanted to sell chips and data centers in Asia and now their plans may be foiled. \n\nHardly seems in China’s interest to lose Jensen, who wanted to sell his chips to any and all.\n\nHelp me understand this mess? Who turned the NYT onto Megaspeed?  Why?  \n\n(Or, alternatively, was it one of Lutnick’s enemies that fingered Megaspeed?)",
-      "url": "https://x.com/GaryMarcus/status/2121651310659620865",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121603785361375232",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-14T13:58:54.579000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "So smuggling chips = OK\n\nLeaking it so people get caught = crime.\n\nI mean can we please stop giving Ds this kind of ridiculous layup? \n\nFirst AI guardrails was a psyop. Now chip smuggling is a psyop. \n\nMaybe the American people just don’t want your values or policy? \n\nWe need America First not Big Tech and their besties first. \n\nCorruption isn’t a psyop. It has to go. Now. So we can turn this around.",
-      "url": "https://x.com/GaryMarcus/status/2121603785361375232",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121602550801596416",
+      "id": "2122160476989841408",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-11-14T13:54:00.237000Z",
+      "created_at": "2026-11-16T02:51:00.206000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\n\nAgent harnesses built with loops and graphs will replace it\"\n\nAgent → Harness → Feedback → Loops → Graphs → Self-Improving Systems\n\nIn this 1-hour Stanford lecture, he explains what the best engineers are building instead and how you can start today\n\nPrompt → Run → Verify → Improve\n\nThe first 20 minutes teach what most $1,500 courses try to sell you\n\nFor free\n\nBookmark and watch it today",
-      "url": "https://x.com/ai_explorer25/status/2121602550801596416",
+      "text": "best founders list to follow on X:\n\n@levelsio → GOAT\n@marclou → SaaS\n@tibo_maker → Serial Entrepreneurship\n@jackfriks → Micro apps\n@athcanft → iOS apps\n@wickedguro → Distribution Maxxing\n@robj3d3 → AI coding\n@illyism → SEO\n@ai_explorer25→ AI and Tech\n@gregisenberg → Startup Ideas\n@dannypostma → AI Apps\n@AlexFinn → AI \n@romanbuildsaas → Viral Growth Loops",
+      "url": "https://x.com/ai_explorer25/status/2122160476989841408",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -150,14 +114,14 @@
       }
     },
     {
-      "id": "2121592950333267968",
+      "id": "2122139135364259840",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-14T13:15:51.307000Z",
+      "created_at": "2026-11-16T01:26:11.966000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "This has been a pretty eye-opening week for me. Not so much because of the revelations about certain people in tech and business but the reactions to them.\n\nIt's surprising how quickly people want to overlook some pretty serious ethical questions because of what someone has achieved.\n\nI'm a naturally optimistic person, but I increasingly feel the US has lost its way. And I don't think this is a left or right issue. We've become so obsessed with individual success that moral responsibility seems to have become optional.. and we're trying hard (with some success) at exporting this thinking abroad.\n\nIndividualism is one of America's greatest strengths, but somewhere along the way we've confused personal freedom with freedom from responsibility to others. I don't think a society can flourish for long when success becomes an excuse for anything.\n\nMaybe there's something more fundamentally positive at play here than I understand, but I recently read Simon Blackburn's Think and this part felt particularly relevant:\n\n\"A society in which people were incapable of recognizing the others as having a complaint, whatever they do, would be one without an ethic -- but for that very reason it would be hard to recognize it as a society at all.\"",
-      "url": "https://x.com/GaryMarcus/status/2121592950333267968",
+      "text": "I absolutely don’t want to see anyone lose money in the markets for no reason - especially given how many 401ks have Nvidia exposure. \nHowever - here is the reality:\nThis isn't a tabloid affair. It's a relationship with a woman U.S. officials reportedly believe was a Chinese asset, an FBI inquiry, a chip-smuggling probe, a Wachtell investigation, a possible relationship w/a direct report and a shareholder lawsuit.\nNo director with a fiduciary duty can bring him back while that cloud hangs over him. \nGenius doesn't buy a pass on national security.\nLibertarian views don’t trump corporate governance.",
+      "url": "https://x.com/GaryMarcus/status/2122139135364259840",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -168,32 +132,14 @@
       }
     },
     {
-      "id": "2121583676643221504",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-14T12:39:00.287000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": true,
-      "text": "Tim Cook: \"Despite this table being so small, you could put every Apple product on it. Every single one that we ship today.\"\n         \n\"Most companies begin to do larger and larger and larger portfolios because it's so easy to add. It's hard to edit. It's hard to stay focused. \n\nYet we know we'll only do our best work if we stay focused.\n\nThe hardest decisions we make are all the things not to work on. There are lots of things we'd like to work on, that we have interest in, but we know that we can't do everything great.\"\n\n(Charlie Rose || 2014)",
-      "url": "https://x.com/ai_explorer25/status/2121583676643221504",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2121446038393495552",
+      "id": "2122097988206305280",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-14T03:32:04.771000Z",
+      "created_at": "2026-11-15T22:42:41.719000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "David Sacks says whoever leaked the classified memo on Nvidia and Megaspeed was committing a serious crime and should be investigated\n\n\"There's a second op here, and it began when somebody or multiple people leaked a highly classified memo, or the contents of it, to the New York Times.\"\n\n\"I think it's really important to understand that that's a crime. Leaking classified intelligence is a crime, and many people have been prosecuted for it.\" \n\n\"In fact, we've had multiple former presidents and current presidents, President Trump and President Biden, their homes were raided because supposedly they had classified documents in their possession. Remember, there was a raid on Mar-a-Lago, there was a raid on Joe Biden's garage,Mike Pence got caught.\"\n\n\"It's a serious crime. And because of that fact, I don't believe that the New York Times just got this by overhearing people talking about it at a bar. Somebody made the calculated decision that they're willing to risk going to jail, they're willing to risk committing a crime, to let the New York Times know about this story.\" \n\n\"I have a series of questions about that. First, who did that and why? What was their motivation? Why did they feel so strongly about taking Jensen down, that they're willing to break the law?\"",
-      "url": "https://x.com/GaryMarcus/status/2121446038393495552",
+      "text": "Basically the Trump administration has given us measles, higher gas prices, a war nobody wants, and nationwide ground stops. Don’t even get me started about the cruelty of ICE.\n\nAs a bonus they have ripped apart America’s crown jewel, its heretofore absolutely first rate scientific institutions. \n\nThey also turned a blind eye to Nvidia’s apparent backdoor sales of chips to China.\n\nAnd they have never apologized for any of this mess; the dude who canceled all the flights, for example, told a hard to swallow story about a router, and bowed down to Trump, as if everything was otherwise fine.\n\nIt’s not.",
+      "url": "https://x.com/GaryMarcus/status/2122097988206305280",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -204,14 +150,14 @@
       }
     },
     {
-      "id": "2121439775668441088",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-14T03:07:11.621000Z",
+      "id": "2122095185836347392",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-15T22:31:33.582000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "AI has made sending cold outreach effortless, but real deals, hires, and intros still happen because someone you trust vouches for you.\n\nLove what @jingconan (ex-Google Brain) is building with DeepVista 1.0—using AI to map your actual network history and warm intro paths instead of just blasting more messages. \n\nWorth checking out: https://t.co/FUcd8T3blX 👇",
-      "url": "https://x.com/ai_explorer25/status/2121439775668441088",
+      "text": "The 🗝️ fact:  You can’t understand contemporary AI unless you can appreciate the difference between a model (that is part of a system) and a system as a whole.\n\nIf a system as a whole includes both neural networks and symbols, it is by definition neurosymbolic.\n\nTo think otherwise is like thinking that an engine IS a car, rather than a component of a car. You can’t make a car out of engines alone. and you can’t (in most cases) make robust, reliable AI systems out of neural networks alone.\n\nInstead, in many domains you get better results by  *integrating* both neural networks and symbols. (Math, where e.g., Lean checks and sometimes rejects the work of LLMs is a good example of this; so is Claude Code).\n\nThat was literally the point of my 2001 book The Algebraic Mind and has been a central point throughout my career.\n\nFor a long time, people like @GeoffreyHinton argued otherwise, suggesting that all we needed were neural networks by themselves, and that symbols were an archaic waste of time. Hinton likened symbols to “aether”, as if they were complete scientific mistake.\n\nHe was wrong. Systems like Claude Code depend heavily on combining neural networks with things like rules, code interpreters, functions, conditionals and loops - all symbolic constructs drawn from classical AI. Math systems use automated theorem provers, which flow directly from Newell and Simon’s symbolic work in the 1950s.\n\nSymbols weren’t a mistake; they were vital, just as neural networks are.  Scaling helped, but by itself it wasn’t enough; symbolic tools and code interpreters and harnesses are now a central part of most working systems.\n\nNeurosymbolic AI has won, overwhelmingly; the pure neural networks that the dogmatists like Hinton used to argue for have been almost entirely displaced by neurosymbolic hybrids.\n\nAs @fchollet has also noted, to pretend otherwise is just silly.",
+      "url": "https://x.com/GaryMarcus/status/2122095185836347392",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
@@ -222,14 +168,86 @@
       }
     },
     {
-      "id": "2121435701325512706",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-14T02:51:00.222000Z",
+      "id": "2122089748831633408",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-15T22:09:57.299000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": true,
-      "text": "Tech accounts actually worth following 👇\n\n1. Growth & Marketing\n@hectorserrranoo\n@MitcheIl\n@orenmeetsworld\n@masonwarner\n@boringmarketer\n\n2. AI & Building\n@gregisenberg\n@EXM7777 \n@ai_explorer25 \n\n3. Builders & Operators\n@oliverbrocato\n@victorcardenas\n@denk_tweets\n@OisinO\n@ayushswrites\n@hnshah",
-      "url": "https://x.com/ai_explorer25/status/2121435701325512706",
+      "text": "The tech bros want Jensen back. Not happening. This isn't a sex scandal. It's an FBI counterintelligence review, DOJ probes into chip smuggling, a Wachtell investigation and a relationship with a direct report. No board can reinstate a CEO it is still investigating.\nA suspected Chinese intelligence operative got close to the man running the most strategically important company in America. The FBI is on it. DOJ is probing the chip pipeline to China. Congress wants him under oath. Shareholders are suing. The board hired Wachtell to investigate him.\nYou don't come back from that with an apology tour. Until every one of those probes closes, no director with a fiduciary duty can vote to bring him back. Genius doesn't buy you an exemption from national security.",
+      "url": "https://x.com/GaryMarcus/status/2122089748831633408",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2122089161268064256",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-15T22:07:37.213000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "the tools ARE symbolic \n\nthe system as a whole uses both neural networks and symbols\n\nthat’s what makes the system as whole neurosymbolic.\n\nwhat is so hard to understand about that?\n\ni laid out my criteria in 2001 and again dozens of times after; so don’t pretend i am saying something new.",
+      "url": "https://x.com/GaryMarcus/status/2122089161268064256",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2122074846989275136",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-15T21:10:44.423000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "REMINDER.\nWSJ reports that Megaspeed, the company led by Jensen Huang's former mistress Alice Huang, lined up nearly $12 billion in top-tier Nvidia chips for Chinese buyers between March 2024 and June 2025. If those chips actually reached China without licenses, that would be a serious breach of US EXPORT LAW.",
+      "url": "https://x.com/GaryMarcus/status/2122074846989275136",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121962673856290816",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-15T13:45:00.264000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that \"one plus one equals three,\" genuine curiosity about how things and people work, and creativity that lets people \"see around the corner.\" \n\nThe logic is that research tells you what customers want today, but only a person can sense what they'll need in three years. \n\nAs Cook puts it, the goal is to \"get ahead of the curve\" and together these traits make a great team player.",
+      "url": "https://x.com/ai_explorer25/status/2121962673856290816",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2121945309878067201",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-15T12:36:00.369000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": true,
+      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was about to rebuild it even bigger.      \n\nStop scrolling.      \n\nWatch this tonight instead of Netflix.    \n\nBookmark it. Come back to it.",
+      "url": "https://x.com/ai_explorer25/status/2121945309878067201",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
