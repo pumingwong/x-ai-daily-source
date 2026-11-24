@@ -2,15 +2,19 @@
   "schema_version": 1,
   "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-23T03:55:28.272946Z",
-  "window_start": "2026-11-22T01:55:28.272946Z",
+  "generated_at": "2026-11-24T07:03:11.994232Z",
+  "window_start": "2026-11-23T05:03:11.994232Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 11,
+  "accounts_succeeded": 10,
   "failed_accounts": [
     {
       "username": "thsottiaux",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
       "error": "HTTP 429：调用频率或月度额度已达到限制"
     }
   ],
@@ -46,7 +50,7 @@
     {
       "username": "demishassabis",
       "returned_count": 20,
-      "recent_count": 6,
+      "recent_count": 11,
       "timestamp_corrected_count": 0,
       "possibly_truncated": false
     },
@@ -60,14 +64,14 @@
     {
       "username": "ai_explorer25",
       "returned_count": 20,
-      "recent_count": 5,
+      "recent_count": 18,
       "timestamp_corrected_count": 0,
       "possibly_truncated": false
     },
     {
       "username": "maximelabonne",
       "returned_count": 20,
-      "recent_count": 1,
+      "recent_count": 2,
       "timestamp_corrected_count": 0,
       "possibly_truncated": false
     },
@@ -84,609 +88,944 @@
       "recent_count": 0,
       "timestamp_corrected_count": 0,
       "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 20,
-      "recent_count": 0,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
     }
   ],
   "warnings": [],
-  "tweet_count": 33,
+  "tweet_count": 52,
   "tweets": [
     {
-      "id": "2124712733275034049",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:52:45.523000Z",
+      "id": "2125101606933086572",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-24T05:38:00.228000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "RT @ReutersAsia: South Korea vows to stabilise stock market after KOSPI drops 5% https://t.co/fIjisWCc2B",
-      "url": "https://x.com/GaryMarcus/status/2124712733275034049",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124712400901571037",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:51:26.279000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @puckrin: Asian stocks continue sliding.\n\nSouth Korea's market is down 4.3% and Taiwan's is 6.2%.\n\nIt's being driven by memory stocks su…",
-      "url": "https://x.com/GaryMarcus/status/2124712400901571037",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 3,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124710833863180700",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:45:12.668000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "South Korea vows to stabilise stock market after KOSPI drops 5% https://t.co/fIjisWCc2B",
-      "url": "https://x.com/GaryMarcus/status/2124710833863180700",
+      "text": "Satya Nadela is basically describing the death of the traditional SaaS model.\n\nExplains the AI agentic future, and where the \"value\" lives.\n\nBecause business logic is moving from the software application to the AI agents.\n\nCurrently, you buy software for its specific features and https://t.co/VaRmUrgRu9",
+      "url": "https://x.com/ai_explorer25/status/2125101606933086572",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 2,
-        "reply_count": 1,
-        "retweet_count": 2,
+        "like_count": 12,
+        "reply_count": 5,
+        "retweet_count": 1,
         "quote_count": 0
       }
     },
     {
-      "id": "2124708747872493952",
+      "id": "2125064850426761412",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:36:55.329000Z",
+      "created_at": "2026-11-24T03:11:56.794000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "RT @ziv_ravid: 12/12\nSo it's either PR, or a sincere belief that an unreproducible number on a private benchmark can be a basis for a share…",
-      "url": "https://x.com/GaryMarcus/status/2124708747872493952",
+      "text": "RT @SenatorRicketts: Jensen Huang had multiple affairs including with subordinates and an alleged Chinese spy. His own board described his…",
+      "url": "https://x.com/GaryMarcus/status/2125064850426761412",
       "is_reply": false,
       "is_retweet": true,
       "public_metrics": {
         "like_count": 0,
         "reply_count": 0,
-        "retweet_count": 2,
+        "retweet_count": 848,
         "quote_count": 0
       }
     },
     {
-      "id": "2124707151138652338",
+      "id": "2125060929062912153",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:30:34.638000Z",
+      "created_at": "2026-11-24T02:56:21.868000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "SpaceX may soon go the way of CoreWeave, crippled by a massive need for ever-more expensive capital.",
-      "url": "https://x.com/GaryMarcus/status/2124707151138652338",
+      "text": "RT @SaraEisen: President Trump told us this morning  “I convinced them” [the board] to bring Jensen back.\n\nThere will be endless lawsuits f…",
+      "url": "https://x.com/GaryMarcus/status/2125060929062912153",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 263,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2125060480742158424",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T02:54:34.980000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @RpsAgainstTrump: CNN: Vance coordinated directly with Huang in pressuring Nvidia’s board to take him back, including working to assure…",
+      "url": "https://x.com/GaryMarcus/status/2125060480742158424",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 80,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2125059328310972545",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-24T02:50:00.219000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "the best accounts to follow for AI and startups:\n\n@paulg= YC co-founder, essays that shaped startups\n@naval= wealth, leverage, and clear thinking\n@marc_louvion= ships startups fast, indie builder\n@tdinh_me= indie hacker, AI tools to 7 figures\n@arvidkahl= bootstrapping +",
+      "url": "https://x.com/ai_explorer25/status/2125059328310972545",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
         "like_count": 21,
+        "reply_count": 6,
+        "retweet_count": 5,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2125051499462144426",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T02:18:53.676000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Narrator: And they will be right.",
+      "url": "https://x.com/GaryMarcus/status/2125051499462144426",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 166,
+        "reply_count": 3,
+        "retweet_count": 25,
+        "quote_count": 1
+      }
+    },
+    {
+      "id": "2125049520992182656",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T02:11:01.972000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "CNN: Vance coordinated directly with Huang in pressuring Nvidia’s board to take him back, including working to assure the company’s board that the government hadn’t found any evidence that Huang did anything illegal or untoward that could have threatened national security, the https://t.co/218SuW8hVG",
+      "url": "https://x.com/GaryMarcus/status/2125049520992182656",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 266,
+        "reply_count": 20,
+        "retweet_count": 80,
+        "quote_count": 10
+      }
+    },
+    {
+      "id": "2125049326397501695",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T02:10:15.577000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "short-tern propping of the market with immense long terms costs … to the market.",
+      "url": "https://x.com/GaryMarcus/status/2125049326397501695",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 60,
         "reply_count": 2,
-        "retweet_count": 2,
+        "retweet_count": 9,
         "quote_count": 0
       }
     },
     {
-      "id": "2124704805994303644",
+      "id": "2125049032531992612",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:21:15.512000Z",
+      "created_at": "2026-11-24T02:09:05.514000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "Asian stocks continue sliding.\n\nSouth Korea's market is down 4.3% and Taiwan's is 6.2%.\n\nIt's being driven by memory stocks such as SK Hynix &amp; Samsung are down almost 6%. https://t.co/nPhDW04sf9",
-      "url": "https://x.com/GaryMarcus/status/2124704805994303644",
+      "text": "RT @QualiaQuanta: I demand an apology now. I have spent the last 80 hours finding all the junk in that guy's code and being called a crank…",
+      "url": "https://x.com/GaryMarcus/status/2125049032531992612",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 319,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2125048021566341500",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T02:05:04.481000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Math twitter, which is more elegant, Wiles/Fermat or Levent&amp;Claude/Riemann?\n\nAlso, which has more ramifications for other problems?",
+      "url": "https://x.com/GaryMarcus/status/2125048021566341500",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 25,
+        "like_count": 24,
+        "reply_count": 6,
+        "retweet_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2125048006646894779",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T02:05:00.924000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "CNN: Donald Trump had been stewing for days over the stock market’s deepening sell-off when he decided there was only one way to stop the slide: Put Jensen Huang back atop Nvidia.\n\nTrump’s conclusion late last week sparked an unprecedented West Wing pressure campaign orchestrated https://t.co/zWRpv6XwY3",
+      "url": "https://x.com/GaryMarcus/status/2125048006646894779",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 275,
+        "reply_count": 23,
+        "retweet_count": 67,
+        "quote_count": 5
+      }
+    },
+    {
+      "id": "2125046590243058045",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-24T01:59:23.227000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "@GaryMarcus @QualiaQuanta This is an absolute nonsense take. You cannot claim the Wiles proof of Fermat's Last Theorem is elegant. Or Perelman's proof of the Poincaré conjecture. Their accolades were for correctness, not elegance.",
+      "url": "https://x.com/GaryMarcus/status/2125046590243058045",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 12,
         "reply_count": 4,
-        "retweet_count": 3,
+        "retweet_count": 0,
         "quote_count": 1
       }
     },
     {
-      "id": "2124699957554749457",
+      "id": "2125046438157852978",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T03:01:59.554000Z",
+      "created_at": "2026-11-24T01:58:46.967000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "“gary marcus is always wrong” 🤣🤣🤣\n\nhttps://t.co/dIUoSNsW9O",
-      "url": "https://x.com/GaryMarcus/status/2124699957554749457",
+      "text": "RT @cwarzel: Really feels like we’re in an AI hostage economy.  Let AI rip or you get uncertainty in your retirement accounts. Let the All-…",
+      "url": "https://x.com/GaryMarcus/status/2125046438157852978",
       "is_reply": false,
-      "is_retweet": false,
+      "is_retweet": true,
       "public_metrics": {
-        "like_count": 13,
+        "like_count": 0,
         "reply_count": 0,
-        "retweet_count": 5,
-        "quote_count": 1
-      }
-    },
-    {
-      "id": "2124699376077443245",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:59:40.919000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "it’s much more serious",
-      "url": "https://x.com/GaryMarcus/status/2124699376077443245",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 41,
-        "reply_count": 0,
-        "retweet_count": 10,
+        "retweet_count": 599,
         "quote_count": 0
       }
     },
     {
-      "id": "2124697739053117589",
+      "id": "2125040358040183224",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:53:10.622000Z",
+      "created_at": "2026-11-24T01:34:37.354000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "citibank has literally called the end of the AI bubble, 3 years and 3 months after i argued that the economics were unlikely ever to make sense.",
-      "url": "https://x.com/GaryMarcus/status/2124697739053117589",
+      "text": "Watters: They will say the president is manipulating the market to enrich himself and his cabinet. And they are going to say Jensen donated to the ballroom. They are going to say Trump put our national security at risk and is bowing to the Chinese. https://t.co/G6Cc68P6kN",
+      "url": "https://x.com/GaryMarcus/status/2125040358040183224",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 36,
-        "reply_count": 0,
-        "retweet_count": 5,
-        "quote_count": 0
+        "like_count": 3381,
+        "reply_count": 1099,
+        "retweet_count": 512,
+        "quote_count": 287
       }
     },
     {
-      "id": "2124696940797407242",
+      "id": "2125015916832493922",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-23T23:57:30.116000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "JPM: \n\nRemoving the Jensen uncertainty “is clearly positive. However, the broader uncertainty around the rules of corporate governance and political involvement just got A LOT worse .. Over time, this should weigh on equity multiples, particularly with a Democratic Congress ..” https://t.co/8zf0pRuJMJ",
+      "url": "https://x.com/GaryMarcus/status/2125015916832493922",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 757,
+        "reply_count": 25,
+        "retweet_count": 126,
+        "quote_count": 21
+      }
+    },
+    {
+      "id": "2124996069016961353",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-11-23T02:50:00.303000Z",
+      "created_at": "2026-11-23T22:38:38.028000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "10 accounts to follow in X :\n\nAudience building: @thedankoe \nTech and AI: @ai_explorer25 \nSolopreneurship: @justinwelsh\nWriting online: @david_perell\nGhostwriting: @dickiebush\nMarketing examples: @harrydry\nOffers &amp; pricing: @AlexHormozi\nBig ideas: @shaanvp\nNewsletters:",
-      "url": "https://x.com/ai_explorer25/status/2124696940797407242",
+      "text": "His supply and demand model explains more flat view counts than any algorithm thread.",
+      "url": "https://x.com/ai_explorer25/status/2124996069016961353",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 14,
-        "reply_count": 2,
+        "like_count": 32,
+        "reply_count": 6,
+        "retweet_count": 15,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124995025088180476",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T22:34:29.136000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Going viral isn't luck. Copying the format isn't a strategy either.\n\n@victorgu0 got 690K views on one video.\n\nWe broke down WHY it worked, applied the same principles, and hit 122K plays on a single reel.\n\nHere's what most people missed: https://t.co/jqtA3W4cV1",
+      "url": "https://x.com/ai_explorer25/status/2124995025088180476",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 97,
+        "reply_count": 18,
+        "retweet_count": 5,
+        "quote_count": 35
+      }
+    },
+    {
+      "id": "2124994180115988833",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-23T22:31:07.679000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "I demand an apology now. I have spent the last 80 hours finding all the junk in that guy's code and being called a crank and every other name in the book, facing down crypto scammers and IPO bots harassing me and targeting my papers and getting my good work kicked offline, when",
+      "url": "https://x.com/GaryMarcus/status/2124994180115988833",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 3717,
+        "reply_count": 185,
+        "retweet_count": 319,
+        "quote_count": 36
+      }
+    },
+    {
+      "id": "2124986746379382915",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T22:01:35.338000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @_mohansolo: Resetting Gemini quotas for everyone on Antigravity because we’re upgrading models across tiers!\n\nPaid Pro users will now h…",
+      "url": "https://x.com/demishassabis/status/2124986746379382915",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 993,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124971356450336837",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T21:00:26.093000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @dhh: Gemini 4 Neon is indeed crazy good. Cut Omarchy boot time in half!! Big optimizations on install as well. It's a quiet cat, though…",
+      "url": "https://x.com/demishassabis/status/2124971356450336837",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 493,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124967764532097071",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T20:46:09.713000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @GoogleDeepMind: Gemini 4 Neon recreated Alan Turing’s 1936 study at @Cambridge_Uni in interactive 3D.\n\nUsing archival photos in @Antigr…",
+      "url": "https://x.com/demishassabis/status/2124967764532097071",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 120,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124960419429458207",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T20:16:58.504000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Resetting Gemini quotas for everyone on Antigravity because we’re upgrading models across tiers!\n\nPaid Pro users will now have access to Carbon and Hydrogen will be available to all users as promised!\n\nAnd as always, keep swarming with Neon 🚀",
+      "url": "https://x.com/demishassabis/status/2124960419429458207",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 17413,
+        "reply_count": 1436,
+        "retweet_count": 993,
+        "quote_count": 870
+      }
+    },
+    {
+      "id": "2124959312606818597",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T20:12:34.617000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Gemini 4 Neon recreated Alan Turing’s 1936 study at @Cambridge_Uni in interactive 3D.\n\nUsing archival photos in @Antigravity, the model built Room X.8 at King’s College with a running Universal Turing Machine. https://t.co/mHYg9CW6jJ",
+      "url": "https://x.com/demishassabis/status/2124959312606818597",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 1556,
+        "reply_count": 119,
+        "retweet_count": 120,
+        "quote_count": 23
+      }
+    },
+    {
+      "id": "2124955883688063287",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T19:58:57.099000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @GoogleDeepMind: Quantum computers could one day transform fusion energy, chemistry, and drug discovery - if we can make the algorithms…",
+      "url": "https://x.com/demishassabis/status/2124955883688063287",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 452,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124954890372092362",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-11-23T19:55:00.274000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @helloiamleonie: my colleagues add new modalities and primitives faster than my little pigeon brain can process. 🐦\n\nhere's a little fiel…",
+      "url": "https://x.com/maximelabonne/status/2124954890372092362",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
         "retweet_count": 10,
         "quote_count": 0
       }
     },
     {
-      "id": "2124693779621794218",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:37:26.620000Z",
+      "id": "2124951491857600838",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T19:41:30.005000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "so reductive it is stupid 🤦‍♂️",
-      "url": "https://x.com/GaryMarcus/status/2124693779621794218",
+      "text": "@MonidHQ Check it out: https://t.co/M7wdX4CyOU",
+      "url": "https://x.com/ai_explorer25/status/2124951491857600838",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 8,
+        "like_count": 3,
         "reply_count": 0,
         "retweet_count": 0,
         "quote_count": 0
       }
     },
     {
-      "id": "2124690647634620779",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:24:59.896000Z",
+      "id": "2124950813693133230",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T19:38:48.318000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "Citi has said that the AI bubble has burst",
-      "url": "https://x.com/GaryMarcus/status/2124690647634620779",
+      "text": "The job application wasn't built for a market where everyone applies to everything.\n\nOften a filter reads your resume before a person does. An email goes to the person.\n\n@MonidHQ's answer: job search for Claude. Recruiter and hiring manager from the job post, verified emails,",
+      "url": "https://x.com/ai_explorer25/status/2124950813693133230",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 560,
-        "reply_count": 21,
-        "retweet_count": 45,
-        "quote_count": 8
+        "like_count": 50,
+        "reply_count": 16,
+        "retweet_count": 12,
+        "quote_count": 0
       }
     },
     {
-      "id": "2124688932814119401",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:18:11.051000Z",
+      "id": "2124950131267219889",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T19:36:05.615000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "RT @jahootsen: When are we going to seriously consider that some or even most of the discourse around AI isn't fueled by 'innivation', but…",
-      "url": "https://x.com/GaryMarcus/status/2124688932814119401",
+      "text": "LinkedIn charges you $39.99 a month while you're unemployed.  \n\nIntroducing job search for Claude.  \n\nPaste a job post. Get the recruiter behind it, with verified emails.  \n\n$0.09 per search. No subscription. https://t.co/wI2eoffWJs",
+      "url": "https://x.com/ai_explorer25/status/2124950131267219889",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 231,
+        "reply_count": 40,
+        "retweet_count": 14,
+        "quote_count": 47
+      }
+    },
+    {
+      "id": "2124931786287567015",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T18:23:11.831000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "The most interesting part of Copy Bench isn't the leaderboard. It's the lamp test. \n\nWhen a model sees a gold lamp and builds the glass one it remembers, that's recall dressed up as visual reasoning. \n\nBenchmarks that check whether a model actually looks at what it's shown,",
+      "url": "https://x.com/ai_explorer25/status/2124931786287567015",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 43,
+        "reply_count": 10,
+        "retweet_count": 37,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124930672406237487",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T18:18:46.261000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "How good is AI at  3D, Physics, WebGL, shaders and games?\n\nWe built a benchmark to measure the visual intelligence of frontier models.\n\nIntroducing Copy Bench, the first in the @21st_dev Labs research series\n\nhttps://t.co/tt6cLegLTr https://t.co/gdDB0Szsub",
+      "url": "https://x.com/ai_explorer25/status/2124930672406237487",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 291,
+        "reply_count": 79,
+        "retweet_count": 40,
+        "quote_count": 50
+      }
+    },
+    {
+      "id": "2124927284356542918",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T18:05:18.487000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @pushmeet: Gemini-powered agents are accelerating discoveries across our @GoogleDeepMind Science missions.\n\nToday, our team is sharing h…",
+      "url": "https://x.com/demishassabis/status/2124927284356542918",
       "is_reply": false,
       "is_retweet": true,
       "public_metrics": {
         "like_count": 0,
         "reply_count": 0,
-        "retweet_count": 3,
+        "retweet_count": 74,
         "quote_count": 0
       }
     },
     {
-      "id": "2124686005093413072",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:06:33.028000Z",
+      "id": "2124924949131579706",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T17:56:01.726000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "12/12\nSo it's either PR, or a sincere belief that an unreproducible number on a private benchmark can be a basis for a shared safety standard. I don't know which is worse.",
-      "url": "https://x.com/GaryMarcus/status/2124686005093413072",
+      "text": "\"A B300 for an afternoon. An H100 for up to a day.\" \n\nI make short video reels with Python scripts, and rendering is always the slow part. \n\nFree Spot GPU time is a simple way to speed that up, with no credit card and no contract. \n\nGet the credits: https://t.co/Lz5cNM1q4H",
+      "url": "https://x.com/ai_explorer25/status/2124924949131579706",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 21,
-        "reply_count": 4,
-        "retweet_count": 2,
+        "like_count": 64,
+        "reply_count": 10,
+        "retweet_count": 14,
         "quote_count": 0
       }
     },
     {
-      "id": "2124685014298185960",
+      "id": "2124922447325548708",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T02:02:36.804000Z",
+      "created_at": "2026-11-23T17:46:05.249000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "When are we going to seriously consider that some or even most of the discourse around AI isn't fueled by 'innivation', but by simple greed? It was greed that allowed 2008 to happen, seems like greed plays a part in what's happening now.",
-      "url": "https://x.com/GaryMarcus/status/2124685014298185960",
+      "text": "President Trump told us this morning  “I convinced them” [the board] to bring Jensen back.\n\nThere will be endless lawsuits from anyone that sold Nvidia last week after the board told investors there’s no consideration of bringing him back",
+      "url": "https://x.com/GaryMarcus/status/2124922447325548708",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 19,
-        "reply_count": 2,
-        "retweet_count": 3,
-        "quote_count": 0
+        "like_count": 2067,
+        "reply_count": 284,
+        "retweet_count": 263,
+        "quote_count": 35
       }
     },
     {
-      "id": "2124684291372195921",
+      "id": "2124919958836781211",
       "username": "GaryMarcus",
       "author_name": "Gary Marcus",
-      "created_at": "2026-11-23T01:59:44.445000Z",
+      "created_at": "2026-11-23T17:36:11.947000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "Saying RH is harder than AI research and therefore we should expect AI research to be automated soon is also much too reductionistic. It’s like saying beating the world’s grandmaster at chess is harder than being a good surgeon, and so we should expect surgery to be automated",
-      "url": "https://x.com/GaryMarcus/status/2124684291372195921",
+      "text": "Jensen Huang had multiple affairs including with subordinates and an alleged Chinese spy. His own board described his behavior as lacking “candor.” I’ve served on a public company board. His behavior does not support reinstatement.\n\nNvidia’s decision today doesn’t excuse Jensen",
+      "url": "https://x.com/GaryMarcus/status/2124919958836781211",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 79,
-        "reply_count": 8,
-        "retweet_count": 8,
-        "quote_count": 1
+        "like_count": 5764,
+        "reply_count": 2263,
+        "retweet_count": 848,
+        "quote_count": 163
       }
     },
     {
-      "id": "2124629409105944729",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-22T22:21:39.493000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "I think the Fed is about to make another mistake on December 9th. Financial conditions have tightened massively. For example, @SpaceX, an investment grade company, just raised secured debt financing at an 8.259% interest rate versus below 6% for its unsecured bond offering at the",
-      "url": "https://x.com/GaryMarcus/status/2124629409105944729",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 18108,
-        "reply_count": 2251,
-        "retweet_count": 1840,
-        "quote_count": 450
-      }
-    },
-    {
-      "id": "2124619758633173456",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-11-22T21:43:18.641000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Yes, pre-training wasn’t plateauing. Great chart btw.",
-      "url": "https://x.com/rasbt/status/2124619758633173456",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 305,
-        "reply_count": 24,
-        "retweet_count": 8,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124587827027378345",
+      "id": "2124914424326525182",
       "username": "demishassabis",
       "author_name": "Demis Hassabis",
-      "created_at": "2026-11-22T19:36:25.553000Z",
+      "created_at": "2026-11-23T17:14:12.417000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "RT @alexmichael: Google now holds the top 3 spots on the Arena text leaderboard 👀\n\n&gt; Gemini 4 Carbon 1,527 &gt; Gemini 4 Argon 1,520 &gt; Gemini…",
-      "url": "https://x.com/demishassabis/status/2124587827027378345",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 68,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124584231921983959",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-22T19:22:08.413000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @alexmichael: Google's Gemini 4 Neon just took #1 on the AI Chess Leaderboard ♟️\n\n&gt; 1924 Elo with 24 wins and 2 losses\n&gt; Claude Fable 5.…",
-      "url": "https://x.com/demishassabis/status/2124584231921983959",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 65,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124582360410993024",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-22T19:14:42.210000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "What people said when I said  on November 4, I said a crash is imminent, “ah, we can ignore Gary Marcus, we’ll be fine” \n\nor when I said Sept 11, 2025, that the Oracle deal with OpenAI would someday be seen as peak bubble. that pretty much was the peak of the insanity, Oracle is",
-      "url": "https://x.com/GaryMarcus/status/2124582360410993024",
+      "text": "Gemini-powered agents are accelerating discoveries across our @GoogleDeepMind Science missions.\n\nToday, our team is sharing how this paradigm is able to  increase the efficiency of quantum circuits, bringing forward the implementation of these algorithms on quantum hardware. 💻",
+      "url": "https://x.com/demishassabis/status/2124914424326525182",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 84,
-        "reply_count": 9,
-        "retweet_count": 6,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124566124297949250",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-22T18:10:11.219000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Asia is bracing for impact tomorrow.\n\nTaiwan just banned short selling. Korea put its 2008 crisis fund on standby. Both before the open.\n\nLet's hope they act as a shock absorber.",
-      "url": "https://x.com/GaryMarcus/status/2124566124297949250",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 300,
-        "reply_count": 13,
-        "retweet_count": 31,
-        "quote_count": 3
-      }
-    },
-    {
-      "id": "2124549218995949967",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-11-22T17:03:00.681000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to https://t.co/eO6hTk9ngp",
-      "url": "https://x.com/rasbt/status/2124549218995949967",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 10428,
-        "reply_count": 654,
-        "retweet_count": 1140,
-        "quote_count": 977
-      }
-    },
-    {
-      "id": "2124540702017429989",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-22T16:29:10.075000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Wild stuff. This makes Iran-Contra look adorable.\n\nTrump and Lutnick were literally running a smuggling operation with Jensen Huang and his spy girlfriend. Bessent tried to use it to get rid of Lutnick. Now Bessent is assigned to try to cover it up.",
-      "url": "https://x.com/GaryMarcus/status/2124540702017429989",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 3124,
-        "reply_count": 51,
-        "retweet_count": 1203,
-        "quote_count": 23
-      }
-    },
-    {
-      "id": "2124529285449011341",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-22T15:43:48.153000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @AI_Screening: Gemini 4 Neon just took #1 overall on LiveBench 2.0 (87.4) beating both Claude Fable 5.2 (84.9) and GPT-6.2 Astra (84.9)…",
-      "url": "https://x.com/demishassabis/status/2124529285449011341",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 79,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124496549036077213",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-22T13:33:43.184000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Google now holds the top 3 spots on the Arena text leaderboard 👀\n\n&gt; Gemini 4 Carbon 1,527 &gt; Gemini 4 Argon 1,520 &gt; Gemini 4 Neon 1,513 &gt; Meta's Muse Wonder 1,511 &gt; Claude Opus 5.5 1,506 https://t.co/S6bAJV36Lv",
-      "url": "https://x.com/demishassabis/status/2124496549036077213",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 894,
-        "reply_count": 34,
-        "retweet_count": 68,
+        "like_count": 577,
+        "reply_count": 25,
+        "retweet_count": 74,
         "quote_count": 13
       }
     },
     {
-      "id": "2124493097593913741",
+      "id": "2124912796018336101",
       "username": "ai_explorer25",
       "author_name": "AI_Explorer",
-      "created_at": "2026-11-22T13:20:00.296000Z",
+      "created_at": "2026-11-23T17:07:44.198000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was https://t.co/TFNByMRfBo",
-      "url": "https://x.com/ai_explorer25/status/2124493097593913741",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 14,
-        "reply_count": 3,
-        "retweet_count": 2,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124472981082554630",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-22T12:00:04.146000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Apple CEO Tim Cook says neither a degree nor coding skills get you hired at Apple :\n\n\"People that code, People that don't\" . Even though he calls coding \"the only global language that we all share.\"\n\n Instead, he screens for three traits: collaboration rooted in deep belief that https://t.co/FwtGhcVzFx",
-      "url": "https://x.com/ai_explorer25/status/2124472981082554630",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 15,
-        "reply_count": 2,
-        "retweet_count": 2,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124386897984438288",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-22T06:18:00.336000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Dario Amodei, CEO of Anthropic, was asked what a young person who has just finished high school should do today.\n\nHis answer:\n\n«AI already knows how to do a junior lawyer’s job. A junior financial analyst’s. A junior consultant’s.\nWe can’t deny that it will also eliminate jobs, https://t.co/fpqI3c18at",
-      "url": "https://x.com/ai_explorer25/status/2124386897984438288",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 168,
-        "reply_count": 15,
-        "retweet_count": 17,
-        "quote_count": 4
-      }
-    },
-    {
-      "id": "2124370923705024753",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-22T05:14:31.771000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Gemini 4 Neon just took #1 overall on LiveBench 2.0 (87.4) beating both Claude Fable 5.2 (84.9) and GPT-6.2 Astra (84.9) by a full 2.5 points. https://t.co/yyAusrKO8W",
-      "url": "https://x.com/demishassabis/status/2124370923705024753",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 1411,
-        "reply_count": 29,
-        "retweet_count": 79,
-        "quote_count": 19
-      }
-    },
-    {
-      "id": "2124360947410342012",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-22T04:34:53.237000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Google's Gemini 4 Neon just took #1 on the AI Chess Leaderboard ♟️\n\n&gt; 1924 Elo with 24 wins and 2 losses\n&gt; Claude Fable 5.2 is 9th and GPT-6.2 Astra is 10th https://t.co/LcQl0KZqKM",
-      "url": "https://x.com/demishassabis/status/2124360947410342012",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 1393,
-        "reply_count": 44,
-        "retweet_count": 65,
-        "quote_count": 16
-      }
-    },
-    {
-      "id": "2124335055933972774",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-22T02:52:00.228000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "the best 15 accounts to follow in AI:\n\n@karpathy = learn LLMs\n@steipete = learn openclaw\n@gregisenberg = learn startup ideas\n@rileybrown = learn vibecoding\n@corbin_braun = learn cursor\n@jackfriks = learn solo apps\n@levelsio = learn solo startups\n@marclou = learn solo startups",
-      "url": "https://x.com/ai_explorer25/status/2124335055933972774",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 185,
-        "reply_count": 14,
-        "retweet_count": 42,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2124324704223920379",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-11-22T02:10:52.188000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @helloiamleonie: i’ll just leave this here. \n\ntext, vision, audio, omni. \npick what you need.\nput it on your phone.\n\nthank me later.\n(or…",
-      "url": "https://x.com/maximelabonne/status/2124324704223920379",
+      "text": "RT @adarshpandey191: For USA based candidates.\n\nFedEx is hiring!!\n\nPart-Time Package Handler\nEarn $19.90–$21.40/hr + $2/hr AM boost.\n\nApply…",
+      "url": "https://x.com/ai_explorer25/status/2124912796018336101",
       "is_reply": false,
       "is_retweet": true,
       "public_metrics": {
         "like_count": 0,
         "reply_count": 0,
-        "retweet_count": 20,
+        "retweet_count": 3,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124911928153899203",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T17:04:17.283000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "A B300 for an afternoon. An H100 for up to a day. Free on spot with AI Cloud. No credit card required.\n\nWe're adding $25 in AI Cloud credits to the Nebius Builder Program so you can get hands-on with GPUs at spot prices.\n\nSpot pricing gets you idle GPU capacity at a fraction of https://t.co/Mrh6c9yAWe",
+      "url": "https://x.com/ai_explorer25/status/2124911928153899203",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 883,
+        "reply_count": 127,
+        "retweet_count": 449,
+        "quote_count": 159
+      }
+    },
+    {
+      "id": "2124911073266413634",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T17:00:53.462000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Quantum computers could one day transform fusion energy, chemistry, and drug discovery - if we can make the algorithms efficient enough to run on early hardware.\n\nUsing teams of Gemini 4 agents, we’ve built new quantum circuits that cut future simulation costs by up to 10 times. https://t.co/H6xArBtsvQ",
+      "url": "https://x.com/demishassabis/status/2124911073266413634",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 3994,
+        "reply_count": 244,
+        "retweet_count": 452,
+        "quote_count": 184
+      }
+    },
+    {
+      "id": "2124908411683025163",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T16:50:18.891000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "For USA based candidates.\n\nFedEx is hiring!!\n\nPart-Time Package Handler\nEarn $19.90–$21.40/hr + $2/hr AM boost.\n\nApply here: https://t.co/epKsFRNMFD\n\nWarehouse / Package Handler\nEarn $19.50–$21/hr. Early morning and evening shifts available.\n\nApply here: https://t.co/eyHs2i97iz",
+      "url": "https://x.com/ai_explorer25/status/2124908411683025163",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 4,
+        "reply_count": 1,
+        "retweet_count": 3,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124903419903398097",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T16:30:28.758000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "For USA based candidates.\n\nFedEx is hiring!!\n\n Part-Time Package Handler\nEarn $19.90–$21.40/hr + $2/hr AM boost.\n\nApply here: https://t.co/ks9UuUhoAO\n\n Warehouse / Package Handler\nEarn $19.50–$21/hr. Early morning and evening shifts available.\n\nApply here: https://t.co/lVsRqwgAH0",
+      "url": "https://x.com/ai_explorer25/status/2124903419903398097",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 4,
+        "reply_count": 3,
+        "retweet_count": 1,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124895203152875699",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-23T15:57:49.732000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Really feels like we’re in an AI hostage economy.  Let AI rip or you get uncertainty in your retirement accounts. Let the All-In pod guys get what they want or it’s a recession.",
+      "url": "https://x.com/GaryMarcus/status/2124895203152875699",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 3908,
+        "reply_count": 44,
+        "retweet_count": 599,
+        "quote_count": 41
+      }
+    },
+    {
+      "id": "2124878104426664153",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-23T14:49:53.078000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "This raises serious questions about the credibility and judgement of Nvidia’s board of directors. Less than a week ago, the board Chair told investors on the earnings call:\n\n“The NVIDIA board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\"",
+      "url": "https://x.com/GaryMarcus/status/2124878104426664153",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 2861,
+        "reply_count": 797,
+        "retweet_count": 308,
+        "quote_count": 74
+      }
+    },
+    {
+      "id": "2124876694830166515",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-11-23T14:44:17.004000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Glad this got resolved. \n\nWhatever you think of the last two weeks, CUDA is a big part of why deep learning took off when it did.\n\nIt's been 1.5 decades since AlexNet was trained on two GTX 580 gaming GPUs in 2012. And Nvidia GPUs are still best in class.\n\nWelcome back, Jensen.",
+      "url": "https://x.com/rasbt/status/2124876694830166515",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 574,
+        "reply_count": 31,
+        "retweet_count": 14,
+        "quote_count": 2
+      }
+    },
+    {
+      "id": "2124871227202588710",
+      "username": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "created_at": "2026-11-23T14:22:33.420000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "NASDAQ-100 futures went up so fast, they briefly halted trading. Can't remember the last time there was an upside halt like this. https://t.co/kczjXUjBow",
+      "url": "https://x.com/GaryMarcus/status/2124871227202588710",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 2925,
+        "reply_count": 75,
+        "retweet_count": 241,
+        "quote_count": 77
+      }
+    },
+    {
+      "id": "2124870725815210038",
+      "username": "maximelabonne",
+      "author_name": "Maxime Labonne",
+      "created_at": "2026-11-23T14:20:33.880000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "my colleagues add new modalities and primitives faster than my little pigeon brain can process. 🐦\n\nhere's a little field guide to all of the 4 modalities and 10 primitives you can use with our open d1 decision models. https://t.co/nKpvuaaYgD",
+      "url": "https://x.com/maximelabonne/status/2124870725815210038",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 109,
+        "reply_count": 6,
+        "retweet_count": 10,
+        "quote_count": 3
+      }
+    },
+    {
+      "id": "2124867313182941514",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T14:07:00.245000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "This is gold.\n\nA guy who's advised thousands of founders explains where the money is in AI in 2027.\n\nHe just gave it away completely free, save it for later https://t.co/0TFUG7opBS",
+      "url": "https://x.com/ai_explorer25/status/2124867313182941514",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 100,
+        "reply_count": 5,
+        "retweet_count": 17,
+        "quote_count": 1
+      }
+    },
+    {
+      "id": "2124865060397019480",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-11-23T13:58:03.139000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "NVIDIA Board reinstates Jensen Huang as President, CEO and Board Director.\n\nRead the release: https://t.co/x4bnjiSVil",
+      "url": "https://x.com/rasbt/status/2124865060397019480",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 362280,
+        "reply_count": 14499,
+        "retweet_count": 59628,
+        "quote_count": 28204
+      }
+    },
+    {
+      "id": "2124860839572488538",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T13:41:16.816000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Gemini 4 Neon is indeed crazy good. Cut Omarchy boot time in half!! Big optimizations on install as well. It's a quiet cat, though. Just goes off with very little output while it's working, and then, BAM, here's everything and it's perfect. Love it.",
+      "url": "https://x.com/demishassabis/status/2124860839572488538",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 13100,
+        "reply_count": 338,
+        "retweet_count": 493,
+        "quote_count": 95
+      }
+    },
+    {
+      "id": "2124851459804061981",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T13:04:00.505000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "GOOGLE CEO SUNDAR PICHAI: \"IF YOU DON'T LEARN HOW TO ORCHESTRATE AGENTS NOW, YOU'LL SPEND 2027 CATCHING UP TO PEOPLE WHO STARTED TODAY.\"\n\n30 minutes on why the best engineers stopped writing code line by line and started orchestrating agents instead.\n\nMost people think building https://t.co/JcQlXq9kg7",
+      "url": "https://x.com/ai_explorer25/status/2124851459804061981",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 17,
+        "reply_count": 5,
+        "retweet_count": 2,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124751425972687166",
+      "username": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "created_at": "2026-11-23T06:26:30.581000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "RT @TimSweeneyEpic: Gemini 4 Neon is amazing!",
+      "url": "https://x.com/demishassabis/status/2124751425972687166",
+      "is_reply": false,
+      "is_retweet": true,
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "retweet_count": 289,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124745007584231780",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T06:01:00.318000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Andrej Karpathy revealed what survives after prompting\n\n\"Prompting is fading away\n\nDelete everything else and keep the graph\"\n\nIn a 1-hour lecture, he explains how to build graphs and why they are the layer everything ends up becoming\n\nLLMs → Prompts → Agents → Graphs\n\nMost https://t.co/PDLHNwU1oc",
+      "url": "https://x.com/ai_explorer25/status/2124745007584231780",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 41,
+        "reply_count": 5,
+        "retweet_count": 4,
+        "quote_count": 0
+      }
+    },
+    {
+      "id": "2124740351714009456",
+      "username": "ai_explorer25",
+      "author_name": "AI_Explorer",
+      "created_at": "2026-11-23T05:42:30.272000Z",
+      "created_at_source": "tweet_id_snowflake",
+      "timestamp_corrected": false,
+      "text": "Check more: https://t.co/FV8lnmnzT3",
+      "url": "https://x.com/ai_explorer25/status/2124740351714009456",
+      "is_reply": false,
+      "is_retweet": false,
+      "public_metrics": {
+        "like_count": 1,
+        "reply_count": 0,
+        "retweet_count": 0,
         "quote_count": 0
       }
     }
