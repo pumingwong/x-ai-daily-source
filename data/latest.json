@@ -1,14 +1,39 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "partial",
   "source": "XFlux user timeline API",
-  "generated_at": "2026-11-27T05:16:28.665445Z",
-  "window_start": "2026-11-26T03:16:28.665445Z",
+  "generated_at": "2026-11-28T04:54:27.059133Z",
+  "window_start": "2026-11-27T02:54:27.059133Z",
   "lookback_hours": 26,
   "timeline_limit_per_account": 20,
   "accounts_requested": 12,
-  "accounts_succeeded": 12,
-  "failed_accounts": [],
+  "accounts_succeeded": 6,
+  "failed_accounts": [
+    {
+      "username": "drfeifei",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "demishassabis",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "GaryMarcus",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "ai_explorer25",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "maximelabonne",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    },
+    {
+      "username": "bcherny",
+      "error": "HTTP 429：调用频率或月度额度已达到限制"
+    }
+  ],
   "account_results": [
     {
       "username": "karpathy",
@@ -32,41 +57,6 @@
       "possibly_truncated": false
     },
     {
-      "username": "drfeifei",
-      "returned_count": 20,
-      "recent_count": 1,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
-    },
-    {
-      "username": "demishassabis",
-      "returned_count": 20,
-      "recent_count": 1,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
-    },
-    {
-      "username": "GaryMarcus",
-      "returned_count": 20,
-      "recent_count": 16,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
-    },
-    {
-      "username": "ai_explorer25",
-      "returned_count": 20,
-      "recent_count": 7,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
-    },
-    {
-      "username": "maximelabonne",
-      "returned_count": 20,
-      "recent_count": 2,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
-    },
-    {
       "username": "chipro",
       "returned_count": 20,
       "recent_count": 0,
@@ -83,559 +73,48 @@
     {
       "username": "thsottiaux",
       "returned_count": 20,
-      "recent_count": 1,
-      "timestamp_corrected_count": 0,
-      "possibly_truncated": false
-    },
-    {
-      "username": "bcherny",
-      "returned_count": 20,
       "recent_count": 0,
       "timestamp_corrected_count": 0,
       "possibly_truncated": false
     }
   ],
   "warnings": [],
-  "tweet_count": 30,
+  "tweet_count": 2,
   "tweets": [
     {
-      "id": "2126146492670886021",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-27T02:50:00.401000Z",
+      "id": "2126338532499247159",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-11-27T15:33:06.264000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "Best 15 accounts to follow in AI:\n\n@karpathy = LLMs king\n@steipete = built openclaw\n@gregisenberg  = startup ideas king\n@rileybrown= vibecode king\n@jackfriks = solo apps king\n@levelsio= startups king\n@marclou = startups king\n@EXM7777 = AI ops + systems king\n@eptwts = AI money",
-      "url": "https://x.com/ai_explorer25/status/2126146492670886021",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 21,
-        "reply_count": 3,
-        "retweet_count": 6,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2126119087503737211",
-      "username": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "created_at": "2026-11-27T01:01:06.500000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @TimSweeneyEpic: Gemini Neon is far ahead of anything else publicly available for mathematical and theoretical reasoning in my experienc…",
-      "url": "https://x.com/demishassabis/status/2126119087503737211",
+      "text": "RT @ysinjab: I really enjoyed reading this book by @rasbt. Great hands-on explanations of how reasoning models work, from inference time sc…",
+      "url": "https://x.com/rasbt/status/2126338532499247159",
       "is_reply": false,
       "is_retweet": true,
       "public_metrics": {
         "like_count": 0,
         "reply_count": 0,
-        "retweet_count": 284,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125998651504029792",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T17:02:32.320000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "I am out, too, at least for a while. You can find me at Substack.\n\nhttps://t.co/T74QMjIy1Z https://t.co/mNJaBML9TK",
-      "url": "https://x.com/GaryMarcus/status/2125998651504029792",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 103,
-        "reply_count": 17,
         "retweet_count": 5,
-        "quote_count": 2
-      }
-    },
-    {
-      "id": "2125997210185998668",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T16:56:48.683000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Literally I wrote this four days ago and still people think that I think that the RH proof is incorrect even though I *explicitly* and *repeatedly* said otherwise. (Saying it contains garbage and isn’t elegant is not the same as saying it is incorrect.)\n\nI described the proof https://t.co/ewkcckULoO",
-      "url": "https://x.com/GaryMarcus/status/2125997210185998668",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 49,
-        "reply_count": 11,
-        "retweet_count": 4,
         "quote_count": 0
       }
     },
     {
-      "id": "2125994978245767565",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-11-26T16:47:56.547000Z",
+      "id": "2126329349477392889",
+      "username": "rasbt",
+      "author_name": "Sebastian Raschka",
+      "created_at": "2026-11-27T14:56:36.861000Z",
       "created_at_source": "tweet_id_snowflake",
       "timestamp_corrected": false,
-      "text": "RT @nathanrchn: Last weekend, I rebuilt OpenTSLM on @liquidai's LFM3-1.7B. It reads raw 12-lead ECGs and explains its answer, on a laptop.…",
-      "url": "https://x.com/maximelabonne/status/2125994978245767565",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 23,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125991049994879188",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T16:32:19.979000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "x would be a lot more fun if my critics could put coherent arguments together.\n\ni would enjoy intelligent debate.\n\nmaybe you could try?\n\ninsults don’t count!",
-      "url": "https://x.com/GaryMarcus/status/2125991049994879188",
+      "text": "I really enjoyed reading this book by @rasbt. Great hands-on explanations of how reasoning models work, from inference time scaling to reinforcement learning and knowledge distillation. It helps connect the dots between the different approaches to reasoning. https://t.co/ZT1Nuzs3Xc",
+      "url": "https://x.com/rasbt/status/2126329349477392889",
       "is_reply": false,
       "is_retweet": false,
       "public_metrics": {
-        "like_count": 61,
-        "reply_count": 22,
-        "retweet_count": 2,
-        "quote_count": 1
-      }
-    },
-    {
-      "id": "2125988732117631263",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T16:23:07.354000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @NasirAFAF1: @GaryMarcus Tao and you are absolutely correct. They are awful proofs even if correct.\n\nThe wider public doesn't understand…",
-      "url": "https://x.com/GaryMarcus/status/2125988732117631263",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125988645727523172",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T16:22:46.757000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @ramez: Also note that the below shows time horizons at 50% success rate. At 80% success rate, models are improving more slowly. If you…",
-      "url": "https://x.com/GaryMarcus/status/2125988645727523172",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 9,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125987833487782143",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T16:19:33.104000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "@GaryMarcus Tao and you are absolutely correct. They are awful proofs even if correct.\n\nThe wider public doesn't understand and then there are the social media bots/influencers who are keen to attack the messengers station the truth. \n\nHow is a 17 million lines long Lean code a good proof?",
-      "url": "https://x.com/GaryMarcus/status/2125987833487782143",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 6,
-        "reply_count": 0,
-        "retweet_count": 2,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125983340163629413",
-      "username": "drfeifei",
-      "author_name": "Fei-Fei Li",
-      "created_at": "2026-11-26T16:01:41.812000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Happy Thanksgiving in a time we often talk about machines more than people - am grateful for all my students, colleagues, mentors, friends and family! 🍁😍",
-      "url": "https://x.com/drfeifei/status/2125983340163629413",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 1135,
-        "reply_count": 57,
-        "retweet_count": 31,
-        "quote_count": 2
-      }
-    },
-    {
-      "id": "2125973068682248243",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T15:20:52.900000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "alas the lies and misrepresentations of me have continued through the night.",
-      "url": "https://x.com/GaryMarcus/status/2125973068682248243",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 19,
-        "reply_count": 1,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125969453087388107",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T15:06:30.875000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "@ClayCampaigne @GaryMarcus lean Truther 😬",
-      "url": "https://x.com/GaryMarcus/status/2125969453087388107",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 9,
-        "reply_count": 0,
-        "retweet_count": 1,
-        "quote_count": 1
-      }
-    },
-    {
-      "id": "2125969425400758351",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-26T15:06:24.274000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @ai_explorer25: Best accounts to follow from each frontier lab to stay constantly up to date\n\nAnthropic\n@karpathy -must-follow account f…",
-      "url": "https://x.com/ai_explorer25/status/2125969425400758351",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 24,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125968534983283147",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T15:02:51.982000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Also note that the below shows time horizons at 50% success rate. At 80% success rate, models are improving more slowly. If you extrapolate out that slower progress at higher reliability, then timelines stretch out another decade or more. https://t.co/pzdVWv7BGJ",
-      "url": "https://x.com/GaryMarcus/status/2125968534983283147",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 86,
+        "like_count": 69,
         "reply_count": 3,
-        "retweet_count": 9,
-        "quote_count": 2
-      }
-    },
-    {
-      "id": "2125967253657014389",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T14:57:46.490000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "I've seen people sharing this new METR graph as evidence that \"progress on non-verifiable tasks is occurring at the same speed at verifiable tasks (just from a lower base)\".\n\nBut importantly, that is emphatically *not* what this graph is showing!\n\nThe two METR slopes in this https://t.co/eUcQlDL5YE",
-      "url": "https://x.com/GaryMarcus/status/2125967253657014389",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 84,
-        "reply_count": 6,
-        "retweet_count": 7,
-        "quote_count": 2
-      }
-    },
-    {
-      "id": "2125956463306920040",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T14:14:53.870000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "again: trump has fucked nvidia, by making them rehire jensen before he was formally investigated.\n\nif he is formally investigated and found culpable in any whatsoever the lawsuits against the board for rehiring him prematurely will be next level.",
-      "url": "https://x.com/GaryMarcus/status/2125956463306920040",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 221,
-        "reply_count": 10,
-        "retweet_count": 41,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125955987232211451",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-11-26T14:13:00.365000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Here's the link: https://t.co/W5kmcV5puC",
-      "url": "https://x.com/rasbt/status/2125955987232211451",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 15,
-        "reply_count": 0,
-        "retweet_count": 2,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125955986863087956",
-      "username": "rasbt",
-      "author_name": "Sebastian Raschka",
-      "created_at": "2026-11-26T14:13:00.277000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Just wanted to say Happy Thanksgiving! 🦃\n\nI'll be back in December with some cool LLM-related analyses in the pipeline. \n\nIn the meantime, you know where to find my blog if you have some time for reading! https://t.co/h7LN08eIPC",
-      "url": "https://x.com/rasbt/status/2125955986863087956",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 628,
-        "reply_count": 38,
-        "retweet_count": 34,
+        "retweet_count": 5,
         "quote_count": 1
-      }
-    },
-    {
-      "id": "2125955504061157569",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T14:11:05.168000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @HeidyKhlaaf: Insufferable to have a background in theoretical CS and formal verification at the moment and having to endure the false a…",
-      "url": "https://x.com/GaryMarcus/status/2125955504061157569",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 15,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125949540843073751",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T13:47:23.426000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "January 19, 2026:",
-      "url": "https://x.com/GaryMarcus/status/2125949540843073751",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 84,
-        "reply_count": 1,
-        "retweet_count": 10,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125948940432675225",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-26T13:45:00.277000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "STEVE JOBS GOT FIRED FROM APPLE.  \n\nThen he walked straight into MIT and dropped the most raw, unfiltered 60-minute business masterclass ever recorded.      \n  \nZero PR bullshit. Zero image to protect.        \n\nJust pure, brutal honesty from the man who built Apple once and was https://t.co/cW5Sv6dzZI",
-      "url": "https://x.com/ai_explorer25/status/2125948940432675225",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 102,
-        "reply_count": 2,
-        "retweet_count": 12,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125933842091401318",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-26T12:45:00.552000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Claude FULL COURSE 1 HOUR (Build &amp; Automate Anything) https://t.co/IHOR6LN6Jd",
-      "url": "https://x.com/ai_explorer25/status/2125933842091401318",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 92,
-        "reply_count": 0,
-        "retweet_count": 15,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125931225324097825",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T12:34:36.666000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "I've left Twitter, but I'm still writing a daily blog.\n\nYou can read today's post (\"Charles Koch is a cult leader\")\n\nat https://t.co/Dm8P16eXQx\n\nIt's also available on Mastodon at:\n\nhttps://t.co/EkKfq0kx2s\n\nAnd on Bluesky at:\n\nhttps://t.co/TsqoPan91c https://t.co/vIV9JNUzxc",
-      "url": "https://x.com/GaryMarcus/status/2125931225324097825",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 27,
-        "reply_count": 2,
-        "retweet_count": 7,
-        "quote_count": 1
-      }
-    },
-    {
-      "id": "2125931002589835663",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T12:33:43.562000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @MrEwanMorrison: Every time you hear any tech CEO telling you about their plans to put anything at all in orbit - tell them about the Ke…",
-      "url": "https://x.com/GaryMarcus/status/2125931002589835663",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 141,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125900387995599125",
-      "username": "maximelabonne",
-      "author_name": "Maxime Labonne",
-      "created_at": "2026-11-26T10:32:04.474000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Last weekend, I rebuilt OpenTSLM on @liquidai's LFM3-1.7B. It reads raw 12-lead ECGs and explains its answer, on a laptop.\n\nIt beats every published OpenTSLM model on 3 of 4 benchmarks, and is on par with the best 3B model on ECG at 2x the speed.\n\nhttps://t.co/GNbgsAXw9d https://t.co/7yOfHyBvlI",
-      "url": "https://x.com/maximelabonne/status/2125900387995599125",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 178,
-        "reply_count": 7,
-        "retweet_count": 23,
-        "quote_count": 2
-      }
-    },
-    {
-      "id": "2125872635661971635",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-26T08:41:47.802000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "RT @magiai_hq: Introducing MAGI-2 by https://t.co/klgfIeP01U, exclusively on @higgsfield\n\nTurn text, images, video and audio into up to 30…",
-      "url": "https://x.com/ai_explorer25/status/2125872635661971635",
-      "is_reply": false,
-      "is_retweet": true,
-      "public_metrics": {
-        "like_count": 0,
-        "reply_count": 0,
-        "retweet_count": 302,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125870813337526287",
-      "username": "GaryMarcus",
-      "author_name": "Gary Marcus",
-      "created_at": "2026-11-26T08:34:33.326000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Insufferable to have a background in theoretical CS and formal verification at the moment and having to endure the false and apocalyptic takes about P = NP and RSA.",
-      "url": "https://x.com/GaryMarcus/status/2125870813337526287",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 325,
-        "reply_count": 15,
-        "retweet_count": 15,
-        "quote_count": 2
-      }
-    },
-    {
-      "id": "2125853628250599730",
-      "username": "thsottiaux",
-      "author_name": "Tibo",
-      "created_at": "2026-11-26T07:26:16.082000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Banked reset is online",
-      "url": "https://x.com/thsottiaux/status/2125853628250599730",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 7906,
-        "reply_count": 1518,
-        "retweet_count": 197,
-        "quote_count": 201
-      }
-    },
-    {
-      "id": "2125846205506977807",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-26T06:56:46.362000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Check it : https://t.co/9zYZBIUj5T",
-      "url": "https://x.com/ai_explorer25/status/2125846205506977807",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 1,
-        "reply_count": 0,
-        "retweet_count": 0,
-        "quote_count": 0
-      }
-    },
-    {
-      "id": "2125830617099391456",
-      "username": "ai_explorer25",
-      "author_name": "AI_Explorer",
-      "created_at": "2026-11-26T05:54:49.796000Z",
-      "created_at_source": "tweet_id_snowflake",
-      "timestamp_corrected": false,
-      "text": "Really nice concept, thanks for this feature @notmiramurati https://t.co/qjeuDaBQ15",
-      "url": "https://x.com/ai_explorer25/status/2125830617099391456",
-      "is_reply": false,
-      "is_retweet": false,
-      "public_metrics": {
-        "like_count": 10,
-        "reply_count": 0,
-        "retweet_count": 1,
-        "quote_count": 0
       }
     }
   ]
